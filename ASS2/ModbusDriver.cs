@@ -1,10 +1,13 @@
-﻿using System;
+﻿
+using EasyModbus;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
-using EasyModbus;
 
 namespace ASS2
 {
@@ -29,17 +32,12 @@ namespace ASS2
         public TactSensorType TactSensor;
         public ModbusDriver()
         {
-            
-      
-
-            Coils = new Dictionary<int, bool>();
-            for (int i = 0; i < 64; i++)
-            {
-                Coils.Add(i, false);
-            }
 
 
         }
+
+    
+        
 
         public void ConnectClient(string ip, int port)
         {
@@ -49,12 +47,12 @@ namespace ASS2
             try
             {
                 ////Console.Clear();
-                
+
                 Client.ConnectedChanged += Client_ConnectedChanged;
                 Client.ReceiveDataChanged += Client_ReceiveDataChanged;
-                Client.SendDataChanged += Client_SendDataChanged;                
+                Client.SendDataChanged += Client_SendDataChanged;
                 Client.Connect(clientip, clientport);
-                  
+
                 ReconnectTimer?.Stop();
             }
             catch (Exception ex)
@@ -92,83 +90,86 @@ namespace ASS2
             try
             {
                     await Task.Run(new Action(() => {
-                        //bool[] rr =  Client.ReadDiscreteInputs(8,4);                       
-
-                        //    int i = 0;
-                        //    foreach (var c in rr)
-                        //    {
-                        //        if (i == 0)
-                        //            if(StartDetectionSensor!=null)
-                        //                StartDetectionSensor.Value  = c;
-                        //        if (i == 1)
-                        //            if (StartParcelSensor != null)
-                        //                StartParcelSensor.Value = c;
-                        //        if (i == 2)
-                        //            if (TactSensor != null)
-                        //                TactSensor.Value = c;
-                        //        if (i == 3)
-                        //            if (StopSensor != null)
-                        //                StopSensor.Value = c;
-                        //        i++;
-                        //    }
                         System.Threading.Thread.Sleep(11);
-                
-                            if (StartDetectionSensor != null)
-                                StartDetectionSensor.Value = Client.ReadDiscreteInputs(8,1)[0];
-                
-                            if (StartParcelSensor != null)
-                                StartParcelSensor.Value  = Client.ReadDiscreteInputs(9, 1)[0];
-                   
-                            if (TactSensor != null)
-                                TactSensor.Value =  Client.ReadDiscreteInputs(10, 1)[0];
-              
-                            if (StopSensor != null)
-                                StopSensor.Value =  Client.ReadDiscreteInputs(11, 1)[0];
+                        Client.ConnectionTimeout = 100;
+                        bool[] rr = Client.ReadDiscreteInputs(8, 4);
+
+                        int i = 0;
+                        foreach (var c in rr)
+                        {
+                            if (i == 0)
+                                if (StartDetectionSensor != null)
+                                    StartDetectionSensor.Value = c;
+                            if (i == 1)
+                                if (StartParcelSensor != null)
+                                    StartParcelSensor.Value = c;
+                            if (i == 2)
+                                if (TactSensor != null)
+                                    TactSensor.Value = c;
+                            if (i == 3)
+                                if (StopSensor != null)
+                                    StopSensor.Value = c;
+                            i++;
+                        }
+
+
+                        //if (StartDetectionSensor != null)
+                        //    StartDetectionSensor.Value = Client.ReadDiscreteInputs(8, 1)[0];
+
+                        //if (StartParcelSensor != null)
+                        //    StartParcelSensor.Value = Client.ReadDiscreteInputs(9, 1)[0];
+
+                        //if (TactSensor != null)
+                        //    TactSensor.Value = Client.ReadDiscreteInputs(10, 1)[0];
+
+                        //if (StopSensor != null)
+                        //    StopSensor.Value = Client.ReadDiscreteInputs(11, 1)[0];
 
                     }));
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                Client.Disconnect();                
+                if(ex.HResult!= -2146232800)
+                    Client.Disconnect();                
             }
             //Client.WriteMultipleCoils(0, new bool[] { true, true, true, true });
         }
 
-        //private async void ReadCoilsAsync()
-        //{
-        //    try
-        //    {
-        //        await Task.Run(new Action(() =>
-        //        {
-        //            bool[] cl = Client.ReadCoils(0, 64);
-           
+        private async void ReadCoilsAsync()
+        {
+            try
+            {
+                await Task.Run(new Action(() =>
+                {
+                    bool[] cl = Client.ReadCoils(0, 64);
 
 
-        //            int i = 0;
-        //            foreach (var c in cl)
-        //            {
-        //                var x = Coils[i];
-        //                if (x != c)
-        //                {
-        //                    ModbusValueEventArgs me = new ModbusValueEventArgs();
-        //                    me.Address = i;
-        //                    me.OldValue = x;
-        //                    me.NewValue = c;
-        //                    EventHandler<ModbusValueEventArgs> handler = CoilValueChanged;
-        //                    handler.Invoke(this, me);
-        //                }
 
-        //                Coils[i] = c;
-        //                i++;
-        //            }
-        //        }));
-        //    }
-        //    catch (Exception)
-        //    {
-        //        Client.Disconnect();
-        //    }
+                    int i = 0;
+                    foreach (var c in cl)
+                    {
+                        var x = Coils[i];
+                        if (x != c)
+                        {
+                            ModbusValueEventArgs me = new ModbusValueEventArgs();
+                            me.Address = i;
+                            me.OldValue = x;
+                            me.NewValue = c;
+                            EventHandler<ModbusValueEventArgs> handler = CoilValueChanged;
+                            handler.Invoke(this, me);
+                        }
 
-        //}
+                        Coils[i] = c;
+                        i++;
+                    }
+                }));
+            }
+            catch (Exception)
+            {
+                Client.Disconnect();
+            }
+
+        }
 
         //public void ServerConnect()
         //{
@@ -183,7 +184,7 @@ namespace ASS2
         //    Server.LocalIPAddress = ip;
         //    Server.Listen();
 
-      
+
         //}
 
         public void WriteCoils(int startingAddress, bool[] values)
@@ -191,7 +192,7 @@ namespace ASS2
             Task.Run(new Action(() => {
                 try
                 {
-                    if(startingAddress+values.Length<65)
+                    if (startingAddress + values.Length < 65)
                         Client.WriteMultipleCoils(startingAddress, values);
                 }
                 catch (Exception ex)
@@ -250,7 +251,7 @@ namespace ASS2
             }
             else
             {
-                
+
                 timer.Stop();
                 //.WriteLine("Modbus connection lost");
                 StartReconnectTimer();

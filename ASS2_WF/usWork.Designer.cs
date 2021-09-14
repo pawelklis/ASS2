@@ -33,21 +33,21 @@
             this.cbSortProgram = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lbFeederParcels = new System.Windows.Forms.Label();
+            this.lbTactTime = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.lbRun = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lbTactTime = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.dg1 = new System.Windows.Forms.DataGridView();
             this.panel5 = new System.Windows.Forms.Panel();
             this.dg2 = new System.Windows.Forms.DataGridView();
-            this.lbFeederParcels = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dg1)).BeginInit();
@@ -110,6 +110,49 @@
             this.panel2.Size = new System.Drawing.Size(1070, 29);
             this.panel2.TabIndex = 2;
             // 
+            // lbFeederParcels
+            // 
+            this.lbFeederParcels.AutoSize = true;
+            this.lbFeederParcels.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lbFeederParcels.Location = new System.Drawing.Point(300, 0);
+            this.lbFeederParcels.Name = "lbFeederParcels";
+            this.lbFeederParcels.Size = new System.Drawing.Size(19, 21);
+            this.lbFeederParcels.TabIndex = 4;
+            this.lbFeederParcels.Text = "0";
+            // 
+            // lbTactTime
+            // 
+            this.lbTactTime.AutoSize = true;
+            this.lbTactTime.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lbTactTime.Location = new System.Drawing.Point(250, 0);
+            this.lbTactTime.Name = "lbTactTime";
+            this.lbTactTime.Size = new System.Drawing.Size(50, 21);
+            this.lbTactTime.TabIndex = 3;
+            this.lbTactTime.Text = "0[ms]";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox2.Image = global::ASS2_WF.Properties.Resources.workoff;
+            this.pictureBox2.Location = new System.Drawing.Point(204, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(46, 29);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.checkBox1.Enabled = false;
+            this.checkBox1.Location = new System.Drawing.Point(114, 0);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(90, 29);
+            this.checkBox1.TabIndex = 1;
+            this.checkBox1.Text = "Maszyna";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // lbRun
             // 
             this.lbRun.AutoSize = true;
@@ -130,29 +173,6 @@
             this.panel3.Size = new System.Drawing.Size(757, 66);
             this.panel3.TabIndex = 3;
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.checkBox1.Enabled = false;
-            this.checkBox1.Location = new System.Drawing.Point(114, 0);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(90, 29);
-            this.checkBox1.TabIndex = 1;
-            this.checkBox1.Text = "Maszyna";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox2.Image = global::ASS2_WF.Properties.Resources.workoff;
-            this.pictureBox2.Location = new System.Drawing.Point(204, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(46, 29);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -165,16 +185,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // lbTactTime
-            // 
-            this.lbTactTime.AutoSize = true;
-            this.lbTactTime.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lbTactTime.Location = new System.Drawing.Point(250, 0);
-            this.lbTactTime.Name = "lbTactTime";
-            this.lbTactTime.Size = new System.Drawing.Size(50, 21);
-            this.lbTactTime.TabIndex = 3;
-            this.lbTactTime.Text = "0[ms]";
             // 
             // panel4
             // 
@@ -220,16 +230,6 @@
             this.dg2.Size = new System.Drawing.Size(1070, 239);
             this.dg2.TabIndex = 0;
             // 
-            // lbFeederParcels
-            // 
-            this.lbFeederParcels.AutoSize = true;
-            this.lbFeederParcels.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lbFeederParcels.Location = new System.Drawing.Point(300, 0);
-            this.lbFeederParcels.Name = "lbFeederParcels";
-            this.lbFeederParcels.Size = new System.Drawing.Size(19, 21);
-            this.lbFeederParcels.TabIndex = 4;
-            this.lbFeederParcels.Text = "0";
-            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(980, 27);
@@ -259,9 +259,9 @@
             this.Load += new System.EventHandler(this.usWork_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dg1)).EndInit();

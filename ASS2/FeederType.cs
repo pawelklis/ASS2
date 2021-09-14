@@ -45,44 +45,45 @@ namespace ASS2
 
         public void Startdetectionsensor_ValueChanged(object sender, ModbusDriver.ModbusValueEventArgs e)
         {
-            Task.Run(new Action(() => { 
-            //this.TactNumber = 10;
-            //Console.WriteLine("Startdetectionsensor_ValueChanged");
-            ParcelType roundparcel = this.ParcelsAtLine.Find(x => x.CurrentTactNumber == this.TactNumber);
-            if (roundparcel != null)
+            Task.Run(new Action(() =>
             {
-                roundparcel.CurrentTactNumber = 0;
-                roundparcel.Recircuit = false ;
-
-                if (roundparcel.DestinationStand.Name != "Odrzuty")
+                //this.TactNumber = 10;
+                //Console.WriteLine("Startdetectionsensor_ValueChanged");
+                ParcelType roundparcel = this.ParcelsAtLine.Find(x => x.CurrentTactNumber == this.TactNumber);
+                if (roundparcel != null)
                 {
-                    //paczka przeszła kółko, ma dane zst, nie trzeba skanować
-                    //zapal zieloną lampke
-                    this.Parcels.Add(roundparcel);
-                    ParcelsAtLine.Remove(roundparcel);
-                    
-                    driver.WriteCoils(Green, new bool[] { true });                    
+                    roundparcel.CurrentTactNumber = 0;
+                    roundparcel.Recircuit = false;
+
+                    if (roundparcel.DestinationStand.Name != "Odrzuty")
+                    {
+                        //paczka przeszła kółko, ma dane zst, nie trzeba skanować
+                        //zapal zieloną lampke
+                        this.Parcels.Add(roundparcel);
+                        ParcelsAtLine.Remove(roundparcel);
+
+                        driver.WriteCoils(Green, new bool[] { true });
+                    }
+                    else
+                    {
+                        //paczka przeszła kółko, nie ma dane zst, Trzeba skanować
+                        //zapal białą lampke
+                        this.Parcels.Add(roundparcel);
+                        ParcelsAtLine.Remove(roundparcel);
+
+                        driver.WriteCoils(White, new bool[] { true });
+                    }
                 }
                 else
                 {
-                    //paczka przeszła kółko, nie ma dane zst, Trzeba skanować
                     //zapal białą lampke
-                    this.Parcels.Add(roundparcel);
-                    ParcelsAtLine.Remove(roundparcel);
-                    
-                    driver.WriteCoils(White, new bool[] { true });                    
+                    ParcelType np = new ParcelType(this.driver, this.parcelstoptactnumber, this.Stands);
+                    np.OnParcelStopRun += Np_OnParcelStopRun;
+                    this.Parcels.Add(np);
+
+                    driver.WriteCoils(White, new bool[] { true });
                 }
-            }
-            else
-            {
-                //zapal białą lampke
-                ParcelType np = new ParcelType(this.driver, this.parcelstoptactnumber, this.Stands);
-                np.OnParcelStopRun += Np_OnParcelStopRun;
-                this.Parcels.Add(np);
-                
-                driver.WriteCoils(White, new bool[] { true });
-            }
-}));
+            }));
         }
 
         private void Np_OnParcelStopRun(object sender, ParcelType.ParcelEventArgs e)
@@ -99,18 +100,27 @@ namespace ASS2
 
             if (this.Parcels.Count > 0)
             {
-                ParcelType p =this.Parcels.Last();
-                p.Recircuit=false;
+                try
+                {
+                    ParcelType p = this.Parcels.Last();
+                    p.Recircuit = false;
 
-                FeederEventArgs args = new FeederEventArgs();
-                args.parcel = p;
-                EventHandler<FeederEventArgs> handler = OnParcelStartRun;
-                handler?.Invoke(this, args);
-                ParcelsAtLine.Add(p);
-                this.Parcels.Remove(p);
+                    FeederEventArgs args = new FeederEventArgs();
+                    args.parcel = p;
+                    EventHandler<FeederEventArgs> handler = OnParcelStartRun;
+                    handler?.Invoke(this, args);
+                    ParcelsAtLine.Add(p);
+                    this.Parcels.Remove(p);
+                }
+                catch (Exception)
+                {
+
+                   
+                }
+
             }
-//}));
-            
+            //}));
+
         }
 
         private void Skaner_OnDataReceived(object sender, RS232DeviceType.SkanerEventArgs e)

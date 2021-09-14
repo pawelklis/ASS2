@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Timers;
 
 namespace ASS2
@@ -37,7 +38,9 @@ namespace ASS2
             //m.Save();m
 
             m = MachineType.Load<MachineType>(1);
-            m.InitMachine(2);
+            m.InitMachine(1);
+
+            MachineType machine = m;
 
             //ModbusDriver d = new ModbusDriver();
             //d.ConnectClient("192.254.52.3", 502);
@@ -48,6 +51,94 @@ namespace ASS2
             //m.LampTestTurnOffAll();
             //m.dict.SerialConfigs.Add(new RS232ConfigType() { Delay = 20, Id = Guid.NewGuid().ToString(), Name = "Skaner1", PortName = "Com41", Speed = 9600 });
             //m.dict.Save();
+
+            List<string> numery;//symulacja
+            numery = new List<string>();//symulacja
+            numery.Add("EE922075416PL");//symulacja
+            numery.Add("EE922177962PL");//symulacja
+            numery.Add("EE922182239PL");//symulacja
+            numery.Add("EE922170845PL");//symulacja
+            numery.Add("EE922180706PL");//symulacja
+            numery.Add("EE922060819PL");//symulacja
+            numery.Add("EE922102584PL");//symulacja
+            numery.Add("EE922204416PL");//symulacja
+            numery.Add("EE922050079PL");//symulacja
+            numery.Add("EE922135809PL");//symulacja
+            numery.Add("EE922062647PL");//symulacja
+            numery.Add("EE922051131PL");//symulacja
+            numery.Add("EE922093335PL");//symulacja
+            numery.Add("EE922181304PL");//symulacja
+            numery.Add("EE922173210PL");//symulacja
+            numery.Add("EE922074693PL");//symulacja
+            numery.Add("EE922106714PL");//symulacja
+            numery.Add("EE922169365PL");//symulacja
+            numery.Add("EE922218675PL");//symulacja
+            numery.Add("EE922148161PL");//symulacja
+            numery.Add("EE922057845PL");//symulacja
+            numery.Add("EE922121314PL");//symulacja
+            numery.Add("EE922054610PL");//symulacja
+            numery.Add("EE921783550PL");//symulacja
+            numery.Add("EE354118933PL");//symulacja
+            numery.Add("EE579107203PL");//symulacja
+            numery.Add("EE263547297PL");//symulacja
+            numery.Add("EE572467215PL");//symulacja
+            numery.Add("EE922227669PL");//symulacja
+            numery.Add("EE505167054PL");//symulacja
+            numery.Add("EE458662065PL");//symulacja
+            numery.Add("EE552383508PL");//symulacja
+            numery.Add("EE552383508PL");//symulacja
+            numery.Add("EE566046219PL");//symulacja
+            numery.Add("EE566046222PL");//symulacja
+            numery.Add("EE584722967PL");//symulacja
+            numery.Add("EE923041918PL");//symulacja
+            numery.Add("EE572019084PL");//symulacja
+            numery.Add("EE572467238PL");//symulacja
+            numery.Add("EE585124523PL");//symulacja
+            numery.Add("EE541280710PL");//symulacja
+            numery.Add("EE585072256PL");//symulacja
+
+            Task.Run(new Action(() =>
+            {
+                for (int i = 0; i < 1000000; i++)
+                {
+                machine.Driver.TactSensor.Value = true;
+                machine.Driver.TactSensor.Value = false;
+                    System.Threading.Thread.Sleep(500);
+                }
+
+
+            }));
+
+            Task.Run(new Action(() =>
+            {
+                int numi = 0;
+                for (int i = 0; i < 1000000; i++)
+                {
+                    Console.WriteLine(m.TactSensor.TactLenghtTime.TotalMilliseconds + " " + m.Feeder1.Parcels.Count + " " + m.ParcelsOnRun.Count);
+                    System.Threading.Thread.Sleep(1000);
+                    machine.Driver.StartDetectionSensor.Value = true;
+                    machine.Driver.StartDetectionSensor.Value = false;
+                    System.Threading.Thread.Sleep(2000);
+                    if (machine.Feeder1.Parcels.Count > 0)
+                        machine.Feeder1.Parcels[0].SetNumber(numery[numi], machine.dict.Stands);
+                    System.Threading.Thread.Sleep(2000);
+
+                    machine.Driver.StartParcelSensor.Value = true;
+                    machine.Driver.StartParcelSensor.Value = false;
+
+                    if (machine.ParcelsOnRun.Count > 0)
+                        machine.ParcelsOnRun.Last().SetLenght(1200);
+
+                    numi++;
+                    if (numi > numery.Count - 1)
+                        numi = 0;
+
+                }
+            }));
+
+
+
+
 
             Program p = new Program();
             //p.test(m);

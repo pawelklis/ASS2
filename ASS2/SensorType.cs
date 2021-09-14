@@ -13,12 +13,9 @@ namespace ASS2
         public int Address { get; set; }
 
         public  bool Value { get; set; }
-   //     public  event EventHandler<ModbusDriver.ModbusValueEventArgs> ValueChanged;
+        public event EventHandler<ModbusDriver.ModbusValueEventArgs> ValueChanged;
 
-        //public SensorType()
-        //{
-        //    this.Id = Guid.NewGuid().ToString();
-        //}
+
 
 
 

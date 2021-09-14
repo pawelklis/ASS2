@@ -16,7 +16,7 @@ namespace ASS2_WF
         private Timer refreshtimer;
 
 
-        private List<string> numery;//symulacja
+       
 
         public usWork()
         {
@@ -25,49 +25,7 @@ namespace ASS2_WF
         public MachineType machine;
         private void usWork_Load(object sender, EventArgs e)
         {
-            numery = new List<string>();//symulacja
-            numery.Add("EE922075416PL");//symulacja
-            numery.Add("EE922177962PL");//symulacja
-            numery.Add("EE922182239PL");//symulacja
-            numery.Add("EE922170845PL");//symulacja
-            numery.Add("EE922180706PL");//symulacja
-            numery.Add("EE922060819PL");//symulacja
-            numery.Add("EE922102584PL");//symulacja
-            numery.Add("EE922204416PL");//symulacja
-            numery.Add("EE922050079PL");//symulacja
-            numery.Add("EE922135809PL");//symulacja
-            numery.Add("EE922062647PL");//symulacja
-            numery.Add("EE922051131PL");//symulacja
-            numery.Add("EE922093335PL");//symulacja
-            numery.Add("EE922181304PL");//symulacja
-            numery.Add("EE922173210PL");//symulacja
-            numery.Add("EE922074693PL");//symulacja
-            numery.Add("EE922106714PL");//symulacja
-            numery.Add("EE922169365PL");//symulacja
-            numery.Add("EE922218675PL");//symulacja
-            numery.Add("EE922148161PL");//symulacja
-            numery.Add("EE922057845PL");//symulacja
-            numery.Add("EE922121314PL");//symulacja
-            numery.Add("EE922054610PL");//symulacja
-            numery.Add("EE921783550PL");//symulacja
-            numery.Add("EE354118933PL");//symulacja
-            numery.Add("EE579107203PL");//symulacja
-            numery.Add("EE263547297PL");//symulacja
-            numery.Add("EE572467215PL");//symulacja
-            numery.Add("EE922227669PL");//symulacja
-            numery.Add("EE505167054PL");//symulacja
-            numery.Add("EE458662065PL");//symulacja
-            numery.Add("EE552383508PL");//symulacja
-            numery.Add("EE552383508PL");//symulacja
-            numery.Add("EE566046219PL");//symulacja
-            numery.Add("EE566046222PL");//symulacja
-            numery.Add("EE584722967PL");//symulacja
-            numery.Add("EE923041918PL");//symulacja
-            numery.Add("EE572019084PL");//symulacja
-            numery.Add("EE572467238PL");//symulacja
-            numery.Add("EE585124523PL");//symulacja
-            numery.Add("EE541280710PL");//symulacja
-            numery.Add("EE585072256PL");//symulacja
+         
 
             refreshtimer = new Timer();
             refreshtimer.Interval = 100;

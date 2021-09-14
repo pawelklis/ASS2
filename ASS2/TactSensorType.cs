@@ -52,8 +52,8 @@ namespace ASS2
                             EventHandler<ModbusDriver.ModbusValueEventArgs> handler = ValueChanged;
                             handler?.Invoke(this, me);
 
-                            //    this.Counter.TactNumber += 1;
-                            //this.Counter.AddTact();
+                            this.Counter.TactNumber += 1;
+                            this.Counter.AddTact();
                         }
 
                         myVal = value;

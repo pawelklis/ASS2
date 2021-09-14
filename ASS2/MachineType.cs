@@ -58,7 +58,7 @@ namespace ASS2
 
 
             Driver = new ModbusDriver();
-            Driver.CoilValueChanged += Driver_ValueChanged1;
+            //Driver.CoilValueChanged += Driver_ValueChanged1;
             Driver.ConnectClient("169.254.52.3", 502); //P153027-9000G8Y
 
             this.LampTestTurnOffAll();
@@ -152,7 +152,7 @@ namespace ASS2
         {
             //Task.Run(new Action(() => { 
             SensorStartDetectionType s = (SensorStartDetectionType)sender;
-            if(s.Value==false)
+            if (s.Value == false)
                 Feeder1?.Startdetectionsensor_ValueChanged(sender, e);//}));
         }
 
@@ -170,7 +170,7 @@ namespace ASS2
                     }
                 }
             }
-//}));
+            //}));
         }
 
         public async Task<DataTable> PArcelsAtLineTable()
@@ -255,7 +255,7 @@ namespace ASS2
         private void TactSensor_ValueChanged(object sender, ModbusDriver.ModbusValueEventArgs e)
         {
 
-           // Task.Run(new Action(() => { 
+            // Task.Run(new Action(() => { 
 
             TactSensorType s = (TactSensorType)sender;
             if (s.Value == false)
@@ -287,7 +287,7 @@ namespace ASS2
                 handler?.Invoke(this, new EventArgs());
             }
             // 
-//}));
+            //}));
         }
 
 
@@ -462,25 +462,25 @@ namespace ASS2
             }
         }
 
-        //private void Driver_DigitalInputValueChanged(object sender, ModbusDriver.ModbusValueEventArgs e)
-        //{
-        //   // //Console.WriteLine("Zmiana wartości Digital: " + e.Address + ":" + e.OldValue + " na: " + e.NewValue);
-        //    if (e.NewValue == true)
-        //    {
-        //        if (e.Address == 0)            
-        //            Feeders[0].Parcels.Add(new ParcelType());
+        private void Driver_DigitalInputValueChanged(object sender, ModbusDriver.ModbusValueEventArgs e)
+        {
+            // //Console.WriteLine("Zmiana wartości Digital: " + e.Address + ":" + e.OldValue + " na: " + e.NewValue);
+            //if (e.NewValue == true)
+            //{
+            //    if (e.Address == 0)
+            //        Feeders[0].Parcels.Add(new ParcelType());
 
-        //        if (e.Address == 3)
-        //        {
-        //            if (Feeders[0].Parcels.Count > 0)
-        //            {
-        //                this.ParcelsOnRun.Add(Feeders[0].Parcels[0]);
-        //                Feeders[0].Parcels.Clear();
-        //            }
-        //        }
-        //    }               
+            //    if (e.Address == 3)
+            //    {
+            //        if (Feeders[0].Parcels.Count > 0)
+            //        {
+            //            this.ParcelsOnRun.Add(Feeders[0].Parcels[0]);
+            //            Feeders[0].Parcels.Clear();
+            //        }
+            //    }
+            //}
 
-        //}
+        }
 
         private void Driver_ValueChanged1(object sender, ModbusDriver.ModbusValueEventArgs e)
         {
