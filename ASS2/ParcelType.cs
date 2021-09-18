@@ -21,8 +21,17 @@ namespace ASS2
         public StandItemType DestinationStandItem { get;private  set; }
         public int CurrentTactNumber { get; set; }
 
+        public int RunId { get; set; }
+        public int SortProgramID { get; set; }
+        public string UPnad { get; set; }
+        public string UPdor { get; set; }
+        public DateTime Datanad { get; set; }
+        public string parceltypename { get; set; }
+        public string ParcelTypeCode { get; set; }
+
         public bool Recircuit;
         public int RoundCounts { get; set; }
+        public bool visible;
 
         private int StopRunTactNumber;
 
@@ -30,19 +39,44 @@ namespace ASS2
         
 
         private ModbusDriver driver;
-        public ParcelType(ModbusDriver Driver,int stopruntactnumber, List<StandType> Stands)
+
+        public ParcelType()
         {
+
+        }
+        public ParcelType(ModbusDriver Driver,int stopruntactnumber, List<StandType> Stands, int runid,int sortprogramid)
+        {
+            Task.Run(new Action(() => {
+
+                try
+                {
+                this.visible = true;
             this.driver = Driver;
             this.CreateTime = DateTime.Now;
             this.GuidID = Guid.NewGuid().ToString();
             this.StopRunTactNumber = stopruntactnumber;
             this.SetOdrzuty(Stands, OdrzutyReason.brakskanu);
             this.Number = "";
+                this.RunId = runid;
+                this.SortProgramID = sortprogramid;
+                }
+                catch (Exception ex)
+                {
+                    ErrorLog.SaveError(ex);
+                }
+
+
+            }));
         }
 
         public async void AddTact(int alltacts)
         {
+            StandItemType st = this.DestinationStandItem;
+
             await Task.Run(new Action(() => {
+
+                try
+                {
                 this.CurrentTactNumber += 1;
                 if (this.CurrentTactNumber > alltacts)
                 {
@@ -50,28 +84,48 @@ namespace ASS2
                     this.RoundCounts += 1;
                 }
                 if (this.RoundCounts > 5)
-                    this.StopRun();
+                    this.StopRun(ref st);
 
                 if (this.CurrentTactNumber == this.DestinationStand.Lamp1.TactOnNumber)
                      Lamp1On();
                 if (this.CurrentTactNumber == this.DestinationStand.Lamp2.TactOnNumber)
                     Lamp2On();
-
+                
                 if (this.CurrentTactNumber > this.StopRunTactNumber)
                     if(this.Recircuit==false)
-                        this.StopRun();
+                        this.StopRun(ref st);
+                }
+                catch (Exception ex)
+                {
+                    ErrorLog.SaveError(ex);
+                }
+
+
             }));
         }
 
         public void NextRound()
         {
+            try
+            {
             this.Recircuit = true;
             this.RoundCounts += 1;
             this.DestinationStandItem.MissedParcels += 1;
+            }
+            catch (Exception ex)
+            {
+                ErrorLog.SaveError(ex);
+            }
+
         }
-        public void StopRun()
+        public void StopRun(ref StandItemType standitem)
         {
-            if (this.RoundCounts < 5)
+            standitem.SortedParcels += 1;
+            Task.Run(new Action(() => {
+
+                try
+                {
+                if (this.RoundCounts < 5)
             {
                 if(this.DestinationStandItem.Direction.Name=="Brak skanu")
                 {
@@ -81,20 +135,28 @@ namespace ASS2
                 }
             }
 
-
-            this.DestinationStandItem.SortedParcels += 1;
-
             ParcelEventArgs args = new ParcelEventArgs();
             args.parcel = this;
             EventHandler<ParcelEventArgs> handler = OnParcelStopRun;
             handler?.Invoke(this, args);
+                }
+                catch (Exception ex)
+                {
+                    ErrorLog.SaveError(ex);
+                }
+
+
+            }));
         }
 
         public async void Lamp1On()
         {
             await Task.Run(new Action(() =>
             {
-                if (this.DestinationStand.Name == "Odrzuty")
+
+                try
+                {
+         if (this.DestinationStand.Name == "Odrzuty")
                 {
                     if (this.DestinationStandItem.Direction.Name == "Brak skanu")
                         return;
@@ -106,6 +168,12 @@ namespace ASS2
                 {
                     this.DestinationStandItem.Lamp1OnTacts = 10;
                 }
+                }
+                catch (Exception ex)
+                {
+                    ErrorLog.SaveError(ex);
+                }
+       
 
             }));
 
@@ -114,6 +182,9 @@ namespace ASS2
         {
             await Task.Run(new Action(() =>
             {
+
+                try
+                {
                 if (this.Lenght == 0)
                     this.Lenght = 1000;
 
@@ -140,6 +211,12 @@ namespace ASS2
                     Lamp2OffTimer.Elapsed += Lamp2OffTimer_Elapsed;
                     Lamp2OffTimer.Start();
                 }
+                }
+                catch (Exception ex)
+                {
+                    ErrorLog.SaveError(ex);
+                }
+
 
 
             }));
@@ -149,24 +226,71 @@ namespace ASS2
 
         private void Lamp2OffTimer_Elapsed(object sender, ElapsedEventArgs e)
         {
+            try
+            {
+            this.visible = false;
             this.DestinationStand.Lamp2.LightOff(this.driver);
             Lamp2OffTimer.Stop();
             Lamp2OffTimer = null;
+            }
+            catch (Exception ex)
+            {
+                ErrorLog.SaveError(ex);
+            }
+
         }
 
         public new async void SaveAsync()
         {
             await Task.Run(new Action(() => {
+                try
+                {
                 this.Save();
+                }
+                catch (Exception ex)
+                {
+                    ErrorLog.SaveError(ex);
+                }
+
             }));
             //Console.WriteLine("Saved " + " [" + (DateTime.Now- this.CreateTime).Milliseconds.ToString() + "ms]");
         }
         public async void SetNumber(string number, List<StandType> Stands)
         {
+            try
+            {
             await Task.Run(new Action(() =>
              {
                  this.Number = number;
-                 this.DestinationUnitPostCode = SledzenieServiceType.SprawdzPrzesylke(this.Number)?.danePrzesylki?.urzadPrzezn?.daneSzczegolowe?.pna; // SledzenieServiceType.SprawdzPrzesylkeAsync(this.Number).Result.danePrzesylki.urzadPrzezn.daneSzczegolowe.pna;
+
+                 ServiceReference1.Przesylka zstp= SledzenieServiceType.SprawdzPrzesylke(this.Number);
+
+                 this.DestinationUnitPostCode = zstp?.danePrzesylki?.urzadPrzezn?.daneSzczegolowe?.pna; // SledzenieServiceType.SprawdzPrzesylkeAsync(this.Number).Result.danePrzesylki.urzadPrzezn.daneSzczegolowe.pna;
+
+                 try
+                 {
+                     if (zstp != null)
+                     {
+                         if (zstp.danePrzesylki != null)
+                         {
+                            this.Datanad = (DateTime)zstp.danePrzesylki.dataNadania;
+                             this.parceltypename = zstp.danePrzesylki.rodzPrzes;
+                             this.ParcelTypeCode = zstp.danePrzesylki.kodRodzPrzes;
+
+                             if(zstp.danePrzesylki.urzadNadania!=null)
+                                this.UPnad = zstp.danePrzesylki.urzadNadania.nazwa;
+                             if(zstp.danePrzesylki.urzadPrzezn!=null)
+                                this.UPdor = zstp.danePrzesylki.urzadPrzezn.nazwa;
+                         }
+                     }
+                 }
+                 catch (Exception)
+                 {
+                 }
+
+
+                 
+
 
                  if (this.DestinationUnitPostCode == null)
                      this.SetOdrzuty(Stands, OdrzutyReason.brakdanych);
@@ -183,7 +307,7 @@ namespace ASS2
                          {
                              if (item.Direction != null)
                              {
-                                 if (item.Direction.isInRange(this.DestinationUnitPostCode))
+                                 if (item.Direction.isInRange(this.DestinationUnitPostCode, this.ParcelTypeCode))
                                  {
                                      this.DestinationStand = stand;
                                      this.DestinationStandItem = item;
@@ -210,14 +334,27 @@ namespace ASS2
                  //Console.WriteLine(this.DestinationStandItem.Direction.Name + " [" + (SettingDirectionTime-this.CreateTime).Milliseconds.ToString() + "ms]");
              }));
             this.SaveAsync();
+            }
+            catch (Exception ex)
+            {
+                ErrorLog.SaveError(ex);
+            }
+
         }
 
         public void SetOdrzuty(List<StandType> Stands, OdrzutyReason Reason)
         {
-       
-                this.DestinationStand = Stands.Find(x => x.Name == "Odrzuty");
+            try
+            {
+            this.DestinationStand = Stands.Find(x => x.Name == "Odrzuty");
     
                 this.DestinationStandItem = DestinationStand.Items[(int)Reason];
+            }
+            catch (Exception ex)
+            {
+                ErrorLog.SaveError(ex);
+            }
+
 
             //this.DestinationStandItem.Direction = new DirectionType() { Name = "Brak skanu" };
         }

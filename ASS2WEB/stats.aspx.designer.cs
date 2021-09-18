@@ -11,70 +11,88 @@ namespace ASS2WEB
 {
 
 
-    public partial class directions
+    public partial class stats
     {
 
         /// <summary>
-        /// up1 control.
+        /// Label1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.UpdatePanel up1;
+        protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// dg1add control.
+        /// ddlrun control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button dg1add;
+        protected global::System.Web.UI.WebControls.DropDownList ddlrun;
 
         /// <summary>
-        /// dg1save control.
+        /// imgDownload control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button dg1save;
+        protected global::System.Web.UI.WebControls.ImageButton imgDownload;
 
         /// <summary>
-        /// dg1 control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView dg1;
+        protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// dg2add control.
+        /// ImageButton1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button dg2add;
+        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
 
         /// <summary>
-        /// dg2save control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button dg2save;
+        protected global::System.Web.UI.WebControls.Label Label3;
 
         /// <summary>
-        /// dg2 control.
+        /// chart1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView dg2;
+        protected global::System.Web.UI.DataVisualization.Charting.Chart chart1;
+
+        /// <summary>
+        /// chart2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.DataVisualization.Charting.Chart chart2;
+
+        /// <summary>
+        /// chart3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.DataVisualization.Charting.Chart chart3;
     }
 }

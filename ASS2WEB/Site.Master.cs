@@ -25,5 +25,15 @@ namespace ASS2WEB
         {
             Response.Redirect("~/sortprograms.aspx");
         }
+
+        protected void btndirections_ServerClick(object sender, EventArgs e)
+        {
+            Response.Redirect("~/directions.aspx");
+        }
+
+        protected void btnstats_ServerClick(object sender, EventArgs e)
+        {
+            Response.Redirect("~/stats.aspx");
+        }
     }
 }

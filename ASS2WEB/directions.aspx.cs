@@ -25,6 +25,10 @@ namespace ASS2WEB
         }
         void BindDG1()
         {
+
+            dg2add.Visible = false;
+            dg2save.Visible = false;
+
             dg2.DataSource = null;
             dg2.DataBind();
 
@@ -42,6 +46,55 @@ namespace ASS2WEB
             dg1.DataSource = dt;
             dg1.DataBind();
 
+            return;
+
+            var file = System.IO.File.ReadAllLines(@"C:\Users\klispawel\Downloads\test.csv");
+
+            DictType dd = GetDict();
+            dd.Directions.Clear();
+ string[] ss = file;
+            try
+            {
+                foreach(var s in ss)
+                {
+
+                    string nazwa ="KOM_" + s.Split(';')[0];
+                    string zakresy = s.Split(';')[1];
+
+
+                    DirectionType d = new DirectionType() { IdMachine = 1, Name = nazwa };
+
+                    foreach(var z in zakresy.Split(','))
+                    {
+
+                        string z1 = z.Split('-')[0];
+                        string z2 = z1;
+                        try
+                        {
+                             z2 = z.Split('-')[1];
+                        }
+                        catch (Exception)
+                        {
+
+                            
+                        }
+            
+
+                        d.Items.Add(new DirectionItemType() { PnaFrom = z1, PnaTo = z2 });
+     
+                    }
+                   dd.Directions.Add(d);
+
+                }
+            }
+            catch (Exception)
+            {
+
+               
+            }
+
+
+            dd.Save();
         }
 
         DirectionType selecteddirection()
@@ -51,6 +104,8 @@ namespace ASS2WEB
         }
         void Binddg2()
         {
+            dg2add.Visible = true;
+            dg2save.Visible = true;
             List<DirectionItemType> l = selecteddirection().Items;
 
             DataTable dt = new DataTable();
@@ -59,10 +114,11 @@ namespace ASS2WEB
             dt.Columns.Add("pnafrom");
             dt.Columns.Add("pnato");
             dt.Columns.Add("id");
+            dt.Columns.Add("parceltypes");
 
             foreach(var i in l)
             {
-                dt.Rows.Add(i.Name, i.WSR, i.PnaFrom, i.PnaTo, i.Id);
+                dt.Rows.Add(i.Name, i.WSR, i.PnaFrom, i.PnaTo, i.Id,i.ParcelTypes);
             }
 
             dg2.DataSource = dt;
@@ -159,7 +215,7 @@ namespace ASS2WEB
             savedg2();
             DictType dict = GetDict();
 
-            dict.Directions.Find(x=>x.Id==selecteddirection().Id).Items.Add(new DirectionItemType());
+            dict.Directions.Find(x=>x.Id==selecteddirection().Id).Items.Add(new DirectionItemType() { ParcelTypes = "LW,LWPR,B,PXN,PP1,PPLUS,UK,P,PPR,BPR,PW,PP,PP2,PWPR,UP" });
             dict.Save();
             Binddg2();
         }
@@ -179,6 +235,7 @@ namespace ASS2WEB
                 string wsr= ((TextBox)row.FindControl("txwsr")).Text;
                 string pnafrom= ((TextBox)row.FindControl("txpnafrom")).Text;
                 string pnato= ((TextBox)row.FindControl("txpnato")).Text;
+                string parceltyp = ((TextBox)row.FindControl("txpt")).Text;
                 DirectionType dir = dict.Directions.Find(x => x.Id == selecteddirection().Id);
 
                 DirectionItemType i = dir.Items.Find(x => x.Id == id);
@@ -186,6 +243,7 @@ namespace ASS2WEB
                 i.WSR = wsr;
                 i.PnaFrom = pnafrom;
                 i.PnaTo = pnato;
+                i.ParcelTypes = parceltyp;
 
 
             }

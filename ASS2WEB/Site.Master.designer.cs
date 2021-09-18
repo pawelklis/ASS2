@@ -42,6 +42,24 @@ namespace ASS2WEB
         protected global::System.Web.UI.HtmlControls.HtmlAnchor btnsortprogrems;
 
         /// <summary>
+        /// btndirections control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor btndirections;
+
+        /// <summary>
+        /// btnstats control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor btnstats;
+
+        /// <summary>
         /// MainContent control.
         /// </summary>
         /// <remarks>

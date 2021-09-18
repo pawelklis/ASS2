@@ -96,6 +96,7 @@
       <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -163,6 +164,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="directions.aspx" />
+    <Content Include="dr.aspx" />
+    <Content Include="drp.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="images\emoticons\bad.png" />
@@ -1564,6 +1567,7 @@
     <Content Include="Site.Master" />
     <Content Include="sortprograms.aspx" />
     <Content Include="stands.aspx" />
+    <Content Include="stats.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -1607,6 +1611,20 @@
     <Compile Include="directions.aspx.designer.cs">
       <DependentUpon>directions.aspx</DependentUpon>
     </Compile>
+    <Compile Include="dr.aspx.cs">
+      <DependentUpon>dr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dr.aspx.designer.cs">
+      <DependentUpon>dr.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="drp.aspx.cs">
+      <DependentUpon>drp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="drp.aspx.designer.cs">
+      <DependentUpon>drp.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1638,6 +1656,13 @@
     </Compile>
     <Compile Include="stands.aspx.designer.cs">
       <DependentUpon>stands.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="stats.aspx.cs">
+      <DependentUpon>stats.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="stats.aspx.designer.cs">
+      <DependentUpon>stats.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

@@ -17,38 +17,59 @@ namespace ASS2
         public CounterType() { }
         public CounterType(int machineid, int AllTactsCount)
         {
-            List<CounterType> lo = CounterType.LoadWhere<CounterType>(" machineid =" + machineid);
-            if (lo?.Count > 0)
+            try
             {
-                CounterType o = lo[0];
-                this.Id = o.Id;
+                List<CounterType> lo = CounterType.LoadWhere<CounterType>(" machineid =" + machineid);
+                if (lo?.Count > 0)
+                {
+                    CounterType o = lo[0];
+                    this.Id = o.Id;
+                    this.MachineId = machineid;
+                    this.TactNumber = o.TactNumber;
+                    this.CircleNumber = o.CircleNumber;
+                }
+
                 this.MachineId = machineid;
-                this.TactNumber = o.TactNumber;
-                this.CircleNumber = o.CircleNumber;
+                this.TactCountsAll = AllTactsCount;
+            }
+            catch (Exception ex)
+            {
+                ErrorLog.SaveError(ex);
             }
 
-            this.MachineId = machineid;
-            this.TactCountsAll = AllTactsCount;
 
         }
 
+        public event EventHandler OnNewCirle;
         public void AddTact()
         {
             Task.Run(new Action(() =>
             {
-            this.TactNumber += 1;
 
-            if (this.TactNumber >= this.TactCountsAll)
-            {
-                if (this.CircleNumber + 1 > int.MaxValue)
-                    this.CircleNumber = 0;
+                try
+                {
+                    if (this.TactNumber >= this.TactCountsAll)
+                    {
+                        if (this.CircleNumber + 1 > int.MaxValue)
+                            this.CircleNumber = 0;
 
-                this.CircleNumber += 1;
-                this.TactNumber = 0;
-            }
+                        this.CircleNumber += 1;
+                        this.TactNumber = 0;
+
+                        EventHandler handler = OnNewCirle;
+                        handler?.Invoke(this, null);
+                    }
 
 
-                this.SaveAsync();
+                    this.SaveAsync();
+                }
+                catch (Exception ex)
+                {
+                    ErrorLog.SaveError(ex);
+                }
+                this.TactNumber += 1;
+
+
             }));
         }
     }

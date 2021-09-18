@@ -33,6 +33,9 @@ namespace ASS2
         }
         public DictType()
         {
+
+            try
+            {
             this.Lamps = new List<LampType>();
             int adr = 0;
             bool islmap1 = true;
@@ -91,9 +94,15 @@ namespace ASS2
             new ColorType(){ Name= ColorType.ColorsList.Czerwony, Values=new List<bool>(){false, true, false,false,false}},
             new ColorType(){ Name= ColorType.ColorsList.BiałoZielony, Values=new List<bool>(){false,false, true, true, false}},
             new ColorType(){ Name= ColorType.ColorsList.BiałoNiebieski, Values=new List<bool>(){ true, false,false, true, false}},
-            new ColorType(){ Name= ColorType.ColorsList.Czerwony, Values=new List<bool>(){false, true, false, true, false}},
+            new ColorType(){ Name= ColorType.ColorsList.BiałoCzerwony, Values=new List<bool>(){false, true, false, true, false}},
             new ColorType(){ Name= ColorType.ColorsList.Żółty, Values=new List<bool>(){false,false,false,false,true}}
             };
+            }
+            catch (Exception ex)
+            {
+                ErrorLog.SaveError(ex);
+            }
+
 
 
 

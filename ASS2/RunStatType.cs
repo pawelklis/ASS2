@@ -9,20 +9,29 @@ namespace ASS2
     public class RunStatType:DataBaseStorageHelper
     {
         public int Id { get; set; }
+        public int RunId { get; set; }
         public int MachineId { get; set; }
         public int CircleNumber { get; set; }
         public DateTime RunStart { get; set; }
         public DateTime RunStop { get; set; }
 
         public List<RunStatItemType> Items { get; set; }
+        
 
+        public RunStatType()
+        {
 
+        }
         public RunStatType(RunType run, List<StandType> stands, int machineId, int circleNumber)
         {
-            this.MachineId = machineId;
+            try
+            {
+     this.MachineId = machineId;
             this.CircleNumber = circleNumber;
             this.RunStart = run.StartTime;
             this.RunStop = run.EndTime;
+            this.RunId = run.Id;
+            
 
             this.Items = new List<RunStatItemType>();
             foreach(var s in stands)
@@ -41,6 +50,13 @@ namespace ASS2
             }
 
             this.SaveAsync();
+            }
+            catch (Exception ex)
+            {
+                ErrorLog.SaveError(ex);
+            }
+
+       
         }
 
     }

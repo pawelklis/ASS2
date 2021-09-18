@@ -25,13 +25,23 @@ namespace ASS2
                 {
                     if (value == true)
                     {
-                        ModbusDriver.ModbusValueEventArgs me = new ModbusDriver.ModbusValueEventArgs();
-                        me.Address = this.Address;
-                        me.OldValue = myVal;
-                        me.NewValue = value;
-                        me.Name = this.Name.ToString();
-                        EventHandler<ModbusDriver.ModbusValueEventArgs> handler = ValueChanged;
-                        handler?.Invoke(this, me);
+                        try
+                        {
+                            ModbusDriver.ModbusValueEventArgs me = new ModbusDriver.ModbusValueEventArgs();
+                            me.Address = this.Address;
+                            me.OldValue = myVal;
+                            me.NewValue = value;
+                            me.Name = this.Name.ToString();
+                            EventHandler<ModbusDriver.ModbusValueEventArgs> handler = ValueChanged;
+                            handler?.Invoke(this, me);
+                        }
+                        catch (Exception ex)
+                        {
+                            ErrorLog.SaveError(ex);
+                        }
+                     
+
+                      
                     }
 
                     myVal = value;

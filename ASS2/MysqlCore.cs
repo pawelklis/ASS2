@@ -10,6 +10,7 @@ using System.Runtime.CompilerServices;
 using System.Security;
 using System.Text;
 using System.Threading.Tasks;
+using ASS2;
 using Microsoft.VisualBasic;
 using MySql.Data.MySqlClient;
 using Newtonsoft.Json;
@@ -157,6 +158,8 @@ public class MysqlCore
 
     public bool NewUpdate(object o, string tablename, string idcolumn = "id", MySqlConnection cn = null)
     {
+        try
+        {
         StringBuilder sb = new StringBuilder();
         sb.Append("UPDATE `" + tablename + "` SET ");
 
@@ -216,12 +219,20 @@ public class MysqlCore
 
         string cmd = sb.ToString().Replace("  WHERE", " WHERE ").Replace(", WHERE", " WHERE ");
         return ExecuteNonQuery(cmd, cn);
+        }
+        catch (Exception ex)
+        {
+            ErrorLog.SaveError(ex);
+            return false;
+        }
+
     }
 
     public void NewInsertOrUpdate(object o, string tablename, string idcolumn = "id")
     {
         PropertyInfo[] props = o.GetType().GetProperties();
-
+        try
+        {
         foreach (var p in props)
         {
             if (p.Name.ToLower() == idcolumn.ToLower())
@@ -241,77 +252,95 @@ public class MysqlCore
 
 
         }
+        }
+        catch (Exception ex)
+        {
+            ErrorLog.SaveError(ex);
+        }
+
     }
 
     public int NewInsert(object o, string tablename, string idcolumn = "id", MySqlConnection cn = null)
     {
         StringBuilder sb = new StringBuilder();
-        sb.Append("INSERT INTO " + tablename + " (");
-
-        PropertyInfo[] props = o.GetType().GetProperties();
-
-        foreach (var p in props)
+        try
         {
-            if (p.Name.ToLower() != idcolumn.ToLower())
-                sb.Append("`" + p.Name.ToLower() + "`, ");
-        }
-        sb.Append(") VALUES (");
+            sb.Append("INSERT INTO " + tablename + " (");
 
-        foreach (var p in props)
-        {
-            if (p.Name.ToLower() != idcolumn.ToLower())
+            PropertyInfo[] props = o.GetType().GetProperties();
+
+            foreach (var p in props)
             {
-                if (p.PropertyType.Name.ToLower().StartsWith("int"))
-                {
-                    sb.Append("'" + p.GetValue(o)?.ToString() + "', ");
-                }
+                if (p.Name.ToLower() != idcolumn.ToLower())
+                    sb.Append("`" + p.Name.ToLower() + "`, ");
+            }
+            sb.Append(") VALUES (");
 
-                if (p.PropertyType.Name.ToLower() == "string")
+            foreach (var p in props)
+            {
+                if (p.Name.ToLower() != idcolumn.ToLower())
                 {
-                    sb.Append("'" + p.GetValue(o)?.ToString() + "', ");
-                }
-                if (p.PropertyType.Name.ToLower() == "double")
-                {
-                    sb.Append("'" + p.GetValue(o)?.ToString() + "', ");
-                }
-
-                if (p.PropertyType.Name.ToLower().Contains("date"))
-                {
-                    sb.Append("'" + p.GetValue(o)?.ToString() + "', ");
-                }
-
-                if (p.PropertyType.Name.ToLower() != "double")
-                {
-                    if (p.PropertyType.Name.ToLower() != "string")
+                    if (p.PropertyType.Name.ToLower().StartsWith("int"))
                     {
-                        if (!p.PropertyType.Name.ToLower().StartsWith("int"))
+                        sb.Append("'" + p.GetValue(o)?.ToString() + "', ");
+                    }
+
+                    if (p.PropertyType.Name.ToLower() == "string")
+                    {
+                        sb.Append("'" + p.GetValue(o)?.ToString() + "', ");
+                    }
+                    if (p.PropertyType.Name.ToLower() == "double")
+                    {
+                        sb.Append("'" + p.GetValue(o)?.ToString() + "', ");
+                    }
+
+                    if (p.PropertyType.Name.ToLower().Contains("date"))
+                    {
+                        sb.Append("'" + p.GetValue(o)?.ToString() + "', ");
+                    }
+
+                    if (p.PropertyType.Name.ToLower() != "double")
+                    {
+                        if (p.PropertyType.Name.ToLower() != "string")
                         {
-                            if (!p.PropertyType.Name.ToLower().Contains("date"))
+                            if (!p.PropertyType.Name.ToLower().StartsWith("int"))
                             {
-                                var val = p.GetValue(o);
-                                sb.Append("'" + JsonConvert.SerializeObject(val) + "', ");
+                                if (!p.PropertyType.Name.ToLower().Contains("date"))
+                                {
+                                    var val = p.GetValue(o);
+                                    sb.Append("'" + JsonConvert.SerializeObject(val) + "', ");
+                                }
                             }
                         }
                     }
                 }
+
+
+            }
+            sb.Append(");");
+            sb.Append("select last_insert_id();");
+            string cmd = sb.ToString().Replace(", )", ")");
+            string oid = ExecuteScalar(cmd, cn);
+
+
+            foreach (var p in props)
+            {
+                int id = int.Parse(oid);
+                if (p.Name.ToLower() == idcolumn.ToLower())
+                    p.SetValue(o, id);
             }
 
-
+            return int.Parse(oid);
         }
-        sb.Append(");");
-        sb.Append("select last_insert_id();");
-        string cmd = sb.ToString().Replace(", )", ")");
-        string oid = ExecuteScalar(cmd, cn);
-
-
-        foreach (var p in props)
-        {
-            int id = int.Parse(oid);
-            if (p.Name.ToLower() == idcolumn.ToLower())
-                p.SetValue(o, id);
+        catch (Exception ex)
+        {            ErrorLog.SaveError(ex);
+            return (0);
+        
         }
 
-        return int.Parse(oid);
+
+
+
     }
 
 

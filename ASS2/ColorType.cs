@@ -18,14 +18,22 @@ namespace ASS2
         }
         public ColorType(string name)
         {
-            foreach (var c in Enum.GetValues(typeof(ColorsList)))
+            try
             {
-                if (c.ToString() == name)
+                foreach (var c in Enum.GetValues(typeof(ColorsList)))
                 {
-                    this.Name = (ColorsList)c;
-                    return;
+                    if (c.ToString() == name)
+                    {
+                        this.Name = (ColorsList)c;
+                        return;
+                    }
                 }
             }
+            catch (Exception ex)
+            {
+                ErrorLog.SaveError(ex);
+            }
+
         }
         public ColorType(ColorsList name)
         {
@@ -36,12 +44,12 @@ namespace ASS2
         {
             int i = address;
             string s = "";
-            foreach(var v in this.Values)
+            foreach (var v in this.Values)
             {
-                s +="PIN:" + i + "-" + v.ToString() + ",";
+                s += "PIN:" + i + "-" + v.ToString() + ",";
                 i++;
             }
-            
+
             return s;
         }
 
@@ -69,7 +77,7 @@ namespace ASS2
 
 
         public enum ColorsList
-        {            
+        {
             Biały,
             Zielony,
             Niebieski,

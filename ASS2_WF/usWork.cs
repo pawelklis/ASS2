@@ -14,7 +14,7 @@ namespace ASS2_WF
     public partial class usWork : UserControl
     {
         private Timer refreshtimer;
-
+        private Timer StatTimer;
 
        
 
@@ -25,21 +25,81 @@ namespace ASS2_WF
         public MachineType machine;
         private void usWork_Load(object sender, EventArgs e)
         {
-         
+
+            machine.OnLogAdded += Machine_OnLogAdded;
 
             refreshtimer = new Timer();
-            refreshtimer.Interval = 100;
+            refreshtimer.Interval = 500;
             refreshtimer.Tick += Refreshtimer_Tick;
             refreshtimer.Start();
 
+            StatTimer = new Timer();
+            StatTimer.Interval = 1000 * 60;
+            StatTimer.Tick += StatTimer_TickAsync;
+            StatTimer.Start();
+
+
+            ToolTip t = new ToolTip();
+            
+            t.SetToolTip(checkBox1, "Status połączenia z maszyną");
+            t = new ToolTip();
+            t.SetToolTip(lbRun, "Przebieg");
+            t = new ToolTip();
+            t.SetToolTip(lbTactTime, "Czas taktu");
+            t = new ToolTip();
+            t.SetToolTip(lbFeederParcels, "Liczba przesyłek na podajniku");
+            t = new ToolTip();
+            t.SetToolTip(lbparcelsonline, "Liczba przesyłek na taśmie");
+            t = new ToolTip();
+            t.SetToolTip(lbcirclenumber, "Numer okrążenia");
+            t = new ToolTip();
+            t.SetToolTip(lbtactnumber, "Numer taktu");
+
+
             LoadSortPrograms();
+            BindCharts();
+
+            label4.Parent = this;
         }
 
-        private void Refreshtimer_Tick(object sender, EventArgs e)
+        private void Machine_OnLogAdded(object sender, MachineType.MachineLogEventArgs e)
         {
-            Task.Run(new Action(() => {
+            Task.Run(() =>
+            {
+                listBox1.Invoke(new Action(() =>
+                {
 
-                try
+                    listBox1.Items.Insert(0, e.item.Time + " " + e.item.Event);
+
+
+                }));
+            });
+
+        }
+
+        private async void StatTimer_TickAsync(object sender, EventArgs e)
+        {
+            await BindCharts();
+        }
+
+        private async void Refreshtimer_Tick(object sender, EventArgs e)
+        {
+            //return;
+            try
+            {
+                if (machine.Driver.Connected == false)
+                    label4.Invoke(new Action(() => { label4.Visible = true; label4.BringToFront(); }));
+                else
+                    label4.Invoke(new Action(() => { label4.Visible = false; label4.BringToFront(); }));
+            }
+            catch (Exception)
+            {
+
+                
+            }
+
+          await  Task.Run(() => {
+                  try
                 {
                     if (machine.BeltRunning == true)
                     {
@@ -52,39 +112,43 @@ namespace ASS2_WF
                 }
                 catch (Exception)
                 {
-                }
-                try
+                }        
+          });
+                    var allsorted = await machine.AllSortedAsync();
+                    var allmissed = await machine.AllMissedAsync();
+            await Task.Run(() => {
+                  try
                 {
+
+
                     checkBox1.Invoke(new Action(() => { checkBox1.Checked = machine.Driver.Connected; }));
                     lbTactTime.Invoke(new Action(() => { lbTactTime.Text = machine.TactSensor.TactLenghtTime.Milliseconds.ToString() + "[ms]"; }));
                     lbFeederParcels.Invoke(new Action(() => { lbFeederParcels.Text = machine.Feeder1.Parcels.Count.ToString(); }));
+                    lbparcelsonline.Invoke(new Action(() => { lbparcelsonline.Text = machine.ParcelsOnRun.Count.ToString(); }));
+                    lbcirclenumber.Invoke(new Action(() => { lbcirclenumber.Text = machine.Driver.TactSensor.Counter.CircleNumber.ToString(); }));
+                    lbtactnumber.Invoke(new Action(() => { lbtactnumber.Text = machine.Driver.TactSensor.Counter.TactNumber.ToString(); }));
+                    lbsp.Invoke(new Action(() => { lbsp.Text = machine.CurrentSortProgram.Name; }));
+                    lbAllsorted.Invoke(new Action(() => { lbAllsorted.Text = allsorted.ToString(); }));
+                    lbAllMissed.Invoke(new Action(() => { lbAllMissed.Text = allmissed.ToString(); }));
+
+
+                    if (machine.CurrentRun.IsWorking() == false)
+                        btnStartRun.Invoke(new Action(() => { btnStartRun.Enabled = true;}));
+                    else
+                        if (machine.ParcelsOnRun.Count > 0)
+                        btnStartRun.Invoke(new Action(() => { btnStartRun.Enabled = false;}));
 
                 }
                 catch (Exception)
-                {                   
-                }
-                try
                 {
-                    int i1 = dg1.FirstDisplayedScrollingRowIndex;
-                    int i2 = dg2.FirstDisplayedScrollingRowIndex;
-                    //dg1.Invoke(new Action(() => { dg1.DataSource = machine.PArcelsAtLineTable().Result; }));
-                    //dg2.Invoke(new Action(() => { dg2.DataSource = machine.StandStatsTable().Result; }));
+                }          
+            });
 
-                    if(i1>-1)
-                    dg1.Invoke(new Action(() => {
-                        dg1.FirstDisplayedScrollingRowIndex = i1;
-                    }));
-                    if(i2>-1)
-                    dg2.Invoke(new Action(() => {
-                        dg2.FirstDisplayedScrollingRowIndex = i2;
-                    }));
-                }
-                catch (Exception)
-                {
-                }
-            
-            
-            }));
+
+
+      
+
+          
         }
 
         void LoadSortPrograms()
@@ -109,7 +173,7 @@ namespace ASS2_WF
         void InitMachine()
         {
             ComboboxItem item = (ComboboxItem)cbSortProgram.SelectedItem;
-            machine.InitMachine(item.Value);
+          Task.Run(()=> { machine.InitMachine(item.Value); });
             runText();
         }
 
@@ -140,7 +204,8 @@ namespace ASS2_WF
 
         private void btnStartRun_Click(object sender, EventArgs e)
         {
-            machine.StartStopRun();
+            ComboboxItem sp = (ComboboxItem)cbSortProgram.SelectedItem;
+            machine.StartStopRun(sp.Value);
             runText();
         }
 
@@ -156,34 +221,145 @@ namespace ASS2_WF
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Task.Run(new Action(() =>
-            {
-                int numi = 0;
-                for (int i = 0; i < 1000000; i++)
+            machine.StressSimulation();
+
+
+        }
+
+        private async Task BindCharts()
+        {
+            
+            List<Task> tasks = new List<Task>();
+            var task1 = Task.Run(() => {
+                try
+                {
+                    chart1.Invoke(new Action(() => { chart1.Series.Clear(); 
+                    chart1.Series.Add("Przesyłek/min");
+                    chart1.DataSource = machine.StatTable;
+                    chart1.Series[0].XValueMember = "Czas";
+                    chart1.Series[0].YValueMembers = "Liczba przesyłek";
+                    chart1.Series[0].IsValueShownAsLabel = true;
+                        chart1.Series[0].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.SplineArea;
+
+                    chart1.ChartAreas[0].AxisY.Title = "Liczba przesyłek";
+                    chart1.ChartAreas[0].AxisX.Interval = 1;
+                    chart1.ChartAreas[0].AxisX.MajorGrid.Enabled = false;
+                    chart1.ChartAreas[0].AxisX.MinorGrid.Enabled = false;
+                    chart1.ChartAreas[0].AxisY.MajorGrid.Enabled = false;
+                    chart1.ChartAreas[0].AxisY.MinorGrid.Enabled = false;
+
+                    chart1.Legends.Clear();
+                    chart1.Titles.Clear();
+                    chart1.Titles.Add("Liczba przesyłek na godzinę");
+                    chart1.Titles[0].Font = new Font("Arial", 14);
+
+                    chart1.DataBind();
+                    }));
+                }
+                catch (Exception)
                 {
 
-                    System.Threading.Thread.Sleep(1000);
-                    machine.Driver.StartDetectionSensor.Value = true;
-                    machine.Driver.StartDetectionSensor.Value = false;
-                    System.Threading.Thread.Sleep(2000);
-                    if(machine.Feeder1.Parcels.Count>0)
-                        machine.Feeder1.Parcels[0].SetNumber(numery[numi], machine.dict.Stands);
-                    System.Threading.Thread.Sleep(2000);
-
-                    machine.Driver.StartParcelSensor.Value = true;
-                    machine.Driver.StartParcelSensor.Value = false;
-
-                    if(machine.ParcelsOnRun.Count>0)
-                        machine.ParcelsOnRun.Last().SetLenght(1200);
-
-                    numi++;
-                    if (numi > numery.Count-1)
-                        numi = 0;
-
+                   
                 }
-            }));
+
+            });
+            tasks.Add(task1);
 
 
+             var task2 = Task.Run(() => {
+
+                 try
+                 {
+                     chart2.Invoke(new Action(async () =>
+                     {
+                         chart2.Series.Clear();
+                         DataTable dt = await machine.GetStandStats();
+                         chart2.DataSource = dt;
+                         chart2.Legends.Clear();
+                         chart2.Legends.Add(new System.Windows.Forms.DataVisualization.Charting.Legend("Legend1"));
+
+
+                         chart2.Series.Add("Wysortowane");
+                         chart2.Series[0].Legend = "Legend1";
+                         chart2.Series[0].XValueMember = "Stanowisko";
+                         chart2.Series[0].YValueMembers = "Wysortowane";
+                         chart2.Series[0].IsValueShownAsLabel = true;
+
+                         chart2.Series.Add("Recyrkulacja");
+                         chart2.Series[1].XValueMember = "Stanowisko";
+                         chart2.Series[1].YValueMembers = "Recyrkulacja";
+                         chart2.Series[1].IsValueShownAsLabel = true;
+
+
+                         chart2.Series.Add("Obciążenie");
+                         chart2.Series[2].XValueMember = "Stanowisko";
+                         chart2.Series[2].YValueMembers = "Obciążenie";
+                         chart2.Series[2].IsValueShownAsLabel = true;
+                         chart2.Series[2].YAxisType = System.Windows.Forms.DataVisualization.Charting.AxisType.Secondary;
+
+                         chart2.ChartAreas[0].AxisX.Interval = 1;
+                         chart2.ChartAreas[0].AxisX.MajorGrid.Enabled = false;
+                         chart2.ChartAreas[0].AxisX.MinorGrid.Enabled = false;
+                         chart2.ChartAreas[0].AxisY.MajorGrid.Enabled = false;
+                         chart2.ChartAreas[0].AxisY.MinorGrid.Enabled = false;
+                         chart2.ChartAreas[0].AxisY2.MajorGrid.Enabled = false;
+                         chart2.ChartAreas[0].AxisY2.MinorGrid.Enabled = false;
+                         chart2.ChartAreas[0].AxisY2.Maximum = 100;
+                         chart2.ChartAreas[0].AxisY2.Title = "Udział % w ogóle";
+                         chart2.ChartAreas[0].AxisY.Title = "Liczba przesyłek";
+
+
+                         chart2.Legends[0].Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Bottom;
+                         chart2.Titles.Clear();
+                         chart2.Titles.Add("Statystyka rozdziału");
+                         chart2.Titles[0].Font = new Font("Arial", 14);
+
+
+                         chart2.Series[0].Label = "#VALYszt";
+                         chart2.Series[1].Label = "#VALYszt";
+                         chart2.Series[2].Label = "#VALY %";
+
+                         
+
+                         chart2.DataBind();
+                     }));
+                 }
+                 catch (Exception)
+                 {
+
+
+                 }
+
+
+
+             });
+            tasks.Add(task2);
+
+            await Task.WhenAll(tasks);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            BindCharts();
+        }
+
+        private void chart1_Resize(object sender, EventArgs e)
+        {
+
+        }
+
+        private void usWork_Resize(object sender, EventArgs e)
+        {
+            try
+            {
+                label4.Top = (this.Height / 2) - (label4.Height / 2);
+                label4.Left = (this.Width / 2) - (label4.Width / 2);
+            }
+            catch (Exception)
+            {
+
+
+            }
         }
     }
 }

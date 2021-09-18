@@ -32,7 +32,7 @@
                         </HeaderTemplate>
                         <ItemTemplate>
                             <asp:Button ID="Button3" CssClass="btn btn-info" runat="server" Text="Wybierz" CommandArgument='<% #Eval("id") %>' CommandName="sel" />
-                            <asp:Button ID="Button5" CssClass="btn btn-danger" runat="server" Text="Usuń"    CommandArgument='<% #Eval("id") %>' CommandName="usun" />
+                            <asp:Button ID="Button5" CssClass="btn btn-danger" runat="server" Text="Usuń"    CommandArgument='<% #Eval("id") %>' CommandName="usun"  OnClientClick="return confirm('Potwierdzasz usunięcie?');" />
                         </ItemTemplate>
                     </asp:TemplateField>
 
@@ -76,7 +76,7 @@
                             <asp:Label ID="Label3" runat="server" Text="Kolor"></asp:Label>
                         </HeaderTemplate>
                         <ItemTemplate>
-                            <asp:DropDownList ID="ddlcolor" ToolTip='<% #Eval("color") %>' runat="server"></asp:DropDownList>
+                            <asp:DropDownList ID="ddlcolor" ToolTip='<% #Eval("color") %>' runat="server" Enabled="false" ForeColor="Transparent" Font-Bold="true" ></asp:DropDownList>
                         </ItemTemplate>
                     </asp:TemplateField>
                 </Columns>
