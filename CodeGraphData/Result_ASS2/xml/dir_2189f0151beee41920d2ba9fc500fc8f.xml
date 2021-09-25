@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_2189f0151beee41920d2ba9fc500fc8f" kind="dir">
+    <compoundname>C:/Users/klispawel/source/repos/ASS2/ASS2</compoundname>
+    <innerdir refid="dir_e84f6b665b49ea39de7dbce57948ba20">C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services</innerdir>
+    <innerdir refid="dir_1b2b0a883db6e5b3d6cbcc43e0f20cbd">C:/Users/klispawel/source/repos/ASS2/ASS2/DAL</innerdir>
+    <innerdir refid="dir_752e63531ca2def484c544781c584a48">C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces</innerdir>
+    <innerdir refid="dir_98cfcc95a999fb3586be29a3d787c76e">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine</innerdir>
+    <innerdir refid="dir_16ed43d4b2565e0d2dfe960d22af9fb7">C:/Users/klispawel/source/repos/ASS2/ASS2/Properties</innerdir>
+    <innerdir refid="dir_b2cd55ba5927005e62a2b8f38da10cd8">C:/Users/klispawel/source/repos/ASS2/ASS2/WebServices</innerdir>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/"/>
+  </compounddef>
+</doxygen>

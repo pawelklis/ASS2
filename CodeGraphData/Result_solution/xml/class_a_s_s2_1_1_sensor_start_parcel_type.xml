@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_sensor_start_parcel_type" kind="class" prot="public">
+    <compoundname>ASS2::SensorStartParcelType</compoundname>
+    <innerclass refid="class_a_s_s2_1_1_sensor_start_parcel_type_1_1_start_sensor_event_args" prot="public">ASS2::SensorStartParcelType::StartSensorEventArgs</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_sensor_start_parcel_type_1a56431fa8ba2c342c357ca561bd01ba99" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.SensorStartParcelType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_sensor_start_parcel_type_1a0e8816b7fd7a05cf3e635481ac5f14ba" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9" kindref="member">SensorType.SensorName</ref></type>
+        <definition>SensorType.SensorName ASS2.SensorStartParcelType.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_sensor_start_parcel_type_1a1d1685ebadf95231bfcc5e1c8a55fe2b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.SensorStartParcelType.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_sensor_start_parcel_type_1a92916b24c6a7e669f48c035a2fa103a5" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.SensorStartParcelType.myVal</definition>
+        <argsstring></argsstring>
+        <name>myVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_sensor_start_parcel_type_1aba226b7a0f4dd19b882fd7b35cdc2815" compoundref="_sensor_start_parcel_type_8cs" startline="62" endline="81">ASS2.SensorStartParcelType.RaiseEvent</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_sensor_start_parcel_type_1a7d5c53af7faef39e26013228609ce951" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.SensorStartParcelType.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" line="23" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a3a9e6a68b01a5fabc7946b2aa2e58e0f" compoundref="_machine_type_8cs" startline="483" endline="508">ASS2.MachineType.StartParcelSensor_ValueChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_sensor_start_parcel_type_1a5ca894947d08234ca2f8fda0010f4b66" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.SensorStartParcelType.FeederIndex</definition>
+        <argsstring></argsstring>
+        <name>FeederIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_sensor_start_parcel_type_1a3236352f3cefd0c7248187042d020270" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime ASS2.SensorStartParcelType.TrueValue</definition>
+        <argsstring></argsstring>
+        <name>TrueValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_sensor_start_parcel_type_1a1200ddacf33869b45d55b954cf19e1f1" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime ASS2.SensorStartParcelType.falseValue</definition>
+        <argsstring></argsstring>
+        <name>falseValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" line="19" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_sensor_start_parcel_type_1a4e35e138e16ba644cd504b5b1dbd71c9" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusDriver.ModbusValueEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;ModbusDriver.ModbusValueEventArgs&gt; ASS2.SensorStartParcelType.ValueChanged</definition>
+        <argsstring></argsstring>
+        <name>ValueChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" line="21" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_sensor_start_parcel_type_1aba226b7a0f4dd19b882fd7b35cdc2815" compoundref="_sensor_start_parcel_type_8cs" startline="62" endline="81">ASS2.SensorStartParcelType.RaiseEvent</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_a_s_s2_1_1_sensor_start_parcel_type_1a5372044b97921d5a3e229c44fd355197" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_a_s_s2_1_1_sensor_start_parcel_type_1_1_start_sensor_event_args" kindref="compound">StartSensorEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;StartSensorEventArgs&gt; ASS2.SensorStartParcelType.OnLenghtReaded</definition>
+        <argsstring></argsstring>
+        <name>OnLenghtReaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" line="22" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_sensor_start_parcel_type_1aba226b7a0f4dd19b882fd7b35cdc2815" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.SensorStartParcelType.RaiseEvent</definition>
+        <argsstring>(bool newval)</argsstring>
+        <name>RaiseEvent</name>
+        <param>
+          <type>bool</type>
+          <declname>newval</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" line="62" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" bodystart="62" bodyend="81"/>
+        <references refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a92916b24c6a7e669f48c035a2fa103a5" compoundref="_sensor_start_parcel_type_8cs" startline="15">ASS2.SensorStartParcelType.myVal</references>
+        <references refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a4e35e138e16ba644cd504b5b1dbd71c9" compoundref="_sensor_start_parcel_type_8cs" startline="21">ASS2.SensorStartParcelType.ValueChanged</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartParcelType.cs" bodystart="9" bodyend="88"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a1d1685ebadf95231bfcc5e1c8a55fe2b" prot="public" virt="non-virtual"><scope>ASS2::SensorStartParcelType</scope><name>Address</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a1200ddacf33869b45d55b954cf19e1f1" prot="private" virt="non-virtual"><scope>ASS2::SensorStartParcelType</scope><name>falseValue</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a5ca894947d08234ca2f8fda0010f4b66" prot="public" virt="non-virtual"><scope>ASS2::SensorStartParcelType</scope><name>FeederIndex</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a56431fa8ba2c342c357ca561bd01ba99" prot="public" virt="non-virtual"><scope>ASS2::SensorStartParcelType</scope><name>Id</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a92916b24c6a7e669f48c035a2fa103a5" prot="private" virt="non-virtual"><scope>ASS2::SensorStartParcelType</scope><name>myVal</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a0e8816b7fd7a05cf3e635481ac5f14ba" prot="public" virt="non-virtual"><scope>ASS2::SensorStartParcelType</scope><name>Name</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a5372044b97921d5a3e229c44fd355197" prot="public" virt="non-virtual"><scope>ASS2::SensorStartParcelType</scope><name>OnLenghtReaded</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1aba226b7a0f4dd19b882fd7b35cdc2815" prot="public" virt="non-virtual"><scope>ASS2::SensorStartParcelType</scope><name>RaiseEvent</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a3236352f3cefd0c7248187042d020270" prot="private" virt="non-virtual"><scope>ASS2::SensorStartParcelType</scope><name>TrueValue</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a7d5c53af7faef39e26013228609ce951" prot="public" virt="non-virtual"><scope>ASS2::SensorStartParcelType</scope><name>Value</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a4e35e138e16ba644cd504b5b1dbd71c9" prot="public" virt="non-virtual"><scope>ASS2::SensorStartParcelType</scope><name>ValueChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

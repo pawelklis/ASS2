@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::Zdarzenie</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a2fbe34f7beaca643354e4623c44b30c3" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Zdarzenie.czasField</definition>
+        <argsstring></argsstring>
+        <name>czasField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="693" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="693" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a334818c9df3a7efeef26f0bd40897f20" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka" kindref="compound">Jednostka</ref></type>
+        <definition>Jednostka ASS2.ServiceReference1.Zdarzenie.jednostkaField</definition>
+        <argsstring></argsstring>
+        <name>jednostkaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="695" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="695" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a9bfb4bd504bf199e94253ad9ae6ce59e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Zdarzenie.kodField</definition>
+        <argsstring></argsstring>
+        <name>kodField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="697" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="697" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1af275173c03612ddf694349293f33d073" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.Zdarzenie.konczaceField</definition>
+        <argsstring></argsstring>
+        <name>konczaceField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="699" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="699" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a70c93d8cf7103561c142238e6d5e828c" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.Zdarzenie.konczaceFieldSpecified</definition>
+        <argsstring></argsstring>
+        <name>konczaceFieldSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="701" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="701" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a58e8479c06edb244819c3b60d31d4609" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Zdarzenie.nazwaField</definition>
+        <argsstring></argsstring>
+        <name>nazwaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="703" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="703" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1ade714beebe8ccc83a892cdb50cb0f323" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna" kindref="compound">Przyczyna</ref></type>
+        <definition>Przyczyna ASS2.ServiceReference1.Zdarzenie.przyczynaField</definition>
+        <argsstring></argsstring>
+        <name>przyczynaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="705" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="705" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a6041795f333cbd612cb8853a514412e9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Zdarzenie.czas</definition>
+        <argsstring></argsstring>
+        <name>czas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="709" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="709" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a988a2992acd6d9bff6cebedc60c249a6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka" kindref="compound">Jednostka</ref></type>
+        <definition>Jednostka ASS2.ServiceReference1.Zdarzenie.jednostka</definition>
+        <argsstring></argsstring>
+        <name>jednostka</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="721" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="721" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a6f0341e23fdd11cc25590002fe63dc45" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Zdarzenie.kod</definition>
+        <argsstring></argsstring>
+        <name>kod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="733" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="733" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a4909669a5325973dd63c4261f24de049" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.Zdarzenie.konczace</definition>
+        <argsstring></argsstring>
+        <name>konczace</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="745" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="745" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a20524e23501d4309f40c5028aec2662b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.Zdarzenie.konczaceSpecified</definition>
+        <argsstring></argsstring>
+        <name>konczaceSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="757" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="757" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1af458e192b9f65c1d580df4cc384f479c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Zdarzenie.nazwa</definition>
+        <argsstring></argsstring>
+        <name>nazwa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="769" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="769" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1ac968ea414b5a3619b4cf2a714a2c482c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna" kindref="compound">Przyczyna</ref></type>
+        <definition>Przyczyna ASS2.ServiceReference1.Zdarzenie.przyczyna</definition>
+        <argsstring></argsstring>
+        <name>przyczyna</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="781" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="781" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1ad722196b687bdd947dde5d3a7602d678" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>System.ComponentModel.PropertyChangedEventHandler</type>
+        <definition>System.ComponentModel.PropertyChangedEventHandler ASS2.ServiceReference1.Zdarzenie.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="791" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="791" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a45517bf55432b8c9318af8071beecb29" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ServiceReference1.Zdarzenie.RaisePropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>RaisePropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="793" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="793" bodyend="798"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="328">
+        <label>object</label>
+      </node>
+      <node id="327">
+        <label>ASS2.ServiceReference1.Zdarzenie</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie"/>
+        <childnode refid="328" relation="public-inheritance">
+        </childnode>
+        <childnode refid="329" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="329">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="333">
+        <label>ASS2.ServiceReference1.Jednostka</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+        <childnode refid="332" relation="public-inheritance">
+        </childnode>
+        <childnode refid="334" relation="usage">
+          <edgelabel>daneSzczegoloweField</edgelabel>
+        </childnode>
+      </node>
+      <node id="337">
+        <label>ASS2.ServiceReference1.Przyczyna</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+        <childnode refid="332" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="334">
+        <label>ASS2.ServiceReference1.SzczDaneJednostki</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+        <childnode refid="332" relation="public-inheritance">
+        </childnode>
+        <childnode refid="335" relation="usage">
+          <edgelabel>godzinyPracyField</edgelabel>
+        </childnode>
+      </node>
+      <node id="335">
+        <label>ASS2.ServiceReference1.GodzinyPracy</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+        <childnode refid="332" relation="public-inheritance">
+        </childnode>
+        <childnode refid="336" relation="usage">
+          <edgelabel>sobotyField</edgelabel>
+          <edgelabel>dniRoboczeField</edgelabel>
+          <edgelabel>niedzISwField</edgelabel>
+        </childnode>
+      </node>
+      <node id="331">
+        <label>object</label>
+      </node>
+      <node id="330">
+        <label>ASS2.ServiceReference1.Zdarzenie</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+        <childnode refid="332" relation="public-inheritance">
+        </childnode>
+        <childnode refid="333" relation="usage">
+          <edgelabel>jednostkaField</edgelabel>
+        </childnode>
+        <childnode refid="337" relation="usage">
+          <edgelabel>przyczynaField</edgelabel>
+        </childnode>
+      </node>
+      <node id="336">
+        <label>ASS2.ServiceReference1.GodzinyZUwagami</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+        <childnode refid="332" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="332">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="691" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="691" bodyend="799"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a6041795f333cbd612cb8853a514412e9" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>czas</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a2fbe34f7beaca643354e4623c44b30c3" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>czasField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a988a2992acd6d9bff6cebedc60c249a6" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>jednostka</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a334818c9df3a7efeef26f0bd40897f20" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>jednostkaField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a6f0341e23fdd11cc25590002fe63dc45" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>kod</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a9bfb4bd504bf199e94253ad9ae6ce59e" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>kodField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a4909669a5325973dd63c4261f24de049" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>konczace</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1af275173c03612ddf694349293f33d073" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>konczaceField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a70c93d8cf7103561c142238e6d5e828c" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>konczaceFieldSpecified</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a20524e23501d4309f40c5028aec2662b" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>konczaceSpecified</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1af458e192b9f65c1d580df4cc384f479c" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>nazwa</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a58e8479c06edb244819c3b60d31d4609" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>nazwaField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1ad722196b687bdd947dde5d3a7602d678" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>PropertyChanged</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1ac968ea414b5a3619b4cf2a714a2c482c" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>przyczyna</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1ade714beebe8ccc83a892cdb50cb0f323" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>przyczynaField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a45517bf55432b8c9318af8071beecb29" prot="protected" virt="non-virtual"><scope>ASS2::ServiceReference1::Zdarzenie</scope><name>RaisePropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1_przyczyna" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::Przyczyna</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1a9efb83ca1bbedb95c082b9dccac4746e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Przyczyna.kodField</definition>
+        <argsstring></argsstring>
+        <name>kodField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="647" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="647" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1ab6f0dbb1f85b942a6c0f16f647389c8c" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Przyczyna.nazwaField</definition>
+        <argsstring></argsstring>
+        <name>nazwaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="649" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="649" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1a5f344a7d24156b615517352abea083da" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Przyczyna.kod</definition>
+        <argsstring></argsstring>
+        <name>kod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="653" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="653" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1a1fe436fe1251bdc64de1cfdfac9bae1b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Przyczyna.nazwa</definition>
+        <argsstring></argsstring>
+        <name>nazwa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="665" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="665" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1ac0836482b8405d34153185551b3d5368" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>System.ComponentModel.PropertyChangedEventHandler</type>
+        <definition>System.ComponentModel.PropertyChangedEventHandler ASS2.ServiceReference1.Przyczyna.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="675" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="675" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1aace7eb4841cf20c99ab0e85fe8f11b94" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ServiceReference1.Przyczyna.RaisePropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>RaisePropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="677" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="677" bodyend="682"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="255">
+        <label>ASS2.ServiceReference1.Przyczyna</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna"/>
+        <childnode refid="256" relation="public-inheritance">
+        </childnode>
+        <childnode refid="257" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="256">
+        <label>object</label>
+      </node>
+      <node id="257">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="258">
+        <label>ASS2.ServiceReference1.Przyczyna</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna"/>
+        <childnode refid="259" relation="public-inheritance">
+        </childnode>
+        <childnode refid="260" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="259">
+        <label>object</label>
+      </node>
+      <node id="260">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="645" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="645" bodyend="683"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1a5f344a7d24156b615517352abea083da" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Przyczyna</scope><name>kod</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1a9efb83ca1bbedb95c082b9dccac4746e" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Przyczyna</scope><name>kodField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1a1fe436fe1251bdc64de1cfdfac9bae1b" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Przyczyna</scope><name>nazwa</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1ab6f0dbb1f85b942a6c0f16f647389c8c" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Przyczyna</scope><name>nazwaField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1ac0836482b8405d34153185551b3d5368" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Przyczyna</scope><name>PropertyChanged</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1aace7eb4841cf20c99ab0e85fe8f11b94" prot="protected" virt="non-virtual"><scope>ASS2::ServiceReference1::Przyczyna</scope><name>RaisePropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

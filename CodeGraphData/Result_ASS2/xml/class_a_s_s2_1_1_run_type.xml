@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_run_type" kind="class" prot="public">
+    <compoundname>ASS2::RunType</compoundname>
+    <basecompoundref refid="class_a_s_s2_1_1_data_base_storage_helper" prot="public" virt="non-virtual">ASS2.DataBaseStorageHelper</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_type_1a921256f035c386d1241c572fc0199ab0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RunType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run/RunType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run/RunType.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" compoundref="_feeder_type_8cs" startline="62" endline="119">ASS2.FeederType.Startdetectionsensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_type_1a5bc29453585957eef92bbe87bf14a32e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime ASS2.RunType.StartTime</definition>
+        <argsstring></argsstring>
+        <name>StartTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run/RunType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run/RunType.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_run_type_1ad622f72a9172bf0e92402a3437c8f69f" compoundref="_run_type_8cs" startline="18" endline="23">ASS2.RunType.IsWorking</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_type_1a84a76bc4a8c5b5d3a4c7d55d96aa8555" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime ASS2.RunType.EndTime</definition>
+        <argsstring></argsstring>
+        <name>EndTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run/RunType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run/RunType.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_run_type_1ad622f72a9172bf0e92402a3437c8f69f" compoundref="_run_type_8cs" startline="18" endline="23">ASS2.RunType.IsWorking</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_type_1a60eda5ec844b2c042d992df1155ddaf7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RunType.MachineId</definition>
+        <argsstring></argsstring>
+        <name>MachineId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run/RunType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run/RunType.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_type_1a7967d08859e8ed134b268de883df00c5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RunType.SortProgramId</definition>
+        <argsstring></argsstring>
+        <name>SortProgramId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run/RunType.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run/RunType.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_run_type_1ad622f72a9172bf0e92402a3437c8f69f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ASS2.RunType.IsWorking</definition>
+        <argsstring>()</argsstring>
+        <name>IsWorking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run/RunType.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run/RunType.cs" bodystart="18" bodyend="23"/>
+        <references refid="class_a_s_s2_1_1_run_type_1a84a76bc4a8c5b5d3a4c7d55d96aa8555" compoundref="_run_type_8cs" startline="13">ASS2.RunType.EndTime</references>
+        <references refid="class_a_s_s2_1_1_run_type_1a5bc29453585957eef92bbe87bf14a32e" compoundref="_run_type_8cs" startline="12">ASS2.RunType.StartTime</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a3ba60bee38ac8a0fa8df8321525dfab2" compoundref="_machine_type_8cs" startline="510" endline="534">ASS2.MachineType.StartDetectionSensor_ValueChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="224">
+        <label>ASS2.RunType</label>
+        <link refid="class_a_s_s2_1_1_run_type"/>
+        <childnode refid="225" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="225">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="226">
+        <label>ASS2.RunType</label>
+        <link refid="class_a_s_s2_1_1_run_type"/>
+        <childnode refid="227" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="227">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run/RunType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run/RunType.cs" bodystart="9" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a24cadf21177fee7a33e2060a1034d067" prot="public" virt="non-virtual"><scope>ASS2::RunType</scope><name>CreateTable</name></member>
+      <member refid="class_a_s_s2_1_1_run_type_1a84a76bc4a8c5b5d3a4c7d55d96aa8555" prot="public" virt="non-virtual"><scope>ASS2::RunType</scope><name>EndTime</name></member>
+      <member refid="class_a_s_s2_1_1_run_type_1a921256f035c386d1241c572fc0199ab0" prot="public" virt="non-virtual"><scope>ASS2::RunType</scope><name>Id</name></member>
+      <member refid="class_a_s_s2_1_1_run_type_1ad622f72a9172bf0e92402a3437c8f69f" prot="public" virt="non-virtual"><scope>ASS2::RunType</scope><name>IsWorking</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a53c274faca217ed300cfa46c4f465b50" prot="public" virt="non-virtual"><scope>ASS2::RunType</scope><name>Load&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ae190bdcee51591d2a705490ccdffe940" prot="public" virt="non-virtual"><scope>ASS2::RunType</scope><name>LoadAll&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ab0a3f846534fe15e795ff95fc0e73ade" prot="public" virt="non-virtual"><scope>ASS2::RunType</scope><name>LoadWhere&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_run_type_1a60eda5ec844b2c042d992df1155ddaf7" prot="public" virt="non-virtual"><scope>ASS2::RunType</scope><name>MachineId</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a483e584dcfb0eaa9f6a6da3b4e8b3f1f" prot="public" virt="non-virtual"><scope>ASS2::RunType</scope><name>Save</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a1751417872a03695c3547e418d9ae301" prot="public" virt="non-virtual"><scope>ASS2::RunType</scope><name>SaveAsync</name></member>
+      <member refid="class_a_s_s2_1_1_run_type_1a7967d08859e8ed134b268de883df00c5" prot="public" virt="non-virtual"><scope>ASS2::RunType</scope><name>SortProgramId</name></member>
+      <member refid="class_a_s_s2_1_1_run_type_1a5bc29453585957eef92bbe87bf14a32e" prot="public" virt="non-virtual"><scope>ASS2::RunType</scope><name>StartTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_d7dd37d17e5b4d2c32fffb5d21854fab" kind="dir">
+    <compoundname>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232</compoundname>
+    <innerfile refid="_r_s232_config_type_8cs">RS232ConfigType.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232/"/>
+  </compounddef>
+</doxygen>

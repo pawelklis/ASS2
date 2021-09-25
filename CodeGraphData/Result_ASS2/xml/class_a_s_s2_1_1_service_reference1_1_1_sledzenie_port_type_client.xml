@@ -1,0 +1,833 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::SledzeniePortTypeClient</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ClientBase&lt; ASS2.ServiceReference1.SledzeniePortType &gt;</basecompoundref>
+    <basecompoundref refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type" prot="public" virt="non-virtual">ASS2.ServiceReference1.SledzeniePortType</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a57ff40a7d4e01171a132ac36cecdc19a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.SledzeniePortTypeClient.SledzeniePortTypeClient</definition>
+        <argsstring>()</argsstring>
+        <name>SledzeniePortTypeClient</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1418" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1418" bodyend="1419"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a9ece0789743daad90f07f82951832397" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.SledzeniePortTypeClient.SledzeniePortTypeClient</definition>
+        <argsstring>(string endpointConfigurationName)</argsstring>
+        <name>SledzeniePortTypeClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1421" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1421" bodyend="1423"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1aafe5381161e02f1a9b8575217e40c468" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.SledzeniePortTypeClient.SledzeniePortTypeClient</definition>
+        <argsstring>(string endpointConfigurationName, string remoteAddress)</argsstring>
+        <name>SledzeniePortTypeClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1425" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1425" bodyend="1427"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a7d40be11d40da49bd406fcf136c1d713" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.SledzeniePortTypeClient.SledzeniePortTypeClient</definition>
+        <argsstring>(string endpointConfigurationName, System.ServiceModel.EndpointAddress remoteAddress)</argsstring>
+        <name>SledzeniePortTypeClient</name>
+        <param>
+          <type>string</type>
+          <declname>endpointConfigurationName</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.EndpointAddress</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1429" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1429" bodyend="1431"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a3d4835c50fcdff7637aea7d9e81b7f7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.SledzeniePortTypeClient.SledzeniePortTypeClient</definition>
+        <argsstring>(System.ServiceModel.Channels.Binding binding, System.ServiceModel.EndpointAddress remoteAddress)</argsstring>
+        <name>SledzeniePortTypeClient</name>
+        <param>
+          <type>System.ServiceModel.Channels.Binding</type>
+          <declname>binding</declname>
+        </param>
+        <param>
+          <type>System.ServiceModel.EndpointAddress</type>
+          <declname>remoteAddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1433" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1433" bodyend="1435"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a4628bf307089062e46b1b78f6d778aa6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.SledzeniePortTypeClient.wersja</definition>
+        <argsstring>()</argsstring>
+        <name>wersja</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1442" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1442" bodyend="1446"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a3fdae3fe4ef7c5330d8a1e2efc9b562f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1wersja_response" kindref="compound">ASS2.ServiceReference1.wersjaResponse</ref> &gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.wersjaResponse&gt; ASS2.ServiceReference1.SledzeniePortTypeClient.wersjaAsync</definition>
+        <argsstring>()</argsstring>
+        <name>wersjaAsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1453" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1453" bodyend="1456"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a33499b135c1c056b49f43306c003167f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat" kindref="compound">ASS2.ServiceReference1.Komunikat</ref></type>
+        <definition>ASS2.ServiceReference1.Komunikat ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkiPl</definition>
+        <argsstring>(string[] numer)</argsstring>
+        <name>sprawdzPrzesylkiPl</name>
+        <param>
+          <type>string[]</type>
+          <declname>numer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1463" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1463" bodyend="1468"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a3980484d473bc8fd5958ccf1b94c26da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_pl_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiPlResponse</ref> &gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.sprawdzPrzesylkiPlResponse&gt; ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkiPlAsync</definition>
+        <argsstring>(string[] numer)</argsstring>
+        <name>sprawdzPrzesylkiPlAsync</name>
+        <param>
+          <type>string[]</type>
+          <declname>numer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1475" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1475" bodyend="1479"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1afa22c1c67e7227bf257d23a955e380ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka" kindref="compound">ASS2.ServiceReference1.Przesylka</ref></type>
+        <definition>ASS2.ServiceReference1.Przesylka ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkePl</definition>
+        <argsstring>(string numer)</argsstring>
+        <name>sprawdzPrzesylkePl</name>
+        <param>
+          <type>string</type>
+          <declname>numer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1486" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1486" bodyend="1491"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a3753531b37f3af8a5aed837ab1447f41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkePlResponse</ref> &gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.sprawdzPrzesylkePlResponse&gt; ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkePlAsync</definition>
+        <argsstring>(string numer)</argsstring>
+        <name>sprawdzPrzesylkePlAsync</name>
+        <param>
+          <type>string</type>
+          <declname>numer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1498" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1498" bodyend="1502"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1aa3e56251caaaf66ed60fdbfc38c0df7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat" kindref="compound">ASS2.ServiceReference1.Komunikat</ref></type>
+        <definition>ASS2.ServiceReference1.Komunikat ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkiOdDo</definition>
+        <argsstring>(string[] numer, string odDnia, string doDnia)</argsstring>
+        <name>sprawdzPrzesylkiOdDo</name>
+        <param>
+          <type>string[]</type>
+          <declname>numer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>odDnia</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>doDnia</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1509" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1509" bodyend="1516"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a7fc91c676ddb3444833171f15f00f0ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiOdDoResponse</ref> &gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.sprawdzPrzesylkiOdDoResponse&gt; ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkiOdDoAsync</definition>
+        <argsstring>(string[] numer, string odDnia, string doDnia)</argsstring>
+        <name>sprawdzPrzesylkiOdDoAsync</name>
+        <param>
+          <type>string[]</type>
+          <declname>numer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>odDnia</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>doDnia</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1523" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1523" bodyend="1529"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a5456dbc07c9bbac677b13cebf83ee864" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ASS2.ServiceReference1.SledzeniePortTypeClient.maksymalnaLiczbaPrzesylek</definition>
+        <argsstring>()</argsstring>
+        <name>maksymalnaLiczbaPrzesylek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1536" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1536" bodyend="1540"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a12fc38b2f28f92d404694c01038493cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_response" kindref="compound">ASS2.ServiceReference1.maksymalnaLiczbaPrzesylekResponse</ref> &gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.maksymalnaLiczbaPrzesylekResponse&gt; ASS2.ServiceReference1.SledzeniePortTypeClient.maksymalnaLiczbaPrzesylekAsync</definition>
+        <argsstring>()</argsstring>
+        <name>maksymalnaLiczbaPrzesylekAsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1547" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1547" bodyend="1550"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1ae456d2c6a2423a003e9bb1790da50676" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka" kindref="compound">ASS2.ServiceReference1.Przesylka</ref></type>
+        <definition>ASS2.ServiceReference1.Przesylka ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylke</definition>
+        <argsstring>(string numer)</argsstring>
+        <name>sprawdzPrzesylke</name>
+        <param>
+          <type>string</type>
+          <declname>numer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1557" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1557" bodyend="1562"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a388969e8bbc520a6c2f5b1505a289748" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkeResponse</ref> &gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.sprawdzPrzesylkeResponse&gt; ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkeAsync</definition>
+        <argsstring>(string numer)</argsstring>
+        <name>sprawdzPrzesylkeAsync</name>
+        <param>
+          <type>string</type>
+          <declname>numer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1569" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1569" bodyend="1573"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1ab34fb75ea84ab5ffade4ea925224dbcc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat" kindref="compound">ASS2.ServiceReference1.Komunikat</ref></type>
+        <definition>ASS2.ServiceReference1.Komunikat ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkiOdDoPl</definition>
+        <argsstring>(string[] numer, string odDnia, string doDnia)</argsstring>
+        <name>sprawdzPrzesylkiOdDoPl</name>
+        <param>
+          <type>string[]</type>
+          <declname>numer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>odDnia</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>doDnia</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1580" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1580" bodyend="1587"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1ad0ac544766384deba63b3fd95d5d3804" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiOdDoPlResponse</ref> &gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.sprawdzPrzesylkiOdDoPlResponse&gt; ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkiOdDoPlAsync</definition>
+        <argsstring>(string[] numer, string odDnia, string doDnia)</argsstring>
+        <name>sprawdzPrzesylkiOdDoPlAsync</name>
+        <param>
+          <type>string[]</type>
+          <declname>numer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>odDnia</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>doDnia</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1594" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1594" bodyend="1600"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a334413ebc2492bf7e89c2d2e186bab30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.SledzeniePortTypeClient.witaj</definition>
+        <argsstring>(string imie)</argsstring>
+        <name>witaj</name>
+        <param>
+          <type>string</type>
+          <declname>imie</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1607" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1607" bodyend="1612"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a5537d3991e047e7d139a1eb59c351f5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1witaj_response" kindref="compound">ASS2.ServiceReference1.witajResponse</ref> &gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.witajResponse&gt; ASS2.ServiceReference1.SledzeniePortTypeClient.witajAsync</definition>
+        <argsstring>(string imie)</argsstring>
+        <name>witajAsync</name>
+        <param>
+          <type>string</type>
+          <declname>imie</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1619" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1619" bodyend="1623"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a03379e2666cce237cfc2b9089c94c354" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat" kindref="compound">ASS2.ServiceReference1.Komunikat</ref></type>
+        <definition>ASS2.ServiceReference1.Komunikat ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylki</definition>
+        <argsstring>(string[] numer)</argsstring>
+        <name>sprawdzPrzesylki</name>
+        <param>
+          <type>string[]</type>
+          <declname>numer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1630" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1630" bodyend="1635"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a7f49de6d935af71206773933e5b3a98f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiResponse</ref> &gt;</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.sprawdzPrzesylkiResponse&gt; ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkiAsync</definition>
+        <argsstring>(string[] numer)</argsstring>
+        <name>sprawdzPrzesylkiAsync</name>
+        <param>
+          <type>string[]</type>
+          <declname>numer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1642" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1642" bodyend="1646"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1af7e075a2b9b82300d40d53a4ff8f8bbd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1wersja_response" kindref="compound">ASS2.ServiceReference1.wersjaResponse</ref> ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>ASS2.ServiceReference1.wersjaResponse ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.wersja</definition>
+        <argsstring>(ASS2.ServiceReference1.wersjaRequest request)</argsstring>
+        <name>wersja</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ad37b1fdafb87de10db66be681e10d04b">wersja</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1wersja_request" kindref="compound">ASS2.ServiceReference1.wersjaRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1438" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1438" bodyend="1440"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a7a0d5f10383bbb1a9044623de4ed61eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1wersja_response" kindref="compound">ASS2.ServiceReference1.wersjaResponse</ref> &gt; ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.wersjaResponse&gt; ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.wersjaAsync</definition>
+        <argsstring>(ASS2.ServiceReference1.wersjaRequest request)</argsstring>
+        <name>wersjaAsync</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a1eda1d0f63e4da1700e822a446535e4b">wersjaAsync</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1wersja_request" kindref="compound">ASS2.ServiceReference1.wersjaRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1449" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1449" bodyend="1451"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1adb6e4fad2cbc4b7e6012771c2dbefe52" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_pl_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiPlResponse</ref> ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>ASS2.ServiceReference1.sprawdzPrzesylkiPlResponse ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkiPl</definition>
+        <argsstring>(ASS2.ServiceReference1.sprawdzPrzesylkiPlRequest request)</argsstring>
+        <name>sprawdzPrzesylkiPl</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a627975fe22c25abb7b212f3221261e09">sprawdzPrzesylkiPl</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_pl_request" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiPlRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1459" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1459" bodyend="1461"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a361981eceaec2dc4eebbeeee6a5f2082" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_pl_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiPlResponse</ref> &gt; ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.sprawdzPrzesylkiPlResponse&gt; ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkiPlAsync</definition>
+        <argsstring>(ASS2.ServiceReference1.sprawdzPrzesylkiPlRequest request)</argsstring>
+        <name>sprawdzPrzesylkiPlAsync</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a4a5d8e4072fec40c5caf9c8276364ddd">sprawdzPrzesylkiPlAsync</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_pl_request" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiPlRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1471" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1471" bodyend="1473"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a05ed81b336cd628b1f18315f31d4d555" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkePlResponse</ref> ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>ASS2.ServiceReference1.sprawdzPrzesylkePlResponse ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkePl</definition>
+        <argsstring>(ASS2.ServiceReference1.sprawdzPrzesylkePlRequest request)</argsstring>
+        <name>sprawdzPrzesylkePl</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1af02c822cea41b214eadc6e89399a8f0d">sprawdzPrzesylkePl</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_request" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkePlRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1482" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1482" bodyend="1484"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a367e8ab83febab2cdcf7cd31eed8cd71" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkePlResponse</ref> &gt; ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.sprawdzPrzesylkePlResponse&gt; ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkePlAsync</definition>
+        <argsstring>(ASS2.ServiceReference1.sprawdzPrzesylkePlRequest request)</argsstring>
+        <name>sprawdzPrzesylkePlAsync</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a8d39ac0870e988bc3ee049712b626207">sprawdzPrzesylkePlAsync</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_request" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkePlRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1494" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1494" bodyend="1496"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a2e8bdd719a6c2b1187138b3dba268267" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiOdDoResponse</ref> ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>ASS2.ServiceReference1.sprawdzPrzesylkiOdDoResponse ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkiOdDo</definition>
+        <argsstring>(ASS2.ServiceReference1.sprawdzPrzesylkiOdDoRequest request)</argsstring>
+        <name>sprawdzPrzesylkiOdDo</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ab4c1beb9f42fe72fec3ddb81bac09262">sprawdzPrzesylkiOdDo</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiOdDoRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1505" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1505" bodyend="1507"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a9188424151239da6e519c4346cee49d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiOdDoResponse</ref> &gt; ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.sprawdzPrzesylkiOdDoResponse&gt; ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkiOdDoAsync</definition>
+        <argsstring>(ASS2.ServiceReference1.sprawdzPrzesylkiOdDoRequest request)</argsstring>
+        <name>sprawdzPrzesylkiOdDoAsync</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a4023dd9bc8d8d754f59378e146056f3a">sprawdzPrzesylkiOdDoAsync</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiOdDoRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1519" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1519" bodyend="1521"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1af0960c63c3c8becf699383e63ec301d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_response" kindref="compound">ASS2.ServiceReference1.maksymalnaLiczbaPrzesylekResponse</ref> ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>ASS2.ServiceReference1.maksymalnaLiczbaPrzesylekResponse ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.maksymalnaLiczbaPrzesylek</definition>
+        <argsstring>(ASS2.ServiceReference1.maksymalnaLiczbaPrzesylekRequest request)</argsstring>
+        <name>maksymalnaLiczbaPrzesylek</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1aa39b4ffcefe7552f1723d19d965e5a6b">maksymalnaLiczbaPrzesylek</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_request" kindref="compound">ASS2.ServiceReference1.maksymalnaLiczbaPrzesylekRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1532" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1532" bodyend="1534"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a8784c87910653188497d518627c5c27e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_response" kindref="compound">ASS2.ServiceReference1.maksymalnaLiczbaPrzesylekResponse</ref> &gt; ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.maksymalnaLiczbaPrzesylekResponse&gt; ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.maksymalnaLiczbaPrzesylekAsync</definition>
+        <argsstring>(ASS2.ServiceReference1.maksymalnaLiczbaPrzesylekRequest request)</argsstring>
+        <name>maksymalnaLiczbaPrzesylekAsync</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a98c586d44b8ca4468bc2463247baeefe">maksymalnaLiczbaPrzesylekAsync</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_request" kindref="compound">ASS2.ServiceReference1.maksymalnaLiczbaPrzesylekRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1543" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1543" bodyend="1545"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1af36f61bf8b1618fd011a8d6d96e3e0ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkeResponse</ref> ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>ASS2.ServiceReference1.sprawdzPrzesylkeResponse ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylke</definition>
+        <argsstring>(ASS2.ServiceReference1.sprawdzPrzesylkeRequest request)</argsstring>
+        <name>sprawdzPrzesylke</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ae7512de38ab7e29ae47ebb49d74599b1">sprawdzPrzesylke</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_request" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkeRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1553" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1553" bodyend="1555"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a453b1a37e7c48982bb447b603722cd87" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkeResponse</ref> &gt; ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.sprawdzPrzesylkeResponse&gt; ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkeAsync</definition>
+        <argsstring>(ASS2.ServiceReference1.sprawdzPrzesylkeRequest request)</argsstring>
+        <name>sprawdzPrzesylkeAsync</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ae74e53b4adbcb6c68e5ec11d39c81446">sprawdzPrzesylkeAsync</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_request" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkeRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1565" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1565" bodyend="1567"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a4bfad9b2241f7584908a079bc6615b79" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiOdDoPlResponse</ref> ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>ASS2.ServiceReference1.sprawdzPrzesylkiOdDoPlResponse ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkiOdDoPl</definition>
+        <argsstring>(ASS2.ServiceReference1.sprawdzPrzesylkiOdDoPlRequest request)</argsstring>
+        <name>sprawdzPrzesylkiOdDoPl</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ab4f5bbee227a5c55100afb9af2fe37a8">sprawdzPrzesylkiOdDoPl</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_request" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiOdDoPlRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1576" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1576" bodyend="1578"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1ad462b1af2168e13bac5d6d0c7475f2af" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiOdDoPlResponse</ref> &gt; ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.sprawdzPrzesylkiOdDoPlResponse&gt; ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkiOdDoPlAsync</definition>
+        <argsstring>(ASS2.ServiceReference1.sprawdzPrzesylkiOdDoPlRequest request)</argsstring>
+        <name>sprawdzPrzesylkiOdDoPlAsync</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a02649f92d6dec361facf01cf4d78f184">sprawdzPrzesylkiOdDoPlAsync</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_request" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiOdDoPlRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1590" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1590" bodyend="1592"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a94cdde0190fc951bf0c61fe761378a87" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1witaj_response" kindref="compound">ASS2.ServiceReference1.witajResponse</ref> ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>ASS2.ServiceReference1.witajResponse ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.witaj</definition>
+        <argsstring>(ASS2.ServiceReference1.witajRequest request)</argsstring>
+        <name>witaj</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ac1fb378a65ba4404dff91867e09f25eb">witaj</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1witaj_request" kindref="compound">ASS2.ServiceReference1.witajRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1603" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1603" bodyend="1605"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1aae314e94631d03b6e12eadf2957cae9a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1witaj_response" kindref="compound">ASS2.ServiceReference1.witajResponse</ref> &gt; ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.witajResponse&gt; ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.witajAsync</definition>
+        <argsstring>(ASS2.ServiceReference1.witajRequest request)</argsstring>
+        <name>witajAsync</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a6bce6c8bc4e758c519c280d36c96bd64">witajAsync</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1witaj_request" kindref="compound">ASS2.ServiceReference1.witajRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1615" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1615" bodyend="1617"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a2a20e680f28275cc9546ec1214d34c43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiResponse</ref> ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>ASS2.ServiceReference1.sprawdzPrzesylkiResponse ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylki</definition>
+        <argsstring>(ASS2.ServiceReference1.sprawdzPrzesylkiRequest request)</argsstring>
+        <name>sprawdzPrzesylki</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1aef297e2ab0e479c24e830cd71fc27625">sprawdzPrzesylki</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_request" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1626" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1626" bodyend="1628"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1ae80b2d9fdcf712d350ddae28df3e8a24" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>System.Threading.Tasks.Task&lt; <ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_response" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiResponse</ref> &gt; ASS2.ServiceReference1.SledzeniePortType.</type>
+        <definition>System.Threading.Tasks.Task&lt;ASS2.ServiceReference1.sprawdzPrzesylkiResponse&gt; ASS2.ServiceReference1.SledzeniePortType. ASS2.ServiceReference1.SledzeniePortTypeClient.sprawdzPrzesylkiAsync</definition>
+        <argsstring>(ASS2.ServiceReference1.sprawdzPrzesylkiRequest request)</argsstring>
+        <name>sprawdzPrzesylkiAsync</name>
+        <reimplements refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a10e282ff430b1899ead64e31519fddbb">sprawdzPrzesylkiAsync</reimplements>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_request" kindref="compound">ASS2.ServiceReference1.sprawdzPrzesylkiRequest</ref></type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1638" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1638" bodyend="1640"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="249">
+        <label>System::ServiceModel::ClientBase&lt; ASS2.ServiceReference1.SledzeniePortType &gt;</label>
+      </node>
+      <node id="248">
+        <label>ASS2.ServiceReference1.SledzeniePortTypeClient</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client"/>
+        <childnode refid="249" relation="public-inheritance">
+        </childnode>
+        <childnode refid="250" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>ASS2::ServiceReference1::SledzeniePortType</label>
+        <link refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="252">
+        <label>System::ServiceModel::ClientBase&lt; ASS2.ServiceReference1.SledzeniePortType &gt;</label>
+      </node>
+      <node id="251">
+        <label>ASS2.ServiceReference1.SledzeniePortTypeClient</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client"/>
+        <childnode refid="252" relation="public-inheritance">
+        </childnode>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="253">
+        <label>ASS2::ServiceReference1::SledzeniePortType</label>
+        <link refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1416" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1416" bodyend="1647"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1af0960c63c3c8becf699383e63ec301d6" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>maksymalnaLiczbaPrzesylek</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a5456dbc07c9bbac677b13cebf83ee864" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>maksymalnaLiczbaPrzesylek</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a8784c87910653188497d518627c5c27e" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>maksymalnaLiczbaPrzesylekAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a12fc38b2f28f92d404694c01038493cc" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>maksymalnaLiczbaPrzesylekAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a57ff40a7d4e01171a132ac36cecdc19a" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>SledzeniePortTypeClient</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a9ece0789743daad90f07f82951832397" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>SledzeniePortTypeClient</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1aafe5381161e02f1a9b8575217e40c468" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>SledzeniePortTypeClient</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a7d40be11d40da49bd406fcf136c1d713" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>SledzeniePortTypeClient</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a3d4835c50fcdff7637aea7d9e81b7f7d" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>SledzeniePortTypeClient</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1af36f61bf8b1618fd011a8d6d96e3e0ea" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylke</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1ae456d2c6a2423a003e9bb1790da50676" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylke</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a453b1a37e7c48982bb447b603722cd87" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkeAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a388969e8bbc520a6c2f5b1505a289748" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkeAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a05ed81b336cd628b1f18315f31d4d555" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkePl</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1afa22c1c67e7227bf257d23a955e380ee" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkePl</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a367e8ab83febab2cdcf7cd31eed8cd71" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkePlAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a3753531b37f3af8a5aed837ab1447f41" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkePlAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a2a20e680f28275cc9546ec1214d34c43" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylki</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a03379e2666cce237cfc2b9089c94c354" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylki</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1ae80b2d9fdcf712d350ddae28df3e8a24" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkiAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a7f49de6d935af71206773933e5b3a98f" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkiAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a2e8bdd719a6c2b1187138b3dba268267" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkiOdDo</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1aa3e56251caaaf66ed60fdbfc38c0df7b" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkiOdDo</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a9188424151239da6e519c4346cee49d6" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkiOdDoAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a7fc91c676ddb3444833171f15f00f0ef" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkiOdDoAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a4bfad9b2241f7584908a079bc6615b79" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkiOdDoPl</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1ab34fb75ea84ab5ffade4ea925224dbcc" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkiOdDoPl</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1ad462b1af2168e13bac5d6d0c7475f2af" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkiOdDoPlAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1ad0ac544766384deba63b3fd95d5d3804" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkiOdDoPlAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1adb6e4fad2cbc4b7e6012771c2dbefe52" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkiPl</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a33499b135c1c056b49f43306c003167f" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkiPl</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a361981eceaec2dc4eebbeeee6a5f2082" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkiPlAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a3980484d473bc8fd5958ccf1b94c26da" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>sprawdzPrzesylkiPlAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1af7e075a2b9b82300d40d53a4ff8f8bbd" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>wersja</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a4628bf307089062e46b1b78f6d778aa6" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>wersja</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a7a0d5f10383bbb1a9044623de4ed61eb" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>wersjaAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a3fdae3fe4ef7c5330d8a1e2efc9b562f" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>wersjaAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a94cdde0190fc951bf0c61fe761378a87" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>witaj</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a334413ebc2492bf7e89c2d2e186bab30" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>witaj</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1aae314e94631d03b6e12eadf2957cae9a" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>witajAsync</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a5537d3991e047e7d139a1eb59c351f5c" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeClient</scope><name>witajAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::sprawdzPrzesylkePlResponse</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response_1a79a4f680d0859b45a592dfe745bc722f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka" kindref="compound">ASS2.ServiceReference1.Przesylka</ref></type>
+        <definition>ASS2.ServiceReference1.Przesylka ASS2.ServiceReference1.sprawdzPrzesylkePlResponse.return</definition>
+        <argsstring></argsstring>
+        <name>return</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1173" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1173" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response_1a4e7bee8f9b51c8ac35413670ff34ca8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.sprawdzPrzesylkePlResponse.sprawdzPrzesylkePlResponse</definition>
+        <argsstring>()</argsstring>
+        <name>sprawdzPrzesylkePlResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1175" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1175" bodyend="1176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response_1aa2bc3a7e57548a5229b8c5ef9029c8cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.sprawdzPrzesylkePlResponse.sprawdzPrzesylkePlResponse</definition>
+        <argsstring>(ASS2.ServiceReference1.Przesylka @return)</argsstring>
+        <name>sprawdzPrzesylkePlResponse</name>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka" kindref="compound">ASS2.ServiceReference1.Przesylka</ref> @</type>
+          <declname>return</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1178" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1178" bodyend="1180"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="343">
+        <label>ASS2</label>
+      </node>
+      <node id="342">
+        <label>ASS2.ServiceReference1.sprawdzPrzesylkePlResponse</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response"/>
+        <childnode refid="343" relation="usage">
+          <edgelabel>return</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1169" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1169" bodyend="1181"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response_1a79a4f680d0859b45a592dfe745bc722f" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::sprawdzPrzesylkePlResponse</scope><name>return</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response_1a4e7bee8f9b51c8ac35413670ff34ca8c" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::sprawdzPrzesylkePlResponse</scope><name>sprawdzPrzesylkePlResponse</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response_1aa2bc3a7e57548a5229b8c5ef9029c8cd" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::sprawdzPrzesylkePlResponse</scope><name>sprawdzPrzesylkePlResponse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_sensor_start_detection_type" kind="class" prot="public">
+    <compoundname>ASS2::SensorStartDetectionType</compoundname>
+    <innerclass refid="class_a_s_s2_1_1_sensor_start_detection_type_1_1_start_sensor_event_args" prot="public">ASS2::SensorStartDetectionType::StartSensorEventArgs</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_sensor_start_detection_type_1ae9cdd6c165f1674e6c0b29438ecc34be" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.SensorStartDetectionType.ignition</definition>
+        <argsstring></argsstring>
+        <name>ignition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_sensor_start_detection_type_1a6925011a65d2ede5c91cde76e6f3212e" compoundref="_sensor_start_detection_type_8cs" startline="12" endline="15">ASS2.SensorStartDetectionType.SensorStartDetectionType</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_sensor_start_detection_type_1a73b24c80cd8efcd1915976787feb0b80" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime ASS2.SensorStartDetectionType.TrueValue</definition>
+        <argsstring></argsstring>
+        <name>TrueValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="24" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_sensor_start_detection_type_1ac74d27ee2ac43004a1ab29beb8fc4db9" prot="private" static="no" mutable="no">
+        <type>DateTime</type>
+        <definition>DateTime ASS2.SensorStartDetectionType.falseValue</definition>
+        <argsstring></argsstring>
+        <name>falseValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="25" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_sensor_start_detection_type_1a9c82f32b30681cd55bdd13a27cadd17d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.SensorStartDetectionType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_sensor_start_detection_type_1aa9eccdcf83e8c451e7cfb59e8488f9eb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9" kindref="member">SensorType.SensorName</ref></type>
+        <definition>SensorType.SensorName ASS2.SensorStartDetectionType.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="19" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_sensor_start_detection_type_1a09dc8921a27b41af81d8081c129acc42" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.SensorStartDetectionType.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="20" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_sensor_start_detection_type_1a154ea5173f65e6fc2bac680940e3c209" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.SensorStartDetectionType.myVal</definition>
+        <argsstring></argsstring>
+        <name>myVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="21" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_sensor_start_detection_type_1a0110fa6397a87b76648d0cb6f317346e" compoundref="_sensor_start_detection_type_8cs" startline="61" endline="80">ASS2.SensorStartDetectionType.RaiseEvent</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_sensor_start_detection_type_1a0125981a438e7e5260f8e8b0bf4a49b5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.SensorStartDetectionType.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="29" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="30" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a3ba60bee38ac8a0fa8df8321525dfab2" compoundref="_machine_type_8cs" startline="510" endline="534">ASS2.MachineType.StartDetectionSensor_ValueChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_sensor_start_detection_type_1a73bae417fdcab30d050950f49e7290a9" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.SensorStartDetectionType.FeederIndex</definition>
+        <argsstring></argsstring>
+        <name>FeederIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="22" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_sensor_start_detection_type_1abe9390bc026e55ff235a7fbe0dd3f550" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusDriver.ModbusValueEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;ModbusDriver.ModbusValueEventArgs&gt; ASS2.SensorStartDetectionType.ValueChanged</definition>
+        <argsstring></argsstring>
+        <name>ValueChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="27" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_sensor_start_detection_type_1a0110fa6397a87b76648d0cb6f317346e" compoundref="_sensor_start_detection_type_8cs" startline="61" endline="80">ASS2.SensorStartDetectionType.RaiseEvent</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_a_s_s2_1_1_sensor_start_detection_type_1ae5f4baf47644d9b4ba371edea90d2818" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_a_s_s2_1_1_sensor_start_detection_type_1_1_start_sensor_event_args" kindref="compound">StartSensorEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;StartSensorEventArgs&gt; ASS2.SensorStartDetectionType.OnLenghtReaded</definition>
+        <argsstring></argsstring>
+        <name>OnLenghtReaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="28" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_sensor_start_detection_type_1a6925011a65d2ede5c91cde76e6f3212e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.SensorStartDetectionType.SensorStartDetectionType</definition>
+        <argsstring>()</argsstring>
+        <name>SensorStartDetectionType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="12" bodyend="15"/>
+        <references refid="class_a_s_s2_1_1_sensor_start_detection_type_1ae9cdd6c165f1674e6c0b29438ecc34be" compoundref="_sensor_start_detection_type_8cs" startline="11">ASS2.SensorStartDetectionType.ignition</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_sensor_start_detection_type_1a0110fa6397a87b76648d0cb6f317346e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.SensorStartDetectionType.RaiseEvent</definition>
+        <argsstring>(bool newval)</argsstring>
+        <name>RaiseEvent</name>
+        <param>
+          <type>bool</type>
+          <declname>newval</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="61" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="61" bodyend="80"/>
+        <references refid="class_a_s_s2_1_1_sensor_start_detection_type_1a154ea5173f65e6fc2bac680940e3c209" compoundref="_sensor_start_detection_type_8cs" startline="21">ASS2.SensorStartDetectionType.myVal</references>
+        <references refid="class_a_s_s2_1_1_sensor_start_detection_type_1abe9390bc026e55ff235a7fbe0dd3f550" compoundref="_sensor_start_detection_type_8cs" startline="27">ASS2.SensorStartDetectionType.ValueChanged</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="9" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a09dc8921a27b41af81d8081c129acc42" prot="public" virt="non-virtual"><scope>ASS2::SensorStartDetectionType</scope><name>Address</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1ac74d27ee2ac43004a1ab29beb8fc4db9" prot="private" virt="non-virtual"><scope>ASS2::SensorStartDetectionType</scope><name>falseValue</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a73bae417fdcab30d050950f49e7290a9" prot="public" virt="non-virtual"><scope>ASS2::SensorStartDetectionType</scope><name>FeederIndex</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a9c82f32b30681cd55bdd13a27cadd17d" prot="public" virt="non-virtual"><scope>ASS2::SensorStartDetectionType</scope><name>Id</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1ae9cdd6c165f1674e6c0b29438ecc34be" prot="private" virt="non-virtual"><scope>ASS2::SensorStartDetectionType</scope><name>ignition</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a154ea5173f65e6fc2bac680940e3c209" prot="private" virt="non-virtual"><scope>ASS2::SensorStartDetectionType</scope><name>myVal</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1aa9eccdcf83e8c451e7cfb59e8488f9eb" prot="public" virt="non-virtual"><scope>ASS2::SensorStartDetectionType</scope><name>Name</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1ae5f4baf47644d9b4ba371edea90d2818" prot="public" virt="non-virtual"><scope>ASS2::SensorStartDetectionType</scope><name>OnLenghtReaded</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a0110fa6397a87b76648d0cb6f317346e" prot="public" virt="non-virtual"><scope>ASS2::SensorStartDetectionType</scope><name>RaiseEvent</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a6925011a65d2ede5c91cde76e6f3212e" prot="public" virt="non-virtual"><scope>ASS2::SensorStartDetectionType</scope><name>SensorStartDetectionType</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a73b24c80cd8efcd1915976787feb0b80" prot="private" virt="non-virtual"><scope>ASS2::SensorStartDetectionType</scope><name>TrueValue</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a0125981a438e7e5260f8e8b0bf4a49b5" prot="public" virt="non-virtual"><scope>ASS2::SensorStartDetectionType</scope><name>Value</name></member>
+      <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1abe9390bc026e55ff235a7fbe0dd3f550" prot="public" virt="non-virtual"><scope>ASS2::SensorStartDetectionType</scope><name>ValueChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

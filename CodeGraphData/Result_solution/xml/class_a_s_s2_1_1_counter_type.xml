@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_counter_type" kind="class" prot="public">
+    <compoundname>ASS2::CounterType</compoundname>
+    <basecompoundref refid="class_a_s_s2_1_1_data_base_storage_helper" prot="public" virt="non-virtual">ASS2.DataBaseStorageHelper</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_counter_type_1a7e38c79e8ff7188b637f42e08cdb62fd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.CounterType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_counter_type_1a0a874c4968ebbe563b1bee8b159c2c6d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.CounterType.MachineId</definition>
+        <argsstring></argsstring>
+        <name>MachineId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_counter_type_1abcc3b8f65f3dc0ecb7e7c91d10d4f0f8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.CounterType.TactNumber</definition>
+        <argsstring></argsstring>
+        <name>TactNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_counter_type_1a16c3cd64491bada205745b7433f6659f" compoundref="_counter_type_8cs" startline="44" endline="74">ASS2.CounterType.AddTact</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form2_1a3aea60d113008eb7f87dd1ce739c322e" compoundref="_form2_8cs" startline="112" endline="146">ASS2_WF.Form2.button5_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form2_1a286974c039c5a52f543a16d758d7f8ea" compoundref="_form2_8cs" startline="35" endline="60">ASS2_WF.Form2.M_OnTacted</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_counter_type_1a5756522a16a11ba19353830ab0b48c7f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.CounterType.CircleNumber</definition>
+        <argsstring></argsstring>
+        <name>CircleNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_counter_type_1a16c3cd64491bada205745b7433f6659f" compoundref="_counter_type_8cs" startline="44" endline="74">ASS2.CounterType.AddTact</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a803fd8519daa106146c1e5193c9040b7" compoundref="_machine_type_8cs" startline="447" endline="464">ASS2.MachineType.Counter_OnNewCirle</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_counter_type_1afe32d96bdc0b3b76c6a1882d8b3f64a7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.CounterType.TactCountsAll</definition>
+        <argsstring></argsstring>
+        <name>TactCountsAll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_counter_type_1a16c3cd64491bada205745b7433f6659f" compoundref="_counter_type_8cs" startline="44" endline="74">ASS2.CounterType.AddTact</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_counter_type_1a38a28cc816514a94cf26e45e28c8c002" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler ASS2.CounterType.OnNewCirle</definition>
+        <argsstring></argsstring>
+        <name>OnNewCirle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" line="43" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_counter_type_1a16c3cd64491bada205745b7433f6659f" compoundref="_counter_type_8cs" startline="44" endline="74">ASS2.CounterType.AddTact</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_counter_type_1a0443b8a00bfed01fc9eb4bcdbe82c9cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.CounterType.CounterType</definition>
+        <argsstring>()</argsstring>
+        <name>CounterType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" line="17" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_counter_type_1aeb21baa3149ac7d998fc4748966cf475" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.CounterType.CounterType</definition>
+        <argsstring>(int machineid, int AllTactsCount)</argsstring>
+        <name>CounterType</name>
+        <param>
+          <type>int</type>
+          <declname>machineid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>AllTactsCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" bodystart="18" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_counter_type_1a16c3cd64491bada205745b7433f6659f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.CounterType.AddTact</definition>
+        <argsstring>()</argsstring>
+        <name>AddTact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" line="44" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" bodystart="44" bodyend="74"/>
+        <references refid="class_a_s_s2_1_1_counter_type_1a5756522a16a11ba19353830ab0b48c7f" compoundref="_counter_type_8cs" startline="14">ASS2.CounterType.CircleNumber</references>
+        <references refid="class_a_s_s2_1_1_counter_type_1a38a28cc816514a94cf26e45e28c8c002" compoundref="_counter_type_8cs" startline="43">ASS2.CounterType.OnNewCirle</references>
+        <references refid="class_a_s_s2_1_1_counter_type_1afe32d96bdc0b3b76c6a1882d8b3f64a7" compoundref="_counter_type_8cs" startline="16">ASS2.CounterType.TactCountsAll</references>
+        <references refid="class_a_s_s2_1_1_counter_type_1abcc3b8f65f3dc0ecb7e7c91d10d4f0f8" compoundref="_counter_type_8cs" startline="13">ASS2.CounterType.TactNumber</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="24">
+        <label>ASS2.CounterType</label>
+        <link refid="class_a_s_s2_1_1_counter_type"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="26">
+        <label>ASS2.CounterType</label>
+        <link refid="class_a_s_s2_1_1_counter_type"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/CounterType.cs" bodystart="9" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_counter_type_1a16c3cd64491bada205745b7433f6659f" prot="public" virt="non-virtual"><scope>ASS2::CounterType</scope><name>AddTact</name></member>
+      <member refid="class_a_s_s2_1_1_counter_type_1a5756522a16a11ba19353830ab0b48c7f" prot="public" virt="non-virtual"><scope>ASS2::CounterType</scope><name>CircleNumber</name></member>
+      <member refid="class_a_s_s2_1_1_counter_type_1a0443b8a00bfed01fc9eb4bcdbe82c9cf" prot="public" virt="non-virtual"><scope>ASS2::CounterType</scope><name>CounterType</name></member>
+      <member refid="class_a_s_s2_1_1_counter_type_1aeb21baa3149ac7d998fc4748966cf475" prot="public" virt="non-virtual"><scope>ASS2::CounterType</scope><name>CounterType</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a24cadf21177fee7a33e2060a1034d067" prot="public" virt="non-virtual"><scope>ASS2::CounterType</scope><name>CreateTable</name></member>
+      <member refid="class_a_s_s2_1_1_counter_type_1a7e38c79e8ff7188b637f42e08cdb62fd" prot="public" virt="non-virtual"><scope>ASS2::CounterType</scope><name>Id</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a53c274faca217ed300cfa46c4f465b50" prot="public" virt="non-virtual"><scope>ASS2::CounterType</scope><name>Load&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ae190bdcee51591d2a705490ccdffe940" prot="public" virt="non-virtual"><scope>ASS2::CounterType</scope><name>LoadAll&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ab0a3f846534fe15e795ff95fc0e73ade" prot="public" virt="non-virtual"><scope>ASS2::CounterType</scope><name>LoadWhere&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_counter_type_1a0a874c4968ebbe563b1bee8b159c2c6d" prot="public" virt="non-virtual"><scope>ASS2::CounterType</scope><name>MachineId</name></member>
+      <member refid="class_a_s_s2_1_1_counter_type_1a38a28cc816514a94cf26e45e28c8c002" prot="public" virt="non-virtual"><scope>ASS2::CounterType</scope><name>OnNewCirle</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a483e584dcfb0eaa9f6a6da3b4e8b3f1f" prot="public" virt="non-virtual"><scope>ASS2::CounterType</scope><name>Save</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a1751417872a03695c3547e418d9ae301" prot="public" virt="non-virtual"><scope>ASS2::CounterType</scope><name>SaveAsync</name></member>
+      <member refid="class_a_s_s2_1_1_counter_type_1afe32d96bdc0b3b76c6a1882d8b3f64a7" prot="private" virt="non-virtual"><scope>ASS2::CounterType</scope><name>TactCountsAll</name></member>
+      <member refid="class_a_s_s2_1_1_counter_type_1abcc3b8f65f3dc0ecb7e7c91d10d4f0f8" prot="public" virt="non-virtual"><scope>ASS2::CounterType</scope><name>TactNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

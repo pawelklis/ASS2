@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_w_e_b_1_1stands" kind="class" prot="public">
+    <compoundname>ASS2WEB::stands</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Page</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_w_e_b_1_1stands_1ad4987e4d412b9d0762e89519dcfccebd" prot="protected" static="no" mutable="no">
+        <type>global::System.Web.UI.HtmlControls.HtmlForm</type>
+        <definition>global::System.Web.UI.HtmlControls.HtmlForm ASS2WEB.stands.form1</definition>
+        <argsstring></argsstring>
+        <name>form1</name>
+        <briefdescription>
+<para>form1 control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated field. To modify move field declaration from designer file to code-behind file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.designer.cs" line="24" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.designer.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_w_e_b_1_1stands_1a3424ad85f06a55caa0e087f1cecfb507" prot="protected" static="no" mutable="no">
+        <type>global::System.Web.UI.WebControls.Button</type>
+        <definition>global::System.Web.UI.WebControls.Button ASS2WEB.stands.dg1save</definition>
+        <argsstring></argsstring>
+        <name>dg1save</name>
+        <briefdescription>
+<para>dg1save control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated field. To modify move field declaration from designer file to code-behind file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.designer.cs" line="33" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.designer.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_w_e_b_1_1stands_1afae2caf85d0c97a6b35ec2a5e52cd320" prot="protected" static="no" mutable="no">
+        <type>global::System.Web.UI.WebControls.GridView</type>
+        <definition>global::System.Web.UI.WebControls.GridView ASS2WEB.stands.dg1</definition>
+        <argsstring></argsstring>
+        <name>dg1</name>
+        <briefdescription>
+<para>dg1 control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated field. To modify move field declaration from designer file to code-behind file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.designer.cs" line="42" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.designer.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1a8c81b07611f84b62a8ce0a130c317b72" compoundref="stands_8aspx_8cs" startline="113" endline="130">ASS2WEB.stands.Savedg1</referencedby>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1a0fe3e45ec1af27c28bc7a7ebb15ceab5" compoundref="stands_8aspx_8cs" startline="50" endline="54">ASS2WEB.stands.selectedStand</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_w_e_b_1_1stands_1a798673067d45cbba5a5a6a4075dff4bb" prot="protected" static="no" mutable="no">
+        <type>global::System.Web.UI.WebControls.Button</type>
+        <definition>global::System.Web.UI.WebControls.Button ASS2WEB.stands.dg2save</definition>
+        <argsstring></argsstring>
+        <name>dg2save</name>
+        <briefdescription>
+<para>dg2save control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated field. To modify move field declaration from designer file to code-behind file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.designer.cs" line="51" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.designer.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_w_e_b_1_1stands_1a411c6604d8c467f4d2b251318f127530" prot="protected" static="no" mutable="no">
+        <type>global::System.Web.UI.WebControls.GridView</type>
+        <definition>global::System.Web.UI.WebControls.GridView ASS2WEB.stands.dg2</definition>
+        <argsstring></argsstring>
+        <name>dg2</name>
+        <briefdescription>
+<para>dg2 control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated field. To modify move field declaration from designer file to code-behind file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.designer.cs" line="60" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.designer.cs" bodystart="60" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1a331286ca915bb2b0fd59b8d90bf34294" compoundref="stands_8aspx_8cs" startline="139" endline="158">ASS2WEB.stands.savedg2</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1stands_1aeafa7f27876f713095d7454d05b267cf" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.stands.Page_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Page_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" bodystart="14" bodyend="20"/>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1acc29bffeac6de63a030f13b7e4f81ac1" compoundref="stands_8aspx_8cs" startline="28" endline="48">ASS2WEB.stands.BindDG1</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1stands_1a6a0edf401bac4efa7e5e11e81cb2c5e6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.stands.dg1_RowCommand</definition>
+        <argsstring>(object sender, GridViewCommandEventArgs e)</argsstring>
+        <name>dg1_RowCommand</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>GridViewCommandEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" line="89" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" bodystart="89" bodyend="99"/>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1a4a0783994f92032319198c412fab2300" compoundref="stands_8aspx_8cs" startline="55" endline="88">ASS2WEB.stands.Binddg2</references>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1a8c81b07611f84b62a8ce0a130c317b72" compoundref="stands_8aspx_8cs" startline="113" endline="130">ASS2WEB.stands.Savedg1</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1stands_1abbc524ced534666c36ee7c4e53088e73" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.stands.dg2_RowCommand</definition>
+        <argsstring>(object sender, GridViewCommandEventArgs e)</argsstring>
+        <name>dg2_RowCommand</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>GridViewCommandEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" line="101" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" bodystart="101" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1stands_1ad684f2e77bc3646ec52a6dc65486c681" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.stands.dg1save_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>dg1save_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" line="108" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" bodystart="108" bodyend="111"/>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1a8c81b07611f84b62a8ce0a130c317b72" compoundref="stands_8aspx_8cs" startline="113" endline="130">ASS2WEB.stands.Savedg1</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1stands_1a829089bde1620cc9deea5ab7457dbe5c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.stands.dg2save_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>dg2save_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" line="134" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" bodystart="134" bodyend="137"/>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1a331286ca915bb2b0fd59b8d90bf34294" compoundref="stands_8aspx_8cs" startline="139" endline="158">ASS2WEB.stands.savedg2</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1stands_1a8eb5a522ea10ce56b70caf26e0b1b03f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.stands.dg2_RowDataBound</definition>
+        <argsstring>(object sender, GridViewRowEventArgs e)</argsstring>
+        <name>dg2_RowDataBound</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>GridViewRowEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" line="160" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" bodystart="160" bodyend="195"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1stands_1ae0ea2f9233d1084fb4ef368d093b2675" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_dict_type" kindref="compound">DictType</ref></type>
+        <definition>DictType ASS2WEB.stands.GetDict</definition>
+        <argsstring>()</argsstring>
+        <name>GetDict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" line="22" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" bodystart="22" bodyend="27"/>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1acc29bffeac6de63a030f13b7e4f81ac1" compoundref="stands_8aspx_8cs" startline="28" endline="48">ASS2WEB.stands.BindDG1</referencedby>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1a8c81b07611f84b62a8ce0a130c317b72" compoundref="stands_8aspx_8cs" startline="113" endline="130">ASS2WEB.stands.Savedg1</referencedby>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1a331286ca915bb2b0fd59b8d90bf34294" compoundref="stands_8aspx_8cs" startline="139" endline="158">ASS2WEB.stands.savedg2</referencedby>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1a0fe3e45ec1af27c28bc7a7ebb15ceab5" compoundref="stands_8aspx_8cs" startline="50" endline="54">ASS2WEB.stands.selectedStand</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1stands_1acc29bffeac6de63a030f13b7e4f81ac1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.stands.BindDG1</definition>
+        <argsstring>()</argsstring>
+        <name>BindDG1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" line="28" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" bodystart="28" bodyend="48"/>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1ae0ea2f9233d1084fb4ef368d093b2675" compoundref="stands_8aspx_8cs" startline="22" endline="27">ASS2WEB.stands.GetDict</references>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1aeafa7f27876f713095d7454d05b267cf" compoundref="stands_8aspx_8cs" startline="14" endline="20">ASS2WEB.stands.Page_Load</referencedby>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1a8c81b07611f84b62a8ce0a130c317b72" compoundref="stands_8aspx_8cs" startline="113" endline="130">ASS2WEB.stands.Savedg1</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1stands_1a0fe3e45ec1af27c28bc7a7ebb15ceab5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_stand_type" kindref="compound">StandType</ref></type>
+        <definition>StandType ASS2WEB.stands.selectedStand</definition>
+        <argsstring>()</argsstring>
+        <name>selectedStand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" line="50" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" bodystart="50" bodyend="54"/>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1afae2caf85d0c97a6b35ec2a5e52cd320" compoundref="stands_8aspx_8designer_8cs" startline="42">ASS2WEB.stands.dg1</references>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1ae0ea2f9233d1084fb4ef368d093b2675" compoundref="stands_8aspx_8cs" startline="22" endline="27">ASS2WEB.stands.GetDict</references>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1a4a0783994f92032319198c412fab2300" compoundref="stands_8aspx_8cs" startline="55" endline="88">ASS2WEB.stands.Binddg2</referencedby>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1a331286ca915bb2b0fd59b8d90bf34294" compoundref="stands_8aspx_8cs" startline="139" endline="158">ASS2WEB.stands.savedg2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1stands_1a4a0783994f92032319198c412fab2300" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.stands.Binddg2</definition>
+        <argsstring>()</argsstring>
+        <name>Binddg2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" line="55" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" bodystart="55" bodyend="88"/>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1a0fe3e45ec1af27c28bc7a7ebb15ceab5" compoundref="stands_8aspx_8cs" startline="50" endline="54">ASS2WEB.stands.selectedStand</references>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1a6a0edf401bac4efa7e5e11e81cb2c5e6" compoundref="stands_8aspx_8cs" startline="89" endline="99">ASS2WEB.stands.dg1_RowCommand</referencedby>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1a331286ca915bb2b0fd59b8d90bf34294" compoundref="stands_8aspx_8cs" startline="139" endline="158">ASS2WEB.stands.savedg2</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1stands_1a8c81b07611f84b62a8ce0a130c317b72" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.stands.Savedg1</definition>
+        <argsstring>()</argsstring>
+        <name>Savedg1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" line="113" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" bodystart="113" bodyend="130"/>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1acc29bffeac6de63a030f13b7e4f81ac1" compoundref="stands_8aspx_8cs" startline="28" endline="48">ASS2WEB.stands.BindDG1</references>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1afae2caf85d0c97a6b35ec2a5e52cd320" compoundref="stands_8aspx_8designer_8cs" startline="42">ASS2WEB.stands.dg1</references>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1ae0ea2f9233d1084fb4ef368d093b2675" compoundref="stands_8aspx_8cs" startline="22" endline="27">ASS2WEB.stands.GetDict</references>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1a6a0edf401bac4efa7e5e11e81cb2c5e6" compoundref="stands_8aspx_8cs" startline="89" endline="99">ASS2WEB.stands.dg1_RowCommand</referencedby>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1ad684f2e77bc3646ec52a6dc65486c681" compoundref="stands_8aspx_8cs" startline="108" endline="111">ASS2WEB.stands.dg1save_Click</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1stands_1a331286ca915bb2b0fd59b8d90bf34294" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.stands.savedg2</definition>
+        <argsstring>()</argsstring>
+        <name>savedg2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" line="139" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" bodystart="139" bodyend="158"/>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1a4a0783994f92032319198c412fab2300" compoundref="stands_8aspx_8cs" startline="55" endline="88">ASS2WEB.stands.Binddg2</references>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1a411c6604d8c467f4d2b251318f127530" compoundref="stands_8aspx_8designer_8cs" startline="60">ASS2WEB.stands.dg2</references>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1ae0ea2f9233d1084fb4ef368d093b2675" compoundref="stands_8aspx_8cs" startline="22" endline="27">ASS2WEB.stands.GetDict</references>
+        <references refid="class_a_s_s2_w_e_b_1_1stands_1a0fe3e45ec1af27c28bc7a7ebb15ceab5" compoundref="stands_8aspx_8cs" startline="50" endline="54">ASS2WEB.stands.selectedStand</references>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1stands_1a829089bde1620cc9deea5ab7457dbe5c" compoundref="stands_8aspx_8cs" startline="134" endline="137">ASS2WEB.stands.dg2save_Click</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="222">
+        <label>System::Web::UI::Page</label>
+      </node>
+      <node id="221">
+        <label>ASS2WEB.stands</label>
+        <link refid="class_a_s_s2_w_e_b_1_1stands"/>
+        <childnode refid="222" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="224">
+        <label>System::Web::UI::Page</label>
+      </node>
+      <node id="223">
+        <label>ASS2WEB.stands</label>
+        <link refid="class_a_s_s2_w_e_b_1_1stands"/>
+        <childnode refid="224" relation="public-inheritance">
+        </childnode>
+        <childnode refid="225" relation="usage">
+          <edgelabel>dg1save</edgelabel>
+          <edgelabel>dg2save</edgelabel>
+          <edgelabel>form1</edgelabel>
+          <edgelabel>dg1</edgelabel>
+          <edgelabel>dg2</edgelabel>
+        </childnode>
+      </node>
+      <node id="225">
+        <label>Web</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/stands.aspx.cs" bodystart="12" bodyend="196"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1acc29bffeac6de63a030f13b7e4f81ac1" prot="private" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>BindDG1</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1a4a0783994f92032319198c412fab2300" prot="private" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>Binddg2</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1afae2caf85d0c97a6b35ec2a5e52cd320" prot="protected" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>dg1</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1a6a0edf401bac4efa7e5e11e81cb2c5e6" prot="protected" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>dg1_RowCommand</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1a3424ad85f06a55caa0e087f1cecfb507" prot="protected" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>dg1save</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1ad684f2e77bc3646ec52a6dc65486c681" prot="protected" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>dg1save_Click</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1a411c6604d8c467f4d2b251318f127530" prot="protected" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>dg2</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1abbc524ced534666c36ee7c4e53088e73" prot="protected" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>dg2_RowCommand</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1a8eb5a522ea10ce56b70caf26e0b1b03f" prot="protected" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>dg2_RowDataBound</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1a798673067d45cbba5a5a6a4075dff4bb" prot="protected" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>dg2save</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1a829089bde1620cc9deea5ab7457dbe5c" prot="protected" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>dg2save_Click</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1ad4987e4d412b9d0762e89519dcfccebd" prot="protected" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>form1</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1ae0ea2f9233d1084fb4ef368d093b2675" prot="private" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>GetDict</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1aeafa7f27876f713095d7454d05b267cf" prot="protected" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>Page_Load</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1a8c81b07611f84b62a8ce0a130c317b72" prot="private" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>Savedg1</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1a331286ca915bb2b0fd59b8d90bf34294" prot="private" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>savedg2</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1stands_1a0fe3e45ec1af27c28bc7a7ebb15ceab5" prot="private" virt="non-virtual"><scope>ASS2WEB::stands</scope><name>selectedStand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_w_s_r_type" kind="class" prot="public">
+    <compoundname>ASS2::WSRType</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_w_s_r_type_1a897f1fe7ab966f5dadee7f26d2851e56" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.WSRType.WSR</definition>
+        <argsstring></argsstring>
+        <name>WSR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/WSRType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/WSRType.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/WSRType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/WSRType.cs" bodystart="9" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_w_s_r_type_1a897f1fe7ab966f5dadee7f26d2851e56" prot="public" virt="non-virtual"><scope>ASS2::WSRType</scope><name>WSR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

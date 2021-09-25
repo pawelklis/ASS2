@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::GodzinyZUwagami</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1a5b240840b411e222966c4706e8411e65" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.GodzinyZUwagami.godzinyField</definition>
+        <argsstring></argsstring>
+        <name>godzinyField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1073" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1073" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1a0177e2b9248c1d55c42ee40854df4639" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.GodzinyZUwagami.uwagiField</definition>
+        <argsstring></argsstring>
+        <name>uwagiField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1075" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1075" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1a0bb482b53f566dda70b666c8af11d901" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.GodzinyZUwagami.godziny</definition>
+        <argsstring></argsstring>
+        <name>godziny</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1079" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1079" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1a47e806edd0c8b7667a58027605e9ff99" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.GodzinyZUwagami.uwagi</definition>
+        <argsstring></argsstring>
+        <name>uwagi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1091" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1091" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1a54c973395c2540f42340bf97149ddb7c" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>System.ComponentModel.PropertyChangedEventHandler</type>
+        <definition>System.ComponentModel.PropertyChangedEventHandler ASS2.ServiceReference1.GodzinyZUwagami.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1101" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1101" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1afaf23e632cba223b21437ab75d0801ef" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ServiceReference1.GodzinyZUwagami.RaisePropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>RaisePropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1103" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1103" bodyend="1108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="71">
+        <label>object</label>
+      </node>
+      <node id="70">
+        <label>ASS2.ServiceReference1.GodzinyZUwagami</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami"/>
+        <childnode refid="71" relation="public-inheritance">
+        </childnode>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="74">
+        <label>object</label>
+      </node>
+      <node id="73">
+        <label>ASS2.ServiceReference1.GodzinyZUwagami</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+        <childnode refid="75" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1071" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1071" bodyend="1109"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1a0bb482b53f566dda70b666c8af11d901" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::GodzinyZUwagami</scope><name>godziny</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1a5b240840b411e222966c4706e8411e65" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::GodzinyZUwagami</scope><name>godzinyField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1a54c973395c2540f42340bf97149ddb7c" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::GodzinyZUwagami</scope><name>PropertyChanged</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1afaf23e632cba223b21437ab75d0801ef" prot="protected" virt="non-virtual"><scope>ASS2::ServiceReference1::GodzinyZUwagami</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1a47e806edd0c8b7667a58027605e9ff99" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::GodzinyZUwagami</scope><name>uwagi</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1a0177e2b9248c1d55c42ee40854df4639" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::GodzinyZUwagami</scope><name>uwagiField</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1_procedura" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::Procedura</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_procedura_1af3cc87bb19e650233f6d7b0bd1fcc92a" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Procedura.kodField</definition>
+        <argsstring></argsstring>
+        <name>kodField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="540" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="540" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_procedura_1a0de8bcedd7f164bb9e260056009bbe5e" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Procedura.kopertaFirmowaField</definition>
+        <argsstring></argsstring>
+        <name>kopertaFirmowaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="542" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="542" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_procedura_1a8aa3ead73c4f5c1cdc160a23ede268ce" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Procedura.nazwaField</definition>
+        <argsstring></argsstring>
+        <name>nazwaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="544" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="544" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_procedura_1adc8bdfc3337cbfefc26f915953c4c026" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana" kindref="compound">PrzesylkaPowiazana</ref>[]</type>
+        <definition>PrzesylkaPowiazana [] ASS2.ServiceReference1.Procedura.przesylkiPowiazaneField</definition>
+        <argsstring></argsstring>
+        <name>przesylkiPowiazaneField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="546" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="546" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_procedura_1ac172982c593f5bfaca50a4197481c542" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Procedura.kod</definition>
+        <argsstring></argsstring>
+        <name>kod</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="550" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="550" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_procedura_1a6d698d7d33beae8cbf1563e09a45e37d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Procedura.kopertaFirmowa</definition>
+        <argsstring></argsstring>
+        <name>kopertaFirmowa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="562" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="562" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_procedura_1a24f913abde2abe42abc5ef171ec31a2e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Procedura.nazwa</definition>
+        <argsstring></argsstring>
+        <name>nazwa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="574" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="574" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_procedura_1ade697bd4fd51b5f13c0b58ff6d31badc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana" kindref="compound">PrzesylkaPowiazana</ref>[]</type>
+        <definition>PrzesylkaPowiazana [] ASS2.ServiceReference1.Procedura.przesylkiPowiazane</definition>
+        <argsstring></argsstring>
+        <name>przesylkiPowiazane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="587" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="587" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_service_reference1_1_1_procedura_1a4366a6e05ad87319cf3cba79eb74990c" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>System.ComponentModel.PropertyChangedEventHandler</type>
+        <definition>System.ComponentModel.PropertyChangedEventHandler ASS2.ServiceReference1.Procedura.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="597" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="597" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_procedura_1afcf0d4d69c9bb8345d22490d74d37dd0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ServiceReference1.Procedura.RaisePropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>RaisePropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="599" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="599" bodyend="604"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="209">
+        <label>ASS2.ServiceReference1.Procedura</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_procedura"/>
+        <childnode refid="210" relation="public-inheritance">
+        </childnode>
+        <childnode refid="211" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="210">
+        <label>object</label>
+      </node>
+      <node id="211">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="215">
+        <label>ASS2.ServiceReference1.PrzesylkaPowiazana</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana"/>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+        <childnode refid="214" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="212">
+        <label>ASS2.ServiceReference1.Procedura</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_procedura"/>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+        <childnode refid="214" relation="public-inheritance">
+        </childnode>
+        <childnode refid="215" relation="usage">
+          <edgelabel>przesylkiPowiazaneField</edgelabel>
+        </childnode>
+      </node>
+      <node id="213">
+        <label>object</label>
+      </node>
+      <node id="214">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="538" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="538" bodyend="605"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1ac172982c593f5bfaca50a4197481c542" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Procedura</scope><name>kod</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1af3cc87bb19e650233f6d7b0bd1fcc92a" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Procedura</scope><name>kodField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1a6d698d7d33beae8cbf1563e09a45e37d" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Procedura</scope><name>kopertaFirmowa</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1a0de8bcedd7f164bb9e260056009bbe5e" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Procedura</scope><name>kopertaFirmowaField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1a24f913abde2abe42abc5ef171ec31a2e" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Procedura</scope><name>nazwa</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1a8aa3ead73c4f5c1cdc160a23ede268ce" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Procedura</scope><name>nazwaField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1a4366a6e05ad87319cf3cba79eb74990c" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Procedura</scope><name>PropertyChanged</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1ade697bd4fd51b5f13c0b58ff6d31badc" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Procedura</scope><name>przesylkiPowiazane</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1adc8bdfc3337cbfefc26f915953c4c026" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Procedura</scope><name>przesylkiPowiazaneField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1afcf0d4d69c9bb8345d22490d74d37dd0" prot="protected" virt="non-virtual"><scope>ASS2::ServiceReference1::Procedura</scope><name>RaisePropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

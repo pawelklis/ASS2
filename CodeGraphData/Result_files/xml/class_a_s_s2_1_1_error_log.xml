@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_error_log" kind="class" prot="public">
+    <compoundname>ASS2::ErrorLog</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_error_log_1aa7a6812f5bb6ca2f792d2a60872a05d9" prot="private" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ErrorLog.logPath</definition>
+        <argsstring></argsstring>
+        <name>logPath</name>
+        <initializer>= @&quot;C:\ASS2\logs\&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/ErrorLog.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/ErrorLog.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_error_log_1a5a4b418098a29baebbae47a58a3c444c" compoundref="_error_log_8cs" startline="12" endline="29">ASS2.ErrorLog.SaveError</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_error_log_1a5a4b418098a29baebbae47a58a3c444c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ASS2.ErrorLog.SaveError</definition>
+        <argsstring>(Exception ex)</argsstring>
+        <name>SaveError</name>
+        <param>
+          <type>Exception</type>
+          <declname>ex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/ErrorLog.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/ErrorLog.cs" bodystart="12" bodyend="29"/>
+        <references refid="class_a_s_s2_1_1_error_log_1aa7a6812f5bb6ca2f792d2a60872a05d9" compoundref="_error_log_8cs" startline="11">ASS2.ErrorLog.logPath</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/ErrorLog.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/ErrorLog.cs" bodystart="9" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_error_log_1aa7a6812f5bb6ca2f792d2a60872a05d9" prot="private" virt="non-virtual"><scope>ASS2::ErrorLog</scope><name>logPath</name></member>
+      <member refid="class_a_s_s2_1_1_error_log_1a5a4b418098a29baebbae47a58a3c444c" prot="public" virt="non-virtual"><scope>ASS2::ErrorLog</scope><name>SaveError</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

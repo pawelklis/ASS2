@@ -1,0 +1,1350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mysql_core" kind="class" prot="public">
+    <compoundname>MysqlCore</compoundname>
+    <innerclass refid="class_mysql_core_1_1_parameters" prot="public">MysqlCore::Parameters</innerclass>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_mysql_core_1ac836087eaae4d789294d3d2097bda216" prot="public" static="yes" mutable="no">
+        <type>EventHandler</type>
+        <definition>EventHandler MysqlCore.OnConnection</definition>
+        <argsstring></argsstring>
+        <name>OnConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="531" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="531" bodyend="-1"/>
+        <referencedby refid="class_mysql_core_1a64f8dd0e616560c009b933b8500d93a5" compoundref="_mysql_core_8cs" startline="64" endline="77">DB_Main</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_mysql_core_1abbd35fbd9b3a4bd07edbbed7f604d8b2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int MysqlCore.OperationCount</definition>
+        <argsstring></argsstring>
+        <name>OperationCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="533" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="533" bodyend="-1"/>
+        <referencedby refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1a3abd33c64c4a86f5cee5330742d3bccd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string MysqlCore.ConnectionStr</definition>
+        <argsstring></argsstring>
+        <name>ConnectionStr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="564" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="564" bodyend="-1"/>
+        <referencedby refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</referencedby>
+        <referencedby refid="class_mysql_core_1a3cff2bbcf2e0fd36e9185db850a8d4f3" compoundref="_mysql_core_8cs" startline="631" endline="649">ConnectionTest</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1a36995559c72ba2344721a36f1053a878" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Dictionary&lt; DateTime, string &gt;</type>
+        <definition>Dictionary&lt;DateTime, string&gt; MysqlCore.ErrorHistory</definition>
+        <argsstring></argsstring>
+        <name>ErrorHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="565" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="565" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1a2663853a4ffb0f743c9e9995393b56cb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Dictionary&lt; DateTime, string &gt;</type>
+        <definition>Dictionary&lt;DateTime, string&gt; MysqlCore.EventHistory</definition>
+        <argsstring></argsstring>
+        <name>EventHistory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="566" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="566" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1a3bac3a44f9d072fd25e5883b00a709e1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MysqlCore.LastError</definition>
+        <argsstring></argsstring>
+        <name>LastError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="567" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="567" bodyend="-1"/>
+        <referencedby refid="class_mysql_core_1aadf58bad01b6334deef23a625df7618b" compoundref="_mysql_core_8cs" startline="1073" endline="1149">InsertList</referencedby>
+        <referencedby refid="class_mysql_core_1a6fcafc6ca2235bc907a269c845b028a8" compoundref="_mysql_core_8cs" startline="1236" endline="1286">UpdateList</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MySqlConnection</type>
+        <definition>MySqlConnection MysqlCore.con</definition>
+        <argsstring></argsstring>
+        <name>con</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="589" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="589" bodyend="-1"/>
+        <referencedby refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</referencedby>
+        <referencedby refid="class_mysql_core_1ab9426013433a5298de29c0c4d1bb90f7" compoundref="_mysql_core_8cs" startline="870" endline="893">FillDatatable</referencedby>
+        <referencedby refid="class_mysql_core_1af0a4585f80223dcd1e7f4ceeb5fd1d6e" compoundref="_mysql_core_8cs" startline="1387" endline="1440">GetObject&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1a7fa6d7e86a7a4378290659ff2919d53f" compoundref="_mysql_core_8cs" startline="688" endline="808">GetSingleObject&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1acc95e61e597b023f73acc4886b0e35bf" compoundref="_mysql_core_8cs" startline="932" endline="973">Insert</referencedby>
+        <referencedby refid="class_mysql_core_1aadf58bad01b6334deef23a625df7618b" compoundref="_mysql_core_8cs" startline="1073" endline="1149">InsertList</referencedby>
+        <referencedby refid="class_mysql_core_1a397f880ba8be38dc3bcf3430e451b106" compoundref="_mysql_core_8cs" startline="467" endline="529">NewGetObjects&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1af3cdef7ebe9bb61632c353061a253097" compoundref="_mysql_core_8cs" startline="400" endline="464">NewGetSingleObject&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1a81efc82fd0deb596971dd909aa69d5c0" compoundref="_mysql_core_8cs" startline="1020" endline="1064">NewInsertList&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1a04debdf607695292738751728eb81d37" compoundref="_mysql_core_8cs" startline="974" endline="1018">NewUpdateList&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1a66b8a282647e95481fca12b2abf0034b" compoundref="_mysql_core_8cs" startline="1199" endline="1229">Update</referencedby>
+        <referencedby refid="class_mysql_core_1a6fcafc6ca2235bc907a269c845b028a8" compoundref="_mysql_core_8cs" startline="1236" endline="1286">UpdateList</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MySqlCommand</type>
+        <definition>MySqlCommand MysqlCore.com</definition>
+        <argsstring></argsstring>
+        <name>com</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="590" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="590" bodyend="-1"/>
+        <referencedby refid="class_mysql_core_1afcb27f03be6886180a2fc4a15f2b8e93" compoundref="_mysql_core_8cs" startline="810" endline="839">ExecuteNonQuery</referencedby>
+        <referencedby refid="class_mysql_core_1ad62e11d7a1b35bb76c39197b3164ff35" compoundref="_mysql_core_8cs" startline="840" endline="869">ExecuteScalar</referencedby>
+        <referencedby refid="class_mysql_core_1ab9426013433a5298de29c0c4d1bb90f7" compoundref="_mysql_core_8cs" startline="870" endline="893">FillDatatable</referencedby>
+        <referencedby refid="class_mysql_core_1abf874c10393d5b7ef9727838987c4eac" compoundref="_mysql_core_8cs" startline="1331" endline="1353">GetByte</referencedby>
+        <referencedby refid="class_mysql_core_1ab1dde606027c6bac85a73d81e91828e2" compoundref="_mysql_core_8cs" startline="1359" endline="1378">GetCount</referencedby>
+        <referencedby refid="class_mysql_core_1af0a4585f80223dcd1e7f4ceeb5fd1d6e" compoundref="_mysql_core_8cs" startline="1387" endline="1440">GetObject&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1a7fa6d7e86a7a4378290659ff2919d53f" compoundref="_mysql_core_8cs" startline="688" endline="808">GetSingleObject&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1a55907dad91180dba69bafa3543f8745e" compoundref="_mysql_core_8cs" startline="1292" endline="1325">GetString</referencedby>
+        <referencedby refid="class_mysql_core_1acc95e61e597b023f73acc4886b0e35bf" compoundref="_mysql_core_8cs" startline="932" endline="973">Insert</referencedby>
+        <referencedby refid="class_mysql_core_1aadf58bad01b6334deef23a625df7618b" compoundref="_mysql_core_8cs" startline="1073" endline="1149">InsertList</referencedby>
+        <referencedby refid="class_mysql_core_1a397f880ba8be38dc3bcf3430e451b106" compoundref="_mysql_core_8cs" startline="467" endline="529">NewGetObjects&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1af3cdef7ebe9bb61632c353061a253097" compoundref="_mysql_core_8cs" startline="400" endline="464">NewGetSingleObject&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1a66b8a282647e95481fca12b2abf0034b" compoundref="_mysql_core_8cs" startline="1199" endline="1229">Update</referencedby>
+        <referencedby refid="class_mysql_core_1a6fcafc6ca2235bc907a269c845b028a8" compoundref="_mysql_core_8cs" startline="1236" endline="1286">UpdateList</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1a54c0fbc2afca9fd5a0196f51f32ff16e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MySqlDataAdapter</type>
+        <definition>MySqlDataAdapter MysqlCore.adpt</definition>
+        <argsstring></argsstring>
+        <name>adpt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="591" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="591" bodyend="-1"/>
+        <referencedby refid="class_mysql_core_1ab9426013433a5298de29c0c4d1bb90f7" compoundref="_mysql_core_8cs" startline="870" endline="893">FillDatatable</referencedby>
+        <referencedby refid="class_mysql_core_1af0a4585f80223dcd1e7f4ceeb5fd1d6e" compoundref="_mysql_core_8cs" startline="1387" endline="1440">GetObject&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1a7fa6d7e86a7a4378290659ff2919d53f" compoundref="_mysql_core_8cs" startline="688" endline="808">GetSingleObject&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1a397f880ba8be38dc3bcf3430e451b106" compoundref="_mysql_core_8cs" startline="467" endline="529">NewGetObjects&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1af3cdef7ebe9bb61632c353061a253097" compoundref="_mysql_core_8cs" startline="400" endline="464">NewGetSingleObject&lt; T &gt;</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_mysql_core_1ab349b9113f90c0753af4770d63265880" prot="public" static="no" mutable="no">
+        <type>readonly <ref refid="class_mysql_core_1_1_parameters" kindref="compound">Parameters</ref></type>
+        <definition>readonly Parameters MysqlCore.ConParameters</definition>
+        <argsstring></argsstring>
+        <name>ConParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="569" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="569" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_mysql_core_1a64f8dd0e616560c009b933b8500d93a5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_mysql_core" kindref="compound">MysqlCore</ref></type>
+        <definition>static MysqlCore MysqlCore.DB_Main</definition>
+        <argsstring>()</argsstring>
+        <name>DB_Main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="64" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="64" bodyend="77"/>
+        <references refid="class_mysql_core_1ab8978c2dfa8cf47b4a5df123ecb0f761" compoundref="_mysql_core_8cs" startline="596" endline="626">MysqlCore</references>
+        <references refid="class_mysql_core_1ac836087eaae4d789294d3d2097bda216" compoundref="_mysql_core_8cs" startline="531">OnConnection</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1adb402d523304e4beebe44761580b691f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void MysqlCore.KillSleepConnections</definition>
+        <argsstring>(MysqlCore m, int timeout)</argsstring>
+        <name>KillSleepConnections</name>
+        <param>
+          <type><ref refid="class_mysql_core" kindref="compound">MysqlCore</ref></type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>timeout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="536" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="536" bodyend="560"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_mysql_core_1a4fae4ea055de4049f9412d9b90694511" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MysqlCore.CreateTable</definition>
+        <argsstring>(object o, string dbname, string idcolumnName, string tablename)</argsstring>
+        <name>CreateTable</name>
+        <param>
+          <type>object</type>
+          <declname>o</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dbname</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idcolumnName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tablename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="81" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="81" bodyend="157"/>
+        <references refid="class_mysql_core_1afcb27f03be6886180a2fc4a15f2b8e93" compoundref="_mysql_core_8cs" startline="810" endline="839">ExecuteNonQuery</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a69e4efcc53638377617dcaf4bdd7f384" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MysqlCore.NewUpdate</definition>
+        <argsstring>(object o, string tablename, string idcolumn=&quot;id&quot;, MySqlConnection cn=null)</argsstring>
+        <name>NewUpdate</name>
+        <param>
+          <type>object</type>
+          <declname>o</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tablename</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idcolumn</declname>
+          <defval>&quot;id&quot;</defval>
+        </param>
+        <param>
+          <type>MySqlConnection</type>
+          <declname>cn</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="159" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="159" bodyend="229"/>
+        <references refid="class_mysql_core_1afcb27f03be6886180a2fc4a15f2b8e93" compoundref="_mysql_core_8cs" startline="810" endline="839">ExecuteNonQuery</references>
+        <referencedby refid="class_mysql_core_1a13dac8029ecf04a1e477ff2fc848677c" compoundref="_mysql_core_8cs" startline="231" endline="261">NewInsertOrUpdate</referencedby>
+        <referencedby refid="class_mysql_core_1a04debdf607695292738751728eb81d37" compoundref="_mysql_core_8cs" startline="974" endline="1018">NewUpdateList&lt; T &gt;</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a13dac8029ecf04a1e477ff2fc848677c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MysqlCore.NewInsertOrUpdate</definition>
+        <argsstring>(object o, string tablename, string idcolumn=&quot;id&quot;)</argsstring>
+        <name>NewInsertOrUpdate</name>
+        <param>
+          <type>object</type>
+          <declname>o</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tablename</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idcolumn</declname>
+          <defval>&quot;id&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="231" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="231" bodyend="261"/>
+        <references refid="class_mysql_core_1ae7c56e9bc742c0d502319fbe1de609db" compoundref="_mysql_core_8cs" startline="263" endline="344">NewInsert</references>
+        <references refid="class_mysql_core_1a69e4efcc53638377617dcaf4bdd7f384" compoundref="_mysql_core_8cs" startline="159" endline="229">NewUpdate</references>
+        <referencedby refid="class_a_s_s2_1_1_data_base_storage_helper_1a1751417872a03695c3547e418d9ae301" compoundref="_data_base_storage_helper_8cs" startline="13" endline="21">ASS2.DataBaseStorageHelper.SaveAsync</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1ae7c56e9bc742c0d502319fbe1de609db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MysqlCore.NewInsert</definition>
+        <argsstring>(object o, string tablename, string idcolumn=&quot;id&quot;, MySqlConnection cn=null)</argsstring>
+        <name>NewInsert</name>
+        <param>
+          <type>object</type>
+          <declname>o</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>tablename</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idcolumn</declname>
+          <defval>&quot;id&quot;</defval>
+        </param>
+        <param>
+          <type>MySqlConnection</type>
+          <declname>cn</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="263" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="263" bodyend="344"/>
+        <references refid="class_mysql_core_1ad62e11d7a1b35bb76c39197b3164ff35" compoundref="_mysql_core_8cs" startline="840" endline="869">ExecuteScalar</references>
+        <referencedby refid="class_mysql_core_1a81efc82fd0deb596971dd909aa69d5c0" compoundref="_mysql_core_8cs" startline="1020" endline="1064">NewInsertList&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1a13dac8029ecf04a1e477ff2fc848677c" compoundref="_mysql_core_8cs" startline="231" endline="261">NewInsertOrUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1af3cdef7ebe9bb61632c353061a253097" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MysqlCore.NewGetSingleObject&lt; T &gt;</definition>
+        <argsstring>(string SQLcommand)</argsstring>
+        <name>NewGetSingleObject&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>SQLcommand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="400" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="400" bodyend="464"/>
+        <references refid="class_mysql_core_1a54c0fbc2afca9fd5a0196f51f32ff16e" compoundref="_mysql_core_8cs" startline="591">adpt</references>
+        <references refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" compoundref="_mysql_core_8cs" startline="590">com</references>
+        <references refid="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" compoundref="_mysql_core_8cs" startline="589">con</references>
+        <references refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</references>
+        <references refid="class_mysql_core_1a50e28c788a9a2accad8f702a211314f7" compoundref="_mysql_core_8cs" startline="347" endline="399">SetPropvalue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a397f880ba8be38dc3bcf3430e451b106" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; T &gt;</type>
+        <definition>List&lt;T&gt; MysqlCore.NewGetObjects&lt; T &gt;</definition>
+        <argsstring>(string SQLcommand)</argsstring>
+        <name>NewGetObjects&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>SQLcommand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="467" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="467" bodyend="529"/>
+        <references refid="class_mysql_core_1a54c0fbc2afca9fd5a0196f51f32ff16e" compoundref="_mysql_core_8cs" startline="591">adpt</references>
+        <references refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" compoundref="_mysql_core_8cs" startline="590">com</references>
+        <references refid="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" compoundref="_mysql_core_8cs" startline="589">con</references>
+        <references refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</references>
+        <references refid="class_mysql_core_1a50e28c788a9a2accad8f702a211314f7" compoundref="_mysql_core_8cs" startline="347" endline="399">SetPropvalue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a4c5088b74bd12bf0a08c00730764ba07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string MysqlCore.ConString</definition>
+        <argsstring>()</argsstring>
+        <name>ConString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="583" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="583" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1ab8978c2dfa8cf47b4a5df123ecb0f761" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MysqlCore.MysqlCore</definition>
+        <argsstring>(string server, string database, string password, string SecondServer=null, bool UseCompression=true, string CharacterSet=&quot;utf8&quot;, string user=&quot;root&quot;, int port=3306, int ConnectionTimeout=200, bool ConvertZeroDate=true)</argsstring>
+        <name>MysqlCore</name>
+        <param>
+          <type>string</type>
+          <declname>server</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>database</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>SecondServer</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>UseCompression</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>CharacterSet</declname>
+          <defval>&quot;utf8&quot;</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>user</declname>
+          <defval>&quot;root&quot;</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+          <defval>3306</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ConnectionTimeout</declname>
+          <defval>200</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ConvertZeroDate</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="596" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="596" bodyend="626"/>
+        <references refid="class_mysql_core_1a3cff2bbcf2e0fd36e9185db850a8d4f3" compoundref="_mysql_core_8cs" startline="631" endline="649">ConnectionTest</references>
+        <referencedby refid="class_mysql_core_1a64f8dd0e616560c009b933b8500d93a5" compoundref="_mysql_core_8cs" startline="64" endline="77">DB_Main</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a3cff2bbcf2e0fd36e9185db850a8d4f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MysqlCore.ConnectionTest</definition>
+        <argsstring>()</argsstring>
+        <name>ConnectionTest</name>
+        <briefdescription>
+<para>&apos;&apos;&apos; Test połączenia z bazą danych &apos;&apos;&apos; </para>        </briefdescription>
+        <detaileddescription>
+<para>&apos;&apos;&apos; <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="631" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="631" bodyend="649"/>
+        <references refid="class_mysql_core_1a3abd33c64c4a86f5cee5330742d3bccd" compoundref="_mysql_core_8cs" startline="564">ConnectionStr</references>
+        <referencedby refid="class_mysql_core_1ab8978c2dfa8cf47b4a5df123ecb0f761" compoundref="_mysql_core_8cs" startline="596" endline="626">MysqlCore</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MySqlConnection</type>
+        <definition>MySqlConnection MysqlCore.Connection</definition>
+        <argsstring>()</argsstring>
+        <name>Connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="650" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="650" bodyend="678"/>
+        <references refid="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" compoundref="_mysql_core_8cs" startline="589">con</references>
+        <references refid="class_mysql_core_1a3abd33c64c4a86f5cee5330742d3bccd" compoundref="_mysql_core_8cs" startline="564">ConnectionStr</references>
+        <references refid="class_mysql_core_1abbd35fbd9b3a4bd07edbbed7f604d8b2" compoundref="_mysql_core_8cs" startline="533">OperationCount</references>
+        <referencedby refid="class_mysql_core_1afcb27f03be6886180a2fc4a15f2b8e93" compoundref="_mysql_core_8cs" startline="810" endline="839">ExecuteNonQuery</referencedby>
+        <referencedby refid="class_mysql_core_1ad62e11d7a1b35bb76c39197b3164ff35" compoundref="_mysql_core_8cs" startline="840" endline="869">ExecuteScalar</referencedby>
+        <referencedby refid="class_mysql_core_1ab9426013433a5298de29c0c4d1bb90f7" compoundref="_mysql_core_8cs" startline="870" endline="893">FillDatatable</referencedby>
+        <referencedby refid="class_mysql_core_1abf874c10393d5b7ef9727838987c4eac" compoundref="_mysql_core_8cs" startline="1331" endline="1353">GetByte</referencedby>
+        <referencedby refid="class_mysql_core_1ab1dde606027c6bac85a73d81e91828e2" compoundref="_mysql_core_8cs" startline="1359" endline="1378">GetCount</referencedby>
+        <referencedby refid="class_mysql_core_1af0a4585f80223dcd1e7f4ceeb5fd1d6e" compoundref="_mysql_core_8cs" startline="1387" endline="1440">GetObject&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1a7fa6d7e86a7a4378290659ff2919d53f" compoundref="_mysql_core_8cs" startline="688" endline="808">GetSingleObject&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1a55907dad91180dba69bafa3543f8745e" compoundref="_mysql_core_8cs" startline="1292" endline="1325">GetString</referencedby>
+        <referencedby refid="class_mysql_core_1acc95e61e597b023f73acc4886b0e35bf" compoundref="_mysql_core_8cs" startline="932" endline="973">Insert</referencedby>
+        <referencedby refid="class_mysql_core_1aadf58bad01b6334deef23a625df7618b" compoundref="_mysql_core_8cs" startline="1073" endline="1149">InsertList</referencedby>
+        <referencedby refid="class_mysql_core_1a397f880ba8be38dc3bcf3430e451b106" compoundref="_mysql_core_8cs" startline="467" endline="529">NewGetObjects&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1af3cdef7ebe9bb61632c353061a253097" compoundref="_mysql_core_8cs" startline="400" endline="464">NewGetSingleObject&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1a66b8a282647e95481fca12b2abf0034b" compoundref="_mysql_core_8cs" startline="1199" endline="1229">Update</referencedby>
+        <referencedby refid="class_mysql_core_1a6fcafc6ca2235bc907a269c845b028a8" compoundref="_mysql_core_8cs" startline="1236" endline="1286">UpdateList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1ae8f837cef4095a7c6ff19a45f56c5ee5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Dictionary&lt; string, object &gt;</type>
+        <definition>Dictionary&lt;string, object&gt; MysqlCore.toDict</definition>
+        <argsstring>(object ob)</argsstring>
+        <name>toDict</name>
+        <param>
+          <type>object</type>
+          <declname>ob</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="679" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="679" bodyend="686"/>
+        <referencedby refid="class_mysql_core_1acc95e61e597b023f73acc4886b0e35bf" compoundref="_mysql_core_8cs" startline="932" endline="973">Insert</referencedby>
+        <referencedby refid="class_mysql_core_1aadf58bad01b6334deef23a625df7618b" compoundref="_mysql_core_8cs" startline="1073" endline="1149">InsertList</referencedby>
+        <referencedby refid="class_mysql_core_1ac6eaf23259ef76cfc21c2cde98083e97" compoundref="_mysql_core_8cs" startline="1178" endline="1198">InsertOrUpdate</referencedby>
+        <referencedby refid="class_mysql_core_1a66b8a282647e95481fca12b2abf0034b" compoundref="_mysql_core_8cs" startline="1199" endline="1229">Update</referencedby>
+        <referencedby refid="class_mysql_core_1a6fcafc6ca2235bc907a269c845b028a8" compoundref="_mysql_core_8cs" startline="1236" endline="1286">UpdateList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a7fa6d7e86a7a4378290659ff2919d53f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>T MysqlCore.GetSingleObject&lt; T &gt;</definition>
+        <argsstring>(string SQLcommand)</argsstring>
+        <name>GetSingleObject&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>SQLcommand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="688" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="688" bodyend="808"/>
+        <references refid="class_mysql_core_1a54c0fbc2afca9fd5a0196f51f32ff16e" compoundref="_mysql_core_8cs" startline="591">adpt</references>
+        <references refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" compoundref="_mysql_core_8cs" startline="590">com</references>
+        <references refid="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" compoundref="_mysql_core_8cs" startline="589">con</references>
+        <references refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1afcb27f03be6886180a2fc4a15f2b8e93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MysqlCore.ExecuteNonQuery</definition>
+        <argsstring>(string sqlCommand, MySqlConnection cn=null)</argsstring>
+        <name>ExecuteNonQuery</name>
+        <param>
+          <type>string</type>
+          <declname>sqlCommand</declname>
+        </param>
+        <param>
+          <type>MySqlConnection</type>
+          <declname>cn</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="810" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="810" bodyend="839"/>
+        <references refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" compoundref="_mysql_core_8cs" startline="590">com</references>
+        <references refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</references>
+        <referencedby refid="class_mysql_core_1a4fae4ea055de4049f9412d9b90694511" compoundref="_mysql_core_8cs" startline="81" endline="157">CreateTable</referencedby>
+        <referencedby refid="class_mysql_core_1a69e4efcc53638377617dcaf4bdd7f384" compoundref="_mysql_core_8cs" startline="159" endline="229">NewUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1ad62e11d7a1b35bb76c39197b3164ff35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string MysqlCore.ExecuteScalar</definition>
+        <argsstring>(string sqlCommand, MySqlConnection cn=null)</argsstring>
+        <name>ExecuteScalar</name>
+        <param>
+          <type>string</type>
+          <declname>sqlCommand</declname>
+        </param>
+        <param>
+          <type>MySqlConnection</type>
+          <declname>cn</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="840" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="840" bodyend="869"/>
+        <references refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" compoundref="_mysql_core_8cs" startline="590">com</references>
+        <references refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</references>
+        <referencedby refid="class_mysql_core_1ae7c56e9bc742c0d502319fbe1de609db" compoundref="_mysql_core_8cs" startline="263" endline="344">NewInsert</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1ab9426013433a5298de29c0c4d1bb90f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DataTable</type>
+        <definition>DataTable MysqlCore.FillDatatable</definition>
+        <argsstring>(string sqlCommand)</argsstring>
+        <name>FillDatatable</name>
+        <param>
+          <type>string</type>
+          <declname>sqlCommand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="870" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="870" bodyend="893"/>
+        <references refid="class_mysql_core_1a54c0fbc2afca9fd5a0196f51f32ff16e" compoundref="_mysql_core_8cs" startline="591">adpt</references>
+        <references refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" compoundref="_mysql_core_8cs" startline="590">com</references>
+        <references refid="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" compoundref="_mysql_core_8cs" startline="589">con</references>
+        <references refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a482fe6d9926e0414de55458e6d4c1067" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string MysqlCore.GetInsertString</definition>
+        <argsstring>(string TableName, string IdColumn, Dictionary&lt; string, object &gt; PropertiesDict)</argsstring>
+        <name>GetInsertString</name>
+        <param>
+          <type>string</type>
+          <declname>TableName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>IdColumn</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>PropertiesDict</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="897" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="897" bodyend="913"/>
+        <referencedby refid="class_mysql_core_1acc95e61e597b023f73acc4886b0e35bf" compoundref="_mysql_core_8cs" startline="932" endline="973">Insert</referencedby>
+        <referencedby refid="class_mysql_core_1aadf58bad01b6334deef23a625df7618b" compoundref="_mysql_core_8cs" startline="1073" endline="1149">InsertList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a1b1c7e99c3ea2f529e36061f012ab004" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string MysqlCore.GetInsertStringWithoutID</definition>
+        <argsstring>(string TableName, string IdColumn, Dictionary&lt; string, object &gt; PropertiesDict)</argsstring>
+        <name>GetInsertStringWithoutID</name>
+        <param>
+          <type>string</type>
+          <declname>TableName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>IdColumn</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>PropertiesDict</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="914" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="914" bodyend="931"/>
+        <referencedby refid="class_mysql_core_1aadf58bad01b6334deef23a625df7618b" compoundref="_mysql_core_8cs" startline="1073" endline="1149">InsertList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1acc95e61e597b023f73acc4886b0e35bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MysqlCore.Insert</definition>
+        <argsstring>(string TableName, string IdColumn, object ob)</argsstring>
+        <name>Insert</name>
+        <param>
+          <type>string</type>
+          <declname>TableName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>IdColumn</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>ob</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="932" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="932" bodyend="973"/>
+        <references refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" compoundref="_mysql_core_8cs" startline="590">com</references>
+        <references refid="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" compoundref="_mysql_core_8cs" startline="589">con</references>
+        <references refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</references>
+        <references refid="class_mysql_core_1a482fe6d9926e0414de55458e6d4c1067" compoundref="_mysql_core_8cs" startline="897" endline="913">GetInsertString</references>
+        <references refid="class_mysql_core_1ae8f837cef4095a7c6ff19a45f56c5ee5" compoundref="_mysql_core_8cs" startline="679" endline="686">toDict</references>
+        <referencedby refid="class_mysql_core_1ac6eaf23259ef76cfc21c2cde98083e97" compoundref="_mysql_core_8cs" startline="1178" endline="1198">InsertOrUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a04debdf607695292738751728eb81d37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MysqlCore.NewUpdateList&lt; T &gt;</definition>
+        <argsstring>(List&lt; T &gt; L)</argsstring>
+        <name>NewUpdateList&lt; T &gt;</name>
+        <param>
+          <type>List&lt; T &gt;</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="974" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="974" bodyend="1018"/>
+        <references refid="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" compoundref="_mysql_core_8cs" startline="589">con</references>
+        <references refid="class_mysql_core_1a69e4efcc53638377617dcaf4bdd7f384" compoundref="_mysql_core_8cs" startline="159" endline="229">NewUpdate</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a81efc82fd0deb596971dd909aa69d5c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MysqlCore.NewInsertList&lt; T &gt;</definition>
+        <argsstring>(List&lt; T &gt; L)</argsstring>
+        <name>NewInsertList&lt; T &gt;</name>
+        <param>
+          <type>List&lt; T &gt;</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1020" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1020" bodyend="1064"/>
+        <references refid="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" compoundref="_mysql_core_8cs" startline="589">con</references>
+        <references refid="class_mysql_core_1ae7c56e9bc742c0d502319fbe1de609db" compoundref="_mysql_core_8cs" startline="263" endline="344">NewInsert</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1aadf58bad01b6334deef23a625df7618b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MysqlCore.InsertList</definition>
+        <argsstring>(string TableName, string idColumn, List&lt; object &gt; ListOb, bool BezID=true)</argsstring>
+        <name>InsertList</name>
+        <param>
+          <type>string</type>
+          <declname>TableName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idColumn</declname>
+        </param>
+        <param>
+          <type>List&lt; object &gt;</type>
+          <declname>ListOb</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>BezID</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>&apos;&apos;&apos; Insert Listy Obiektów za pomocą transakcji &apos;&apos;&apos; </para>        </briefdescription>
+        <detaileddescription>
+<para>&apos;&apos;&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>TableName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+&apos;&apos;&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ListOb</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+&apos;&apos;&apos; <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1073" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1073" bodyend="1149"/>
+        <references refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" compoundref="_mysql_core_8cs" startline="590">com</references>
+        <references refid="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" compoundref="_mysql_core_8cs" startline="589">con</references>
+        <references refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</references>
+        <references refid="class_mysql_core_1a482fe6d9926e0414de55458e6d4c1067" compoundref="_mysql_core_8cs" startline="897" endline="913">GetInsertString</references>
+        <references refid="class_mysql_core_1a1b1c7e99c3ea2f529e36061f012ab004" compoundref="_mysql_core_8cs" startline="914" endline="931">GetInsertStringWithoutID</references>
+        <references refid="class_mysql_core_1a3bac3a44f9d072fd25e5883b00a709e1" compoundref="_mysql_core_8cs" startline="567">LastError</references>
+        <references refid="class_mysql_core_1ae8f837cef4095a7c6ff19a45f56c5ee5" compoundref="_mysql_core_8cs" startline="679" endline="686">toDict</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a5687deb8be17379e913ef267d4fdf519" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String MysqlCore.InsertOnDuplicateUpdate</definition>
+        <argsstring>(string id, string value)</argsstring>
+        <name>InsertOnDuplicateUpdate</name>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1151" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1151" bodyend="1157"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a79e3af063492a226f2ecf895f620576c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string MysqlCore.GetUpdatetString</definition>
+        <argsstring>(string TableName, string idColumnName, Dictionary&lt; string, object &gt; PropertiesDict)</argsstring>
+        <name>GetUpdatetString</name>
+        <param>
+          <type>string</type>
+          <declname>TableName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idColumnName</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; string, object &gt;</type>
+          <declname>PropertiesDict</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1159" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1159" bodyend="1177"/>
+        <referencedby refid="class_mysql_core_1a66b8a282647e95481fca12b2abf0034b" compoundref="_mysql_core_8cs" startline="1199" endline="1229">Update</referencedby>
+        <referencedby refid="class_mysql_core_1a6fcafc6ca2235bc907a269c845b028a8" compoundref="_mysql_core_8cs" startline="1236" endline="1286">UpdateList</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1ac6eaf23259ef76cfc21c2cde98083e97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MysqlCore.InsertOrUpdate</definition>
+        <argsstring>(string TableName, string idColumnName, object ob)</argsstring>
+        <name>InsertOrUpdate</name>
+        <param>
+          <type>string</type>
+          <declname>TableName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idColumnName</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>ob</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1178" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1178" bodyend="1198"/>
+        <references refid="class_mysql_core_1ab1dde606027c6bac85a73d81e91828e2" compoundref="_mysql_core_8cs" startline="1359" endline="1378">GetCount</references>
+        <references refid="class_mysql_core_1acc95e61e597b023f73acc4886b0e35bf" compoundref="_mysql_core_8cs" startline="932" endline="973">Insert</references>
+        <references refid="class_mysql_core_1ae8f837cef4095a7c6ff19a45f56c5ee5" compoundref="_mysql_core_8cs" startline="679" endline="686">toDict</references>
+        <references refid="class_mysql_core_1a66b8a282647e95481fca12b2abf0034b" compoundref="_mysql_core_8cs" startline="1199" endline="1229">Update</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a66b8a282647e95481fca12b2abf0034b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MysqlCore.Update</definition>
+        <argsstring>(string TableName, string idColumnName, object ob)</argsstring>
+        <name>Update</name>
+        <param>
+          <type>string</type>
+          <declname>TableName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idColumnName</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>ob</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1199" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1199" bodyend="1229"/>
+        <references refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" compoundref="_mysql_core_8cs" startline="590">com</references>
+        <references refid="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" compoundref="_mysql_core_8cs" startline="589">con</references>
+        <references refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</references>
+        <references refid="class_mysql_core_1a79e3af063492a226f2ecf895f620576c" compoundref="_mysql_core_8cs" startline="1159" endline="1177">GetUpdatetString</references>
+        <references refid="class_mysql_core_1ae8f837cef4095a7c6ff19a45f56c5ee5" compoundref="_mysql_core_8cs" startline="679" endline="686">toDict</references>
+        <referencedby refid="class_mysql_core_1ac6eaf23259ef76cfc21c2cde98083e97" compoundref="_mysql_core_8cs" startline="1178" endline="1198">InsertOrUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a6fcafc6ca2235bc907a269c845b028a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MysqlCore.UpdateList</definition>
+        <argsstring>(string TableName, string idColumnName, List&lt; object &gt; ListOb)</argsstring>
+        <name>UpdateList</name>
+        <param>
+          <type>string</type>
+          <declname>TableName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idColumnName</declname>
+        </param>
+        <param>
+          <type>List&lt; object &gt;</type>
+          <declname>ListOb</declname>
+        </param>
+        <briefdescription>
+<para>&apos;&apos;&apos; Update Listy Obiektów za pomocą transakcji &apos;&apos;&apos; </para>        </briefdescription>
+        <detaileddescription>
+<para>&apos;&apos;&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>TableName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+&apos;&apos;&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ListOb</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+&apos;&apos;&apos; <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1236" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1236" bodyend="1286"/>
+        <references refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" compoundref="_mysql_core_8cs" startline="590">com</references>
+        <references refid="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" compoundref="_mysql_core_8cs" startline="589">con</references>
+        <references refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</references>
+        <references refid="class_mysql_core_1a79e3af063492a226f2ecf895f620576c" compoundref="_mysql_core_8cs" startline="1159" endline="1177">GetUpdatetString</references>
+        <references refid="class_mysql_core_1a3bac3a44f9d072fd25e5883b00a709e1" compoundref="_mysql_core_8cs" startline="567">LastError</references>
+        <references refid="class_mysql_core_1ae8f837cef4095a7c6ff19a45f56c5ee5" compoundref="_mysql_core_8cs" startline="679" endline="686">toDict</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a55907dad91180dba69bafa3543f8745e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string MysqlCore.GetString</definition>
+        <argsstring>(string sqlCommand, string ReturnValueIffNull=&quot;&quot;)</argsstring>
+        <name>GetString</name>
+        <param>
+          <type>string</type>
+          <declname>sqlCommand</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>ReturnValueIffNull</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>&apos;&apos;&apos; Zwraca String &apos;&apos;&apos; </para>        </briefdescription>
+        <detaileddescription>
+<para>&apos;&apos;&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sqlCommand</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+&apos;&apos;&apos; <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1292" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1292" bodyend="1325"/>
+        <references refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" compoundref="_mysql_core_8cs" startline="590">com</references>
+        <references refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1abf874c10393d5b7ef9727838987c4eac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>byte [] MysqlCore.GetByte</definition>
+        <argsstring>(string sqlCommand)</argsstring>
+        <name>GetByte</name>
+        <param>
+          <type>string</type>
+          <declname>sqlCommand</declname>
+        </param>
+        <briefdescription>
+<para>&apos;&apos;&apos; Zwraca Byte &apos;&apos;&apos; </para>        </briefdescription>
+        <detaileddescription>
+<para>&apos;&apos;&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sqlCommand</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+&apos;&apos;&apos; <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1331" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1331" bodyend="1353"/>
+        <references refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" compoundref="_mysql_core_8cs" startline="590">com</references>
+        <references refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1ab1dde606027c6bac85a73d81e91828e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int MysqlCore.GetCount</definition>
+        <argsstring>(string sqlCommand)</argsstring>
+        <name>GetCount</name>
+        <param>
+          <type>string</type>
+          <declname>sqlCommand</declname>
+        </param>
+        <briefdescription>
+<para>&apos;&apos;&apos; Zwraca liczbę rekordów Integer &apos;&apos;&apos; </para>        </briefdescription>
+        <detaileddescription>
+<para>&apos;&apos;&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sqlCommand</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+&apos;&apos;&apos; <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1359" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1359" bodyend="1378"/>
+        <references refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" compoundref="_mysql_core_8cs" startline="590">com</references>
+        <references refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</references>
+        <referencedby refid="class_mysql_core_1ac6eaf23259ef76cfc21c2cde98083e97" compoundref="_mysql_core_8cs" startline="1178" endline="1198">InsertOrUpdate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1af0a4585f80223dcd1e7f4ceeb5fd1d6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object MysqlCore.GetObject&lt; T &gt;</definition>
+        <argsstring>(string TableName, string idColumnName, string id)</argsstring>
+        <name>GetObject&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>TableName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idColumnName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>&apos;&apos;&apos; Tworzy dowolny obiekt na podstawie dowolnej klasy z pojedynczego rekordu z tabeli &apos;&apos;&apos; </para>        </briefdescription>
+        <detaileddescription>
+<para>&apos;&apos;&apos; <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+&apos;&apos;&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>TableName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+&apos;&apos;&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>idColumnName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+&apos;&apos;&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+&apos;&apos;&apos; <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1387" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1387" bodyend="1440"/>
+        <references refid="class_mysql_core_1a54c0fbc2afca9fd5a0196f51f32ff16e" compoundref="_mysql_core_8cs" startline="591">adpt</references>
+        <references refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" compoundref="_mysql_core_8cs" startline="590">com</references>
+        <references refid="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" compoundref="_mysql_core_8cs" startline="589">con</references>
+        <references refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a55130438d8440e6fdaa4b92046fc975f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; T &gt;</type>
+        <definition>List&lt;T&gt; MysqlCore.GetObject&lt; T &gt;</definition>
+        <argsstring>(string SQLcommand)</argsstring>
+        <name>GetObject&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>SQLcommand</declname>
+        </param>
+        <briefdescription>
+<para>&apos;&apos;&apos; Tworzy listę obiektów na podstawie dowolnej klasy wg komendy mysQL &apos;&apos;&apos; </para>        </briefdescription>
+        <detaileddescription>
+<para>&apos;&apos;&apos; <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+&apos;&apos;&apos; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>SQLcommand</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+&apos;&apos;&apos; <simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1447" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1447" bodyend="1552"/>
+        <references refid="class_mysql_core_1a54c0fbc2afca9fd5a0196f51f32ff16e" compoundref="_mysql_core_8cs" startline="591">adpt</references>
+        <references refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" compoundref="_mysql_core_8cs" startline="590">com</references>
+        <references refid="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" compoundref="_mysql_core_8cs" startline="589">con</references>
+        <references refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" compoundref="_mysql_core_8cs" startline="650" endline="678">Connection</references>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1ae296d2e1d918e60558804572195e8d30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MysqlCore.Delete</definition>
+        <argsstring>(string TableName, string idColumnName, string id)</argsstring>
+        <name>Delete</name>
+        <param>
+          <type>string</type>
+          <declname>TableName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idColumnName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1553" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1553" bodyend="1556"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a5a34426d6b3e02b70f69ae25d2211ed4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MysqlCore.Truncate</definition>
+        <argsstring>(string TableName)</argsstring>
+        <name>Truncate</name>
+        <param>
+          <type>string</type>
+          <declname>TableName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1558" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1558" bodyend="1561"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1abfea92f628e56957f16141fbab23f76c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MysqlCore.DropTable</definition>
+        <argsstring>(string TableName)</argsstring>
+        <name>DropTable</name>
+        <param>
+          <type>string</type>
+          <declname>TableName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1563" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1563" bodyend="1566"/>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1aa3a40ad3dfe9a03ba59edd6f6cbf4171" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string MysqlCore.InsertUpdateDuplicateKey</definition>
+        <argsstring>(string tablename, string columnid, object ob)</argsstring>
+        <name>InsertUpdateDuplicateKey</name>
+        <param>
+          <type>string</type>
+          <declname>tablename</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>columnid</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>ob</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1574" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1574" bodyend="1587"/>
+        <references refid="class_mysql_core_1a6de4ac65d086bc0bc3ad5163d6e7ad31" compoundref="_mysql_core_8cs" startline="1590" endline="1652">getinsertduplicateString</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_mysql_core_1a50e28c788a9a2accad8f702a211314f7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MysqlCore.SetPropvalue</definition>
+        <argsstring>(PropertyInfo p, object ob, object c)</argsstring>
+        <name>SetPropvalue</name>
+        <param>
+          <type>PropertyInfo</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>ob</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="347" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="347" bodyend="399"/>
+        <referencedby refid="class_mysql_core_1a397f880ba8be38dc3bcf3430e451b106" compoundref="_mysql_core_8cs" startline="467" endline="529">NewGetObjects&lt; T &gt;</referencedby>
+        <referencedby refid="class_mysql_core_1af3cdef7ebe9bb61632c353061a253097" compoundref="_mysql_core_8cs" startline="400" endline="464">NewGetSingleObject&lt; T &gt;</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_mysql_core_1a6de4ac65d086bc0bc3ad5163d6e7ad31" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string MysqlCore.getinsertduplicateString</definition>
+        <argsstring>(object ob)</argsstring>
+        <name>getinsertduplicateString</name>
+        <param>
+          <type>object</type>
+          <declname>ob</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="1590" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="1590" bodyend="1652"/>
+        <referencedby refid="class_mysql_core_1aa3a40ad3dfe9a03ba59edd6f6cbf4171" compoundref="_mysql_core_8cs" startline="1574" endline="1587">InsertUpdateDuplicateKey</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>&apos;&apos;&apos; ConnectionTest &apos;&apos;&apos; ExecuteNonQuery &apos;&apos;&apos; ExecuteScalar &apos;&apos;&apos; FillDatatable &apos;&apos;&apos; GetTablesList &apos;&apos;&apos; GetColumnsList &apos;&apos;&apos; Insert &apos;&apos;&apos; InsertList &apos;&apos;&apos; InsertOrUpdate &apos;&apos;&apos; Update &apos;&apos;&apos; UpdateList &apos;&apos;&apos; GetCount &apos;&apos;&apos; GetObject &apos;&apos;&apos; GetObject(list) &apos;&apos;&apos; Delete &apos;&apos;&apos; Truncate &apos;&apos;&apos; DropTable &apos;&apos;&apos; CreateTable &apos;&apos;&apos; AddColumn &apos;&apos;&apos; DeleteColumn &apos;&apos;&apos; </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="191">
+        <label>MysqlCore</label>
+        <link refid="class_mysql_core"/>
+        <childnode refid="192" relation="usage">
+          <edgelabel>ConParameters</edgelabel>
+        </childnode>
+      </node>
+      <node id="192">
+        <label>MysqlCore.Parameters</label>
+        <link refid="class_mysql_core_1_1_parameters"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="63" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="62" bodyend="1653"/>
+    <listofallmembers>
+      <member refid="class_mysql_core_1a54c0fbc2afca9fd5a0196f51f32ff16e" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>adpt</name></member>
+      <member refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>com</name></member>
+      <member refid="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>con</name></member>
+      <member refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>Connection</name></member>
+      <member refid="class_mysql_core_1a3abd33c64c4a86f5cee5330742d3bccd" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>ConnectionStr</name></member>
+      <member refid="class_mysql_core_1a3cff2bbcf2e0fd36e9185db850a8d4f3" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>ConnectionTest</name></member>
+      <member refid="class_mysql_core_1ab349b9113f90c0753af4770d63265880" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>ConParameters</name></member>
+      <member refid="class_mysql_core_1a4c5088b74bd12bf0a08c00730764ba07" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>ConString</name></member>
+      <member refid="class_mysql_core_1a4fae4ea055de4049f9412d9b90694511" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>CreateTable</name></member>
+      <member refid="class_mysql_core_1a64f8dd0e616560c009b933b8500d93a5" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>DB_Main</name></member>
+      <member refid="class_mysql_core_1ae296d2e1d918e60558804572195e8d30" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>Delete</name></member>
+      <member refid="class_mysql_core_1abfea92f628e56957f16141fbab23f76c" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>DropTable</name></member>
+      <member refid="class_mysql_core_1a36995559c72ba2344721a36f1053a878" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>ErrorHistory</name></member>
+      <member refid="class_mysql_core_1a2663853a4ffb0f743c9e9995393b56cb" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>EventHistory</name></member>
+      <member refid="class_mysql_core_1afcb27f03be6886180a2fc4a15f2b8e93" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>ExecuteNonQuery</name></member>
+      <member refid="class_mysql_core_1ad62e11d7a1b35bb76c39197b3164ff35" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>ExecuteScalar</name></member>
+      <member refid="class_mysql_core_1ab9426013433a5298de29c0c4d1bb90f7" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>FillDatatable</name></member>
+      <member refid="class_mysql_core_1abf874c10393d5b7ef9727838987c4eac" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>GetByte</name></member>
+      <member refid="class_mysql_core_1ab1dde606027c6bac85a73d81e91828e2" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>GetCount</name></member>
+      <member refid="class_mysql_core_1a6de4ac65d086bc0bc3ad5163d6e7ad31" prot="private" virt="non-virtual"><scope>MysqlCore</scope><name>getinsertduplicateString</name></member>
+      <member refid="class_mysql_core_1a482fe6d9926e0414de55458e6d4c1067" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>GetInsertString</name></member>
+      <member refid="class_mysql_core_1a1b1c7e99c3ea2f529e36061f012ab004" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>GetInsertStringWithoutID</name></member>
+      <member refid="class_mysql_core_1af0a4585f80223dcd1e7f4ceeb5fd1d6e" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>GetObject&lt; T &gt;</name></member>
+      <member refid="class_mysql_core_1a55130438d8440e6fdaa4b92046fc975f" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>GetObject&lt; T &gt;</name></member>
+      <member refid="class_mysql_core_1a7fa6d7e86a7a4378290659ff2919d53f" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>GetSingleObject&lt; T &gt;</name></member>
+      <member refid="class_mysql_core_1a55907dad91180dba69bafa3543f8745e" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>GetString</name></member>
+      <member refid="class_mysql_core_1a79e3af063492a226f2ecf895f620576c" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>GetUpdatetString</name></member>
+      <member refid="class_mysql_core_1acc95e61e597b023f73acc4886b0e35bf" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>Insert</name></member>
+      <member refid="class_mysql_core_1aadf58bad01b6334deef23a625df7618b" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>InsertList</name></member>
+      <member refid="class_mysql_core_1a5687deb8be17379e913ef267d4fdf519" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>InsertOnDuplicateUpdate</name></member>
+      <member refid="class_mysql_core_1ac6eaf23259ef76cfc21c2cde98083e97" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>InsertOrUpdate</name></member>
+      <member refid="class_mysql_core_1aa3a40ad3dfe9a03ba59edd6f6cbf4171" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>InsertUpdateDuplicateKey</name></member>
+      <member refid="class_mysql_core_1adb402d523304e4beebe44761580b691f" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>KillSleepConnections</name></member>
+      <member refid="class_mysql_core_1a3bac3a44f9d072fd25e5883b00a709e1" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>LastError</name></member>
+      <member refid="class_mysql_core_1ab8978c2dfa8cf47b4a5df123ecb0f761" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>MysqlCore</name></member>
+      <member refid="class_mysql_core_1a397f880ba8be38dc3bcf3430e451b106" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>NewGetObjects&lt; T &gt;</name></member>
+      <member refid="class_mysql_core_1af3cdef7ebe9bb61632c353061a253097" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>NewGetSingleObject&lt; T &gt;</name></member>
+      <member refid="class_mysql_core_1ae7c56e9bc742c0d502319fbe1de609db" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>NewInsert</name></member>
+      <member refid="class_mysql_core_1a81efc82fd0deb596971dd909aa69d5c0" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>NewInsertList&lt; T &gt;</name></member>
+      <member refid="class_mysql_core_1a13dac8029ecf04a1e477ff2fc848677c" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>NewInsertOrUpdate</name></member>
+      <member refid="class_mysql_core_1a69e4efcc53638377617dcaf4bdd7f384" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>NewUpdate</name></member>
+      <member refid="class_mysql_core_1a04debdf607695292738751728eb81d37" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>NewUpdateList&lt; T &gt;</name></member>
+      <member refid="class_mysql_core_1ac836087eaae4d789294d3d2097bda216" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>OnConnection</name></member>
+      <member refid="class_mysql_core_1abbd35fbd9b3a4bd07edbbed7f604d8b2" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>OperationCount</name></member>
+      <member refid="class_mysql_core_1a50e28c788a9a2accad8f702a211314f7" prot="private" virt="non-virtual"><scope>MysqlCore</scope><name>SetPropvalue</name></member>
+      <member refid="class_mysql_core_1ae8f837cef4095a7c6ff19a45f56c5ee5" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>toDict</name></member>
+      <member refid="class_mysql_core_1a5a34426d6b3e02b70f69ae25d2211ed4" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>Truncate</name></member>
+      <member refid="class_mysql_core_1a66b8a282647e95481fca12b2abf0034b" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>Update</name></member>
+      <member refid="class_mysql_core_1a6fcafc6ca2235bc907a269c845b028a8" prot="public" virt="non-virtual"><scope>MysqlCore</scope><name>UpdateList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

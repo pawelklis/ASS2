@@ -12,6 +12,23 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -36,6 +53,18 @@
   </PropertyGroup>
   <PropertyGroup>
     <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4E156287BB4A180D529D0E8D72C9EBB1374D08A3</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ASS2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
@@ -103,52 +132,52 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ColorType.cs" />
+    <Compile Include="Machine\Dict\Colors\ColorType.cs" />
     <Compile Include="Connected Services\ServiceReference1\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="CounterType.cs" />
-    <Compile Include="DataBaseStorageHelper.cs" />
-    <Compile Include="DeviceType.cs" />
-    <Compile Include="DictType.cs" />
-    <Compile Include="DirectionItemType.cs" />
-    <Compile Include="DirectionType.cs" />
-    <Compile Include="ErrorLog.cs" />
-    <Compile Include="FeederType.cs" />
-    <Compile Include="INamingDB.cs" />
-    <Compile Include="LampType.cs" />
-    <Compile Include="MachineStatusLogType.cs" />
-    <Compile Include="MachineType.cs" />
-    <Compile Include="MaintenanceType.cs" />
-    <Compile Include="ModbusDriver.cs" />
-    <Compile Include="MysqlCore.cs" />
-    <Compile Include="ParcelType.cs" />
-    <Compile Include="PNARangeType.cs" />
+    <Compile Include="Machine\Feeder\sensors\Tact\CounterType.cs" />
+    <Compile Include="DAL\DataBaseStorageHelper.cs" />
+    <Compile Include="Machine\Dict\DictType.cs" />
+    <Compile Include="Machine\Dict\Directions\DirectionItemType.cs" />
+    <Compile Include="Machine\Dict\Directions\DirectionType.cs" />
+    <Compile Include="Machine\Stats\Logs\ErrorLog.cs" />
+    <Compile Include="Machine\Feeder\FeederType.cs" />
+    <Compile Include="Interfaces\INamingDB.cs" />
+    <Compile Include="Machine\Dict\Lamps\LampType.cs" />
+    <Compile Include="Machine\Stats\Logs\MachineStatusLogType.cs" />
+    <Compile Include="Machine\MachineType.cs" />
+    <Compile Include="Machine\Driver\ModbusDriver.cs" />
+    <Compile Include="DAL\MysqlCore.cs" />
+    <Compile Include="Machine\Parcels\ParcelType.cs" />
+    <Compile Include="Machine\Dict\Directions\PNARangeType.cs" />
+    <Compile Include="PerformanceType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RoundStatItem.cs" />
-    <Compile Include="RoundStatType.cs" />
-    <Compile Include="RS232ConfigType.cs" />
-    <Compile Include="RS232DeviceType.cs" />
-    <Compile Include="RunStatItemType.cs" />
-    <Compile Include="RunStatType.cs" />
-    <Compile Include="RunType.cs" />
-    <Compile Include="sensors\SensorStartDetectionType.cs" />
-    <Compile Include="sensors\SensorStartParcelType.cs" />
-    <Compile Include="sensors\SensorType.cs" />
-    <Compile Include="SledzenieServiceType.cs" />
-    <Compile Include="SortProgramItemType.cs" />
-    <Compile Include="SortProgramType.cs" />
-    <Compile Include="StandItemType.cs" />
-    <Compile Include="StandType.cs" />
-    <Compile Include="sensors\StopSensorType.cs" />
-    <Compile Include="sensors\TactSensorType.cs" />
-    <Compile Include="WSRType.cs" />
+    <Compile Include="Machine\Stats\RoundCircle\RoundStatItem.cs" />
+    <Compile Include="Machine\Stats\RoundCircle\RoundStatType.cs" />
+    <Compile Include="Machine\Dict\rs232\RS232ConfigType.cs" />
+    <Compile Include="Machine\Feeder\sensors\Scanner\RS232DeviceType.cs" />
+    <Compile Include="Machine\Stats\Run\RunStatItemType.cs" />
+    <Compile Include="Machine\Stats\Run\RunStatType.cs" />
+    <Compile Include="Machine\Run\RunType.cs" />
+    <Compile Include="Machine\Feeder\sensors\SensorStartDetectionType.cs" />
+    <Compile Include="Machine\Feeder\sensors\SensorStartParcelType.cs" />
+    <Compile Include="Interfaces\SensorType.cs" />
+    <Compile Include="WebServices\SledzenieServiceType.cs" />
+    <Compile Include="Machine\Dict\SortPlans\SortProgramItemType.cs" />
+    <Compile Include="Machine\Dict\SortPlans\SortProgramType.cs" />
+    <Compile Include="Machine\Dict\Stands\StandType\Items\StandItemType.cs" />
+    <Compile Include="Machine\Dict\Stands\StandType\StandType.cs" />
+    <Compile Include="Machine\Feeder\sensors\StopSensorType.cs" />
+    <Compile Include="Machine\Feeder\sensors\Tact\TactSensorType.cs" />
+    <Compile Include="Machine\Dict\Directions\WSRType.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ASS2_TemporaryKey.pfx" />
     <None Include="ClassDiagram1.cd" />
     <None Include="Connected Services\ServiceReference1\ASS2.ServiceReference1.Komunikat.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -203,6 +232,18 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

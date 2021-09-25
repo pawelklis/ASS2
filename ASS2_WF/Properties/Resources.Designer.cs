@@ -83,6 +83,16 @@ namespace ASS2_WF.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap industrial_robot {
+            get {
+                object obj = ResourceManager.GetObject("industrial-robot", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap masp {
             get {
                 object obj = ResourceManager.GetObject("masp", resourceCulture);

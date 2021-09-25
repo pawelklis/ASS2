@@ -1,0 +1,687 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2___w_f_1_1us_directions" kind="class" prot="public">
+    <compoundname>ASS2_WF::usDirections</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1a9f8f6805d44a36c8a19ff8f2276bad35" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_direction_type" kindref="compound">DirectionType</ref></type>
+        <definition>DirectionType ASS2_WF.usDirections.selectedDirection</definition>
+        <argsstring></argsstring>
+        <name>selectedDirection</name>
+        <initializer>=null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1a34b84732d41437f64cb47251bc5836c5" compoundref="us_directions_8cs" startline="59" endline="63">ASS2_WF.usDirections.BindDG</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1a6159b78d15f0699fcab5302ceb3e5f62" compoundref="us_directions_8cs" startline="101" endline="127">ASS2_WF.usDirections.dg1_CellContentClick</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1ad1f5e8de34af2fd0f7ed1b9bdebba4aa" compoundref="us_directions_8cs" startline="47" endline="57">ASS2_WF.usDirections.toolStripComboBox1_SelectedIndexChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1a79ea034db96699f4c555e6e45e4387d4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_dict_type" kindref="compound">DictType</ref></type>
+        <definition>DictType ASS2_WF.usDirections.dict</definition>
+        <argsstring></argsstring>
+        <name>dict</name>
+        <initializer>= DictType.Load&lt;<ref refid="class_a_s_s2_1_1_dict_type" kindref="compound">DictType</ref>&gt;(1)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="23" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1a12e7ade48bdc5f94dd7195bcb723226f" compoundref="us_directions_8cs" startline="31" endline="40">ASS2_WF.usDirections.Bind</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1ad40a0861130b5f92af041abc8debcdc9" compoundref="us_directions_8cs" startline="77" endline="92">ASS2_WF.usDirections.button1_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1ad1f5e8de34af2fd0f7ed1b9bdebba4aa" compoundref="us_directions_8cs" startline="47" endline="57">ASS2_WF.usDirections.toolStripComboBox1_SelectedIndexChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1a8d8041c32052bd298c0e5c3c5cab8d8e" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer ASS2_WF.usDirections.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="8" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1ae9519c742c17525f2ca5b98763fdf5f5" compoundref="us_directions_8_designer_8cs" startline="14" endline="21">ASS2_WF.usDirections.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1acc97bc7fa4eeabf1beea340cb9dd8ba8" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usDirections.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="273" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1a4b7e9af0fd66e1218ffa505d6ca9e8b3" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStrip</type>
+        <definition>System.Windows.Forms.ToolStrip ASS2_WF.usDirections.toolStrip1</definition>
+        <argsstring></argsstring>
+        <name>toolStrip1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="274" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1a9c3e2c5de26a10906b8b489e6a9838a1" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridView</type>
+        <definition>System.Windows.Forms.DataGridView ASS2_WF.usDirections.dg1</definition>
+        <argsstring></argsstring>
+        <name>dg1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="275" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="275" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1a1611da5b53ac03d6278cb4e25aa3cbd9" compoundref="us_directions_8cs" startline="134" endline="150">ASS2_WF.usDirections.btnSave_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1a6159b78d15f0699fcab5302ceb3e5f62" compoundref="us_directions_8cs" startline="101" endline="127">ASS2_WF.usDirections.dg1_CellContentClick</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1a985afd270e19c0e8a8473077014eb4eb" compoundref="us_directions_8_designer_8cs" startline="29" endline="269">ASS2_WF.usDirections.InitializeComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1a23fee32d5498d6f42abc2aca4fc54944" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripButton</type>
+        <definition>System.Windows.Forms.ToolStripButton ASS2_WF.usDirections.btnAdd</definition>
+        <argsstring></argsstring>
+        <name>btnAdd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="276" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1a7b7d8f64047630ffdf65f9cd1cb420bb" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripButton</type>
+        <definition>System.Windows.Forms.ToolStripButton ASS2_WF.usDirections.btnSave</definition>
+        <argsstring></argsstring>
+        <name>btnSave</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="277" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1adde4a4a0bc5b2e3bd3acdbee9f0da971" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripComboBox</type>
+        <definition>System.Windows.Forms.ToolStripComboBox ASS2_WF.usDirections.toolStripComboBox1</definition>
+        <argsstring></argsstring>
+        <name>toolStripComboBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="278" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="278" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1ad1f5e8de34af2fd0f7ed1b9bdebba4aa" compoundref="us_directions_8cs" startline="47" endline="57">ASS2_WF.usDirections.toolStripComboBox1_SelectedIndexChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1a899347564a999033836930c6f563a42d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ToolStripButton</type>
+        <definition>System.Windows.Forms.ToolStripButton ASS2_WF.usDirections.addDirection</definition>
+        <argsstring></argsstring>
+        <name>addDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="279" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1a3295b7693e9bbb46af13a85acaa6ff19" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Panel</type>
+        <definition>System.Windows.Forms.Panel ASS2_WF.usDirections.panel1</definition>
+        <argsstring></argsstring>
+        <name>panel1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="280" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1ac3205fb11f2ea9a82cfc6e9b7b490812" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usDirections.button2</definition>
+        <argsstring></argsstring>
+        <name>button2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="281" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1afa330d246abedc004d6cf187c39988b7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usDirections.button1</definition>
+        <argsstring></argsstring>
+        <name>button1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="282" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1afb2cf89a5b35f19b5b6945c16bc553dc" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox ASS2_WF.usDirections.textBox1</definition>
+        <argsstring></argsstring>
+        <name>textBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="283" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="283" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1ad40a0861130b5f92af041abc8debcdc9" compoundref="us_directions_8cs" startline="77" endline="92">ASS2_WF.usDirections.button1_Click</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1a679ff1a1b4065edb0b38d6b3f26e6737" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usDirections.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="284" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1a1a4bc601a18ed770c5b7f90388faa934" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn ASS2_WF.usDirections.colname</definition>
+        <argsstring></argsstring>
+        <name>colname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="285" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1aeedd998f9ae1398d9ee3c5a283dc469a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn ASS2_WF.usDirections.colwsr</definition>
+        <argsstring></argsstring>
+        <name>colwsr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="286" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1a8380a236674c7b2d1447562cb7561dbf" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn ASS2_WF.usDirections.colpnafrom</definition>
+        <argsstring></argsstring>
+        <name>colpnafrom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="287" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1a2bcddff9987b34f269d9933833f988fb" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewTextBoxColumn</type>
+        <definition>System.Windows.Forms.DataGridViewTextBoxColumn ASS2_WF.usDirections.colpnato</definition>
+        <argsstring></argsstring>
+        <name>colpnato</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="288" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_directions_1ab74e9f798dc9f1a21a37bf1ea19238ec" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataGridViewButtonColumn</type>
+        <definition>System.Windows.Forms.DataGridViewButtonColumn ASS2_WF.usDirections.usun</definition>
+        <argsstring></argsstring>
+        <name>usun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="289" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_directions_1a5432743b0ca4d8e5b7aa52e24a976dd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2_WF.usDirections.usDirections</definition>
+        <argsstring>()</argsstring>
+        <name>usDirections</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="17" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="17" bodyend="20"/>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a985afd270e19c0e8a8473077014eb4eb" compoundref="us_directions_8_designer_8cs" startline="29" endline="269">ASS2_WF.usDirections.InitializeComponent</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_directions_1a23726d7c3e793c1314fa4b2f67ee2972" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usDirections.usDirections_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>usDirections_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="24" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="24" bodyend="27"/>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a12e7ade48bdc5f94dd7195bcb723226f" compoundref="us_directions_8cs" startline="31" endline="40">ASS2_WF.usDirections.Bind</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_directions_1a12e7ade48bdc5f94dd7195bcb723226f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usDirections.Bind</definition>
+        <argsstring>()</argsstring>
+        <name>Bind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="31" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="31" bodyend="40"/>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a79ea034db96699f4c555e6e45e4387d4" compoundref="us_directions_8cs" startline="23">ASS2_WF.usDirections.dict</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1a2050363cf095a389956e197990c76cf2" compoundref="_dict_type_8cs" startline="13">ASS2.DictType.Directions</references>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1ad40a0861130b5f92af041abc8debcdc9" compoundref="us_directions_8cs" startline="77" endline="92">ASS2_WF.usDirections.button1_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1a23726d7c3e793c1314fa4b2f67ee2972" compoundref="us_directions_8cs" startline="24" endline="27">ASS2_WF.usDirections.usDirections_Load</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_directions_1a2a65aef6ebeac534fca10be4cc82ccc0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usDirections.toolStripComboBox1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>toolStripComboBox1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="42" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_directions_1ad1f5e8de34af2fd0f7ed1b9bdebba4aa" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usDirections.toolStripComboBox1_SelectedIndexChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>toolStripComboBox1_SelectedIndexChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="47" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="47" bodyend="57"/>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a34b84732d41437f64cb47251bc5836c5" compoundref="us_directions_8cs" startline="59" endline="63">ASS2_WF.usDirections.BindDG</references>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a79ea034db96699f4c555e6e45e4387d4" compoundref="us_directions_8cs" startline="23">ASS2_WF.usDirections.dict</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1a2050363cf095a389956e197990c76cf2" compoundref="_dict_type_8cs" startline="13">ASS2.DictType.Directions</references>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a9f8f6805d44a36c8a19ff8f2276bad35" compoundref="us_directions_8cs" startline="16">ASS2_WF.usDirections.selectedDirection</references>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1adde4a4a0bc5b2e3bd3acdbee9f0da971" compoundref="us_directions_8_designer_8cs" startline="278">ASS2_WF.usDirections.toolStripComboBox1</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_directions_1a34b84732d41437f64cb47251bc5836c5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usDirections.BindDG</definition>
+        <argsstring>()</argsstring>
+        <name>BindDG</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="59" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="59" bodyend="63"/>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a9f8f6805d44a36c8a19ff8f2276bad35" compoundref="us_directions_8cs" startline="16">ASS2_WF.usDirections.selectedDirection</references>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1afdfd8e39f27453ce81c7dfcffce23e88" compoundref="us_directions_8cs" startline="94" endline="99">ASS2_WF.usDirections.btnAdd_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1a1611da5b53ac03d6278cb4e25aa3cbd9" compoundref="us_directions_8cs" startline="134" endline="150">ASS2_WF.usDirections.btnSave_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1a6159b78d15f0699fcab5302ceb3e5f62" compoundref="us_directions_8cs" startline="101" endline="127">ASS2_WF.usDirections.dg1_CellContentClick</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1ad1f5e8de34af2fd0f7ed1b9bdebba4aa" compoundref="us_directions_8cs" startline="47" endline="57">ASS2_WF.usDirections.toolStripComboBox1_SelectedIndexChanged</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_directions_1a3e528215e25b2e0f698042034b7714a3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usDirections.addDirection_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>addDirection_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="65" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="65" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_directions_1aa20302300af6b92fb565aa5a4f052e06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usDirections.button2_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button2_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="71" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="71" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_directions_1ad40a0861130b5f92af041abc8debcdc9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usDirections.button1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="77" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="77" bodyend="92"/>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a12e7ade48bdc5f94dd7195bcb723226f" compoundref="us_directions_8cs" startline="31" endline="40">ASS2_WF.usDirections.Bind</references>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a79ea034db96699f4c555e6e45e4387d4" compoundref="us_directions_8cs" startline="23">ASS2_WF.usDirections.dict</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1a2050363cf095a389956e197990c76cf2" compoundref="_dict_type_8cs" startline="13">ASS2.DictType.Directions</references>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1afb2cf89a5b35f19b5b6945c16bc553dc" compoundref="us_directions_8_designer_8cs" startline="283">ASS2_WF.usDirections.textBox1</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_directions_1afdfd8e39f27453ce81c7dfcffce23e88" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usDirections.btnAdd_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnAdd_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="94" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="94" bodyend="99"/>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a34b84732d41437f64cb47251bc5836c5" compoundref="us_directions_8cs" startline="59" endline="63">ASS2_WF.usDirections.BindDG</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_directions_1a6159b78d15f0699fcab5302ceb3e5f62" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usDirections.dg1_CellContentClick</definition>
+        <argsstring>(object sender, DataGridViewCellEventArgs e)</argsstring>
+        <name>dg1_CellContentClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DataGridViewCellEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="101" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="101" bodyend="127"/>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a34b84732d41437f64cb47251bc5836c5" compoundref="us_directions_8cs" startline="59" endline="63">ASS2_WF.usDirections.BindDG</references>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a9c3e2c5de26a10906b8b489e6a9838a1" compoundref="us_directions_8_designer_8cs" startline="275">ASS2_WF.usDirections.dg1</references>
+        <references refid="class_a_s_s2_1_1_direction_type_1a3208f72ccf2a463bcde434aeb5157cba" compoundref="_direction_type_8cs" startline="15">ASS2.DirectionType.Items</references>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a9f8f6805d44a36c8a19ff8f2276bad35" compoundref="us_directions_8cs" startline="16">ASS2_WF.usDirections.selectedDirection</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_directions_1a9abd29c73e19fef528af0ff1c0fa10d7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usDirections.dg1_CellEndEdit</definition>
+        <argsstring>(object sender, DataGridViewCellEventArgs e)</argsstring>
+        <name>dg1_CellEndEdit</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DataGridViewCellEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="129" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="129" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_directions_1a1611da5b53ac03d6278cb4e25aa3cbd9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usDirections.btnSave_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnSave_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="134" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="134" bodyend="150"/>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a34b84732d41437f64cb47251bc5836c5" compoundref="us_directions_8cs" startline="59" endline="63">ASS2_WF.usDirections.BindDG</references>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a9c3e2c5de26a10906b8b489e6a9838a1" compoundref="us_directions_8_designer_8cs" startline="275">ASS2_WF.usDirections.dg1</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_directions_1a985afd270e19c0e8a8473077014eb4eb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usDirections.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="29" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="29" bodyend="269"/>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a9c3e2c5de26a10906b8b489e6a9838a1" compoundref="us_directions_8_designer_8cs" startline="275">ASS2_WF.usDirections.dg1</references>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1a5432743b0ca4d8e5b7aa52e24a976dd7" compoundref="us_directions_8cs" startline="17" endline="20">ASS2_WF.usDirections.usDirections</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_directions_1ae9519c742c17525f2ca5b98763fdf5f5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ASS2_WF.usDirections.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_a_s_s2___w_f_1_1us_directions_1a8d8041c32052bd298c0e5c3c5cab8d8e" compoundref="us_directions_8_designer_8cs" startline="8">ASS2_WF.usDirections.components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="246">
+        <label>ASS2_WF.usDirections</label>
+        <link refid="class_a_s_s2___w_f_1_1us_directions"/>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="247">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="248">
+        <label>ASS2_WF.usDirections</label>
+        <link refid="class_a_s_s2___w_f_1_1us_directions"/>
+        <childnode refid="249" relation="public-inheritance">
+        </childnode>
+        <childnode refid="250" relation="usage">
+          <edgelabel>colpnato</edgelabel>
+          <edgelabel>toolStrip1</edgelabel>
+          <edgelabel>label1</edgelabel>
+          <edgelabel>colpnafrom</edgelabel>
+          <edgelabel>label2</edgelabel>
+          <edgelabel>panel1</edgelabel>
+          <edgelabel>colwsr</edgelabel>
+          <edgelabel>btnAdd</edgelabel>
+          <edgelabel>usun</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="250">
+        <label>System</label>
+      </node>
+      <node id="249">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usDirections.cs" bodystart="14" bodyend="151"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a899347564a999033836930c6f563a42d" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>addDirection</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a3e528215e25b2e0f698042034b7714a3" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>addDirection_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a12e7ade48bdc5f94dd7195bcb723226f" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>Bind</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a34b84732d41437f64cb47251bc5836c5" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>BindDG</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a23fee32d5498d6f42abc2aca4fc54944" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>btnAdd</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1afdfd8e39f27453ce81c7dfcffce23e88" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>btnAdd_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a7b7d8f64047630ffdf65f9cd1cb420bb" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>btnSave</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a1611da5b53ac03d6278cb4e25aa3cbd9" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>btnSave_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1afa330d246abedc004d6cf187c39988b7" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>button1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1ad40a0861130b5f92af041abc8debcdc9" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>button1_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1ac3205fb11f2ea9a82cfc6e9b7b490812" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>button2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1aa20302300af6b92fb565aa5a4f052e06" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>button2_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a1a4bc601a18ed770c5b7f90388faa934" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>colname</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a8380a236674c7b2d1447562cb7561dbf" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>colpnafrom</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a2bcddff9987b34f269d9933833f988fb" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>colpnato</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1aeedd998f9ae1398d9ee3c5a283dc469a" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>colwsr</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a8d8041c32052bd298c0e5c3c5cab8d8e" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>components</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a9c3e2c5de26a10906b8b489e6a9838a1" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>dg1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a6159b78d15f0699fcab5302ceb3e5f62" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>dg1_CellContentClick</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a9abd29c73e19fef528af0ff1c0fa10d7" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>dg1_CellEndEdit</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a79ea034db96699f4c555e6e45e4387d4" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>dict</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1ae9519c742c17525f2ca5b98763fdf5f5" prot="protected" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>Dispose</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a985afd270e19c0e8a8473077014eb4eb" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>InitializeComponent</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1acc97bc7fa4eeabf1beea340cb9dd8ba8" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>label1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a679ff1a1b4065edb0b38d6b3f26e6737" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>label2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a3295b7693e9bbb46af13a85acaa6ff19" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>panel1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a9f8f6805d44a36c8a19ff8f2276bad35" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>selectedDirection</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1afb2cf89a5b35f19b5b6945c16bc553dc" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>textBox1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a4b7e9af0fd66e1218ffa505d6ca9e8b3" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>toolStrip1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1adde4a4a0bc5b2e3bd3acdbee9f0da971" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>toolStripComboBox1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a2a65aef6ebeac534fca10be4cc82ccc0" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>toolStripComboBox1_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1ad1f5e8de34af2fd0f7ed1b9bdebba4aa" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>toolStripComboBox1_SelectedIndexChanged</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a5432743b0ca4d8e5b7aa52e24a976dd7" prot="public" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>usDirections</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1a23726d7c3e793c1314fa4b2f67ee2972" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>usDirections_Load</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_directions_1ab74e9f798dc9f1a21a37bf1ea19238ec" prot="private" virt="non-virtual"><scope>ASS2_WF::usDirections</scope><name>usun</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

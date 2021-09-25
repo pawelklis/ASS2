@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_response" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::maksymalnaLiczbaPrzesylekResponse</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_response_1a261495c773f9bd3f4bb9f173b1f35437" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.ServiceReference1.maksymalnaLiczbaPrzesylekResponse.return</definition>
+        <argsstring></argsstring>
+        <name>return</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1246" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1246" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_response_1ad85e8fa4f3ec06017eea91789f3d862e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.maksymalnaLiczbaPrzesylekResponse.maksymalnaLiczbaPrzesylekResponse</definition>
+        <argsstring>()</argsstring>
+        <name>maksymalnaLiczbaPrzesylekResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1248" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1248" bodyend="1249"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_response_1adf5428fb264ef4a18c2ea724a31e2464" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.maksymalnaLiczbaPrzesylekResponse.maksymalnaLiczbaPrzesylekResponse</definition>
+        <argsstring>(int @return)</argsstring>
+        <name>maksymalnaLiczbaPrzesylekResponse</name>
+        <param>
+          <type>int @</type>
+          <declname>return</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1251" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1251" bodyend="1253"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1243" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1243" bodyend="1254"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_response_1ad85e8fa4f3ec06017eea91789f3d862e" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::maksymalnaLiczbaPrzesylekResponse</scope><name>maksymalnaLiczbaPrzesylekResponse</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_response_1adf5428fb264ef4a18c2ea724a31e2464" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::maksymalnaLiczbaPrzesylekResponse</scope><name>maksymalnaLiczbaPrzesylekResponse</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_response_1a261495c773f9bd3f4bb9f173b1f35437" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::maksymalnaLiczbaPrzesylekResponse</scope><name>return</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

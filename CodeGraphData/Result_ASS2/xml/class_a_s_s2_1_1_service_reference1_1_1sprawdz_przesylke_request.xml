@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_request" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::sprawdzPrzesylkeRequest</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_request_1a3d118921365a7b737821ae7f5d2a0549" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.sprawdzPrzesylkeRequest.numer</definition>
+        <argsstring></argsstring>
+        <name>numer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1264" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1264" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_request_1abaa7e3ebd84f1df7de16ff0faff1c75b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.sprawdzPrzesylkeRequest.sprawdzPrzesylkeRequest</definition>
+        <argsstring>()</argsstring>
+        <name>sprawdzPrzesylkeRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1266" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1266" bodyend="1267"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_request_1a482a657e1646b32aa8d765cbd25988bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.sprawdzPrzesylkeRequest.sprawdzPrzesylkeRequest</definition>
+        <argsstring>(string numer)</argsstring>
+        <name>sprawdzPrzesylkeRequest</name>
+        <param>
+          <type>string</type>
+          <declname>numer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1269" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1269" bodyend="1271"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1260" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1260" bodyend="1272"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_request_1a3d118921365a7b737821ae7f5d2a0549" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::sprawdzPrzesylkeRequest</scope><name>numer</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_request_1abaa7e3ebd84f1df7de16ff0faff1c75b" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::sprawdzPrzesylkeRequest</scope><name>sprawdzPrzesylkeRequest</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_request_1a482a657e1646b32aa8d765cbd25988bd" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::sprawdzPrzesylkeRequest</scope><name>sprawdzPrzesylkeRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

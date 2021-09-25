@@ -1,0 +1,315 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_dict_type" kind="class" prot="public">
+    <compoundname>ASS2::DictType</compoundname>
+    <basecompoundref refid="class_a_s_s2_1_1_data_base_storage_helper" prot="public" virt="non-virtual">ASS2.DataBaseStorageHelper</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_dict_type_1a9787d0a071b4b84d246de99016dad436" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.DictType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_dict_type_1aad20d61857b346c3c244badf25bad434" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.DictType.MachineId</definition>
+        <argsstring></argsstring>
+        <name>MachineId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_dict_type_1a2050363cf095a389956e197990c76cf2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_a_s_s2_1_1_direction_type" kindref="compound">DirectionType</ref> &gt;</type>
+        <definition>List&lt;DirectionType&gt; ASS2.DictType.Directions</definition>
+        <argsstring></argsstring>
+        <name>Directions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1a12e7ade48bdc5f94dd7195bcb723226f" compoundref="us_directions_8cs" startline="31" endline="40">ASS2_WF.usDirections.Bind</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1ad40a0861130b5f92af041abc8debcdc9" compoundref="us_directions_8cs" startline="77" endline="92">ASS2_WF.usDirections.button1_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_directions_1ad1f5e8de34af2fd0f7ed1b9bdebba4aa" compoundref="us_directions_8cs" startline="47" endline="57">ASS2_WF.usDirections.toolStripComboBox1_SelectedIndexChanged</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_dict_type_1a386687acef905813e6ef06416f6b3bd2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.DictType.iModbusIP</definition>
+        <argsstring></argsstring>
+        <name>iModbusIP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_dict_type_1a98946f67736696b06a506fb0afaf826d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.DictType.ModbusPort</definition>
+        <argsstring></argsstring>
+        <name>ModbusPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_dict_type_1aef599aa4d299e4d3880c91bc14306c84" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_a_s_s2_1_1_lamp_type" kindref="compound">LampType</ref> &gt;</type>
+        <definition>List&lt;LampType&gt; ASS2.DictType.Lamps</definition>
+        <argsstring></argsstring>
+        <name>Lamps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1ac86d3591d37718c8dba94253d02a14e0" compoundref="us_maintenance_8cs" startline="22" endline="43">ASS2_WF.usMaintenance.usMaintenance_Load</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_dict_type_1a56f3bd8d16140b622d2b438d69402413" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_a_s_s2_1_1_color_type" kindref="compound">ColorType</ref> &gt;</type>
+        <definition>List&lt;ColorType&gt; ASS2.DictType.Colors</definition>
+        <argsstring></argsstring>
+        <name>Colors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="19" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1_colors_dict_1a9b7cbe7805b8e5f7d0d1d6f8533b3be0" compoundref="_colors_dict_8aspx_8cs" startline="29" endline="58">ASS2WEB.ColorsDict.Bind</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac82953aeb7e3b6fc43a2f4d0afd37f7b" compoundref="_machine_type_8cs" startline="744" endline="777">ASS2.MachineType.LampTest</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a2eda61958682a1b8f8813232250097d7" compoundref="_machine_type_8cs" startline="778" endline="805">ASS2.MachineType.LampTestSingleOn</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1ac86d3591d37718c8dba94253d02a14e0" compoundref="us_maintenance_8cs" startline="22" endline="43">ASS2_WF.usMaintenance.usMaintenance_Load</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_dict_type_1abe547dc49cdd5465c9636ff919d7bd12" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_a_s_s2_1_1_stand_type" kindref="compound">StandType</ref> &gt;</type>
+        <definition>List&lt;StandType&gt; ASS2.DictType.Stands</definition>
+        <argsstring></argsstring>
+        <name>Stands</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="20" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1abd64615565f65de4d3fbfd1bccfec597" compoundref="_machine_type_8cs" startline="288" endline="315">ASS2.MachineType.AllMissed</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a13c7538266f731bcc0384c2004acd866" compoundref="_machine_type_8cs" startline="257" endline="283">ASS2.MachineType.AllSorted</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ad37c7f6e7e691a2da9c00ff3c8955bbd" compoundref="_machine_type_8cs" startline="316" endline="397">ASS2.MachineType.GetStandStats</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac82953aeb7e3b6fc43a2f4d0afd37f7b" compoundref="_machine_type_8cs" startline="744" endline="777">ASS2.MachineType.LampTest</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a2eda61958682a1b8f8813232250097d7" compoundref="_machine_type_8cs" startline="778" endline="805">ASS2.MachineType.LampTestSingleOn</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a962b089d88d5db9109a90f0407b252c0" compoundref="_machine_type_8cs" startline="167" endline="226">ASS2.MachineType.SetSortProgram</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1ac449de0dadc3a4349d15bab48c7f350e" compoundref="us_maintenance_8cs" startline="127" endline="131">ASS2_WF.usMaintenance.StartParcelSensor_ValueChanged</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1aa8dab868bdfe039a93f26e9645e3718e" compoundref="_machine_type_8cs" startline="851" endline="913">ASS2.MachineType.Tacted</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a073ec4ce5cba7b7b20a1c6c31cb2fe21" compoundref="us_settings_8cs" startline="22" endline="47">ASS2_WF.usSettings.usSettings_Load</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_dict_type_1a547df86e57dd47510f96227ced8ff43a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_a_s_s2_1_1_r_s232_config_type" kindref="compound">RS232ConfigType</ref> &gt;</type>
+        <definition>List&lt;RS232ConfigType&gt; ASS2.DictType.SerialConfigs</definition>
+        <argsstring></argsstring>
+        <name>SerialConfigs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="21" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a0f04ad3fe34abb702de04a25ef2605dc" compoundref="us_settings_8cs" startline="49" endline="59">ASS2_WF.usSettings.button1_Click</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_dict_type_1a53ed28355faf90385c32b657c1dcdd61" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.DictType.OdrzutyLamp1Tact</definition>
+        <argsstring></argsstring>
+        <name>OdrzutyLamp1Tact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="23" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_dict_type_1a309c5a33fccd2ad319e24c1ac6317ccb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.DictType.OdrzutyLamp2Tact</definition>
+        <argsstring></argsstring>
+        <name>OdrzutyLamp2Tact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="24" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_dict_type_1aa19c35f39b5153373f31c0851f97a08a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.DictType.TactsCount</definition>
+        <argsstring></argsstring>
+        <name>TactsCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="25" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a0f04ad3fe34abb702de04a25ef2605dc" compoundref="us_settings_8cs" startline="49" endline="59">ASS2_WF.usSettings.button1_Click</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_dict_type_1a756a32212310124bcacecd8ef3949eb0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.DictType.StopSensorTact</definition>
+        <argsstring></argsstring>
+        <name>StopSensorTact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="26" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1ac449de0dadc3a4349d15bab48c7f350e" compoundref="us_maintenance_8cs" startline="127" endline="131">ASS2_WF.usMaintenance.StartParcelSensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_dict_type_1abb832e9d3916eb92427115446971bc99" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.DictType.ParcelStopRunTactNumber</definition>
+        <argsstring></argsstring>
+        <name>ParcelStopRunTactNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="27" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_dict_type_1a1319a453a2f46cdb806259ead36bd779" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.DictType.FeederStartDetectionSensorTactNumber</definition>
+        <argsstring></argsstring>
+        <name>FeederStartDetectionSensorTactNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="28" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a0f04ad3fe34abb702de04a25ef2605dc" compoundref="us_settings_8cs" startline="49" endline="59">ASS2_WF.usSettings.button1_Click</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_dict_type_1ab17a222f7630db0258e1eabdcb4b30cd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new T</type>
+        <definition>static new T ASS2.DictType.Load&lt; T &gt;</definition>
+        <argsstring>(int MachineID)</argsstring>
+        <name>Load&lt; T &gt;</name>
+        <param>
+          <type>int</type>
+          <declname>MachineID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="29" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="29" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_dict_type_1a5afdfa7e132cc24d4c58bdf8f3276a8e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.DictType.DictType</definition>
+        <argsstring>()</argsstring>
+        <name>DictType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="34" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="34" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="56">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+      <node id="55">
+        <label>ASS2.DictType</label>
+        <link refid="class_a_s_s2_1_1_dict_type"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="58">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+      <node id="57">
+        <label>ASS2.DictType</label>
+        <link refid="class_a_s_s2_1_1_dict_type"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/DictType.cs" bodystart="9" bodyend="110"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_dict_type_1a56f3bd8d16140b622d2b438d69402413" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>Colors</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a24cadf21177fee7a33e2060a1034d067" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>CreateTable</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1a5afdfa7e132cc24d4c58bdf8f3276a8e" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>DictType</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1a2050363cf095a389956e197990c76cf2" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>Directions</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1a1319a453a2f46cdb806259ead36bd779" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>FeederStartDetectionSensorTactNumber</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1a9787d0a071b4b84d246de99016dad436" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>Id</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1a386687acef905813e6ef06416f6b3bd2" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>iModbusIP</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1aef599aa4d299e4d3880c91bc14306c84" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>Lamps</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1ab17a222f7630db0258e1eabdcb4b30cd" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>Load&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ae190bdcee51591d2a705490ccdffe940" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>LoadAll&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ab0a3f846534fe15e795ff95fc0e73ade" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>LoadWhere&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1aad20d61857b346c3c244badf25bad434" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>MachineId</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1a98946f67736696b06a506fb0afaf826d" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>ModbusPort</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1a53ed28355faf90385c32b657c1dcdd61" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>OdrzutyLamp1Tact</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1a309c5a33fccd2ad319e24c1ac6317ccb" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>OdrzutyLamp2Tact</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1abb832e9d3916eb92427115446971bc99" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>ParcelStopRunTactNumber</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a483e584dcfb0eaa9f6a6da3b4e8b3f1f" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>Save</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a1751417872a03695c3547e418d9ae301" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>SaveAsync</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1a547df86e57dd47510f96227ced8ff43a" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>SerialConfigs</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1abe547dc49cdd5465c9636ff919d7bd12" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>Stands</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1a756a32212310124bcacecd8ef3949eb0" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>StopSensorTact</name></member>
+      <member refid="class_a_s_s2_1_1_dict_type_1aa19c35f39b5153373f31c0851f97a08a" prot="public" virt="non-virtual"><scope>ASS2::DictType</scope><name>TactsCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

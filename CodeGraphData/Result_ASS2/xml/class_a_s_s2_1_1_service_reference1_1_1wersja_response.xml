@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1wersja_response" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::wersjaResponse</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1wersja_response_1ab710d1319eec54d456dfd2f164e50ada" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.wersjaResponse.return</definition>
+        <argsstring></argsstring>
+        <name>return</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="116" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1wersja_response_1ac58944ba1d468c6bd8e4ffeff772f13b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.wersjaResponse.wersjaResponse</definition>
+        <argsstring>()</argsstring>
+        <name>wersjaResponse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="118" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="118" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1wersja_response_1a719f31edae91b59bee80d20dac87e80f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.wersjaResponse.wersjaResponse</definition>
+        <argsstring>(string @return)</argsstring>
+        <name>wersjaResponse</name>
+        <param>
+          <type>string @</type>
+          <declname>return</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="121" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="121" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="112" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="112" bodyend="124"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1wersja_response_1ab710d1319eec54d456dfd2f164e50ada" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::wersjaResponse</scope><name>return</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1wersja_response_1ac58944ba1d468c6bd8e4ffeff772f13b" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::wersjaResponse</scope><name>wersjaResponse</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1wersja_response_1a719f31edae91b59bee80d20dac87e80f" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::wersjaResponse</scope><name>wersjaResponse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_r_s232_config_type" kind="class" prot="public">
+    <compoundname>ASS2::RS232ConfigType</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_r_s232_config_type_1a814e5bf892b0258054d9b3502117d9d5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.RS232ConfigType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232/RS232ConfigType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232/RS232ConfigType.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_r_s232_config_type_1a6f44cae6025cc9029649ec094d8e9e42" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.RS232ConfigType.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232/RS232ConfigType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232/RS232ConfigType.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_r_s232_config_type_1a36a092edd5439822fd87a79aefe3714b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RS232ConfigType.Speed</definition>
+        <argsstring></argsstring>
+        <name>Speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232/RS232ConfigType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232/RS232ConfigType.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_r_s232_config_type_1aa46870137c82bc3cb6a8f8745b4fd818" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RS232ConfigType.Delay</definition>
+        <argsstring></argsstring>
+        <name>Delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232/RS232ConfigType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232/RS232ConfigType.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_r_s232_config_type_1aff0be236a0be15f079eb2425ce1ce2b7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.RS232ConfigType.PortName</definition>
+        <argsstring></argsstring>
+        <name>PortName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232/RS232ConfigType.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232/RS232ConfigType.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232/RS232ConfigType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232/RS232ConfigType.cs" bodystart="9" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_r_s232_config_type_1aa46870137c82bc3cb6a8f8745b4fd818" prot="public" virt="non-virtual"><scope>ASS2::RS232ConfigType</scope><name>Delay</name></member>
+      <member refid="class_a_s_s2_1_1_r_s232_config_type_1a814e5bf892b0258054d9b3502117d9d5" prot="public" virt="non-virtual"><scope>ASS2::RS232ConfigType</scope><name>Id</name></member>
+      <member refid="class_a_s_s2_1_1_r_s232_config_type_1a6f44cae6025cc9029649ec094d8e9e42" prot="public" virt="non-virtual"><scope>ASS2::RS232ConfigType</scope><name>Name</name></member>
+      <member refid="class_a_s_s2_1_1_r_s232_config_type_1aff0be236a0be15f079eb2425ce1ce2b7" prot="public" virt="non-virtual"><scope>ASS2::RS232ConfigType</scope><name>PortName</name></member>
+      <member refid="class_a_s_s2_1_1_r_s232_config_type_1a36a092edd5439822fd87a79aefe3714b" prot="public" virt="non-virtual"><scope>ASS2::RS232ConfigType</scope><name>Speed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

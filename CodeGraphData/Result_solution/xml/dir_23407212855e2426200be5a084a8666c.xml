@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_23407212855e2426200be5a084a8666c" kind="dir">
+    <compoundname>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType</compoundname>
+    <innerdir refid="dir_64581fbbe7521a2ef238be6290a7944e">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items</innerdir>
+    <innerfile refid="_stand_type_8cs">StandType.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/"/>
+  </compounddef>
+</doxygen>

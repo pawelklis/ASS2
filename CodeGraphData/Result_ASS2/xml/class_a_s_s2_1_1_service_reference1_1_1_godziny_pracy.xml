@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::GodzinyPracy</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1afb0885933ae3b5f5960814e26abb3f02" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami" kindref="compound">GodzinyZUwagami</ref></type>
+        <definition>GodzinyZUwagami ASS2.ServiceReference1.GodzinyPracy.dniRoboczeField</definition>
+        <argsstring></argsstring>
+        <name>dniRoboczeField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1013" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1013" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1a8f1eeb82ea53d373f0a5a2fd0ac070d5" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami" kindref="compound">GodzinyZUwagami</ref></type>
+        <definition>GodzinyZUwagami ASS2.ServiceReference1.GodzinyPracy.niedzISwField</definition>
+        <argsstring></argsstring>
+        <name>niedzISwField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1015" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1015" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1ade5b4e751f9142092974409b242b7e33" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami" kindref="compound">GodzinyZUwagami</ref></type>
+        <definition>GodzinyZUwagami ASS2.ServiceReference1.GodzinyPracy.sobotyField</definition>
+        <argsstring></argsstring>
+        <name>sobotyField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1017" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1017" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1a3139abbecf87b0b4c8075ce1e324d128" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami" kindref="compound">GodzinyZUwagami</ref></type>
+        <definition>GodzinyZUwagami ASS2.ServiceReference1.GodzinyPracy.dniRobocze</definition>
+        <argsstring></argsstring>
+        <name>dniRobocze</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1021" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1021" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1aeae7fa8ad07f2edee662035989be5667" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami" kindref="compound">GodzinyZUwagami</ref></type>
+        <definition>GodzinyZUwagami ASS2.ServiceReference1.GodzinyPracy.niedzISw</definition>
+        <argsstring></argsstring>
+        <name>niedzISw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1033" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1033" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1a02be1457e1c3e83aa6fb01da5e4c4866" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami" kindref="compound">GodzinyZUwagami</ref></type>
+        <definition>GodzinyZUwagami ASS2.ServiceReference1.GodzinyPracy.soboty</definition>
+        <argsstring></argsstring>
+        <name>soboty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1045" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1045" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1a516938957345e57fa801242a682a1e40" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>System.ComponentModel.PropertyChangedEventHandler</type>
+        <definition>System.ComponentModel.PropertyChangedEventHandler ASS2.ServiceReference1.GodzinyPracy.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1055" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1055" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1a9eb2ab3b7acbd7ea20a6ebbc350230d9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ServiceReference1.GodzinyPracy.RaisePropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>RaisePropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1057" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1057" bodyend="1062"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="63">
+        <label>ASS2.ServiceReference1.GodzinyPracy</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy"/>
+        <childnode refid="64" relation="public-inheritance">
+        </childnode>
+        <childnode refid="65" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="64">
+        <label>object</label>
+      </node>
+      <node id="65">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="66">
+        <label>ASS2.ServiceReference1.GodzinyPracy</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+        <childnode refid="69" relation="usage">
+          <edgelabel>sobotyField</edgelabel>
+          <edgelabel>dniRoboczeField</edgelabel>
+          <edgelabel>niedzISwField</edgelabel>
+        </childnode>
+      </node>
+      <node id="67">
+        <label>object</label>
+      </node>
+      <node id="69">
+        <label>ASS2.ServiceReference1.GodzinyZUwagami</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami"/>
+        <childnode refid="67" relation="public-inheritance">
+        </childnode>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1011" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1011" bodyend="1063"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1a3139abbecf87b0b4c8075ce1e324d128" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::GodzinyPracy</scope><name>dniRobocze</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1afb0885933ae3b5f5960814e26abb3f02" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::GodzinyPracy</scope><name>dniRoboczeField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1aeae7fa8ad07f2edee662035989be5667" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::GodzinyPracy</scope><name>niedzISw</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1a8f1eeb82ea53d373f0a5a2fd0ac070d5" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::GodzinyPracy</scope><name>niedzISwField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1a516938957345e57fa801242a682a1e40" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::GodzinyPracy</scope><name>PropertyChanged</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1a9eb2ab3b7acbd7ea20a6ebbc350230d9" prot="protected" virt="non-virtual"><scope>ASS2::ServiceReference1::GodzinyPracy</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1a02be1457e1c3e83aa6fb01da5e4c4866" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::GodzinyPracy</scope><name>soboty</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1ade5b4e751f9142092974409b242b7e33" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::GodzinyPracy</scope><name>sobotyField</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

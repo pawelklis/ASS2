@@ -166,7 +166,6 @@
     <Content Include="directions.aspx" />
     <Content Include="dr.aspx" />
     <Content Include="drp.aspx" />
-    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="images\emoticons\bad.png" />
     <Content Include="images\emoticons\cry.png" />
@@ -1441,6 +1440,8 @@
     <Content Include="images\icons\delete.png" />
     <Content Include="images\icons\icoUserLock.PNG" />
     <Content Include="images\icons\usr2.PNG" />
+    <Content Include="favicon.ico" />
+    <Content Include="images\industrial-robot.png" />
     <Content Include="images\road.jpg" />
     <Content Include="images\truck %281%29.gif" />
     <Content Include="Scripts\bootstrap.bundle.js" />

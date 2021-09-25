@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_a_s_s2_1_1_sensor_type" kind="interface" prot="public">
+    <compoundname>ASS2::SensorType</compoundname>
+    <derivedcompoundref refid="class_a_s_s2_1_1_stop_sensor_type" prot="public" virt="non-virtual">ASS2.StopSensorType</derivedcompoundref>
+    <derivedcompoundref refid="class_a_s_s2_1_1_tact_sensor_type" prot="public" virt="non-virtual">ASS2.TactSensorType</derivedcompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9" prot="public" static="no">
+        <name>SensorName</name>
+        <enumvalue id="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9ac5243f45ab03ee781ad4dd234d26e6e2" prot="public">
+          <name>startdetectionsensor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9aeb9e2b8983340be98bceb47546c97d92" prot="public">
+          <name>startparcelsensor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9a0da1f03a79e84955304ae76bd610cf12" prot="public">
+          <name>tactsensor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9a29d5e1612a5dbc5cfa64c634a261a558" prot="public">
+          <name>stopsensor</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/SensorType.cs" line="23" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/SensorType.cs" bodystart="22" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_a_s_s2_1_1_sensor_type_1a104ad910593aab61ace15a4e3ad9ba3e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.SensorType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/SensorType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/SensorType.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_a_s_s2_1_1_sensor_type_1a4e6e8efeb78fe30e1c66f1653f10cc41" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9" kindref="member">SensorName</ref></type>
+        <definition>SensorName ASS2.SensorType.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/SensorType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/SensorType.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_a_s_s2_1_1_sensor_type_1a70b367c49c9746a5fd7664cfa28cfd7a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.SensorType.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/SensorType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/SensorType.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_a_s_s2_1_1_sensor_type_1a3749bbb3df243a02059c6fc909803825" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.SensorType.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/SensorType.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/SensorType.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="interface_a_s_s2_1_1_sensor_type_1ace4a3103a7b9589b5d1bb60febbd7c97" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusDriver.ModbusValueEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;ModbusDriver.ModbusValueEventArgs&gt; ASS2.SensorType.ValueChanged</definition>
+        <argsstring></argsstring>
+        <name>ValueChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/SensorType.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/SensorType.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="191">
+        <label>ASS2.StopSensorType</label>
+        <link refid="class_a_s_s2_1_1_stop_sensor_type"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="190">
+        <label>ASS2.SensorType</label>
+        <link refid="interface_a_s_s2_1_1_sensor_type"/>
+      </node>
+      <node id="192">
+        <label>ASS2.TactSensorType</label>
+        <link refid="class_a_s_s2_1_1_tact_sensor_type"/>
+        <childnode refid="190" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/SensorType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/SensorType.cs" bodystart="9" bodyend="29"/>
+    <listofallmembers>
+      <member refid="interface_a_s_s2_1_1_sensor_type_1a70b367c49c9746a5fd7664cfa28cfd7a" prot="public" virt="non-virtual"><scope>ASS2::SensorType</scope><name>Address</name></member>
+      <member refid="interface_a_s_s2_1_1_sensor_type_1a104ad910593aab61ace15a4e3ad9ba3e" prot="public" virt="non-virtual"><scope>ASS2::SensorType</scope><name>Id</name></member>
+      <member refid="interface_a_s_s2_1_1_sensor_type_1a4e6e8efeb78fe30e1c66f1653f10cc41" prot="public" virt="non-virtual"><scope>ASS2::SensorType</scope><name>Name</name></member>
+      <member refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9" prot="public" virt="non-virtual"><scope>ASS2::SensorType</scope><name>SensorName</name></member>
+      <member refid="interface_a_s_s2_1_1_sensor_type_1a3749bbb3df243a02059c6fc909803825" prot="public" virt="non-virtual"><scope>ASS2::SensorType</scope><name>Value</name></member>
+      <member refid="interface_a_s_s2_1_1_sensor_type_1ace4a3103a7b9589b5d1bb60febbd7c97" prot="public" virt="non-virtual"><scope>ASS2::SensorType</scope><name>ValueChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

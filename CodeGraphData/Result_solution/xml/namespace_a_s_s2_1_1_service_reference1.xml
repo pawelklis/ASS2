@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_a_s_s2_1_1_service_reference1" kind="namespace">
+    <compoundname>ASS2::ServiceReference1</compoundname>
+    <innerclass refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type" prot="public">ASS2::ServiceReference1::SledzeniePortType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1wersja_request" prot="public">ASS2::ServiceReference1::wersjaRequest</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1wersja_response" prot="public">ASS2::ServiceReference1::wersjaResponse</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat" prot="public">ASS2::ServiceReference1::Komunikat</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka" prot="public">ASS2::ServiceReference1::Przesylka</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki" prot="public">ASS2::ServiceReference1::DanePrzesylki</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1_procedura" prot="public">ASS2::ServiceReference1::Procedura</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana" prot="public">ASS2::ServiceReference1::PrzesylkaPowiazana</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna" prot="public">ASS2::ServiceReference1::Przyczyna</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie" prot="public">ASS2::ServiceReference1::Zdarzenie</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka" prot="public">ASS2::ServiceReference1::Jednostka</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki" prot="public">ASS2::ServiceReference1::SzczDaneJednostki</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy" prot="public">ASS2::ServiceReference1::GodzinyPracy</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami" prot="public">ASS2::ServiceReference1::GodzinyZUwagami</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_pl_request" prot="public">ASS2::ServiceReference1::sprawdzPrzesylkiPlRequest</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_pl_response" prot="public">ASS2::ServiceReference1::sprawdzPrzesylkiPlResponse</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_request" prot="public">ASS2::ServiceReference1::sprawdzPrzesylkePlRequest</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response" prot="public">ASS2::ServiceReference1::sprawdzPrzesylkePlResponse</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request" prot="public">ASS2::ServiceReference1::sprawdzPrzesylkiOdDoRequest</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_response" prot="public">ASS2::ServiceReference1::sprawdzPrzesylkiOdDoResponse</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_request" prot="public">ASS2::ServiceReference1::maksymalnaLiczbaPrzesylekRequest</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_response" prot="public">ASS2::ServiceReference1::maksymalnaLiczbaPrzesylekResponse</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_request" prot="public">ASS2::ServiceReference1::sprawdzPrzesylkeRequest</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_response" prot="public">ASS2::ServiceReference1::sprawdzPrzesylkeResponse</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_request" prot="public">ASS2::ServiceReference1::sprawdzPrzesylkiOdDoPlRequest</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_response" prot="public">ASS2::ServiceReference1::sprawdzPrzesylkiOdDoPlResponse</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1witaj_request" prot="public">ASS2::ServiceReference1::witajRequest</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1witaj_response" prot="public">ASS2::ServiceReference1::witajResponse</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_request" prot="public">ASS2::ServiceReference1::sprawdzPrzesylkiRequest</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_response" prot="public">ASS2::ServiceReference1::sprawdzPrzesylkiResponse</innerclass>
+    <innerclass refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_channel" prot="public">ASS2::ServiceReference1::SledzeniePortTypeChannel</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client" prot="public">ASS2::ServiceReference1::SledzeniePortTypeClient</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

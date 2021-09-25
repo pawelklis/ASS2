@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_direction_item_type" kind="class" prot="public">
+    <compoundname>ASS2::DirectionItemType</compoundname>
+    <basecompoundref refid="class_a_s_s2_1_1_data_base_storage_helper" prot="public" virt="non-virtual">ASS2.DataBaseStorageHelper</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_direction_item_type_1a3ea86efe2cd98f250dded1f6cedc083b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.DirectionItemType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_direction_item_type_1a824f0b4194d46b33a9afd74f351ad656" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.DirectionItemType.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_direction_item_type_1a14209ae522f2493f3536f5126fe28119" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.DirectionItemType.PnaFrom</definition>
+        <argsstring></argsstring>
+        <name>PnaFrom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_direction_item_type_1a1a5ec861fc717ecc314d929decf55fa1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.DirectionItemType.PnaTo</definition>
+        <argsstring></argsstring>
+        <name>PnaTo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_direction_item_type_1a935041006b37c78e931f34785874dde6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.DirectionItemType.WSR</definition>
+        <argsstring></argsstring>
+        <name>WSR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_direction_item_type_1ac95a76643fb16f3118ee8a5b1a55aeff" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.DirectionItemType.ParcelTypes</definition>
+        <argsstring></argsstring>
+        <name>ParcelTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_direction_item_type_1a4d525784babd0fef4335b196e4d501c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; List&lt; string &gt; &gt;</type>
+        <definition>async Task&lt;List&lt;string&gt; &gt; ASS2.DirectionItemType.ParcelTypesList</definition>
+        <argsstring>()</argsstring>
+        <name>ParcelTypesList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" bodystart="18" bodyend="42"/>
+        <referencedby refid="class_a_s_s2_1_1_direction_item_type_1affc9225c1c6cf90ebe95850806875e9a" compoundref="_direction_item_type_8cs" startline="44" endline="58">ASS2.DirectionItemType.IsInParcelType</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_direction_item_type_1affc9225c1c6cf90ebe95850806875e9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; bool &gt;</type>
+        <definition>async Task&lt;bool&gt; ASS2.DirectionItemType.IsInParcelType</definition>
+        <argsstring>(string parceltyp)</argsstring>
+        <name>IsInParcelType</name>
+        <param>
+          <type>string</type>
+          <declname>parceltyp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" line="44" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" bodystart="44" bodyend="58"/>
+        <references refid="class_a_s_s2_1_1_direction_item_type_1a4d525784babd0fef4335b196e4d501c4" compoundref="_direction_item_type_8cs" startline="18" endline="42">ASS2.DirectionItemType.ParcelTypesList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_direction_item_type_1a2d0e15a017d9e618d63a138eec8a1bbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.DirectionItemType.DirectionItemType</definition>
+        <argsstring>()</argsstring>
+        <name>DirectionItemType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" line="60" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="43">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+      <node id="42">
+        <label>ASS2.DirectionItemType</label>
+        <link refid="class_a_s_s2_1_1_direction_item_type"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="45">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+      <node id="44">
+        <label>ASS2.DirectionItemType</label>
+        <link refid="class_a_s_s2_1_1_direction_item_type"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/DirectionItemType.cs" bodystart="9" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a24cadf21177fee7a33e2060a1034d067" prot="public" virt="non-virtual"><scope>ASS2::DirectionItemType</scope><name>CreateTable</name></member>
+      <member refid="class_a_s_s2_1_1_direction_item_type_1a2d0e15a017d9e618d63a138eec8a1bbd" prot="public" virt="non-virtual"><scope>ASS2::DirectionItemType</scope><name>DirectionItemType</name></member>
+      <member refid="class_a_s_s2_1_1_direction_item_type_1a3ea86efe2cd98f250dded1f6cedc083b" prot="public" virt="non-virtual"><scope>ASS2::DirectionItemType</scope><name>Id</name></member>
+      <member refid="class_a_s_s2_1_1_direction_item_type_1affc9225c1c6cf90ebe95850806875e9a" prot="public" virt="non-virtual"><scope>ASS2::DirectionItemType</scope><name>IsInParcelType</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a53c274faca217ed300cfa46c4f465b50" prot="public" virt="non-virtual"><scope>ASS2::DirectionItemType</scope><name>Load&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ae190bdcee51591d2a705490ccdffe940" prot="public" virt="non-virtual"><scope>ASS2::DirectionItemType</scope><name>LoadAll&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ab0a3f846534fe15e795ff95fc0e73ade" prot="public" virt="non-virtual"><scope>ASS2::DirectionItemType</scope><name>LoadWhere&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_direction_item_type_1a824f0b4194d46b33a9afd74f351ad656" prot="public" virt="non-virtual"><scope>ASS2::DirectionItemType</scope><name>Name</name></member>
+      <member refid="class_a_s_s2_1_1_direction_item_type_1ac95a76643fb16f3118ee8a5b1a55aeff" prot="public" virt="non-virtual"><scope>ASS2::DirectionItemType</scope><name>ParcelTypes</name></member>
+      <member refid="class_a_s_s2_1_1_direction_item_type_1a4d525784babd0fef4335b196e4d501c4" prot="public" virt="non-virtual"><scope>ASS2::DirectionItemType</scope><name>ParcelTypesList</name></member>
+      <member refid="class_a_s_s2_1_1_direction_item_type_1a14209ae522f2493f3536f5126fe28119" prot="public" virt="non-virtual"><scope>ASS2::DirectionItemType</scope><name>PnaFrom</name></member>
+      <member refid="class_a_s_s2_1_1_direction_item_type_1a1a5ec861fc717ecc314d929decf55fa1" prot="public" virt="non-virtual"><scope>ASS2::DirectionItemType</scope><name>PnaTo</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a483e584dcfb0eaa9f6a6da3b4e8b3f1f" prot="public" virt="non-virtual"><scope>ASS2::DirectionItemType</scope><name>Save</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a1751417872a03695c3547e418d9ae301" prot="public" virt="non-virtual"><scope>ASS2::DirectionItemType</scope><name>SaveAsync</name></member>
+      <member refid="class_a_s_s2_1_1_direction_item_type_1a935041006b37c78e931f34785874dde6" prot="public" virt="non-virtual"><scope>ASS2::DirectionItemType</scope><name>WSR</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

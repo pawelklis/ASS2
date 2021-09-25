@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_w_e_b_1_1_global" kind="class" prot="public">
+    <compoundname>ASS2WEB::Global</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">HttpApplication</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1_global_1ae8fee8607790d7cacc4d9bd36ec8fcb5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.Global.Application_Start</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Application_Start</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Global.asax.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Global.asax.cs" bodystart="14" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="110">
+        <label>ASS2WEB.Global</label>
+        <link refid="class_a_s_s2_w_e_b_1_1_global"/>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="111">
+        <label>HttpApplication</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="112">
+        <label>ASS2WEB.Global</label>
+        <link refid="class_a_s_s2_w_e_b_1_1_global"/>
+        <childnode refid="113" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="113">
+        <label>HttpApplication</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Global.asax.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Global.asax.cs" bodystart="12" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_w_e_b_1_1_global_1ae8fee8607790d7cacc4d9bd36ec8fcb5" prot="private" virt="non-virtual"><scope>ASS2WEB::Global</scope><name>Application_Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

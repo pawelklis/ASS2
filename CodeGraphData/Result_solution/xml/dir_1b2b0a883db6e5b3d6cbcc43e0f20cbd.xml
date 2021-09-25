@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_1b2b0a883db6e5b3d6cbcc43e0f20cbd" kind="dir">
+    <compoundname>C:/Users/klispawel/source/repos/ASS2/ASS2/DAL</compoundname>
+    <innerfile refid="_data_base_storage_helper_8cs">DataBaseStorageHelper.cs</innerfile>
+    <innerfile refid="_mysql_core_8cs">MysqlCore.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/"/>
+  </compounddef>
+</doxygen>

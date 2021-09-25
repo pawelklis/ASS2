@@ -1,0 +1,927 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2___w_f_1_1us_work" kind="class" prot="public">
+    <compoundname>ASS2_WF::usWork</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+    <innerclass refid="class_a_s_s2___w_f_1_1us_work_1_1_combobox_item" prot="public">ASS2_WF::usWork::ComboboxItem</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1aeb08b7bfc2f229448131b870f6df6c24" prot="private" static="no" mutable="no">
+        <type>Timer</type>
+        <definition>Timer ASS2_WF.usWork.refreshtimer</definition>
+        <argsstring></argsstring>
+        <name>refreshtimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" compoundref="us_work_8cs" startline="26" endline="63">ASS2_WF.usWork.usWork_Load</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1adf6b2a5900380fc90c053e45148f154d" prot="private" static="no" mutable="no">
+        <type>Timer</type>
+        <definition>Timer ASS2_WF.usWork.StatTimer</definition>
+        <argsstring></argsstring>
+        <name>StatTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="17" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" compoundref="us_work_8cs" startline="26" endline="63">ASS2_WF.usWork.usWork_Load</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1ad032856420e108be874787fa73ce0ded" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer ASS2_WF.usWork.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="8" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a95cba4b6435b116fb4769ade39b4c57c" compoundref="us_work_8_designer_8cs" startline="14" endline="21">ASS2_WF.usWork.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a9f7b0bf26836dcbecccff83757f92f92" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.PictureBox</type>
+        <definition>System.Windows.Forms.PictureBox ASS2_WF.usWork.pictureBox1</definition>
+        <argsstring></argsstring>
+        <name>pictureBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="432" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="432" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1af377980a414e307127f900a302278b98" compoundref="us_work_8_designer_8cs" startline="29" endline="428">ASS2_WF.usWork.InitializeComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1adc7881bc419c9324cdeb752f2fa5b7a4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Panel</type>
+        <definition>System.Windows.Forms.Panel ASS2_WF.usWork.panel1</definition>
+        <argsstring></argsstring>
+        <name>panel1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="433" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="433" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a631a862c34a7755bfbde0031a34acfd3" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ComboBox</type>
+        <definition>System.Windows.Forms.ComboBox ASS2_WF.usWork.cbSortProgram</definition>
+        <argsstring></argsstring>
+        <name>cbSortProgram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="434" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="434" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1ae25f06528ea91949031ac7381c5cdaab" compoundref="us_work_8cs" startline="173" endline="178">ASS2_WF.usWork.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1abb46f693adb30b9813ad9d4d5453cbee" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usWork.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="435" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="435" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1ad14befc6ee78698041d1abea091980d6" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usWork.btnStartRun</definition>
+        <argsstring></argsstring>
+        <name>btnStartRun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="436" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="436" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1ae13f95e432b051444e192a4de0653d6d" compoundref="us_work_8cs" startline="85" endline="152">ASS2_WF.usWork.Refreshtimer_Tick</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1ac49906f3873c08126b63f4f2a4af9491" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Panel</type>
+        <definition>System.Windows.Forms.Panel ASS2_WF.usWork.panel2</definition>
+        <argsstring></argsstring>
+        <name>panel2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="437" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="437" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1af01bb342b1386faec226e787b8aefccd" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usWork.lbRun</definition>
+        <argsstring></argsstring>
+        <name>lbRun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="438" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="438" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" compoundref="us_work_8cs" startline="26" endline="63">ASS2_WF.usWork.usWork_Load</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1adf8f18f086d307f74aa5ff7b69b595a2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Panel</type>
+        <definition>System.Windows.Forms.Panel ASS2_WF.usWork.panel3</definition>
+        <argsstring></argsstring>
+        <name>panel3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="439" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="439" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1ac2f7da70b5faf75cdf23e176fe3006f5" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.PictureBox</type>
+        <definition>System.Windows.Forms.PictureBox ASS2_WF.usWork.pictureBox2</definition>
+        <argsstring></argsstring>
+        <name>pictureBox2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="440" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="440" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1af377980a414e307127f900a302278b98" compoundref="us_work_8_designer_8cs" startline="29" endline="428">ASS2_WF.usWork.InitializeComponent</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1ae13f95e432b051444e192a4de0653d6d" compoundref="us_work_8cs" startline="85" endline="152">ASS2_WF.usWork.Refreshtimer_Tick</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a1172dca301ac34b90f122a09449c3d89" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.CheckBox</type>
+        <definition>System.Windows.Forms.CheckBox ASS2_WF.usWork.checkBox1</definition>
+        <argsstring></argsstring>
+        <name>checkBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="441" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="441" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" compoundref="us_work_8cs" startline="26" endline="63">ASS2_WF.usWork.usWork_Load</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1afa45aadc56f61c4b8d738f97d8052810" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usWork.lbTactTime</definition>
+        <argsstring></argsstring>
+        <name>lbTactTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="442" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="442" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" compoundref="us_work_8cs" startline="26" endline="63">ASS2_WF.usWork.usWork_Load</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a0796775dbcb1ced11e57c8a6c7fde792" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Panel</type>
+        <definition>System.Windows.Forms.Panel ASS2_WF.usWork.panel4</definition>
+        <argsstring></argsstring>
+        <name>panel4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="443" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="443" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a55783cfc06432fd7fb3f24a9c244ae71" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Panel</type>
+        <definition>System.Windows.Forms.Panel ASS2_WF.usWork.panel5</definition>
+        <argsstring></argsstring>
+        <name>panel5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="444" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="444" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a255dae3dccabf75ff2c80e25d80e91be" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usWork.lbFeederParcels</definition>
+        <argsstring></argsstring>
+        <name>lbFeederParcels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="445" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="445" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" compoundref="us_work_8cs" startline="26" endline="63">ASS2_WF.usWork.usWork_Load</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a33e19dc97ee95c06f97597eb75b3851f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usWork.button1</definition>
+        <argsstring></argsstring>
+        <name>button1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="446" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a98ce589e3edead078779ef92c411083f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usWork.lbparcelsonline</definition>
+        <argsstring></argsstring>
+        <name>lbparcelsonline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="447" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="447" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" compoundref="us_work_8cs" startline="26" endline="63">ASS2_WF.usWork.usWork_Load</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a1f8184bae93c5267c833b3a63c530770" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usWork.lbtactnumber</definition>
+        <argsstring></argsstring>
+        <name>lbtactnumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="448" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="448" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" compoundref="us_work_8cs" startline="26" endline="63">ASS2_WF.usWork.usWork_Load</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a2c23cc885e14c78bb326fa7f5fb879fa" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usWork.lbcirclenumber</definition>
+        <argsstring></argsstring>
+        <name>lbcirclenumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="449" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="449" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" compoundref="us_work_8cs" startline="26" endline="63">ASS2_WF.usWork.usWork_Load</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a3fce68d759eddc544c4a848a2b574ee7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataVisualization.Charting.Chart</type>
+        <definition>System.Windows.Forms.DataVisualization.Charting.Chart ASS2_WF.usWork.chart1</definition>
+        <argsstring></argsstring>
+        <name>chart1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="450" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="450" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1af377980a414e307127f900a302278b98" compoundref="us_work_8_designer_8cs" startline="29" endline="428">ASS2_WF.usWork.InitializeComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a6954ffb160cb56f2f63dc7fc629d2287" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.DataVisualization.Charting.Chart</type>
+        <definition>System.Windows.Forms.DataVisualization.Charting.Chart ASS2_WF.usWork.chart2</definition>
+        <argsstring></argsstring>
+        <name>chart2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="451" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="451" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1af377980a414e307127f900a302278b98" compoundref="us_work_8_designer_8cs" startline="29" endline="428">ASS2_WF.usWork.InitializeComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a8fbac91ec98dcbb2518d632afac9a4d4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usWork.lbsp</definition>
+        <argsstring></argsstring>
+        <name>lbsp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="452" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="452" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1ad0091fd97f32eb9b17a3e5f4bbe5b298" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usWork.lbAllsorted</definition>
+        <argsstring></argsstring>
+        <name>lbAllsorted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="453" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="453" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1ac76e22a576f5696c0ec74db39ab517eb" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usWork.lbAllMissed</definition>
+        <argsstring></argsstring>
+        <name>lbAllMissed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="454" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="454" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a089b025cf881a417f62c3375baba6073" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ListBox</type>
+        <definition>System.Windows.Forms.ListBox ASS2_WF.usWork.listBox1</definition>
+        <argsstring></argsstring>
+        <name>listBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="455" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a36e9eb13335c6e8f555cd2f539040293" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usWork.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="456" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="456" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a88b3731ff1a511b59bdbfde9186fa1ab" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usWork.label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="457" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="457" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1ab35d88304793e699bc0fb86c38f63afa" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usWork.button2</definition>
+        <argsstring></argsstring>
+        <name>button2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="458" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a7024ae3bab113c84af37d8805b5445e9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_machine_type" kindref="compound">MachineType</ref></type>
+        <definition>MachineType ASS2_WF.usWork.machine</definition>
+        <argsstring></argsstring>
+        <name>machine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="25" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1ae25f06528ea91949031ac7381c5cdaab" compoundref="us_work_8cs" startline="173" endline="178">ASS2_WF.usWork.InitMachine</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1ae13f95e432b051444e192a4de0653d6d" compoundref="us_work_8cs" startline="85" endline="152">ASS2_WF.usWork.Refreshtimer_Tick</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_work_1a0ef772698707e9e086a8782b4cae9ad3" prot="public" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usWork.label4</definition>
+        <argsstring></argsstring>
+        <name>label4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="459" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="459" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1a409c6b34c52b37eeed8753415aa1be7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2_WF.usWork.usWork</definition>
+        <argsstring>()</argsstring>
+        <name>usWork</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="21" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="21" bodyend="24"/>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1af377980a414e307127f900a302278b98" compoundref="us_work_8_designer_8cs" startline="29" endline="428">ASS2_WF.usWork.InitializeComponent</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usWork.usWork_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>usWork_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="26" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="26" bodyend="63"/>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1af3f35954a3b21ca5fb154842cd428f7d" compoundref="us_work_8cs" startline="229" endline="339">ASS2_WF.usWork.BindCharts</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1a1172dca301ac34b90f122a09449c3d89" compoundref="us_work_8_designer_8cs" startline="441">ASS2_WF.usWork.checkBox1</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1a2c23cc885e14c78bb326fa7f5fb879fa" compoundref="us_work_8_designer_8cs" startline="449">ASS2_WF.usWork.lbcirclenumber</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1a255dae3dccabf75ff2c80e25d80e91be" compoundref="us_work_8_designer_8cs" startline="445">ASS2_WF.usWork.lbFeederParcels</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1a98ce589e3edead078779ef92c411083f" compoundref="us_work_8_designer_8cs" startline="447">ASS2_WF.usWork.lbparcelsonline</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1af01bb342b1386faec226e787b8aefccd" compoundref="us_work_8_designer_8cs" startline="438">ASS2_WF.usWork.lbRun</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1a1f8184bae93c5267c833b3a63c530770" compoundref="us_work_8_designer_8cs" startline="448">ASS2_WF.usWork.lbtactnumber</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1afa45aadc56f61c4b8d738f97d8052810" compoundref="us_work_8_designer_8cs" startline="442">ASS2_WF.usWork.lbTactTime</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1a385c76750080f34af024c583ec2bbe1d" compoundref="us_work_8cs" startline="154" endline="171">ASS2_WF.usWork.LoadSortPrograms</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1a3677ad1c513c35edece527848d43f066" compoundref="us_work_8cs" startline="65" endline="78">ASS2_WF.usWork.Machine_OnLogAdded</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1aeb08b7bfc2f229448131b870f6df6c24" compoundref="us_work_8cs" startline="16">ASS2_WF.usWork.refreshtimer</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1ae13f95e432b051444e192a4de0653d6d" compoundref="us_work_8cs" startline="85" endline="152">ASS2_WF.usWork.Refreshtimer_Tick</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1adf6b2a5900380fc90c053e45148f154d" compoundref="us_work_8cs" startline="17">ASS2_WF.usWork.StatTimer</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1a3f46ee4e27c506fbc126619e151a3d4e" compoundref="us_work_8cs" startline="80" endline="83">ASS2_WF.usWork.StatTimer_TickAsync</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1a3677ad1c513c35edece527848d43f066" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usWork.Machine_OnLogAdded</definition>
+        <argsstring>(object sender, MachineType.MachineLogEventArgs e)</argsstring>
+        <name>Machine_OnLogAdded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_machine_type_1_1_machine_log_event_args" kindref="compound">MachineType.MachineLogEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="65" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="65" bodyend="78"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" compoundref="us_work_8cs" startline="26" endline="63">ASS2_WF.usWork.usWork_Load</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1a3f46ee4e27c506fbc126619e151a3d4e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void ASS2_WF.usWork.StatTimer_TickAsync</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>StatTimer_TickAsync</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="80" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="80" bodyend="83"/>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1af3f35954a3b21ca5fb154842cd428f7d" compoundref="us_work_8cs" startline="229" endline="339">ASS2_WF.usWork.BindCharts</references>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" compoundref="us_work_8cs" startline="26" endline="63">ASS2_WF.usWork.usWork_Load</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1ae13f95e432b051444e192a4de0653d6d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void ASS2_WF.usWork.Refreshtimer_Tick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Refreshtimer_Tick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="85" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="85" bodyend="152"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aacd430eb368620b9485402c8e38ec7c0" compoundref="_machine_type_8cs" startline="31">ASS2.MachineType.BeltRunning</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1ad14befc6ee78698041d1abea091980d6" compoundref="us_work_8_designer_8cs" startline="436">ASS2_WF.usWork.btnStartRun</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1aa40b4dc29e5d75a6e0e78e4e11ded31a" compoundref="_modbus_driver_8cs" startline="29">ASS2.ModbusDriver.Connected</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa40c95e656a6f917e5a947d9768c4e3b" compoundref="_machine_type_8cs" startline="21">ASS2.MachineType.CurrentRun</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a48cb8c621e6f471590f9e8cc537e3f1f" compoundref="_machine_type_8cs" startline="15">ASS2.MachineType.Driver</references>
+        <references refid="class_a_s_s2_1_1_run_type_1ad622f72a9172bf0e92402a3437c8f69f" compoundref="_run_type_8cs" startline="18" endline="23">ASS2.RunType.IsWorking</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1a7024ae3bab113c84af37d8805b5445e9" compoundref="us_work_8cs" startline="25">ASS2_WF.usWork.machine</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a21d73970cb31409721f1012256148a3f" compoundref="_machine_type_8cs" startline="23">ASS2.MachineType.ParcelsOnRun</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1ac2f7da70b5faf75cdf23e176fe3006f5" compoundref="us_work_8_designer_8cs" startline="440">ASS2_WF.usWork.pictureBox2</references>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" compoundref="us_work_8cs" startline="26" endline="63">ASS2_WF.usWork.usWork_Load</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1a385c76750080f34af024c583ec2bbe1d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usWork.LoadSortPrograms</definition>
+        <argsstring>()</argsstring>
+        <name>LoadSortPrograms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="154" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="154" bodyend="171"/>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1ae25f06528ea91949031ac7381c5cdaab" compoundref="us_work_8cs" startline="173" endline="178">ASS2_WF.usWork.InitMachine</references>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" compoundref="us_work_8cs" startline="26" endline="63">ASS2_WF.usWork.usWork_Load</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1ae25f06528ea91949031ac7381c5cdaab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usWork.InitMachine</definition>
+        <argsstring>()</argsstring>
+        <name>InitMachine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="173" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="173" bodyend="178"/>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1a631a862c34a7755bfbde0031a34acfd3" compoundref="us_work_8_designer_8cs" startline="434">ASS2_WF.usWork.cbSortProgram</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1a7024ae3bab113c84af37d8805b5445e9" compoundref="us_work_8cs" startline="25">ASS2_WF.usWork.machine</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1_1_combobox_item_1a667688ebf4935c1b4fc9e46dc3c2617b" compoundref="_combobox_item_8cs" startline="8">ASS2_WF.usWork.ComboboxItem.Value</references>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a385c76750080f34af024c583ec2bbe1d" compoundref="us_work_8cs" startline="154" endline="171">ASS2_WF.usWork.LoadSortPrograms</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1abe4c024dd4ad871fd3457611fedeffbc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usWork.runText</definition>
+        <argsstring>()</argsstring>
+        <name>runText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="180" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="180" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1afafa50839d9be9815e13bf7d20fefa65" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usWork.btnStartRun_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnStartRun_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="205" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="205" bodyend="210"/>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1_1_combobox_item_1a667688ebf4935c1b4fc9e46dc3c2617b" compoundref="_combobox_item_8cs" startline="8">ASS2_WF.usWork.ComboboxItem.Value</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1ac4979e833e620b46c6e0961809af4dd5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usWork.pictureBox1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>pictureBox1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="212" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="212" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1a4b7d46a11549a207815505ff582e0e2a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usWork.panel1_Resize</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>panel1_Resize</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="217" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="217" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1a11a1f94ca37538d8b91711d4b005adab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usWork.button1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="222" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="222" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1af3f35954a3b21ca5fb154842cd428f7d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task ASS2_WF.usWork.BindCharts</definition>
+        <argsstring>()</argsstring>
+        <name>BindCharts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="229" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="229" bodyend="339"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a3f46ee4e27c506fbc126619e151a3d4e" compoundref="us_work_8cs" startline="80" endline="83">ASS2_WF.usWork.StatTimer_TickAsync</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" compoundref="us_work_8cs" startline="26" endline="63">ASS2_WF.usWork.usWork_Load</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1af1e7ef87de0738e29bc899dfb043c8a6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usWork.button2_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button2_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="341" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="341" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1aa64a55dc0ce3f841bb3b1d34d9455415" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usWork.chart1_Resize</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>chart1_Resize</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="346" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="346" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1a77bac8a81e58c3fa5dacec5d6af79687" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usWork.usWork_Resize</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>usWork_Resize</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" line="351" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.cs" bodystart="351" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1af377980a414e307127f900a302278b98" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usWork.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="29" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="29" bodyend="428"/>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1a3fce68d759eddc544c4a848a2b574ee7" compoundref="us_work_8_designer_8cs" startline="450">ASS2_WF.usWork.chart1</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1a6954ffb160cb56f2f63dc7fc629d2287" compoundref="us_work_8_designer_8cs" startline="451">ASS2_WF.usWork.chart2</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1a9f7b0bf26836dcbecccff83757f92f92" compoundref="us_work_8_designer_8cs" startline="432">ASS2_WF.usWork.pictureBox1</references>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1ac2f7da70b5faf75cdf23e176fe3006f5" compoundref="us_work_8_designer_8cs" startline="440">ASS2_WF.usWork.pictureBox2</references>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1a409c6b34c52b37eeed8753415aa1be7d" compoundref="us_work_8cs" startline="21" endline="24">ASS2_WF.usWork.usWork</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1a95cba4b6435b116fb4769ade39b4c57c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ASS2_WF.usWork.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usWork.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1ad032856420e108be874787fa73ce0ded" compoundref="us_work_8_designer_8cs" startline="8">ASS2_WF.usWork.components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="266">
+        <label>ASS2_WF.usWork</label>
+        <link refid="class_a_s_s2___w_f_1_1us_work"/>
+        <childnode refid="267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="267">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="270">
+        <label>System</label>
+      </node>
+      <node id="268">
+        <label>ASS2_WF.usWork</label>
+        <link refid="class_a_s_s2___w_f_1_1us_work"/>
+        <childnode refid="269" relation="public-inheritance">
+        </childnode>
+        <childnode refid="270" relation="usage">
+          <edgelabel>listBox1</edgelabel>
+          <edgelabel>lbAllMissed</edgelabel>
+          <edgelabel>lbparcelsonline</edgelabel>
+          <edgelabel>lbRun</edgelabel>
+          <edgelabel>btnStartRun</edgelabel>
+          <edgelabel>pictureBox1</edgelabel>
+          <edgelabel>pictureBox2</edgelabel>
+          <edgelabel>label1</edgelabel>
+          <edgelabel>label2</edgelabel>
+          <edgelabel>panel1</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="269">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/ComboboxItem.cs" line="4" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/ComboboxItem.cs" bodystart="3" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1af3f35954a3b21ca5fb154842cd428f7d" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>BindCharts</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1ad14befc6ee78698041d1abea091980d6" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>btnStartRun</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1afafa50839d9be9815e13bf7d20fefa65" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>btnStartRun_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a33e19dc97ee95c06f97597eb75b3851f" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>button1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a11a1f94ca37538d8b91711d4b005adab" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>button1_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1ab35d88304793e699bc0fb86c38f63afa" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>button2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1af1e7ef87de0738e29bc899dfb043c8a6" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>button2_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a631a862c34a7755bfbde0031a34acfd3" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>cbSortProgram</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a3fce68d759eddc544c4a848a2b574ee7" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>chart1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1aa64a55dc0ce3f841bb3b1d34d9455415" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>chart1_Resize</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a6954ffb160cb56f2f63dc7fc629d2287" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>chart2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a1172dca301ac34b90f122a09449c3d89" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>checkBox1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1ad032856420e108be874787fa73ce0ded" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>components</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a95cba4b6435b116fb4769ade39b4c57c" prot="protected" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>Dispose</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1af377980a414e307127f900a302278b98" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>InitializeComponent</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1ae25f06528ea91949031ac7381c5cdaab" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>InitMachine</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1abb46f693adb30b9813ad9d4d5453cbee" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>label1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a36e9eb13335c6e8f555cd2f539040293" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>label2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a88b3731ff1a511b59bdbfde9186fa1ab" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>label3</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a0ef772698707e9e086a8782b4cae9ad3" prot="public" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>label4</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1ac76e22a576f5696c0ec74db39ab517eb" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>lbAllMissed</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1ad0091fd97f32eb9b17a3e5f4bbe5b298" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>lbAllsorted</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a2c23cc885e14c78bb326fa7f5fb879fa" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>lbcirclenumber</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a255dae3dccabf75ff2c80e25d80e91be" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>lbFeederParcels</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a98ce589e3edead078779ef92c411083f" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>lbparcelsonline</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1af01bb342b1386faec226e787b8aefccd" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>lbRun</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a8fbac91ec98dcbb2518d632afac9a4d4" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>lbsp</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a1f8184bae93c5267c833b3a63c530770" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>lbtactnumber</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1afa45aadc56f61c4b8d738f97d8052810" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>lbTactTime</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a089b025cf881a417f62c3375baba6073" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>listBox1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a385c76750080f34af024c583ec2bbe1d" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>LoadSortPrograms</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a7024ae3bab113c84af37d8805b5445e9" prot="public" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>machine</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a3677ad1c513c35edece527848d43f066" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>Machine_OnLogAdded</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1adc7881bc419c9324cdeb752f2fa5b7a4" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>panel1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a4b7d46a11549a207815505ff582e0e2a" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>panel1_Resize</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1ac49906f3873c08126b63f4f2a4af9491" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>panel2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1adf8f18f086d307f74aa5ff7b69b595a2" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>panel3</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a0796775dbcb1ced11e57c8a6c7fde792" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>panel4</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a55783cfc06432fd7fb3f24a9c244ae71" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>panel5</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a9f7b0bf26836dcbecccff83757f92f92" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>pictureBox1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1ac4979e833e620b46c6e0961809af4dd5" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>pictureBox1_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1ac2f7da70b5faf75cdf23e176fe3006f5" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>pictureBox2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1aeb08b7bfc2f229448131b870f6df6c24" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>refreshtimer</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1ae13f95e432b051444e192a4de0653d6d" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>Refreshtimer_Tick</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1abe4c024dd4ad871fd3457611fedeffbc" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>runText</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1adf6b2a5900380fc90c053e45148f154d" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>StatTimer</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a3f46ee4e27c506fbc126619e151a3d4e" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>StatTimer_TickAsync</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a409c6b34c52b37eeed8753415aa1be7d" prot="public" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>usWork</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a91456b650998a42843f7d1b6f6f87206" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>usWork_Load</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1a77bac8a81e58c3fa5dacec5d6af79687" prot="private" virt="non-virtual"><scope>ASS2_WF::usWork</scope><name>usWork_Resize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

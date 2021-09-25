@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_parcel_type_1_1_parcel_event_args" kind="class" prot="public">
+    <compoundname>ASS2::ParcelType::ParcelEventArgs</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1_1_parcel_event_args_1af37b464dc57d9a0873d74697828bec19" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_parcel_type" kindref="compound">ParcelType</ref></type>
+        <definition>ParcelType ASS2.ParcelType.ParcelEventArgs.parcel</definition>
+        <argsstring></argsstring>
+        <name>parcel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="377" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="377" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="376" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="375" bodyend="378"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_parcel_type_1_1_parcel_event_args_1af37b464dc57d9a0873d74697828bec19" prot="public" virt="non-virtual"><scope>ASS2::ParcelType::ParcelEventArgs</scope><name>parcel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

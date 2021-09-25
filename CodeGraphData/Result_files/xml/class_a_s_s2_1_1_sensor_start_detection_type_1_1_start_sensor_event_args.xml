@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_sensor_start_detection_type_1_1_start_sensor_event_args" kind="class" prot="public">
+    <compoundname>ASS2::SensorStartDetectionType::StartSensorEventArgs</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_sensor_start_detection_type_1_1_start_sensor_event_args_1a95fd6301df7ab74d18aa3434ee4044c5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>TimeSpan</type>
+        <definition>TimeSpan ASS2.SensorStartDetectionType.StartSensorEventArgs.TimeValue</definition>
+        <argsstring></argsstring>
+        <name>TimeValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="84" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" line="83" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/SensorStartDetectionType.cs" bodystart="82" bodyend="85"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1_1_start_sensor_event_args_1a95fd6301df7ab74d18aa3434ee4044c5" prot="public" virt="non-virtual"><scope>ASS2::SensorStartDetectionType::StartSensorEventArgs</scope><name>TimeValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_6e62067da010163fbde72ecfc8fc7ff7" kind="dir">
+    <compoundname>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats</compoundname>
+    <innerdir refid="dir_4e2db6558d0adb04fe0e48ad0e533a75">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs</innerdir>
+    <innerdir refid="dir_ba5e20dfbbb51efd6a528663ba6fa21d">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle</innerdir>
+    <innerdir refid="dir_7b62e9b3ee787263fc0f08087d0da59a">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/"/>
+  </compounddef>
+</doxygen>

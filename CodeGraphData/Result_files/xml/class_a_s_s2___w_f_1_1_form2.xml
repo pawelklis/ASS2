@@ -1,0 +1,530 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2___w_f_1_1_form2" kind="class" prot="public">
+    <compoundname>ASS2_WF::Form2</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1_form2_1a2c7a3fdd0bc53bec12f826faa599d363" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_machine_type" kindref="compound">MachineType</ref></type>
+        <definition>MachineType ASS2_WF.Form2.m</definition>
+        <argsstring></argsstring>
+        <name>m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form2_1a3aea60d113008eb7f87dd1ce739c322e" compoundref="_form2_8cs" startline="112" endline="146">ASS2_WF.Form2.button5_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form2_1acf04916a56ae5e3ed286e44b12fe3acf" compoundref="_form2_8cs" startline="27" endline="33">ASS2_WF.Form2.Form2_Load</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form2_1a286974c039c5a52f543a16d758d7f8ea" compoundref="_form2_8cs" startline="35" endline="60">ASS2_WF.Form2.M_OnTacted</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1_form2_1ad977028b1c0b3aef2bef97c12592d73c" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer ASS2_WF.Form2.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" line="8" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form2_1a3e5758c63dfec03169bfe6b876f152f6" compoundref="_form2_8_designer_8cs" startline="14" endline="21">ASS2_WF.Form2.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1_form2_1a437a12ad796a7fa4d7f2abe07fc74a88" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ProgressBar</type>
+        <definition>System.Windows.Forms.ProgressBar ASS2_WF.Form2.progressBar1</definition>
+        <argsstring></argsstring>
+        <name>progressBar1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" line="164" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" bodystart="164" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form2_1a286974c039c5a52f543a16d758d7f8ea" compoundref="_form2_8cs" startline="35" endline="60">ASS2_WF.Form2.M_OnTacted</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1_form2_1a989557576032020a3f5a62c5a784581c" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.Form2.button1</definition>
+        <argsstring></argsstring>
+        <name>button1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" line="165" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" bodystart="165" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form2_1a3aea60d113008eb7f87dd1ce739c322e" compoundref="_form2_8cs" startline="112" endline="146">ASS2_WF.Form2.button5_Click</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1_form2_1ab1adcbfd4eff11834d3d9068fb6e53a9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.Form2.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" line="166" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" bodystart="166" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form2_1a286974c039c5a52f543a16d758d7f8ea" compoundref="_form2_8cs" startline="35" endline="60">ASS2_WF.Form2.M_OnTacted</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1_form2_1a8bcf5462339eff0e59959e8b6c0a70e7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Panel</type>
+        <definition>System.Windows.Forms.Panel ASS2_WF.Form2.panel1</definition>
+        <argsstring></argsstring>
+        <name>panel1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" line="167" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1_form2_1ad8a42fe4ccde9907737fdd88c532d955" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ListBox</type>
+        <definition>System.Windows.Forms.ListBox ASS2_WF.Form2.listBox1</definition>
+        <argsstring></argsstring>
+        <name>listBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" line="168" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1_form2_1a946940e2d0c8719a171274f7ca5db9ce" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.Form2.button3</definition>
+        <argsstring></argsstring>
+        <name>button3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" line="169" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1_form2_1a51104c3ada65b8ca552454b5bd0a0b9d" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.Form2.button2</definition>
+        <argsstring></argsstring>
+        <name>button2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" line="170" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1_form2_1a4db7bc8a9a2901b360a5f813a38e2464" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ListBox</type>
+        <definition>System.Windows.Forms.ListBox ASS2_WF.Form2.listBox2</definition>
+        <argsstring></argsstring>
+        <name>listBox2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" line="171" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1_form2_1a2de0bbc63377871f1e3827b97dbf56f2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.Form2.button4</definition>
+        <argsstring></argsstring>
+        <name>button4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" line="172" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1_form2_1a2a2badc327481b4d49dc5b4ec3f1a04f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.Form2.button5</definition>
+        <argsstring></argsstring>
+        <name>button5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" line="173" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1_form2_1ab5473031642fe210be6f82aea17d8909" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2_WF.Form2.Form2</definition>
+        <argsstring>()</argsstring>
+        <name>Form2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" bodystart="16" bodyend="19"/>
+        <references refid="class_a_s_s2___w_f_1_1_form2_1afbf267be66d23781ff8adf890dc8010c" compoundref="_form2_8_designer_8cs" startline="29" endline="160">ASS2_WF.Form2.InitializeComponent</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1_form2_1a30c8527a5711a24d6b32732331b6f22b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.Form2.button1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" line="21" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1_form2_1acf04916a56ae5e3ed286e44b12fe3acf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.Form2.Form2_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Form2_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" line="27" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" bodystart="27" bodyend="33"/>
+        <references refid="class_a_s_s2___w_f_1_1_form2_1a2c7a3fdd0bc53bec12f826faa599d363" compoundref="_form2_8cs" startline="15">ASS2_WF.Form2.m</references>
+        <references refid="class_a_s_s2___w_f_1_1_form2_1a286974c039c5a52f543a16d758d7f8ea" compoundref="_form2_8cs" startline="35" endline="60">ASS2_WF.Form2.M_OnTacted</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1_form2_1a286974c039c5a52f543a16d758d7f8ea" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.Form2.M_OnTacted</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>M_OnTacted</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" line="35" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" bodystart="35" bodyend="60"/>
+        <references refid="class_a_s_s2_1_1_tact_sensor_type_1acce0aab9e109338d375690cd78839db4" compoundref="_tact_sensor_type_8cs" startline="22">ASS2.TactSensorType.Counter</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1aee239b745cb772ccd61bdb18092e2b00" compoundref="_machine_type_8cs" startline="29">ASS2.MachineType.Feeder1</references>
+        <references refid="class_a_s_s2___w_f_1_1_form2_1ab1adcbfd4eff11834d3d9068fb6e53a9" compoundref="_form2_8_designer_8cs" startline="166">ASS2_WF.Form2.label1</references>
+        <references refid="class_a_s_s2___w_f_1_1_form2_1a2c7a3fdd0bc53bec12f826faa599d363" compoundref="_form2_8cs" startline="15">ASS2_WF.Form2.m</references>
+        <references refid="class_a_s_s2_1_1_feeder_type_1a3db622c51514bbd488636b22ab327eee" compoundref="_feeder_type_8cs" startline="12">ASS2.FeederType.Parcels</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a21d73970cb31409721f1012256148a3f" compoundref="_machine_type_8cs" startline="23">ASS2.MachineType.ParcelsOnRun</references>
+        <references refid="class_a_s_s2___w_f_1_1_form2_1a437a12ad796a7fa4d7f2abe07fc74a88" compoundref="_form2_8_designer_8cs" startline="164">ASS2_WF.Form2.progressBar1</references>
+        <references refid="class_a_s_s2_1_1_counter_type_1abcc3b8f65f3dc0ecb7e7c91d10d4f0f8" compoundref="_counter_type_8cs" startline="13">ASS2.CounterType.TactNumber</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a7c7bd85494677f22a878b54e8bae5ae2" compoundref="_machine_type_8cs" startline="24">ASS2.MachineType.TactSensor</references>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form2_1acf04916a56ae5e3ed286e44b12fe3acf" compoundref="_form2_8cs" startline="27" endline="33">ASS2_WF.Form2.Form2_Load</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1_form2_1a8ddfeedc996cc447fda72a0eabcb4e56" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.Form2.button2_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button2_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" line="62" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1_form2_1ac3d068837c41edb9cca98b1147179955" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.Form2.button3_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button3_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" line="68" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" bodystart="68" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1_form2_1a879b752e78417dece470cb0cc9e49943" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.Form2.button4_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button4_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" line="74" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" bodystart="74" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1_form2_1a51d78e62a36ac64988c1c0c08944a7cb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.Form2.Form2_KeyDown</definition>
+        <argsstring>(object sender, KeyEventArgs e)</argsstring>
+        <name>Form2_KeyDown</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>KeyEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" line="80" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" bodystart="80" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1_form2_1a8cf947c93d81b2475571b49421c49d54" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.Form2.Form2_KeyPress</definition>
+        <argsstring>(object sender, KeyPressEventArgs e)</argsstring>
+        <name>Form2_KeyPress</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>KeyPressEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" line="93" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" bodystart="93" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1_form2_1aa4d98fd2222fe349c7b7e7b92afbb397" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.Form2.Form2_KeyUp</definition>
+        <argsstring>(object sender, KeyEventArgs e)</argsstring>
+        <name>Form2_KeyUp</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>KeyEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" line="99" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" bodystart="99" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1_form2_1a3aea60d113008eb7f87dd1ce739c322e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.Form2.button5_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button5_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" line="112" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" bodystart="112" bodyend="146"/>
+        <references refid="class_a_s_s2___w_f_1_1_form2_1a989557576032020a3f5a62c5a784581c" compoundref="_form2_8_designer_8cs" startline="165">ASS2_WF.Form2.button1</references>
+        <references refid="class_a_s_s2_1_1_tact_sensor_type_1acce0aab9e109338d375690cd78839db4" compoundref="_tact_sensor_type_8cs" startline="22">ASS2.TactSensorType.Counter</references>
+        <references refid="class_a_s_s2___w_f_1_1_form2_1a2c7a3fdd0bc53bec12f826faa599d363" compoundref="_form2_8cs" startline="15">ASS2_WF.Form2.m</references>
+        <references refid="class_a_s_s2_1_1_counter_type_1abcc3b8f65f3dc0ecb7e7c91d10d4f0f8" compoundref="_counter_type_8cs" startline="13">ASS2.CounterType.TactNumber</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a7c7bd85494677f22a878b54e8bae5ae2" compoundref="_machine_type_8cs" startline="24">ASS2.MachineType.TactSensor</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1_form2_1afbf267be66d23781ff8adf890dc8010c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.Form2.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" line="29" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" bodystart="29" bodyend="160"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form2_1ab5473031642fe210be6f82aea17d8909" compoundref="_form2_8cs" startline="16" endline="19">ASS2_WF.Form2.Form2</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1_form2_1a3e5758c63dfec03169bfe6b876f152f6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ASS2_WF.Form2.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_a_s_s2___w_f_1_1_form2_1ad977028b1c0b3aef2bef97c12592d73c" compoundref="_form2_8_designer_8cs" startline="8">ASS2_WF.Form2.components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="89">
+        <label>Form</label>
+      </node>
+      <node id="88">
+        <label>ASS2_WF.Form2</label>
+        <link refid="class_a_s_s2___w_f_1_1_form2"/>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="91">
+        <label>Form</label>
+      </node>
+      <node id="90">
+        <label>ASS2_WF.Form2</label>
+        <link refid="class_a_s_s2___w_f_1_1_form2"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="usage">
+          <edgelabel>button4</edgelabel>
+          <edgelabel>listBox1</edgelabel>
+          <edgelabel>button5</edgelabel>
+          <edgelabel>listBox2</edgelabel>
+          <edgelabel>label1</edgelabel>
+          <edgelabel>panel1</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>progressBar1</edgelabel>
+          <edgelabel>button1</edgelabel>
+          <edgelabel>button2</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="92">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Form2.cs" bodystart="13" bodyend="147"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a989557576032020a3f5a62c5a784581c" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>button1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a30c8527a5711a24d6b32732331b6f22b" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>button1_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a51104c3ada65b8ca552454b5bd0a0b9d" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>button2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a8ddfeedc996cc447fda72a0eabcb4e56" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>button2_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a946940e2d0c8719a171274f7ca5db9ce" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>button3</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1ac3d068837c41edb9cca98b1147179955" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>button3_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a2de0bbc63377871f1e3827b97dbf56f2" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>button4</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a879b752e78417dece470cb0cc9e49943" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>button4_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a2a2badc327481b4d49dc5b4ec3f1a04f" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>button5</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a3aea60d113008eb7f87dd1ce739c322e" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>button5_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1ad977028b1c0b3aef2bef97c12592d73c" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>components</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a3e5758c63dfec03169bfe6b876f152f6" prot="protected" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>Dispose</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1ab5473031642fe210be6f82aea17d8909" prot="public" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>Form2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a51d78e62a36ac64988c1c0c08944a7cb" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>Form2_KeyDown</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a8cf947c93d81b2475571b49421c49d54" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>Form2_KeyPress</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1aa4d98fd2222fe349c7b7e7b92afbb397" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>Form2_KeyUp</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1acf04916a56ae5e3ed286e44b12fe3acf" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>Form2_Load</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1afbf267be66d23781ff8adf890dc8010c" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>InitializeComponent</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1ab1adcbfd4eff11834d3d9068fb6e53a9" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>label1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1ad8a42fe4ccde9907737fdd88c532d955" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>listBox1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a4db7bc8a9a2901b360a5f813a38e2464" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>listBox2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a2c7a3fdd0bc53bec12f826faa599d363" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>m</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a286974c039c5a52f543a16d758d7f8ea" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>M_OnTacted</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a8bcf5462339eff0e59959e8b6c0a70e7" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>panel1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_form2_1a437a12ad796a7fa4d7f2abe07fc74a88" prot="private" virt="non-virtual"><scope>ASS2_WF::Form2</scope><name>progressBar1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

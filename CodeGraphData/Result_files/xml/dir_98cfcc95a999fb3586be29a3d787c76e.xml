@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_98cfcc95a999fb3586be29a3d787c76e" kind="dir">
+    <compoundname>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine</compoundname>
+    <innerdir refid="dir_7f3a91afeef3b5c7352029e7b67dc378">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict</innerdir>
+    <innerdir refid="dir_62de6ee1425c7d2eadf3d6922564158c">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver</innerdir>
+    <innerdir refid="dir_9f9d894c6c5ee7c3e407e0b583c7db63">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder</innerdir>
+    <innerdir refid="dir_66ce72d3500a143fdd1484af7207da41">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels</innerdir>
+    <innerdir refid="dir_1dd79cdc739c5507b8dacf4bd5538dc4">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run</innerdir>
+    <innerdir refid="dir_6e62067da010163fbde72ecfc8fc7ff7">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats</innerdir>
+    <innerfile refid="_machine_type_8cs">MachineType.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/"/>
+  </compounddef>
+</doxygen>

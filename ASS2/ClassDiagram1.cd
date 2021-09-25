@@ -4,112 +4,98 @@
     <Position X="24.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>CAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAgAAAAAAE=</HashCode>
-      <FileName>ColorType.cs</FileName>
+      <FileName>Machine\Dict\Colors\ColorType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.CounterType" Collapsed="true">
     <Position X="1.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAACAAAAABCAAAAAAAIAAAAAAAAAAAAAAAAAAAQAgAA=</HashCode>
-      <FileName>CounterType.cs</FileName>
+      <FileName>Machine\Feeder\sensors\Tact\CounterType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.DataBaseStorageHelper" Collapsed="true">
     <Position X="11.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAgIAAAAAAAAAABAAAAAAAAIAAAAAAAAAIAAAAAAE=</HashCode>
-      <FileName>DataBaseStorageHelper.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ASS2.DeviceType" Collapsed="true">
-    <Position X="27.75" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>DeviceType.cs</FileName>
+      <FileName>DAL\DataBaseStorageHelper.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.DictType" Collapsed="true">
     <Position X="8.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAQSgAAABAAQAAAABAAAAAEBAAACgAAABAAQgAAAAAA=</HashCode>
-      <FileName>DictType.cs</FileName>
+      <FileName>Machine\Dict\DictType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.DirectionItemType" Collapsed="true">
     <Position X="15" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQACAAQAAAAAAAAAAAgACEQAAAAAAAAAAAAAAAAAAQA=</HashCode>
-      <FileName>DirectionItemType.cs</FileName>
+      <FileName>Machine\Dict\Directions\DirectionItemType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.DirectionType" Collapsed="true">
     <Position X="19.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAACAAAAQAAAAQAgAAAAAAAAAAACAgAAAA=</HashCode>
-      <FileName>DirectionType.cs</FileName>
+      <FileName>Machine\Dict\Directions\DirectionType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.ErrorLog" Collapsed="true">
     <Position X="29.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ErrorLog.cs</FileName>
+      <FileName>Machine\Stats\Logs\ErrorLog.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.FeederType" Collapsed="true">
     <Position X="31.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAQAAUAgCAJAACBACABBIGAAAAAAEAABQCAAI=</HashCode>
-      <FileName>FeederType.cs</FileName>
+      <FileName>Machine\Feeder\FeederType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.LampType" Collapsed="true">
     <Position X="26" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>iAAAAAAAAAAAAAAgAAAAAAAAAQAAAAACAAAAAAAAAAA=</HashCode>
-      <FileName>LampType.cs</FileName>
+      <FileName>Machine\Dict\Lamps\LampType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.MachineStatusLogType" Collapsed="true">
     <Position X="27.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAgAgAAAAAAAAAAAgAAAAAAAAAAAAAAAQA=</HashCode>
-      <FileName>MachineStatusLogType.cs</FileName>
+      <FileName>Machine\Stats\Logs\MachineStatusLogType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.MachineType" Collapsed="true">
     <Position X="6" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>BKBCCAZVBAQAkAQAAKAACAwiSaDEiCGABbEAAAAWACA=</HashCode>
-      <FileName>MachineType.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="ASS2.MaintenanceType" Collapsed="true">
-    <Position X="29.5" Y="1.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAQAAAAAAAAAIAAAAAAAAAAAAAABgACAAABAAAAAAAA=</HashCode>
-      <FileName>MaintenanceType.cs</FileName>
+      <FileName>Machine\MachineType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.ModbusDriver" Collapsed="true">
     <Position X="34.75" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EIQAAAAgAKQAQAAAAAAABgIAFABIBAAAAKBIAAAAEAA=</HashCode>
-      <FileName>ModbusDriver.cs</FileName>
+      <FileName>Machine\Driver\ModbusDriver.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.ParcelType" Collapsed="true">
     <Position X="21.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AABiQJEAgFAgAAIgAERQCACAwIHEAUAAgGAACAAAAAA=</HashCode>
-      <FileName>ParcelType.cs</FileName>
+      <FileName>Machine\Parcels\ParcelType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.PNARangeType" Collapsed="true">
     <Position X="24.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAQAA=</HashCode>
-      <FileName>PNARangeType.cs</FileName>
+      <FileName>Machine\Dict\Directions\PNARangeType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.Program" Collapsed="true">
@@ -123,63 +109,63 @@
     <Position X="34.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAQAAAAAAAAAAEAAAAAAAAAgAAAAQAAAAAAAQAAIA=</HashCode>
-      <FileName>RoundStatItem.cs</FileName>
+      <FileName>Machine\Stats\RoundCircle\RoundStatItem.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.RoundStatType" Collapsed="true">
     <Position X="3.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAACgAAAEAAEEAAAABAAAAAAgQAAAAQEAAEAAAAAAIA=</HashCode>
-      <FileName>RoundStatType.cs</FileName>
+      <FileName>Machine\Stats\RoundCircle\RoundStatType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.RS232ConfigType" Collapsed="true">
     <Position X="36.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AIACAAAAAAAAAAAAAAAAAAQBAAAIAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>RS232ConfigType.cs</FileName>
+      <FileName>Machine\Dict\rs232\RS232ConfigType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.RunStatItemType" Collapsed="true">
     <Position X="26" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAABCAAAAAAAAAgAAAAAAAIAA=</HashCode>
-      <FileName>RunStatItemType.cs</FileName>
+      <FileName>Machine\Stats\Run\RunStatItemType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.RunStatType" Collapsed="true">
     <Position X="10.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAACAAAAAACACAAAAAAAAAAAAAAEAAAAAAAAAQAAAAQ=</HashCode>
-      <FileName>RunStatType.cs</FileName>
+      <FileName>Machine\Stats\Run\RunStatType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.RunType" Collapsed="true">
     <Position X="17.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAACAAAAAAAAAAAAAAAAAAAAIAAgAAAAAAEAAAAAABA=</HashCode>
-      <FileName>RunType.cs</FileName>
+      <FileName>Machine\Run\RunType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.SensorStartDetectionType" Collapsed="true">
     <Position X="27.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAiAAAAAAAAAAAABAAAAAQAAEIQAEACAAAgAEAAIAA=</HashCode>
-      <FileName>sensors\SensorStartDetectionType.cs</FileName>
+      <FileName>Machine\Feeder\sensors\SensorStartDetectionType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.SensorStartParcelType" Collapsed="true">
     <Position X="29.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAiAAAAAAAAAAAAAAAAAAQAAEIQAEACAAAgAEAAIAA=</HashCode>
-      <FileName>sensors\SensorStartParcelType.cs</FileName>
+      <FileName>Machine\Feeder\sensors\SensorStartParcelType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.StopSensorType" Collapsed="true" BaseTypeListCollapsed="true">
     <Position X="33" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAEIAAAACAAAgAAQAAAA=</HashCode>
-      <FileName>sensors\StopSensorType.cs</FileName>
+      <FileName>Machine\Feeder\sensors\StopSensorType.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
@@ -187,7 +173,7 @@
     <Position X="36.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAASAAAIAAAAAAAAgAABAAQJAUIAAgACAAEwAAAAAAA=</HashCode>
-      <FileName>sensors\TactSensorType.cs</FileName>
+      <FileName>Machine\Feeder\sensors\Tact\TactSensorType.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
@@ -195,42 +181,42 @@
     <Position X="33" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAQAA=</HashCode>
-      <FileName>SledzenieServiceType.cs</FileName>
+      <FileName>WebServices\SledzenieServiceType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.SortProgramItemType" Collapsed="true">
     <Position X="34.75" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAgAAAACAAAAAAAAAAAAAAAAAAgAAAACA=</HashCode>
-      <FileName>SortProgramItemType.cs</FileName>
+      <FileName>Machine\Dict\SortPlans\SortProgramItemType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.SortProgramType" Collapsed="true">
     <Position X="12.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAACAAAAAAAACEAAAAAAAAQAAAAABAAAAAAAAAAAAAA=</HashCode>
-      <FileName>SortProgramType.cs</FileName>
+      <FileName>Machine\Dict\SortPlans\SortProgramType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.StandItemType" Collapsed="true">
     <Position X="29.5" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAAACAAABAAEAAAAAAAgAAAgAAAACA=</HashCode>
-      <FileName>StandItemType.cs</FileName>
+      <FileName>Machine\Dict\Stands\StandType\Items\StandItemType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.StandType" Collapsed="true">
     <Position X="31.25" Y="5.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAICAAIAAAAACAAAAAAAABQAAAAEAAAQAAAAAAAAAAI=</HashCode>
-      <FileName>StandType.cs</FileName>
+      <FileName>Machine\Dict\Stands\StandType\StandType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.WSRType" Collapsed="true">
     <Position X="31.25" Y="6.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>WSRType.cs</FileName>
+      <FileName>Machine\Dict\Directions\WSRType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ASS2.ServiceReference1.wersjaRequest" Collapsed="true">
@@ -459,28 +445,28 @@
     <Position X="36.5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>MARJJEEQKAACJGMABAAQhUWABkEIEIABAgAIAAACgEE=</HashCode>
-      <FileName>MysqlCore.cs</FileName>
+      <FileName>DAL\MysqlCore.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="RS232DeviceType" Collapsed="true">
     <Position X="24.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAAAAAAAAAAAAIIwAAAAIABAAAAgAAAQAAAA=</HashCode>
-      <FileName>RS232DeviceType.cs</FileName>
+      <FileName>Machine\Feeder\sensors\Scanner\RS232DeviceType.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="ASS2.INamingDB" Collapsed="true">
     <Position X="24.25" Y="7.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>INamingDB.cs</FileName>
+      <FileName>Interfaces\INamingDB.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="ASS2.SensorType" Collapsed="true">
     <Position X="26" Y="7.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAEAAAAACAAAgAAAAAAA=</HashCode>
-      <FileName>sensors\SensorType.cs</FileName>
+      <FileName>Interfaces\SensorType.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="ASS2.ServiceReference1.SledzeniePortType" Collapsed="true">

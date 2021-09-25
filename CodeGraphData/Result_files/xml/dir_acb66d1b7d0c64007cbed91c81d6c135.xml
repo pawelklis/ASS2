@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_acb66d1b7d0c64007cbed91c81d6c135" kind="dir">
+    <compoundname>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions</compoundname>
+    <innerfile refid="_direction_item_type_8cs">DirectionItemType.cs</innerfile>
+    <innerfile refid="_direction_type_8cs">DirectionType.cs</innerfile>
+    <innerfile refid="_p_n_a_range_type_8cs">PNARangeType.cs</innerfile>
+    <innerfile refid="_w_s_r_type_8cs">WSRType.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/"/>
+  </compounddef>
+</doxygen>

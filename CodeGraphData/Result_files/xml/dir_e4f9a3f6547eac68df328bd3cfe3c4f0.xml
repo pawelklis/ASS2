@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_e4f9a3f6547eac68df328bd3cfe3c4f0" kind="dir">
+    <compoundname>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors</compoundname>
+    <innerdir refid="dir_4ca82ede0ece3b0a4e59cef196d24c1d">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner</innerdir>
+    <innerdir refid="dir_1a6e5875f5523e5e40c8f38c834006dd">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact</innerdir>
+    <innerfile refid="_sensor_start_detection_type_8cs">SensorStartDetectionType.cs</innerfile>
+    <innerfile refid="_sensor_start_parcel_type_8cs">SensorStartParcelType.cs</innerfile>
+    <innerfile refid="_stop_sensor_type_8cs">StopSensorType.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/"/>
+  </compounddef>
+</doxygen>

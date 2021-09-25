@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_a_s_s2_1_1_i_naming_d_b" kind="interface" prot="public">
+    <compoundname>ASS2::INamingDB</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_a_s_s2_1_1_i_naming_d_b_1a63178c53f41cbce6d24eb89838988460" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.INamingDB.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/INamingDB.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/INamingDB.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_a_s_s2_1_1_i_naming_d_b_1a555acb3a0a2acb8ea15ce0a0d3a7d17d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.INamingDB.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/INamingDB.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/INamingDB.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_a_s_s2_1_1_i_naming_d_b_1a4b10dcc0b9c9b3af5e5d4426401e5586" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.INamingDB.Js</definition>
+        <argsstring></argsstring>
+        <name>Js</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/INamingDB.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/INamingDB.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/INamingDB.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/INamingDB.cs" bodystart="9" bodyend="14"/>
+    <listofallmembers>
+      <member refid="interface_a_s_s2_1_1_i_naming_d_b_1a63178c53f41cbce6d24eb89838988460" prot="public" virt="non-virtual"><scope>ASS2::INamingDB</scope><name>Id</name></member>
+      <member refid="interface_a_s_s2_1_1_i_naming_d_b_1a4b10dcc0b9c9b3af5e5d4426401e5586" prot="public" virt="non-virtual"><scope>ASS2::INamingDB</scope><name>Js</name></member>
+      <member refid="interface_a_s_s2_1_1_i_naming_d_b_1a555acb3a0a2acb8ea15ce0a0d3a7d17d" prot="public" virt="non-virtual"><scope>ASS2::INamingDB</scope><name>Name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_machine_type" kind="class" prot="public">
+    <compoundname>ASS2::MachineType</compoundname>
+    <basecompoundref refid="class_a_s_s2_1_1_data_base_storage_helper" prot="public" virt="non-virtual">ASS2.DataBaseStorageHelper</basecompoundref>
+    <innerclass refid="class_a_s_s2_1_1_machine_type_1_1_machine_log_event_args" prot="public">ASS2::MachineType::MachineLogEventArgs</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_machine_type_1a2e6bd3bfd125db64e32cab7e7b97e6e4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.MachineType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_machine_type_1a5c28db98d3ac25f42c53fff460f1b506" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.MachineType.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a962b089d88d5db9109a90f0407b252c0" compoundref="_machine_type_8cs" startline="167" endline="226">ASS2.MachineType.SetSortProgram</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_machine_type_1a48cb8c621e6f471590f9e8cc537e3f1f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_modbus_driver" kindref="compound">ModbusDriver</ref></type>
+        <definition>ModbusDriver ASS2.MachineType.Driver</definition>
+        <argsstring></argsstring>
+        <name>Driver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1aa689c1cd7f236ef16102968f42cbd49c" compoundref="us_maintenance_8cs" startline="71" endline="75">ASS2_WF.usMaintenance.button1_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1ac385cf5fa41425a43d0af7b551cdb641" compoundref="us_maintenance_8cs" startline="77" endline="81">ASS2_WF.usMaintenance.button2_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a544daa8c48932fc71a144bc54c722961" compoundref="us_maintenance_8cs" startline="83" endline="87">ASS2_WF.usMaintenance.button3_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a3c011eeb1b68410fc462581c448f833a" compoundref="us_maintenance_8cs" startline="89" endline="93">ASS2_WF.usMaintenance.button4_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a651c4f03827b592aa43f0c1ff19a4249" compoundref="us_maintenance_8cs" startline="95" endline="105">ASS2_WF.usMaintenance.button5_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a42678e6041ed88f887a4b40bd3c690d5" compoundref="us_maintenance_8cs" startline="107" endline="114">ASS2_WF.usMaintenance.button6_Click</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1ae13f95e432b051444e192a4de0653d6d" compoundref="us_work_8cs" startline="85" endline="152">ASS2_WF.usWork.Refreshtimer_Tick</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1ac449de0dadc3a4349d15bab48c7f350e" compoundref="us_maintenance_8cs" startline="127" endline="131">ASS2_WF.usMaintenance.StartParcelSensor_ValueChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1ac3d48af74012572029462576b6df3b02" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_round_stat_type" kindref="compound">RoundStatType</ref></type>
+        <definition>RoundStatType ASS2.MachineType.RoundStat</definition>
+        <argsstring></argsstring>
+        <name>RoundStat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1aedeb7907971aa3c2c2e77400809c44e2" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_a_s_s2_1_1_machine_status_log_type" kindref="compound">MachineStatusLogType</ref> &gt;</type>
+        <definition>List&lt;MachineStatusLogType&gt; ASS2.MachineType.Logs</definition>
+        <argsstring></argsstring>
+        <name>Logs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="17" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a469583cfc630c1f092143e7d621549d6" compoundref="_machine_type_8cs" startline="663" endline="690">ASS2.MachineType.TactSensor_BeltStart</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a026dce47cb9d314fc863658f286e4f6f" compoundref="_machine_type_8cs" startline="633" endline="661">ASS2.MachineType.TactSensor_BeltStop</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_dict_type" kindref="compound">DictType</ref></type>
+        <definition>DictType ASS2.MachineType.dict</definition>
+        <argsstring></argsstring>
+        <name>dict</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="19" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1abd64615565f65de4d3fbfd1bccfec597" compoundref="_machine_type_8cs" startline="288" endline="315">ASS2.MachineType.AllMissed</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a13c7538266f731bcc0384c2004acd866" compoundref="_machine_type_8cs" startline="257" endline="283">ASS2.MachineType.AllSorted</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a0f04ad3fe34abb702de04a25ef2605dc" compoundref="us_settings_8cs" startline="49" endline="59">ASS2_WF.usSettings.button1_Click</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ad37c7f6e7e691a2da9c00ff3c8955bbd" compoundref="_machine_type_8cs" startline="316" endline="397">ASS2.MachineType.GetStandStats</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac82953aeb7e3b6fc43a2f4d0afd37f7b" compoundref="_machine_type_8cs" startline="744" endline="777">ASS2.MachineType.LampTest</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a2eda61958682a1b8f8813232250097d7" compoundref="_machine_type_8cs" startline="778" endline="805">ASS2.MachineType.LampTestSingleOn</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a962b089d88d5db9109a90f0407b252c0" compoundref="_machine_type_8cs" startline="167" endline="226">ASS2.MachineType.SetSortProgram</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1ac449de0dadc3a4349d15bab48c7f350e" compoundref="us_maintenance_8cs" startline="127" endline="131">ASS2_WF.usMaintenance.StartParcelSensor_ValueChanged</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1aa8dab868bdfe039a93f26e9645e3718e" compoundref="_machine_type_8cs" startline="851" endline="913">ASS2.MachineType.Tacted</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1ac86d3591d37718c8dba94253d02a14e0" compoundref="us_maintenance_8cs" startline="22" endline="43">ASS2_WF.usMaintenance.usMaintenance_Load</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a073ec4ce5cba7b7b20a1c6c31cb2fe21" compoundref="us_settings_8cs" startline="22" endline="47">ASS2_WF.usSettings.usSettings_Load</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1ae4be99e5f92a6641e6c233817ec64756" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_sort_program_type" kindref="compound">SortProgramType</ref></type>
+        <definition>SortProgramType ASS2.MachineType.CurrentSortProgram</definition>
+        <argsstring></argsstring>
+        <name>CurrentSortProgram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="20" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" compoundref="_feeder_type_8cs" startline="62" endline="119">ASS2.FeederType.Startdetectionsensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1aa40c95e656a6f917e5a947d9768c4e3b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_run_type" kindref="compound">RunType</ref></type>
+        <definition>RunType ASS2.MachineType.CurrentRun</definition>
+        <argsstring></argsstring>
+        <name>CurrentRun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="21" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form1_1a11444de0bfa2db906db6399a1ea85800" compoundref="_form1_8cs" startline="87" endline="103">ASS2_WF.Form1.button5_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1ae13f95e432b051444e192a4de0653d6d" compoundref="us_work_8cs" startline="85" endline="152">ASS2_WF.usWork.Refreshtimer_Tick</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" compoundref="_feeder_type_8cs" startline="62" endline="119">ASS2.FeederType.Startdetectionsensor_ValueChanged</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a3ba60bee38ac8a0fa8df8321525dfab2" compoundref="_machine_type_8cs" startline="510" endline="534">ASS2.MachineType.StartDetectionSensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1a21d73970cb31409721f1012256148a3f" prot="public" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_a_s_s2_1_1_parcel_type" kindref="compound">ParcelType</ref> &gt;</type>
+        <definition>List&lt;ParcelType&gt; ASS2.MachineType.ParcelsOnRun</definition>
+        <argsstring></argsstring>
+        <name>ParcelsOnRun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="23" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form2_1a286974c039c5a52f543a16d758d7f8ea" compoundref="_form2_8cs" startline="35" endline="60">ASS2_WF.Form2.M_OnTacted</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1afb0edff89171dd367068e551e06110b2" compoundref="us_maintenance_8cs" startline="143" endline="147">ASS2_WF.usMaintenance.Machine_OnTacted1</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1af00246daf4cbdfd04cbe1ead31cd9b8c" compoundref="_machine_type_8cs" startline="565" endline="607">ASS2.MachineType.PArcelsAtLineTable</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1ae13f95e432b051444e192a4de0653d6d" compoundref="us_work_8cs" startline="85" endline="152">ASS2_WF.usWork.Refreshtimer_Tick</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_l_settings_1abf09a2b074103af092df0618cf8c092c" compoundref="us_l_settings_8cs" startline="41" endline="46">ASS2_WF.usLSettings.S1L1_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_l_settings_1ab929a04499a387bba85089a1a2dfca89" compoundref="us_l_settings_8cs" startline="48" endline="53">ASS2_WF.usLSettings.S1L2_Click</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a00b02396ef369c6d9c36aca722aeffda" compoundref="_machine_type_8cs" startline="466" endline="481">ASS2.MachineType.StartParcelSensor_OnLenghtReaded</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a6661a09823ec0bd800b3ed5890b90760" compoundref="_machine_type_8cs" startline="536" endline="563">ASS2.MachineType.StopSensor_ValueChanged</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a55b8bc361c39f6682b8d6153e1cf25d1" compoundref="_machine_type_8cs" startline="692" endline="735">ASS2.MachineType.TactSensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1a7c7bd85494677f22a878b54e8bae5ae2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_tact_sensor_type" kindref="compound">TactSensorType</ref></type>
+        <definition>TactSensorType ASS2.MachineType.TactSensor</definition>
+        <argsstring></argsstring>
+        <name>TactSensor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="24" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form2_1a3aea60d113008eb7f87dd1ce739c322e" compoundref="_form2_8cs" startline="112" endline="146">ASS2_WF.Form2.button5_Click</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a803fd8519daa106146c1e5193c9040b7" compoundref="_machine_type_8cs" startline="447" endline="464">ASS2.MachineType.Counter_OnNewCirle</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form2_1a286974c039c5a52f543a16d758d7f8ea" compoundref="_form2_8cs" startline="35" endline="60">ASS2_WF.Form2.M_OnTacted</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1aa81025777b4b628f2280941339d19230" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_stop_sensor_type" kindref="compound">StopSensorType</ref></type>
+        <definition>StopSensorType ASS2.MachineType.StopSensor</definition>
+        <argsstring></argsstring>
+        <name>StopSensor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="25" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a6661a09823ec0bd800b3ed5890b90760" compoundref="_machine_type_8cs" startline="536" endline="563">ASS2.MachineType.StopSensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1a6b82ababb891ac9f7c6a2d07f961f692" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_sensor_start_detection_type" kindref="compound">SensorStartDetectionType</ref></type>
+        <definition>SensorStartDetectionType ASS2.MachineType.StartDetectionSensor</definition>
+        <argsstring></argsstring>
+        <name>StartDetectionSensor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="26" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1a1007a1a452468d76c1e44b7b4f984acf" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_sensor_start_parcel_type" kindref="compound">SensorStartParcelType</ref></type>
+        <definition>SensorStartParcelType ASS2.MachineType.StartParcelSensor</definition>
+        <argsstring></argsstring>
+        <name>StartParcelSensor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="27" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="27" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1aee239b745cb772ccd61bdb18092e2b00" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_feeder_type" kindref="compound">FeederType</ref></type>
+        <definition>FeederType ASS2.MachineType.Feeder1</definition>
+        <argsstring></argsstring>
+        <name>Feeder1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="29" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1_form2_1a286974c039c5a52f543a16d758d7f8ea" compoundref="_form2_8cs" startline="35" endline="60">ASS2_WF.Form2.M_OnTacted</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a3ba60bee38ac8a0fa8df8321525dfab2" compoundref="_machine_type_8cs" startline="510" endline="534">ASS2.MachineType.StartDetectionSensor_ValueChanged</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a3a9e6a68b01a5fabc7946b2aa2e58e0f" compoundref="_machine_type_8cs" startline="483" endline="508">ASS2.MachineType.StartParcelSensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1aacd430eb368620b9485402c8e38ec7c0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.MachineType.BeltRunning</definition>
+        <argsstring></argsstring>
+        <name>BeltRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="31" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1ae13f95e432b051444e192a4de0653d6d" compoundref="us_work_8cs" startline="85" endline="152">ASS2_WF.usWork.Refreshtimer_Tick</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_l_settings_1abf09a2b074103af092df0618cf8c092c" compoundref="us_l_settings_8cs" startline="41" endline="46">ASS2_WF.usLSettings.S1L1_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_l_settings_1ab929a04499a387bba85089a1a2dfca89" compoundref="us_l_settings_8cs" startline="48" endline="53">ASS2_WF.usLSettings.S1L2_Click</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1a25f668614ad9b88645fb20e820d0b84a" prot="public" static="no" mutable="no">
+        <type>DataTable</type>
+        <definition>DataTable ASS2.MachineType.StatTable</definition>
+        <argsstring></argsstring>
+        <name>StatTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="34" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a8777b9d732ba8b7ad9f432db2eda7803" compoundref="_machine_type_8cs" startline="228" endline="251">ASS2.MachineType.StatTimer_Elapsed</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1a933f4cfcdeeacb131641371825646f1b" prot="private" static="no" mutable="no">
+        <type>Timer</type>
+        <definition>Timer ASS2.MachineType.StatTimer</definition>
+        <argsstring></argsstring>
+        <name>StatTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="33" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1abfb2cf1bbc678ca553e7359a4cfc67c1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.MachineType.StatParcelscount</definition>
+        <argsstring></argsstring>
+        <name>StatParcelscount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="35" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="35" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a3a9e6a68b01a5fabc7946b2aa2e58e0f" compoundref="_machine_type_8cs" startline="483" endline="508">ASS2.MachineType.StartParcelSensor_ValueChanged</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a8777b9d732ba8b7ad9f432db2eda7803" compoundref="_machine_type_8cs" startline="228" endline="251">ASS2.MachineType.StatTimer_Elapsed</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1a825f3b2cc5872b11838208c8cb8fae22" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.MachineType.tactsensorread</definition>
+        <argsstring></argsstring>
+        <name>tactsensorread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="41" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="41" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a55b8bc361c39f6682b8d6153e1cf25d1" compoundref="_machine_type_8cs" startline="692" endline="735">ASS2.MachineType.TactSensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1ab839622dd43d0d726608f2cdc21b944a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.MachineType.startdetectionsensorread</definition>
+        <argsstring></argsstring>
+        <name>startdetectionsensorread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="42" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="42" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a3ba60bee38ac8a0fa8df8321525dfab2" compoundref="_machine_type_8cs" startline="510" endline="534">ASS2.MachineType.StartDetectionSensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1a548d993f653ab54c05d818804065f119" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.MachineType.startparcelread</definition>
+        <argsstring></argsstring>
+        <name>startparcelread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="43" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="43" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a3a9e6a68b01a5fabc7946b2aa2e58e0f" compoundref="_machine_type_8cs" startline="483" endline="508">ASS2.MachineType.StartParcelSensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1a8132c71d0fb2b119f44eff7677101b44" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.MachineType.stopsensorread</definition>
+        <argsstring></argsstring>
+        <name>stopsensorread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="44" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="44" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a6661a09823ec0bd800b3ed5890b90760" compoundref="_machine_type_8cs" startline="536" endline="563">ASS2.MachineType.StopSensor_ValueChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_machine_type_1afc23e207388d5f6fc77dcc4aad30eb91" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler ASS2.MachineType.OnTacted</definition>
+        <argsstring></argsstring>
+        <name>OnTacted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="37" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="37" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a55b8bc361c39f6682b8d6153e1cf25d1" compoundref="_machine_type_8cs" startline="692" endline="735">ASS2.MachineType.TactSensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_a_s_s2_1_1_machine_type_1a0dd10a2a20b1ea1a05d72b0a6f90b353" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler ASS2.MachineType.OnStartParcelSensorRead</definition>
+        <argsstring></argsstring>
+        <name>OnStartParcelSensorRead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="38" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="38" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a3a9e6a68b01a5fabc7946b2aa2e58e0f" compoundref="_machine_type_8cs" startline="483" endline="508">ASS2.MachineType.StartParcelSensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_a_s_s2_1_1_machine_type_1a0c0641863ea66ac8208958dc142386b2" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_a_s_s2_1_1_machine_type_1_1_machine_log_event_args" kindref="compound">MachineLogEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;MachineLogEventArgs&gt; ASS2.MachineType.OnLogAdded</definition>
+        <argsstring></argsstring>
+        <name>OnLogAdded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="39" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="39" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ae98507bbac94dde411c70c0c0869bef7" compoundref="_machine_type_8cs" startline="423" endline="445">ASS2.MachineType.Driver_ModbusConnected</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1af598db0b0279f9cdc7a1ddfa71b94965" compoundref="_machine_type_8cs" startline="399" endline="421">ASS2.MachineType.Driver_ModbusDisconnected</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a469583cfc630c1f092143e7d621549d6" compoundref="_machine_type_8cs" startline="663" endline="690">ASS2.MachineType.TactSensor_BeltStart</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a026dce47cb9d314fc863658f286e4f6f" compoundref="_machine_type_8cs" startline="633" endline="661">ASS2.MachineType.TactSensor_BeltStop</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a9d6b84836f113d4a4e5ed53f1893976f" compoundref="_machine_type_8cs" startline="609" endline="632">ASS2.MachineType.TactSensor_TactMissed</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1ab6aa0e1bf918136d0028c42a9bf8b618" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.MachineType.MachineType</definition>
+        <argsstring>()</argsstring>
+        <name>MachineType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="51" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.InitMachine</definition>
+        <argsstring>(int SortProgramID)</argsstring>
+        <name>InitMachine</name>
+        <param>
+          <type>int</type>
+          <declname>SortProgramID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="56" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="56" bodyend="163"/>
+        <references refid="class_a_s_s2_1_1_counter_type_1a5756522a16a11ba19353830ab0b48c7f" compoundref="_counter_type_8cs" startline="14">ASS2.CounterType.CircleNumber</references>
+        <references refid="class_a_s_s2_1_1_tact_sensor_type_1acce0aab9e109338d375690cd78839db4" compoundref="_tact_sensor_type_8cs" startline="22">ASS2.TactSensorType.Counter</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a803fd8519daa106146c1e5193c9040b7" compoundref="_machine_type_8cs" startline="447" endline="464">ASS2.MachineType.Counter_OnNewCirle</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" compoundref="_machine_type_8cs" startline="19">ASS2.MachineType.dict</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a48cb8c621e6f471590f9e8cc537e3f1f" compoundref="_machine_type_8cs" startline="15">ASS2.MachineType.Driver</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1ae98507bbac94dde411c70c0c0869bef7" compoundref="_machine_type_8cs" startline="423" endline="445">ASS2.MachineType.Driver_ModbusConnected</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1af598db0b0279f9cdc7a1ddfa71b94965" compoundref="_machine_type_8cs" startline="399" endline="421">ASS2.MachineType.Driver_ModbusDisconnected</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1aee239b745cb772ccd61bdb18092e2b00" compoundref="_machine_type_8cs" startline="29">ASS2.MachineType.Feeder1</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a2e6bd3bfd125db64e32cab7e7b97e6e4" compoundref="_machine_type_8cs" startline="13">ASS2.MachineType.Id</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a5c28db98d3ac25f42c53fff460f1b506" compoundref="_machine_type_8cs" startline="14">ASS2.MachineType.Name</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a21d73970cb31409721f1012256148a3f" compoundref="_machine_type_8cs" startline="23">ASS2.MachineType.ParcelsOnRun</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1a547df86e57dd47510f96227ced8ff43a" compoundref="_dict_type_8cs" startline="21">ASS2.DictType.SerialConfigs</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a962b089d88d5db9109a90f0407b252c0" compoundref="_machine_type_8cs" startline="167" endline="226">ASS2.MachineType.SetSortProgram</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1abe547dc49cdd5465c9636ff919d7bd12" compoundref="_dict_type_8cs" startline="20">ASS2.DictType.Stands</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a6b82ababb891ac9f7c6a2d07f961f692" compoundref="_machine_type_8cs" startline="26">ASS2.MachineType.StartDetectionSensor</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a3ba60bee38ac8a0fa8df8321525dfab2" compoundref="_machine_type_8cs" startline="510" endline="534">ASS2.MachineType.StartDetectionSensor_ValueChanged</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a1007a1a452468d76c1e44b7b4f984acf" compoundref="_machine_type_8cs" startline="27">ASS2.MachineType.StartParcelSensor</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a00b02396ef369c6d9c36aca722aeffda" compoundref="_machine_type_8cs" startline="466" endline="481">ASS2.MachineType.StartParcelSensor_OnLenghtReaded</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a3a9e6a68b01a5fabc7946b2aa2e58e0f" compoundref="_machine_type_8cs" startline="483" endline="508">ASS2.MachineType.StartParcelSensor_ValueChanged</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a25f668614ad9b88645fb20e820d0b84a" compoundref="_machine_type_8cs" startline="34">ASS2.MachineType.StatTable</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a933f4cfcdeeacb131641371825646f1b" compoundref="_machine_type_8cs" startline="33">ASS2.MachineType.StatTimer</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a8777b9d732ba8b7ad9f432db2eda7803" compoundref="_machine_type_8cs" startline="228" endline="251">ASS2.MachineType.StatTimer_Elapsed</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa81025777b4b628f2280941339d19230" compoundref="_machine_type_8cs" startline="25">ASS2.MachineType.StopSensor</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a6661a09823ec0bd800b3ed5890b90760" compoundref="_machine_type_8cs" startline="536" endline="563">ASS2.MachineType.StopSensor_ValueChanged</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1aa19c35f39b5153373f31c0851f97a08a" compoundref="_dict_type_8cs" startline="25">ASS2.DictType.TactsCount</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a7c7bd85494677f22a878b54e8bae5ae2" compoundref="_machine_type_8cs" startline="24">ASS2.MachineType.TactSensor</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a469583cfc630c1f092143e7d621549d6" compoundref="_machine_type_8cs" startline="663" endline="690">ASS2.MachineType.TactSensor_BeltStart</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a026dce47cb9d314fc863658f286e4f6f" compoundref="_machine_type_8cs" startline="633" endline="661">ASS2.MachineType.TactSensor_BeltStop</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a9d6b84836f113d4a4e5ed53f1893976f" compoundref="_machine_type_8cs" startline="609" endline="632">ASS2.MachineType.TactSensor_TactMissed</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a55b8bc361c39f6682b8d6153e1cf25d1" compoundref="_machine_type_8cs" startline="692" endline="735">ASS2.MachineType.TactSensor_ValueChanged</references>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1ae25f06528ea91949031ac7381c5cdaab" compoundref="us_work_8cs" startline="173" endline="178">ASS2_WF.usWork.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1affc864d5439cfd9b510902c808ee9ef0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; int &gt;</type>
+        <definition>async Task&lt;int&gt; ASS2.MachineType.AllSortedAsync</definition>
+        <argsstring>()</argsstring>
+        <name>AllSortedAsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="253" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="253" bodyend="256"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1a13c7538266f731bcc0384c2004acd866" compoundref="_machine_type_8cs" startline="257" endline="283">ASS2.MachineType.AllSorted</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a602b0c68a72928becc82a084d50fa645" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; int &gt;</type>
+        <definition>async Task&lt;int&gt; ASS2.MachineType.AllMissedAsync</definition>
+        <argsstring>()</argsstring>
+        <name>AllMissedAsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="284" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="284" bodyend="287"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1abd64615565f65de4d3fbfd1bccfec597" compoundref="_machine_type_8cs" startline="288" endline="315">ASS2.MachineType.AllMissed</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1ad37c7f6e7e691a2da9c00ff3c8955bbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; DataTable &gt;</type>
+        <definition>async Task&lt;DataTable&gt; ASS2.MachineType.GetStandStats</definition>
+        <argsstring>()</argsstring>
+        <name>GetStandStats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="316" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="316" bodyend="397"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" compoundref="_machine_type_8cs" startline="19">ASS2.MachineType.dict</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1abe547dc49cdd5465c9636ff919d7bd12" compoundref="_dict_type_8cs" startline="20">ASS2.DictType.Stands</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1af00246daf4cbdfd04cbe1ead31cd9b8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; DataTable &gt;</type>
+        <definition>async Task&lt;DataTable&gt; ASS2.MachineType.PArcelsAtLineTable</definition>
+        <argsstring>()</argsstring>
+        <name>PArcelsAtLineTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="565" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="565" bodyend="607"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1a21d73970cb31409721f1012256148a3f" compoundref="_machine_type_8cs" startline="23">ASS2.MachineType.ParcelsOnRun</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1ac82953aeb7e3b6fc43a2f4d0afd37f7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.LampTest</definition>
+        <argsstring>()</argsstring>
+        <name>LampTest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="744" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="744" bodyend="777"/>
+        <references refid="class_a_s_s2_1_1_dict_type_1a56f3bd8d16140b622d2b438d69402413" compoundref="_dict_type_8cs" startline="19">ASS2.DictType.Colors</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" compoundref="_machine_type_8cs" startline="19">ASS2.MachineType.dict</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1abe547dc49cdd5465c9636ff919d7bd12" compoundref="_dict_type_8cs" startline="20">ASS2.DictType.Stands</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a2eda61958682a1b8f8813232250097d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.LampTestSingleOn</definition>
+        <argsstring>()</argsstring>
+        <name>LampTestSingleOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="778" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="778" bodyend="805"/>
+        <references refid="class_a_s_s2_1_1_dict_type_1a56f3bd8d16140b622d2b438d69402413" compoundref="_dict_type_8cs" startline="19">ASS2.DictType.Colors</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" compoundref="_machine_type_8cs" startline="19">ASS2.MachineType.dict</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1abe547dc49cdd5465c9636ff919d7bd12" compoundref="_dict_type_8cs" startline="20">ASS2.DictType.Stands</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a791676620a7b8ed1ef43db3947417195" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.LampTestTurnOnAll</definition>
+        <argsstring>()</argsstring>
+        <name>LampTestTurnOnAll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="806" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="806" bodyend="827"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1aa16a07047a5169aa9e6632c178cee24b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.LampTestTurnOffAll</definition>
+        <argsstring>()</argsstring>
+        <name>LampTestTurnOffAll</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="828" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="828" bodyend="849"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a67e8945c0d4fe19a0c3dfc0c21fbef6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.StartStopRun</definition>
+        <argsstring>(int SortProgramId)</argsstring>
+        <name>StartStopRun</name>
+        <param>
+          <type>int</type>
+          <declname>SortProgramId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="930" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="930" bodyend="975"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a3ba60bee38ac8a0fa8df8321525dfab2" compoundref="_machine_type_8cs" startline="510" endline="534">ASS2.MachineType.StartDetectionSensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1adb4ce2f437678fb079fa72580ca511cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>DataTable</type>
+        <definition>DataTable ASS2.MachineType.PrintSettings</definition>
+        <argsstring>()</argsstring>
+        <name>PrintSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="983" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="983" bodyend="1010"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1afa08c5c86f0ce38000c88e788fee498d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.StressSimulation</definition>
+        <argsstring>()</argsstring>
+        <name>StressSimulation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="1013" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="1013" bodyend="1132"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a962b089d88d5db9109a90f0407b252c0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.SetSortProgram</definition>
+        <argsstring>(int SortProgramID)</argsstring>
+        <name>SetSortProgram</name>
+        <param>
+          <type>int</type>
+          <declname>SortProgramID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="167" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="167" bodyend="226"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" compoundref="_machine_type_8cs" startline="19">ASS2.MachineType.dict</references>
+        <references refid="class_a_s_s2_1_1_sort_program_type_1a51d09afccfeff27703591e105211453c" compoundref="_sort_program_type_8cs" startline="14">ASS2.SortProgramType.Items</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a5c28db98d3ac25f42c53fff460f1b506" compoundref="_machine_type_8cs" startline="14">ASS2.MachineType.Name</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1abe547dc49cdd5465c9636ff919d7bd12" compoundref="_dict_type_8cs" startline="20">ASS2.DictType.Stands</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a8777b9d732ba8b7ad9f432db2eda7803" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.StatTimer_Elapsed</definition>
+        <argsstring>(object sender, ElapsedEventArgs e)</argsstring>
+        <name>StatTimer_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="228" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="228" bodyend="251"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1abfb2cf1bbc678ca553e7359a4cfc67c1" compoundref="_machine_type_8cs" startline="35">ASS2.MachineType.StatParcelscount</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a25f668614ad9b88645fb20e820d0b84a" compoundref="_machine_type_8cs" startline="34">ASS2.MachineType.StatTable</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a13c7538266f731bcc0384c2004acd866" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; int &gt;</type>
+        <definition>async Task&lt;int&gt; ASS2.MachineType.AllSorted</definition>
+        <argsstring>()</argsstring>
+        <name>AllSorted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="257" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="257" bodyend="283"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" compoundref="_machine_type_8cs" startline="19">ASS2.MachineType.dict</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1abe547dc49cdd5465c9636ff919d7bd12" compoundref="_dict_type_8cs" startline="20">ASS2.DictType.Stands</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1affc864d5439cfd9b510902c808ee9ef0" compoundref="_machine_type_8cs" startline="253" endline="256">ASS2.MachineType.AllSortedAsync</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1abd64615565f65de4d3fbfd1bccfec597" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; int &gt;</type>
+        <definition>async Task&lt;int&gt; ASS2.MachineType.AllMissed</definition>
+        <argsstring>()</argsstring>
+        <name>AllMissed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="288" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="288" bodyend="315"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" compoundref="_machine_type_8cs" startline="19">ASS2.MachineType.dict</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1abe547dc49cdd5465c9636ff919d7bd12" compoundref="_dict_type_8cs" startline="20">ASS2.DictType.Stands</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a602b0c68a72928becc82a084d50fa645" compoundref="_machine_type_8cs" startline="284" endline="287">ASS2.MachineType.AllMissedAsync</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1af598db0b0279f9cdc7a1ddfa71b94965" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.Driver_ModbusDisconnected</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Driver_ModbusDisconnected</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="399" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="399" bodyend="421"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1a0c0641863ea66ac8208958dc142386b2" compoundref="_machine_type_8cs" startline="39">ASS2.MachineType.OnLogAdded</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1ae98507bbac94dde411c70c0c0869bef7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.Driver_ModbusConnected</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Driver_ModbusConnected</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="423" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="423" bodyend="445"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1a0c0641863ea66ac8208958dc142386b2" compoundref="_machine_type_8cs" startline="39">ASS2.MachineType.OnLogAdded</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a803fd8519daa106146c1e5193c9040b7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.Counter_OnNewCirle</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Counter_OnNewCirle</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="447" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="447" bodyend="464"/>
+        <references refid="class_a_s_s2_1_1_counter_type_1a5756522a16a11ba19353830ab0b48c7f" compoundref="_counter_type_8cs" startline="14">ASS2.CounterType.CircleNumber</references>
+        <references refid="class_a_s_s2_1_1_tact_sensor_type_1acce0aab9e109338d375690cd78839db4" compoundref="_tact_sensor_type_8cs" startline="22">ASS2.TactSensorType.Counter</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a7c7bd85494677f22a878b54e8bae5ae2" compoundref="_machine_type_8cs" startline="24">ASS2.MachineType.TactSensor</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a00b02396ef369c6d9c36aca722aeffda" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.StartParcelSensor_OnLenghtReaded</definition>
+        <argsstring>(object sender, SensorStartParcelType.StartSensorEventArgs e)</argsstring>
+        <name>StartParcelSensor_OnLenghtReaded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_sensor_start_parcel_type_1_1_start_sensor_event_args" kindref="compound">SensorStartParcelType.StartSensorEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="466" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="466" bodyend="481"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1a21d73970cb31409721f1012256148a3f" compoundref="_machine_type_8cs" startline="23">ASS2.MachineType.ParcelsOnRun</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a3a9e6a68b01a5fabc7946b2aa2e58e0f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.StartParcelSensor_ValueChanged</definition>
+        <argsstring>(object sender, ModbusDriver.ModbusValueEventArgs e)</argsstring>
+        <name>StartParcelSensor_ValueChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusDriver.ModbusValueEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="483" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="483" bodyend="508"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aee239b745cb772ccd61bdb18092e2b00" compoundref="_machine_type_8cs" startline="29">ASS2.MachineType.Feeder1</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a0dd10a2a20b1ea1a05d72b0a6f90b353" compoundref="_machine_type_8cs" startline="38">ASS2.MachineType.OnStartParcelSensorRead</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a548d993f653ab54c05d818804065f119" compoundref="_machine_type_8cs" startline="43">ASS2.MachineType.startparcelread</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1abfb2cf1bbc678ca553e7359a4cfc67c1" compoundref="_machine_type_8cs" startline="35">ASS2.MachineType.StatParcelscount</references>
+        <references refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a7d5c53af7faef39e26013228609ce951" compoundref="_sensor_start_parcel_type_8cs" startline="24">ASS2.SensorStartParcelType.Value</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a3ba60bee38ac8a0fa8df8321525dfab2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.StartDetectionSensor_ValueChanged</definition>
+        <argsstring>(object sender, ModbusDriver.ModbusValueEventArgs e)</argsstring>
+        <name>StartDetectionSensor_ValueChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusDriver.ModbusValueEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="510" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="510" bodyend="534"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa40c95e656a6f917e5a947d9768c4e3b" compoundref="_machine_type_8cs" startline="21">ASS2.MachineType.CurrentRun</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1aee239b745cb772ccd61bdb18092e2b00" compoundref="_machine_type_8cs" startline="29">ASS2.MachineType.Feeder1</references>
+        <references refid="class_a_s_s2_1_1_run_type_1ad622f72a9172bf0e92402a3437c8f69f" compoundref="_run_type_8cs" startline="18" endline="23">ASS2.RunType.IsWorking</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1ab839622dd43d0d726608f2cdc21b944a" compoundref="_machine_type_8cs" startline="42">ASS2.MachineType.startdetectionsensorread</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a67e8945c0d4fe19a0c3dfc0c21fbef6f" compoundref="_machine_type_8cs" startline="930" endline="975">ASS2.MachineType.StartStopRun</references>
+        <references refid="class_a_s_s2_1_1_sensor_start_detection_type_1a0125981a438e7e5260f8e8b0bf4a49b5" compoundref="_sensor_start_detection_type_8cs" startline="30">ASS2.SensorStartDetectionType.Value</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a6661a09823ec0bd800b3ed5890b90760" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.StopSensor_ValueChanged</definition>
+        <argsstring>(object sender, ModbusDriver.ModbusValueEventArgs e)</argsstring>
+        <name>StopSensor_ValueChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusDriver.ModbusValueEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="536" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="536" bodyend="563"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1a21d73970cb31409721f1012256148a3f" compoundref="_machine_type_8cs" startline="23">ASS2.MachineType.ParcelsOnRun</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa81025777b4b628f2280941339d19230" compoundref="_machine_type_8cs" startline="25">ASS2.MachineType.StopSensor</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a8132c71d0fb2b119f44eff7677101b44" compoundref="_machine_type_8cs" startline="44">ASS2.MachineType.stopsensorread</references>
+        <references refid="class_a_s_s2_1_1_stop_sensor_type_1a9228587ac25df97a6ea02fc985db4133" compoundref="_stop_sensor_type_8cs" startline="15">ASS2.StopSensorType.TactNumber</references>
+        <references refid="class_a_s_s2_1_1_stop_sensor_type_1ad92a25b7bf6cea6986773214b22909a6" compoundref="_stop_sensor_type_8cs" startline="19">ASS2.StopSensorType.Value</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a9d6b84836f113d4a4e5ed53f1893976f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.TactSensor_TactMissed</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>TactSensor_TactMissed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="609" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="609" bodyend="632"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1a0c0641863ea66ac8208958dc142386b2" compoundref="_machine_type_8cs" startline="39">ASS2.MachineType.OnLogAdded</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a026dce47cb9d314fc863658f286e4f6f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.TactSensor_BeltStop</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>TactSensor_BeltStop</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="633" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="633" bodyend="661"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aedeb7907971aa3c2c2e77400809c44e2" compoundref="_machine_type_8cs" startline="17">ASS2.MachineType.Logs</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a0c0641863ea66ac8208958dc142386b2" compoundref="_machine_type_8cs" startline="39">ASS2.MachineType.OnLogAdded</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a469583cfc630c1f092143e7d621549d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.TactSensor_BeltStart</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>TactSensor_BeltStart</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="663" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="663" bodyend="690"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aedeb7907971aa3c2c2e77400809c44e2" compoundref="_machine_type_8cs" startline="17">ASS2.MachineType.Logs</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a0c0641863ea66ac8208958dc142386b2" compoundref="_machine_type_8cs" startline="39">ASS2.MachineType.OnLogAdded</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a55b8bc361c39f6682b8d6153e1cf25d1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.TactSensor_ValueChanged</definition>
+        <argsstring>(object sender, ModbusDriver.ModbusValueEventArgs e)</argsstring>
+        <name>TactSensor_ValueChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusDriver.ModbusValueEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="692" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="692" bodyend="735"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1afc23e207388d5f6fc77dcc4aad30eb91" compoundref="_machine_type_8cs" startline="37">ASS2.MachineType.OnTacted</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a21d73970cb31409721f1012256148a3f" compoundref="_machine_type_8cs" startline="23">ASS2.MachineType.ParcelsOnRun</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa8dab868bdfe039a93f26e9645e3718e" compoundref="_machine_type_8cs" startline="851" endline="913">ASS2.MachineType.Tacted</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a825f3b2cc5872b11838208c8cb8fae22" compoundref="_machine_type_8cs" startline="41">ASS2.MachineType.tactsensorread</references>
+        <references refid="class_a_s_s2_1_1_tact_sensor_type_1a4d5228692db424fc62d28123b864da91" compoundref="_tact_sensor_type_8cs" startline="32">ASS2.TactSensorType.Value</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1ac7314be3a4cdd59230d2b946bda77901" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_color_type" kindref="compound">ColorType</ref></type>
+        <definition>ColorType ASS2.MachineType.GetColor</definition>
+        <argsstring>(ColorType.ColorsList colorname)</argsstring>
+        <name>GetColor</name>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269ede" kindref="member">ColorType.ColorsList</ref></type>
+          <declname>colorname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="738" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="738" bodyend="741"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1aa8dab868bdfe039a93f26e9645e3718e" compoundref="_machine_type_8cs" startline="851" endline="913">ASS2.MachineType.Tacted</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1aa8dab868bdfe039a93f26e9645e3718e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void ASS2.MachineType.Tacted</definition>
+        <argsstring>()</argsstring>
+        <name>Tacted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="851" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="851" bodyend="913"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" compoundref="_machine_type_8cs" startline="19">ASS2.MachineType.dict</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1ac7314be3a4cdd59230d2b946bda77901" compoundref="_machine_type_8cs" startline="738" endline="741">ASS2.MachineType.GetColor</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1abe547dc49cdd5465c9636ff919d7bd12" compoundref="_dict_type_8cs" startline="20">ASS2.DictType.Stands</references>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a55b8bc361c39f6682b8d6153e1cf25d1" compoundref="_machine_type_8cs" startline="692" endline="735">ASS2.MachineType.TactSensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a7dfd28661c8279405db595573c5576a8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.Feeder_OnParcelStartRun</definition>
+        <argsstring>(object sender, FeederType.FeederEventArgs e)</argsstring>
+        <name>Feeder_OnParcelStartRun</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_feeder_type_1_1_feeder_event_args" kindref="compound">FeederType.FeederEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="917" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="917" bodyend="928"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_type_1a20bc554e962358509089a950087b6584" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.MachineType.Tm_Elapsed</definition>
+        <argsstring>(object sender, ElapsedEventArgs e)</argsstring>
+        <name>Tm_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="1134" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="1134" bodyend="1141"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="162">
+        <label>ASS2.MachineType</label>
+        <link refid="class_a_s_s2_1_1_machine_type"/>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="176">
+        <label>ASS2.RoundStatType</label>
+        <link refid="class_a_s_s2_1_1_round_stat_type"/>
+        <childnode refid="165" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="172">
+        <label>ASS2.SensorStartDetectionType</label>
+        <link refid="class_a_s_s2_1_1_sensor_start_detection_type"/>
+      </node>
+      <node id="174">
+        <label>ASS2.RunType</label>
+        <link refid="class_a_s_s2_1_1_run_type"/>
+        <childnode refid="165" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="167">
+        <label>SensorType</label>
+        <link refid="interface_a_s_s2_1_1_sensor_type"/>
+      </node>
+      <node id="169">
+        <label>ASS2.FeederType</label>
+        <link refid="class_a_s_s2_1_1_feeder_type"/>
+        <childnode refid="164" relation="usage">
+          <edgelabel>machine</edgelabel>
+        </childnode>
+        <childnode refid="170" relation="usage">
+          <edgelabel>driver</edgelabel>
+        </childnode>
+      </node>
+      <node id="171">
+        <label>ASS2.SensorStartParcelType</label>
+        <link refid="class_a_s_s2_1_1_sensor_start_parcel_type"/>
+      </node>
+      <node id="164">
+        <label>ASS2.MachineType</label>
+        <link refid="class_a_s_s2_1_1_machine_type"/>
+        <childnode refid="165" relation="public-inheritance">
+        </childnode>
+        <childnode refid="166" relation="usage">
+          <edgelabel>TactSensor</edgelabel>
+        </childnode>
+        <childnode refid="168" relation="usage">
+          <edgelabel>StopSensor</edgelabel>
+        </childnode>
+        <childnode refid="169" relation="usage">
+          <edgelabel>Feeder1</edgelabel>
+        </childnode>
+        <childnode refid="171" relation="usage">
+          <edgelabel>StartParcelSensor</edgelabel>
+        </childnode>
+        <childnode refid="173" relation="usage">
+          <edgelabel>dict</edgelabel>
+        </childnode>
+        <childnode refid="174" relation="usage">
+          <edgelabel>CurrentRun</edgelabel>
+        </childnode>
+        <childnode refid="175" relation="usage">
+          <edgelabel>CurrentSortProgram</edgelabel>
+        </childnode>
+        <childnode refid="172" relation="usage">
+          <edgelabel>StartDetectionSensor</edgelabel>
+        </childnode>
+        <childnode refid="176" relation="usage">
+          <edgelabel>RoundStat</edgelabel>
+        </childnode>
+      </node>
+      <node id="170">
+        <label>ASS2.ModbusDriver</label>
+        <link refid="class_a_s_s2_1_1_modbus_driver"/>
+        <childnode refid="166" relation="usage">
+          <edgelabel>TactSensor</edgelabel>
+        </childnode>
+        <childnode refid="168" relation="usage">
+          <edgelabel>StopSensor</edgelabel>
+        </childnode>
+        <childnode refid="171" relation="usage">
+          <edgelabel>StartParcelSensor</edgelabel>
+        </childnode>
+        <childnode refid="172" relation="usage">
+          <edgelabel>StartDetectionSensor</edgelabel>
+        </childnode>
+      </node>
+      <node id="165">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+      <node id="173">
+        <label>ASS2.DictType</label>
+        <link refid="class_a_s_s2_1_1_dict_type"/>
+        <childnode refid="165" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>ASS2.StopSensorType</label>
+        <link refid="class_a_s_s2_1_1_stop_sensor_type"/>
+        <childnode refid="167" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>ASS2.SortProgramType</label>
+        <link refid="class_a_s_s2_1_1_sort_program_type"/>
+        <childnode refid="165" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="166">
+        <label>ASS2.TactSensorType</label>
+        <link refid="class_a_s_s2_1_1_tact_sensor_type"/>
+        <childnode refid="167" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="11" bodyend="1142"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_machine_type_1abd64615565f65de4d3fbfd1bccfec597" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>AllMissed</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a602b0c68a72928becc82a084d50fa645" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>AllMissedAsync</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a13c7538266f731bcc0384c2004acd866" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>AllSorted</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1affc864d5439cfd9b510902c808ee9ef0" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>AllSortedAsync</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1aacd430eb368620b9485402c8e38ec7c0" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>BeltRunning</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a803fd8519daa106146c1e5193c9040b7" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>Counter_OnNewCirle</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a24cadf21177fee7a33e2060a1034d067" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>CreateTable</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1aa40c95e656a6f917e5a947d9768c4e3b" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>CurrentRun</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1ae4be99e5f92a6641e6c233817ec64756" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>CurrentSortProgram</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>dict</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a48cb8c621e6f471590f9e8cc537e3f1f" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>Driver</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1ae98507bbac94dde411c70c0c0869bef7" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>Driver_ModbusConnected</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1af598db0b0279f9cdc7a1ddfa71b94965" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>Driver_ModbusDisconnected</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1aee239b745cb772ccd61bdb18092e2b00" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>Feeder1</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a7dfd28661c8279405db595573c5576a8" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>Feeder_OnParcelStartRun</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1ac7314be3a4cdd59230d2b946bda77901" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>GetColor</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1ad37c7f6e7e691a2da9c00ff3c8955bbd" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>GetStandStats</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a2e6bd3bfd125db64e32cab7e7b97e6e4" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>Id</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>InitMachine</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1ac82953aeb7e3b6fc43a2f4d0afd37f7b" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>LampTest</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a2eda61958682a1b8f8813232250097d7" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>LampTestSingleOn</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1aa16a07047a5169aa9e6632c178cee24b" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>LampTestTurnOffAll</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a791676620a7b8ed1ef43db3947417195" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>LampTestTurnOnAll</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a53c274faca217ed300cfa46c4f465b50" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>Load&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ae190bdcee51591d2a705490ccdffe940" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>LoadAll&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ab0a3f846534fe15e795ff95fc0e73ade" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>LoadWhere&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1aedeb7907971aa3c2c2e77400809c44e2" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>Logs</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1ab6aa0e1bf918136d0028c42a9bf8b618" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>MachineType</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a5c28db98d3ac25f42c53fff460f1b506" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>Name</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a0c0641863ea66ac8208958dc142386b2" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>OnLogAdded</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a0dd10a2a20b1ea1a05d72b0a6f90b353" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>OnStartParcelSensorRead</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1afc23e207388d5f6fc77dcc4aad30eb91" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>OnTacted</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1af00246daf4cbdfd04cbe1ead31cd9b8c" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>PArcelsAtLineTable</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a21d73970cb31409721f1012256148a3f" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>ParcelsOnRun</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1adb4ce2f437678fb079fa72580ca511cd" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>PrintSettings</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1ac3d48af74012572029462576b6df3b02" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>RoundStat</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a483e584dcfb0eaa9f6a6da3b4e8b3f1f" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>Save</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a1751417872a03695c3547e418d9ae301" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>SaveAsync</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a962b089d88d5db9109a90f0407b252c0" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>SetSortProgram</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a6b82ababb891ac9f7c6a2d07f961f692" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>StartDetectionSensor</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a3ba60bee38ac8a0fa8df8321525dfab2" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>StartDetectionSensor_ValueChanged</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1ab839622dd43d0d726608f2cdc21b944a" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>startdetectionsensorread</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a548d993f653ab54c05d818804065f119" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>startparcelread</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a1007a1a452468d76c1e44b7b4f984acf" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>StartParcelSensor</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a00b02396ef369c6d9c36aca722aeffda" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>StartParcelSensor_OnLenghtReaded</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a3a9e6a68b01a5fabc7946b2aa2e58e0f" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>StartParcelSensor_ValueChanged</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a67e8945c0d4fe19a0c3dfc0c21fbef6f" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>StartStopRun</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1abfb2cf1bbc678ca553e7359a4cfc67c1" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>StatParcelscount</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a25f668614ad9b88645fb20e820d0b84a" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>StatTable</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a933f4cfcdeeacb131641371825646f1b" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>StatTimer</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a8777b9d732ba8b7ad9f432db2eda7803" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>StatTimer_Elapsed</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1aa81025777b4b628f2280941339d19230" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>StopSensor</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a6661a09823ec0bd800b3ed5890b90760" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>StopSensor_ValueChanged</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a8132c71d0fb2b119f44eff7677101b44" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>stopsensorread</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1afa08c5c86f0ce38000c88e788fee498d" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>StressSimulation</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1aa8dab868bdfe039a93f26e9645e3718e" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>Tacted</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a7c7bd85494677f22a878b54e8bae5ae2" prot="public" virt="non-virtual"><scope>ASS2::MachineType</scope><name>TactSensor</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a469583cfc630c1f092143e7d621549d6" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>TactSensor_BeltStart</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a026dce47cb9d314fc863658f286e4f6f" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>TactSensor_BeltStop</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a9d6b84836f113d4a4e5ed53f1893976f" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>TactSensor_TactMissed</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a55b8bc361c39f6682b8d6153e1cf25d1" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>TactSensor_ValueChanged</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a825f3b2cc5872b11838208c8cb8fae22" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>tactsensorread</name></member>
+      <member refid="class_a_s_s2_1_1_machine_type_1a20bc554e962358509089a950087b6584" prot="private" virt="non-virtual"><scope>ASS2::MachineType</scope><name>Tm_Elapsed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

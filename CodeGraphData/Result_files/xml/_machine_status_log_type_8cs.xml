@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_machine_status_log_type_8cs" kind="file">
+    <compoundname>MachineStatusLogType.cs</compoundname>
+    <innerclass refid="class_a_s_s2_1_1_machine_status_log_type" prot="public">ASS2::MachineStatusLogType</innerclass>
+    <innernamespace refid="namespace_a_s_s2">ASS2</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ASS2</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_a_s_s2_1_1_machine_status_log_type" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_a_s_s2_1_1_machine_status_log_type" kindref="compound">MachineStatusLogType</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11" refid="class_a_s_s2_1_1_machine_status_log_type_1a5697b51b21fa62ae41fd59d935b14357" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>DateTime<sp/><ref refid="class_a_s_s2_1_1_machine_status_log_type_1a5697b51b21fa62ae41fd59d935b14357" kindref="member">Time</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="12" refid="class_a_s_s2_1_1_machine_status_log_type_1a9a4da4b06e82e401777056f65883e5aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_a_s_s2_1_1_machine_status_log_type_1a9a4da4b06e82e401777056f65883e5aa" kindref="member">Event</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="13" refid="class_a_s_s2_1_1_machine_status_log_type_1a542eabdad18ffe1cae7a539d092c66f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800" kindref="member">MachineEventsLogs</ref><sp/><ref refid="class_a_s_s2_1_1_machine_status_log_type_1a542eabdad18ffe1cae7a539d092c66f3" kindref="member">logtype</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="14" refid="class_a_s_s2_1_1_machine_status_log_type_1a74b6b02eaec86ba0b1296ac74c2aeac6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_a_s_s2_1_1_machine_status_log_type_1a74b6b02eaec86ba0b1296ac74c2aeac6" kindref="member">Description</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="class_a_s_s2_1_1_machine_status_log_type_1af7a5dd0c828d8bfb218222573aa03413" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_a_s_s2_1_1_machine_status_log_type_1af7a5dd0c828d8bfb218222573aa03413" kindref="member">MachineStatusLogType</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800" kindref="member">MachineEventsLogs</ref></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800a99b8bf90907ab383d9c08c9501161c52" kindref="member">Start_programu</ref>,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800a98c3dca20d7d18911e8703873e7146fc" kindref="member">Sterowanie_połączono</ref>,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800a10dcb12a7b131f936fc99ed0e80ba785" kindref="member">Sterowanie_rozłączono</ref>,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800ae90864cc43631751aa40491f51073f46" kindref="member">Przenośnik_uruchomiony</ref>,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800a2d79508532e3799b075a7c1c8fc6ec88" kindref="member">Przenośnik_zatrzymany</ref>,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800a54659153f74e7d2582b4be532823da77" kindref="member">Brak_taktu</ref></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_a_s_s2_1_1_machine_status_log_type_1a203352e5ac4ab6e19ed593c260d5c4a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_a_s_s2_1_1_machine_status_log_type_1a203352e5ac4ab6e19ed593c260d5c4a0" kindref="member">MachineStatusLogType</ref>(<ref refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800" kindref="member">MachineEventsLogs</ref><sp/>EventName,</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>description=</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.Time<sp/>=<sp/>DateTime.Now;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.Event<sp/>=<sp/>EventName.ToString();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.logtype<sp/>=<sp/>EventName;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.Description<sp/>=<sp/>description;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs"/>
+  </compounddef>
+</doxygen>

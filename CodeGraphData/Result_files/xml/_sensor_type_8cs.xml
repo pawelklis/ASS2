@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_sensor_type_8cs" kind="file">
+    <compoundname>SensorType.cs</compoundname>
+    <innerclass refid="interface_a_s_s2_1_1_sensor_type" prot="public">ASS2::SensorType</innerclass>
+    <innernamespace refid="namespace_a_s_s2">ASS2</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ASS2</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="interface_a_s_s2_1_1_sensor_type" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_a_s_s2_1_1_sensor_type" kindref="compound">SensorType</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11" refid="interface_a_s_s2_1_1_sensor_type_1a104ad910593aab61ace15a4e3ad9ba3e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="interface_a_s_s2_1_1_sensor_type_1a104ad910593aab61ace15a4e3ad9ba3e" kindref="member">Id</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="12" refid="interface_a_s_s2_1_1_sensor_type_1a4e6e8efeb78fe30e1c66f1653f10cc41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9" kindref="member">SensorName</ref><sp/><ref refid="interface_a_s_s2_1_1_sensor_type_1a4e6e8efeb78fe30e1c66f1653f10cc41" kindref="member">Name</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="13" refid="interface_a_s_s2_1_1_sensor_type_1a70b367c49c9746a5fd7664cfa28cfd7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interface_a_s_s2_1_1_sensor_type_1a70b367c49c9746a5fd7664cfa28cfd7a" kindref="member">Address</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="interface_a_s_s2_1_1_sensor_type_1a3749bbb3df243a02059c6fc909803825" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="interface_a_s_s2_1_1_sensor_type_1a3749bbb3df243a02059c6fc909803825" kindref="member">Value</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>set;<sp/>}</highlight></codeline>
+<codeline lineno="16" refid="interface_a_s_s2_1_1_sensor_type_1ace4a3103a7b9589b5d1bb60febbd7c97" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">event</highlight><highlight class="normal"><sp/>EventHandler&lt;<ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusDriver.ModbusValueEventArgs</ref>&gt;<sp/><ref refid="interface_a_s_s2_1_1_sensor_type_1ace4a3103a7b9589b5d1bb60febbd7c97" kindref="member">ValueChanged</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9" kindref="member">SensorName</ref></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9ac5243f45ab03ee781ad4dd234d26e6e2" kindref="member">startdetectionsensor</ref>,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9aeb9e2b8983340be98bceb47546c97d92" kindref="member">startparcelsensor</ref>,</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9a0da1f03a79e84955304ae76bd610cf12" kindref="member">tactsensor</ref>,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9a29d5e1612a5dbc5cfa64c634a261a558" kindref="member">stopsensor</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/SensorType.cs"/>
+  </compounddef>
+</doxygen>

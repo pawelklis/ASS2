@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_7f3a91afeef3b5c7352029e7b67dc378" kind="dir">
+    <compoundname>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict</compoundname>
+    <innerdir refid="dir_d5f28b9e8c3ec4d246589af8a0cff77e">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors</innerdir>
+    <innerdir refid="dir_acb66d1b7d0c64007cbed91c81d6c135">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions</innerdir>
+    <innerdir refid="dir_b77106405a259aa7a6ee7131de60cf41">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Lamps</innerdir>
+    <innerdir refid="dir_d7dd37d17e5b4d2c32fffb5d21854fab">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232</innerdir>
+    <innerdir refid="dir_b449201473d17a0ce0da318066529773">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans</innerdir>
+    <innerdir refid="dir_5e2167f2cf8fc002c3787c5555967f70">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands</innerdir>
+    <innerfile refid="_dict_type_8cs">DictType.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/"/>
+  </compounddef>
+</doxygen>

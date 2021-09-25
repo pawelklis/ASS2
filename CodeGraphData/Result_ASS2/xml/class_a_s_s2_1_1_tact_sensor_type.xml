@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_tact_sensor_type" kind="class" prot="public">
+    <compoundname>ASS2::TactSensorType</compoundname>
+    <basecompoundref refid="interface_a_s_s2_1_1_sensor_type" prot="public" virt="non-virtual">ASS2.SensorType</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_tact_sensor_type_1a870d4578780605e13746927d73cad70a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.TactSensorType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_tact_sensor_type_1a7cd97028eb290b032dc50e5e0eae8a72" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9" kindref="member">SensorType.SensorName</ref></type>
+        <definition>SensorType.SensorName ASS2.TactSensorType.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_tact_sensor_type_1a283bad3f5ea145a19f9680e8543df611" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.TactSensorType.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_tact_sensor_type_1aed39c25345bb3b4b2258998ab45d6140" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime ASS2.TactSensorType.ValueChangedTime</definition>
+        <argsstring></argsstring>
+        <name>ValueChangedTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_tact_sensor_type_1a68b6112b66d94592dde8faf3e5f0dcdf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>TimeSpan</type>
+        <definition>TimeSpan ASS2.TactSensorType.TactLenghtTime</definition>
+        <argsstring></argsstring>
+        <name>TactLenghtTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="17" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_tact_sensor_type_1aaadff8df55b29bda97f17d152de83c49" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Timer</type>
+        <definition>Timer ASS2.TactSensorType.WorkDetectionTimer</definition>
+        <argsstring></argsstring>
+        <name>WorkDetectionTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="19" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_tact_sensor_type_1ad2759534769f9db4ee5575e206fc3ca6" compoundref="_tact_sensor_type_8cs" startline="93" endline="116">ASS2.TactSensorType.BeltStarted</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_tact_sensor_type_1a37d5397cbdf98c372f394272f765b3b1" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime ASS2.TactSensorType.SupposedTactTime</definition>
+        <argsstring></argsstring>
+        <name>SupposedTactTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="20" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_tact_sensor_type_1acce0aab9e109338d375690cd78839db4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_counter_type" kindref="compound">CounterType</ref></type>
+        <definition>CounterType ASS2.TactSensorType.Counter</definition>
+        <argsstring></argsstring>
+        <name>Counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="22" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a803fd8519daa106146c1e5193c9040b7" compoundref="_machine_type_8cs" startline="447" endline="464">ASS2.MachineType.Counter_OnNewCirle</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" compoundref="_machine_type_8cs" startline="56" endline="163">ASS2.MachineType.InitMachine</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_tact_sensor_type_1ace23690f80d582daa2e279dae72f7706" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.TactSensorType.myVal</definition>
+        <argsstring></argsstring>
+        <name>myVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="26" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_tact_sensor_type_1a4d5228692db424fc62d28123b864da91" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.TactSensorType.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="31" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a55b8bc361c39f6682b8d6153e1cf25d1" compoundref="_machine_type_8cs" startline="692" endline="735">ASS2.MachineType.TactSensor_ValueChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_tact_sensor_type_1aecbfdb3b760a47ee80c9b4a37cf2bfac" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusDriver.ModbusValueEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;ModbusDriver.ModbusValueEventArgs&gt; ASS2.TactSensorType.ValueChanged</definition>
+        <argsstring></argsstring>
+        <name>ValueChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="27" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_a_s_s2_1_1_tact_sensor_type_1a2cff81750617c007312b9ccedd8c03d4" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; EventArgs &gt;</type>
+        <definition>EventHandler&lt;EventArgs&gt; ASS2.TactSensorType.BeltStart</definition>
+        <argsstring></argsstring>
+        <name>BeltStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="28" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="28" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_tact_sensor_type_1ad2759534769f9db4ee5575e206fc3ca6" compoundref="_tact_sensor_type_8cs" startline="93" endline="116">ASS2.TactSensorType.BeltStarted</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_a_s_s2_1_1_tact_sensor_type_1a3fdfe04700f269f956be9cf32a1d6e68" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; EventArgs &gt;</type>
+        <definition>EventHandler&lt;EventArgs&gt; ASS2.TactSensorType.BeltStop</definition>
+        <argsstring></argsstring>
+        <name>BeltStop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="29" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_tact_sensor_type_1adae92c4b24ce23f157c261d7b07ad914" compoundref="_tact_sensor_type_8cs" startline="118" endline="136">ASS2.TactSensorType.WorkDetectionTimer_Elapsed</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_a_s_s2_1_1_tact_sensor_type_1a8f484f213fa900945c72969ccb70bbdd" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; EventArgs &gt;</type>
+        <definition>EventHandler&lt;EventArgs&gt; ASS2.TactSensorType.TactMissed</definition>
+        <argsstring></argsstring>
+        <name>TactMissed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="30" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_tact_sensor_type_1ab7340e78bab1993c75a5746c43d2b5dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.TactSensorType.TactSensorType</definition>
+        <argsstring>()</argsstring>
+        <name>TactSensorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="85" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="85" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_tact_sensor_type_1a073eccaa79956f7952c4cfcb0ad456f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.TactSensorType.TactSensorType</definition>
+        <argsstring>(int machineid, int alltactscount)</argsstring>
+        <name>TactSensorType</name>
+        <param>
+          <type>int</type>
+          <declname>machineid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>alltactscount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="89" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="89" bodyend="92"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_tact_sensor_type_1ad2759534769f9db4ee5575e206fc3ca6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.TactSensorType.BeltStarted</definition>
+        <argsstring>()</argsstring>
+        <name>BeltStarted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="93" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="93" bodyend="116"/>
+        <references refid="class_a_s_s2_1_1_tact_sensor_type_1a2cff81750617c007312b9ccedd8c03d4" compoundref="_tact_sensor_type_8cs" startline="28">ASS2.TactSensorType.BeltStart</references>
+        <references refid="class_a_s_s2_1_1_tact_sensor_type_1aaadff8df55b29bda97f17d152de83c49" compoundref="_tact_sensor_type_8cs" startline="19">ASS2.TactSensorType.WorkDetectionTimer</references>
+        <references refid="class_a_s_s2_1_1_tact_sensor_type_1adae92c4b24ce23f157c261d7b07ad914" compoundref="_tact_sensor_type_8cs" startline="118" endline="136">ASS2.TactSensorType.WorkDetectionTimer_Elapsed</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_tact_sensor_type_1adae92c4b24ce23f157c261d7b07ad914" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.TactSensorType.WorkDetectionTimer_Elapsed</definition>
+        <argsstring>(object sender, ElapsedEventArgs e)</argsstring>
+        <name>WorkDetectionTimer_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="118" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="118" bodyend="136"/>
+        <references refid="class_a_s_s2_1_1_tact_sensor_type_1a3fdfe04700f269f956be9cf32a1d6e68" compoundref="_tact_sensor_type_8cs" startline="29">ASS2.TactSensorType.BeltStop</references>
+        <referencedby refid="class_a_s_s2_1_1_tact_sensor_type_1ad2759534769f9db4ee5575e206fc3ca6" compoundref="_tact_sensor_type_8cs" startline="93" endline="116">ASS2.TactSensorType.BeltStarted</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="314">
+        <label>SensorType</label>
+        <link refid="interface_a_s_s2_1_1_sensor_type"/>
+      </node>
+      <node id="313">
+        <label>ASS2.TactSensorType</label>
+        <link refid="class_a_s_s2_1_1_tact_sensor_type"/>
+        <childnode refid="314" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="316">
+        <label>SensorType</label>
+        <link refid="interface_a_s_s2_1_1_sensor_type"/>
+      </node>
+      <node id="315">
+        <label>ASS2.TactSensorType</label>
+        <link refid="class_a_s_s2_1_1_tact_sensor_type"/>
+        <childnode refid="316" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact/TactSensorType.cs" bodystart="10" bodyend="137"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1a283bad3f5ea145a19f9680e8543df611" prot="public" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>Address</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1a2cff81750617c007312b9ccedd8c03d4" prot="public" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>BeltStart</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1ad2759534769f9db4ee5575e206fc3ca6" prot="private" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>BeltStarted</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1a3fdfe04700f269f956be9cf32a1d6e68" prot="public" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>BeltStop</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1acce0aab9e109338d375690cd78839db4" prot="public" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>Counter</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1a870d4578780605e13746927d73cad70a" prot="public" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>Id</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1ace23690f80d582daa2e279dae72f7706" prot="private" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>myVal</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1a7cd97028eb290b032dc50e5e0eae8a72" prot="public" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>Name</name></member>
+      <member refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9" prot="public" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>SensorName</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1a37d5397cbdf98c372f394272f765b3b1" prot="private" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>SupposedTactTime</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1a68b6112b66d94592dde8faf3e5f0dcdf" prot="public" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>TactLenghtTime</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1a8f484f213fa900945c72969ccb70bbdd" prot="public" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>TactMissed</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1ab7340e78bab1993c75a5746c43d2b5dc" prot="public" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>TactSensorType</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1a073eccaa79956f7952c4cfcb0ad456f8" prot="public" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>TactSensorType</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1a4d5228692db424fc62d28123b864da91" prot="public" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>Value</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1aecbfdb3b760a47ee80c9b4a37cf2bfac" prot="public" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>ValueChanged</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1aed39c25345bb3b4b2258998ab45d6140" prot="public" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>ValueChangedTime</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1aaadff8df55b29bda97f17d152de83c49" prot="private" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>WorkDetectionTimer</name></member>
+      <member refid="class_a_s_s2_1_1_tact_sensor_type_1adae92c4b24ce23f157c261d7b07ad914" prot="private" virt="non-virtual"><scope>ASS2::TactSensorType</scope><name>WorkDetectionTimer_Elapsed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,537 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_feeder_type" kind="class" prot="public">
+    <compoundname>ASS2::FeederType</compoundname>
+    <innerclass refid="class_a_s_s2_1_1_feeder_type_1_1_feeder_event_args" prot="public">ASS2::FeederType::FeederEventArgs</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_feeder_type_1ab43a3cabca1a334df9aa6cd3b3231369" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_r_s232_device_type" kindref="compound">RS232DeviceType</ref></type>
+        <definition>RS232DeviceType ASS2.FeederType.Skaner</definition>
+        <argsstring></argsstring>
+        <name>Skaner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a4c8b071110ffec0428fbebda7d4eccb8" compoundref="_feeder_type_8cs" startline="33" endline="58">ASS2.FeederType.FeederType</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_feeder_type_1a3db622c51514bbd488636b22ab327eee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_a_s_s2_1_1_parcel_type" kindref="compound">ParcelType</ref> &gt;</type>
+        <definition>List&lt;ParcelType&gt; ASS2.FeederType.Parcels</definition>
+        <argsstring></argsstring>
+        <name>Parcels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a4c8b071110ffec0428fbebda7d4eccb8" compoundref="_feeder_type_8cs" startline="33" endline="58">ASS2.FeederType.FeederType</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_feeder_type_1a2eb2be089f168d8480345f04a55af5f9" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_a_s_s2_1_1_stand_type" kindref="compound">StandType</ref> &gt;</type>
+        <definition>List&lt;StandType&gt; ASS2.FeederType.Stands</definition>
+        <argsstring></argsstring>
+        <name>Stands</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" compoundref="_feeder_type_8cs" startline="62" endline="119">ASS2.FeederType.Startdetectionsensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_feeder_type_1a33fe9e56d5b72b4e128ae872e5747929" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_modbus_driver" kindref="compound">ModbusDriver</ref></type>
+        <definition>ModbusDriver ASS2.FeederType.driver</definition>
+        <argsstring></argsstring>
+        <name>driver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a4c8b071110ffec0428fbebda7d4eccb8" compoundref="_feeder_type_8cs" startline="33" endline="58">ASS2.FeederType.FeederType</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" compoundref="_feeder_type_8cs" startline="62" endline="119">ASS2.FeederType.Startdetectionsensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_feeder_type_1aabb4d62f69058aa15ce6a2d8ceba90d2" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_machine_type" kindref="compound">MachineType</ref></type>
+        <definition>MachineType ASS2.FeederType.machine</definition>
+        <argsstring></argsstring>
+        <name>machine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a4c8b071110ffec0428fbebda7d4eccb8" compoundref="_feeder_type_8cs" startline="33" endline="58">ASS2.FeederType.FeederType</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" compoundref="_feeder_type_8cs" startline="62" endline="119">ASS2.FeederType.Startdetectionsensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_feeder_type_1a103e9be98ae9559e9026cb941de1b4e2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.FeederType.ignition</definition>
+        <argsstring></argsstring>
+        <name>ignition</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="20" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a4c8b071110ffec0428fbebda7d4eccb8" compoundref="_feeder_type_8cs" startline="33" endline="58">ASS2.FeederType.FeederType</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_feeder_type_1a121a23e89a3217fc2639d07ce33ef44a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.FeederType.White</definition>
+        <argsstring></argsstring>
+        <name>White</name>
+        <initializer>= 61</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="21" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" compoundref="_feeder_type_8cs" startline="62" endline="119">ASS2.FeederType.Startdetectionsensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_feeder_type_1aeed60e355de88521d1b1d04c58cd9a7e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.FeederType.Green</definition>
+        <argsstring></argsstring>
+        <name>Green</name>
+        <initializer>= 62</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="22" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" compoundref="_feeder_type_8cs" startline="62" endline="119">ASS2.FeederType.Startdetectionsensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_feeder_type_1a136564581a2596dac52c859629d64bad" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.FeederType.Red</definition>
+        <argsstring></argsstring>
+        <name>Red</name>
+        <initializer>= 63</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="23" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_feeder_type_1a7e14233a40988437c9144fb7f0aa7de8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.FeederType.parcelstoptactnumber</definition>
+        <argsstring></argsstring>
+        <name>parcelstoptactnumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="26" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a4c8b071110ffec0428fbebda7d4eccb8" compoundref="_feeder_type_8cs" startline="33" endline="58">ASS2.FeederType.FeederType</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" compoundref="_feeder_type_8cs" startline="62" endline="119">ASS2.FeederType.Startdetectionsensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_feeder_type_1a64247b19757c599be1385cd9933d27a4" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_a_s_s2_1_1_parcel_type" kindref="compound">ParcelType</ref> &gt;</type>
+        <definition>List&lt;ParcelType&gt; ASS2.FeederType.ParcelsAtLine</definition>
+        <argsstring></argsstring>
+        <name>ParcelsAtLine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="27" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_feeder_type_1a3b2cf54df47142c8649882310156c3c7" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.FeederType.ParcelWasScanned</definition>
+        <argsstring></argsstring>
+        <name>ParcelWasScanned</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="29" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" compoundref="_feeder_type_8cs" startline="62" endline="119">ASS2.FeederType.Startdetectionsensor_ValueChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_feeder_type_1a11679eab3bb1aaf74838a00040694cdd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.FeederType.TactNumber</definition>
+        <argsstring></argsstring>
+        <name>TactNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="25" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_feeder_type_1a9dc29a36e5ef71e97e9d2df95f5d544c" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_a_s_s2_1_1_feeder_type_1_1_feeder_event_args" kindref="compound">FeederEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;FeederEventArgs&gt; ASS2.FeederType.OnParcelStartRun</definition>
+        <argsstring></argsstring>
+        <name>OnParcelStartRun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="31" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_feeder_type_1a4c8b071110ffec0428fbebda7d4eccb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.FeederType.FeederType</definition>
+        <argsstring>(RS232ConfigType SkanerConfig, List&lt; StandType &gt;stands, ModbusDriver driver, int detectiontactnumber, List&lt; ParcelType &gt; parcelsAtLine, int parcelstoptactnumber, MachineType machine)</argsstring>
+        <name>FeederType</name>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_r_s232_config_type" kindref="compound">RS232ConfigType</ref></type>
+          <declname>SkanerConfig</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_a_s_s2_1_1_stand_type" kindref="compound">StandType</ref> &gt;</type>
+          <declname>stands</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_modbus_driver" kindref="compound">ModbusDriver</ref></type>
+          <declname>driver</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>detectiontactnumber</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_a_s_s2_1_1_parcel_type" kindref="compound">ParcelType</ref> &gt;</type>
+          <declname>parcelsAtLine</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>parcelstoptactnumber</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_machine_type" kindref="compound">MachineType</ref></type>
+          <declname>machine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="33" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="33" bodyend="58"/>
+        <references refid="class_a_s_s2_1_1_feeder_type_1a33fe9e56d5b72b4e128ae872e5747929" compoundref="_feeder_type_8cs" startline="16">ASS2.FeederType.driver</references>
+        <references refid="class_a_s_s2_1_1_feeder_type_1a103e9be98ae9559e9026cb941de1b4e2" compoundref="_feeder_type_8cs" startline="20">ASS2.FeederType.ignition</references>
+        <references refid="class_a_s_s2_1_1_feeder_type_1aabb4d62f69058aa15ce6a2d8ceba90d2" compoundref="_feeder_type_8cs" startline="18">ASS2.FeederType.machine</references>
+        <references refid="class_a_s_s2_1_1_feeder_type_1a3db622c51514bbd488636b22ab327eee" compoundref="_feeder_type_8cs" startline="12">ASS2.FeederType.Parcels</references>
+        <references refid="class_a_s_s2_1_1_feeder_type_1a7e14233a40988437c9144fb7f0aa7de8" compoundref="_feeder_type_8cs" startline="26">ASS2.FeederType.parcelstoptactnumber</references>
+        <references refid="class_a_s_s2_1_1_feeder_type_1ab43a3cabca1a334df9aa6cd3b3231369" compoundref="_feeder_type_8cs" startline="11">ASS2.FeederType.Skaner</references>
+        <references refid="class_a_s_s2_1_1_feeder_type_1a7036a7a243f9cc1b2ded3c23f0ce95ad" compoundref="_feeder_type_8cs" startline="197" endline="210">ASS2.FeederType.Skaner_OnDataReceivedAsync</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.FeederType.Startdetectionsensor_ValueChanged</definition>
+        <argsstring>(object sender, ModbusDriver.ModbusValueEventArgs e)</argsstring>
+        <name>Startdetectionsensor_ValueChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusDriver.ModbusValueEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="62" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="62" bodyend="119"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa40c95e656a6f917e5a947d9768c4e3b" compoundref="_machine_type_8cs" startline="21">ASS2.MachineType.CurrentRun</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1ae4be99e5f92a6641e6c233817ec64756" compoundref="_machine_type_8cs" startline="20">ASS2.MachineType.CurrentSortProgram</references>
+        <references refid="class_a_s_s2_1_1_parcel_type_1ac06b55e564dcb2891d0ef868dcc28ccb" compoundref="_parcel_type_8cs" startline="20">ASS2.ParcelType.DestinationStand</references>
+        <references refid="class_a_s_s2_1_1_feeder_type_1a33fe9e56d5b72b4e128ae872e5747929" compoundref="_feeder_type_8cs" startline="16">ASS2.FeederType.driver</references>
+        <references refid="class_a_s_s2_1_1_feeder_type_1aeed60e355de88521d1b1d04c58cd9a7e" compoundref="_feeder_type_8cs" startline="22">ASS2.FeederType.Green</references>
+        <references refid="class_a_s_s2_1_1_run_type_1a921256f035c386d1241c572fc0199ab0" compoundref="_run_type_8cs" startline="11">ASS2.RunType.Id</references>
+        <references refid="class_a_s_s2_1_1_sort_program_type_1ab5c71b9c8d5a7cff392bf85f1be5455b" compoundref="_sort_program_type_8cs" startline="11">ASS2.SortProgramType.Id</references>
+        <references refid="class_a_s_s2_1_1_feeder_type_1aabb4d62f69058aa15ce6a2d8ceba90d2" compoundref="_feeder_type_8cs" startline="18">ASS2.FeederType.machine</references>
+        <references refid="class_a_s_s2_1_1_stand_type_1a1767ab89edea5594552f84a06f8a2897" compoundref="_stand_type_8cs" startline="13">ASS2.StandType.Name</references>
+        <references refid="class_a_s_s2_1_1_feeder_type_1a50061f3e20004bbef3f4fc2ffd2ba8ae" compoundref="_feeder_type_8cs" startline="121" endline="135">ASS2.FeederType.Np_OnParcelStopRun</references>
+        <references refid="class_a_s_s2_1_1_feeder_type_1a7e14233a40988437c9144fb7f0aa7de8" compoundref="_feeder_type_8cs" startline="26">ASS2.FeederType.parcelstoptactnumber</references>
+        <references refid="class_a_s_s2_1_1_feeder_type_1a3b2cf54df47142c8649882310156c3c7" compoundref="_feeder_type_8cs" startline="29">ASS2.FeederType.ParcelWasScanned</references>
+        <references refid="class_a_s_s2_1_1_feeder_type_1a2eb2be089f168d8480345f04a55af5f9" compoundref="_feeder_type_8cs" startline="14">ASS2.FeederType.Stands</references>
+        <references refid="class_a_s_s2_1_1_feeder_type_1a121a23e89a3217fc2639d07ce33ef44a" compoundref="_feeder_type_8cs" startline="21">ASS2.FeederType.White</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_feeder_type_1a038c0c4db258f3de591bcbe5a316fe9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.FeederType.Startparcelsensor_ValueChanged</definition>
+        <argsstring>(object sender, ModbusDriver.ModbusValueEventArgs e)</argsstring>
+        <name>Startparcelsensor_ValueChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusDriver.ModbusValueEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="137" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="137" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_feeder_type_1ad84ad49884900ec2970047b61fa51618" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.FeederType.StartParcelSensorEndReading</definition>
+        <argsstring>()</argsstring>
+        <name>StartParcelSensorEndReading</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="174" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="174" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_feeder_type_1af7991d13332647ad135a21c59c80d025" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task ASS2.FeederType.Scanned</definition>
+        <argsstring>(string number)</argsstring>
+        <name>Scanned</name>
+        <param>
+          <type>string</type>
+          <declname>number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="213" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="213" bodyend="248"/>
+        <references refid="class_a_s_s2_1_1_parcel_type_1a619216ef659061e8011a0263d89c0c0a" compoundref="_parcel_type_8cs" startline="258" endline="343">ASS2.ParcelType.SetNumber</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_feeder_type_1a50061f3e20004bbef3f4fc2ffd2ba8ae" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.FeederType.Np_OnParcelStopRun</definition>
+        <argsstring>(object sender, ParcelType.ParcelEventArgs e)</argsstring>
+        <name>Np_OnParcelStopRun</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_parcel_type_1_1_parcel_event_args" kindref="compound">ParcelType.ParcelEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="121" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="121" bodyend="135"/>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" compoundref="_feeder_type_8cs" startline="62" endline="119">ASS2.FeederType.Startdetectionsensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_feeder_type_1a7036a7a243f9cc1b2ded3c23f0ce95ad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void ASS2.FeederType.Skaner_OnDataReceivedAsync</definition>
+        <argsstring>(object sender, RS232DeviceType.SkanerEventArgs e)</argsstring>
+        <name>Skaner_OnDataReceivedAsync</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_r_s232_device_type_1_1_skaner_event_args" kindref="compound">RS232DeviceType.SkanerEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="197" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="197" bodyend="210"/>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a4c8b071110ffec0428fbebda7d4eccb8" compoundref="_feeder_type_8cs" startline="33" endline="58">ASS2.FeederType.FeederType</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="61">
+        <label>ASS2.RoundStatType</label>
+        <link refid="class_a_s_s2_1_1_round_stat_type"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>ASS2.SensorStartDetectionType</label>
+        <link refid="class_a_s_s2_1_1_sensor_start_detection_type"/>
+      </node>
+      <node id="58">
+        <label>ASS2.RunType</label>
+        <link refid="class_a_s_s2_1_1_run_type"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>SensorType</label>
+        <link refid="interface_a_s_s2_1_1_sensor_type"/>
+      </node>
+      <node id="50">
+        <label>ASS2.FeederType</label>
+        <link refid="class_a_s_s2_1_1_feeder_type"/>
+        <childnode refid="51" relation="usage">
+          <edgelabel>machine</edgelabel>
+        </childnode>
+        <childnode refid="62" relation="usage">
+          <edgelabel>driver</edgelabel>
+        </childnode>
+      </node>
+      <node id="56">
+        <label>ASS2.SensorStartParcelType</label>
+        <link refid="class_a_s_s2_1_1_sensor_start_parcel_type"/>
+      </node>
+      <node id="51">
+        <label>ASS2.MachineType</label>
+        <link refid="class_a_s_s2_1_1_machine_type"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+        <childnode refid="53" relation="usage">
+          <edgelabel>TactSensor</edgelabel>
+        </childnode>
+        <childnode refid="55" relation="usage">
+          <edgelabel>StopSensor</edgelabel>
+        </childnode>
+        <childnode refid="50" relation="usage">
+          <edgelabel>Feeder1</edgelabel>
+        </childnode>
+        <childnode refid="56" relation="usage">
+          <edgelabel>StartParcelSensor</edgelabel>
+        </childnode>
+        <childnode refid="57" relation="usage">
+          <edgelabel>dict</edgelabel>
+        </childnode>
+        <childnode refid="58" relation="usage">
+          <edgelabel>CurrentRun</edgelabel>
+        </childnode>
+        <childnode refid="59" relation="usage">
+          <edgelabel>CurrentSortProgram</edgelabel>
+        </childnode>
+        <childnode refid="60" relation="usage">
+          <edgelabel>StartDetectionSensor</edgelabel>
+        </childnode>
+        <childnode refid="61" relation="usage">
+          <edgelabel>RoundStat</edgelabel>
+        </childnode>
+      </node>
+      <node id="62">
+        <label>ASS2.ModbusDriver</label>
+        <link refid="class_a_s_s2_1_1_modbus_driver"/>
+        <childnode refid="53" relation="usage">
+          <edgelabel>TactSensor</edgelabel>
+        </childnode>
+        <childnode refid="55" relation="usage">
+          <edgelabel>StopSensor</edgelabel>
+        </childnode>
+        <childnode refid="56" relation="usage">
+          <edgelabel>StartParcelSensor</edgelabel>
+        </childnode>
+        <childnode refid="60" relation="usage">
+          <edgelabel>StartDetectionSensor</edgelabel>
+        </childnode>
+      </node>
+      <node id="52">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+      <node id="57">
+        <label>ASS2.DictType</label>
+        <link refid="class_a_s_s2_1_1_dict_type"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>ASS2.StopSensorType</label>
+        <link refid="class_a_s_s2_1_1_stop_sensor_type"/>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>ASS2.SortProgramType</label>
+        <link refid="class_a_s_s2_1_1_sort_program_type"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>ASS2.TactSensorType</label>
+        <link refid="class_a_s_s2_1_1_tact_sensor_type"/>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/FeederType.cs" bodystart="9" bodyend="256"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a33fe9e56d5b72b4e128ae872e5747929" prot="private" virt="non-virtual"><scope>ASS2::FeederType</scope><name>driver</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a4c8b071110ffec0428fbebda7d4eccb8" prot="public" virt="non-virtual"><scope>ASS2::FeederType</scope><name>FeederType</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1aeed60e355de88521d1b1d04c58cd9a7e" prot="private" virt="non-virtual"><scope>ASS2::FeederType</scope><name>Green</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a103e9be98ae9559e9026cb941de1b4e2" prot="private" virt="non-virtual"><scope>ASS2::FeederType</scope><name>ignition</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1aabb4d62f69058aa15ce6a2d8ceba90d2" prot="private" virt="non-virtual"><scope>ASS2::FeederType</scope><name>machine</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a50061f3e20004bbef3f4fc2ffd2ba8ae" prot="private" virt="non-virtual"><scope>ASS2::FeederType</scope><name>Np_OnParcelStopRun</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a9dc29a36e5ef71e97e9d2df95f5d544c" prot="public" virt="non-virtual"><scope>ASS2::FeederType</scope><name>OnParcelStartRun</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a3db622c51514bbd488636b22ab327eee" prot="public" virt="non-virtual"><scope>ASS2::FeederType</scope><name>Parcels</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a64247b19757c599be1385cd9933d27a4" prot="private" virt="non-virtual"><scope>ASS2::FeederType</scope><name>ParcelsAtLine</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a7e14233a40988437c9144fb7f0aa7de8" prot="private" virt="non-virtual"><scope>ASS2::FeederType</scope><name>parcelstoptactnumber</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a3b2cf54df47142c8649882310156c3c7" prot="private" virt="non-virtual"><scope>ASS2::FeederType</scope><name>ParcelWasScanned</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a136564581a2596dac52c859629d64bad" prot="private" virt="non-virtual"><scope>ASS2::FeederType</scope><name>Red</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1af7991d13332647ad135a21c59c80d025" prot="public" virt="non-virtual"><scope>ASS2::FeederType</scope><name>Scanned</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1ab43a3cabca1a334df9aa6cd3b3231369" prot="public" virt="non-virtual"><scope>ASS2::FeederType</scope><name>Skaner</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a7036a7a243f9cc1b2ded3c23f0ce95ad" prot="private" virt="non-virtual"><scope>ASS2::FeederType</scope><name>Skaner_OnDataReceivedAsync</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a2eb2be089f168d8480345f04a55af5f9" prot="private" virt="non-virtual"><scope>ASS2::FeederType</scope><name>Stands</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" prot="public" virt="non-virtual"><scope>ASS2::FeederType</scope><name>Startdetectionsensor_ValueChanged</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a038c0c4db258f3de591bcbe5a316fe9d" prot="public" virt="non-virtual"><scope>ASS2::FeederType</scope><name>Startparcelsensor_ValueChanged</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1ad84ad49884900ec2970047b61fa51618" prot="public" virt="non-virtual"><scope>ASS2::FeederType</scope><name>StartParcelSensorEndReading</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a11679eab3bb1aaf74838a00040694cdd" prot="public" virt="non-virtual"><scope>ASS2::FeederType</scope><name>TactNumber</name></member>
+      <member refid="class_a_s_s2_1_1_feeder_type_1a121a23e89a3217fc2639d07ce33ef44a" prot="private" virt="non-virtual"><scope>ASS2::FeederType</scope><name>White</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

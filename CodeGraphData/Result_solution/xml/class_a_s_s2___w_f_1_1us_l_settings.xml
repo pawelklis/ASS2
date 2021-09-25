@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2___w_f_1_1us_l_settings" kind="class" prot="public">
+    <compoundname>ASS2_WF::usLSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_l_settings_1a1571fefc14a3cf7aee249da34c65de2b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_machine_type" kindref="compound">MachineType</ref></type>
+        <definition>MachineType ASS2_WF.usLSettings.machine</definition>
+        <argsstring></argsstring>
+        <name>machine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_l_settings_1abf09a2b074103af092df0618cf8c092c" compoundref="us_l_settings_8cs" startline="41" endline="46">ASS2_WF.usLSettings.S1L1_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_l_settings_1ab929a04499a387bba85089a1a2dfca89" compoundref="us_l_settings_8cs" startline="48" endline="53">ASS2_WF.usLSettings.S1L2_Click</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_l_settings_1a9ab6809b1a174083a95cc114fda2f11a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_stand_type" kindref="compound">StandType</ref></type>
+        <definition>StandType ASS2_WF.usLSettings.stand</definition>
+        <argsstring></argsstring>
+        <name>stand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" line="17" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_l_settings_1a70e531ca365ee17b4759123887987054" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer ASS2_WF.usLSettings.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" line="8" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_l_settings_1a858f1814bd2b86ca4fd244c3d58780c3" compoundref="us_l_settings_8_designer_8cs" startline="14" endline="21">ASS2_WF.usLSettings.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_l_settings_1a37efbf10bea765b362914ad7bcbe1515" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox ASS2_WF.usLSettings.groupBox4</definition>
+        <argsstring></argsstring>
+        <name>groupBox4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" line="117" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_l_settings_1a60540e68214e79e22ef8337727349f2c" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.NumericUpDown</type>
+        <definition>System.Windows.Forms.NumericUpDown ASS2_WF.usLSettings.S1NM2</definition>
+        <argsstring></argsstring>
+        <name>S1NM2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" line="118" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" bodystart="118" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_l_settings_1abc7e5142f6e9aba8ba6e983d8522a431" compoundref="us_l_settings_8_designer_8cs" startline="29" endline="113">ASS2_WF.usLSettings.InitializeComponent</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_l_settings_1acb40f9440c167f37a2d34658bf368cc0" compoundref="us_l_settings_8cs" startline="36" endline="39">ASS2_WF.usLSettings.S1NM2_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_l_settings_1ae1171bd4e9ae71ba7d0b80d33513d40b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usLSettings.S1L2</definition>
+        <argsstring></argsstring>
+        <name>S1L2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" line="119" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_l_settings_1a4136e0dd0d94cf1ae841177133c20ddc" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.NumericUpDown</type>
+        <definition>System.Windows.Forms.NumericUpDown ASS2_WF.usLSettings.S1NM1</definition>
+        <argsstring></argsstring>
+        <name>S1NM1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" line="120" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" bodystart="120" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_l_settings_1abc7e5142f6e9aba8ba6e983d8522a431" compoundref="us_l_settings_8_designer_8cs" startline="29" endline="113">ASS2_WF.usLSettings.InitializeComponent</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_l_settings_1aaaf06cc51ca9838195a4f60f302aaded" compoundref="us_l_settings_8cs" startline="31" endline="34">ASS2_WF.usLSettings.S1NM1_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_l_settings_1a164b793d008d38c018e515344a801067" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usLSettings.S1L1</definition>
+        <argsstring></argsstring>
+        <name>S1L1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" line="121" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_l_settings_1ad7948232f8ba9a7987d7397eb6c362aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2_WF.usLSettings.usLSettings</definition>
+        <argsstring>()</argsstring>
+        <name>usLSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" bodystart="18" bodyend="21"/>
+        <references refid="class_a_s_s2___w_f_1_1us_l_settings_1abc7e5142f6e9aba8ba6e983d8522a431" compoundref="us_l_settings_8_designer_8cs" startline="29" endline="113">ASS2_WF.usLSettings.InitializeComponent</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_l_settings_1afbb740399820a24c9fb4c0fc46d13aad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usLSettings.usLSettings_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>usLSettings_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" line="23" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" bodystart="23" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_l_settings_1aaaf06cc51ca9838195a4f60f302aaded" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usLSettings.S1NM1_ValueChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>S1NM1_ValueChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" line="31" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" bodystart="31" bodyend="34"/>
+        <references refid="class_a_s_s2___w_f_1_1us_l_settings_1a4136e0dd0d94cf1ae841177133c20ddc" compoundref="us_l_settings_8_designer_8cs" startline="120">ASS2_WF.usLSettings.S1NM1</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_l_settings_1acb40f9440c167f37a2d34658bf368cc0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usLSettings.S1NM2_ValueChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>S1NM2_ValueChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" line="36" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" bodystart="36" bodyend="39"/>
+        <references refid="class_a_s_s2___w_f_1_1us_l_settings_1a60540e68214e79e22ef8337727349f2c" compoundref="us_l_settings_8_designer_8cs" startline="118">ASS2_WF.usLSettings.S1NM2</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_l_settings_1abf09a2b074103af092df0618cf8c092c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usLSettings.S1L1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>S1L1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" line="41" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" bodystart="41" bodyend="46"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aacd430eb368620b9485402c8e38ec7c0" compoundref="_machine_type_8cs" startline="31">ASS2.MachineType.BeltRunning</references>
+        <references refid="class_a_s_s2___w_f_1_1us_l_settings_1a1571fefc14a3cf7aee249da34c65de2b" compoundref="us_l_settings_8cs" startline="16">ASS2_WF.usLSettings.machine</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a21d73970cb31409721f1012256148a3f" compoundref="_machine_type_8cs" startline="23">ASS2.MachineType.ParcelsOnRun</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_l_settings_1ab929a04499a387bba85089a1a2dfca89" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usLSettings.S1L2_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>S1L2_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" line="48" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" bodystart="48" bodyend="53"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aacd430eb368620b9485402c8e38ec7c0" compoundref="_machine_type_8cs" startline="31">ASS2.MachineType.BeltRunning</references>
+        <references refid="class_a_s_s2___w_f_1_1us_l_settings_1a1571fefc14a3cf7aee249da34c65de2b" compoundref="us_l_settings_8cs" startline="16">ASS2_WF.usLSettings.machine</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a21d73970cb31409721f1012256148a3f" compoundref="_machine_type_8cs" startline="23">ASS2.MachineType.ParcelsOnRun</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_l_settings_1abc7e5142f6e9aba8ba6e983d8522a431" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usLSettings.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" line="29" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" bodystart="29" bodyend="113"/>
+        <references refid="class_a_s_s2___w_f_1_1us_l_settings_1a4136e0dd0d94cf1ae841177133c20ddc" compoundref="us_l_settings_8_designer_8cs" startline="120">ASS2_WF.usLSettings.S1NM1</references>
+        <references refid="class_a_s_s2___w_f_1_1us_l_settings_1a60540e68214e79e22ef8337727349f2c" compoundref="us_l_settings_8_designer_8cs" startline="118">ASS2_WF.usLSettings.S1NM2</references>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_l_settings_1ad7948232f8ba9a7987d7397eb6c362aa" compoundref="us_l_settings_8cs" startline="18" endline="21">ASS2_WF.usLSettings.usLSettings</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_l_settings_1a858f1814bd2b86ca4fd244c3d58780c3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ASS2_WF.usLSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_a_s_s2___w_f_1_1us_l_settings_1a70e531ca365ee17b4759123887987054" compoundref="us_l_settings_8_designer_8cs" startline="8">ASS2_WF.usLSettings.components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="409">
+        <label>ASS2_WF.usLSettings</label>
+        <link refid="class_a_s_s2___w_f_1_1us_l_settings"/>
+        <childnode refid="410" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="410">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="411">
+        <label>ASS2_WF.usLSettings</label>
+        <link refid="class_a_s_s2___w_f_1_1us_l_settings"/>
+        <childnode refid="412" relation="public-inheritance">
+        </childnode>
+        <childnode refid="413" relation="usage">
+          <edgelabel>S1NM2</edgelabel>
+          <edgelabel>S1L1</edgelabel>
+          <edgelabel>S1L2</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>groupBox4</edgelabel>
+          <edgelabel>S1NM1</edgelabel>
+        </childnode>
+      </node>
+      <node id="413">
+        <label>System</label>
+      </node>
+      <node id="412">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usLSettings.cs" bodystart="14" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1a70e531ca365ee17b4759123887987054" prot="private" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>components</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1a858f1814bd2b86ca4fd244c3d58780c3" prot="protected" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>Dispose</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1a37efbf10bea765b362914ad7bcbe1515" prot="private" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>groupBox4</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1abc7e5142f6e9aba8ba6e983d8522a431" prot="private" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>InitializeComponent</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1a1571fefc14a3cf7aee249da34c65de2b" prot="public" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>machine</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1a164b793d008d38c018e515344a801067" prot="private" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>S1L1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1abf09a2b074103af092df0618cf8c092c" prot="private" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>S1L1_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1ae1171bd4e9ae71ba7d0b80d33513d40b" prot="private" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>S1L2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1ab929a04499a387bba85089a1a2dfca89" prot="private" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>S1L2_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1a4136e0dd0d94cf1ae841177133c20ddc" prot="private" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>S1NM1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1aaaf06cc51ca9838195a4f60f302aaded" prot="private" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>S1NM1_ValueChanged</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1a60540e68214e79e22ef8337727349f2c" prot="private" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>S1NM2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1acb40f9440c167f37a2d34658bf368cc0" prot="private" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>S1NM2_ValueChanged</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1a9ab6809b1a174083a95cc114fda2f11a" prot="public" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>stand</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1ad7948232f8ba9a7987d7397eb6c362aa" prot="public" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>usLSettings</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_l_settings_1afbb740399820a24c9fb4c0fc46d13aad" prot="private" virt="non-virtual"><scope>ASS2_WF::usLSettings</scope><name>usLSettings_Load</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

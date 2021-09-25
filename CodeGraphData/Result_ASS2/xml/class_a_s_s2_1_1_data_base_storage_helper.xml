@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_data_base_storage_helper" kind="class" prot="public">
+    <compoundname>ASS2::DataBaseStorageHelper</compoundname>
+    <derivedcompoundref refid="class_a_s_s2_1_1_counter_type" prot="public" virt="non-virtual">ASS2.CounterType</derivedcompoundref>
+    <derivedcompoundref refid="class_a_s_s2_1_1_dict_type" prot="public" virt="non-virtual">ASS2.DictType</derivedcompoundref>
+    <derivedcompoundref refid="class_a_s_s2_1_1_direction_item_type" prot="public" virt="non-virtual">ASS2.DirectionItemType</derivedcompoundref>
+    <derivedcompoundref refid="class_a_s_s2_1_1_direction_type" prot="public" virt="non-virtual">ASS2.DirectionType</derivedcompoundref>
+    <derivedcompoundref refid="class_a_s_s2_1_1_machine_type" prot="public" virt="non-virtual">ASS2.MachineType</derivedcompoundref>
+    <derivedcompoundref refid="class_a_s_s2_1_1_parcel_type" prot="public" virt="non-virtual">ASS2.ParcelType</derivedcompoundref>
+    <derivedcompoundref refid="class_a_s_s2_1_1_round_stat_type" prot="public" virt="non-virtual">ASS2.RoundStatType</derivedcompoundref>
+    <derivedcompoundref refid="class_a_s_s2_1_1_run_stat_type" prot="public" virt="non-virtual">ASS2.RunStatType</derivedcompoundref>
+    <derivedcompoundref refid="class_a_s_s2_1_1_run_type" prot="public" virt="non-virtual">ASS2.RunType</derivedcompoundref>
+    <derivedcompoundref refid="class_a_s_s2_1_1_sort_program_type" prot="public" virt="non-virtual">ASS2.SortProgramType</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_data_base_storage_helper_1a1751417872a03695c3547e418d9ae301" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void ASS2.DataBaseStorageHelper.SaveAsync</definition>
+        <argsstring>()</argsstring>
+        <name>SaveAsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/DataBaseStorageHelper.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/DataBaseStorageHelper.cs" bodystart="13" bodyend="21"/>
+        <references refid="class_mysql_core_1a13dac8029ecf04a1e477ff2fc848677c" compoundref="_mysql_core_8cs" startline="231" endline="261">MysqlCore.NewInsertOrUpdate</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_data_base_storage_helper_1a483e584dcfb0eaa9f6a6da3b4e8b3f1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.DataBaseStorageHelper.Save</definition>
+        <argsstring>()</argsstring>
+        <name>Save</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/DataBaseStorageHelper.cs" line="23" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/DataBaseStorageHelper.cs" bodystart="23" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_data_base_storage_helper_1a24cadf21177fee7a33e2060a1034d067" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ASS2.DataBaseStorageHelper.CreateTable</definition>
+        <argsstring>(object ExampleObject)</argsstring>
+        <name>CreateTable</name>
+        <param>
+          <type>object</type>
+          <declname>ExampleObject</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/DataBaseStorageHelper.cs" line="28" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/DataBaseStorageHelper.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_data_base_storage_helper_1a53c274faca217ed300cfa46c4f465b50" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T ASS2.DataBaseStorageHelper.Load&lt; T &gt;</definition>
+        <argsstring>(int objectID)</argsstring>
+        <name>Load&lt; T &gt;</name>
+        <param>
+          <type>int</type>
+          <declname>objectID</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/DataBaseStorageHelper.cs" line="34" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/DataBaseStorageHelper.cs" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_data_base_storage_helper_1ae190bdcee51591d2a705490ccdffe940" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; T &gt;</type>
+        <definition>static List&lt;T&gt; ASS2.DataBaseStorageHelper.LoadAll&lt; T &gt;</definition>
+        <argsstring>()</argsstring>
+        <name>LoadAll&lt; T &gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/DataBaseStorageHelper.cs" line="40" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/DataBaseStorageHelper.cs" bodystart="40" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_data_base_storage_helper_1ab0a3f846534fe15e795ff95fc0e73ade" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; T &gt;</type>
+        <definition>static List&lt;T&gt; ASS2.DataBaseStorageHelper.LoadWhere&lt; T &gt;</definition>
+        <argsstring>(string where)</argsstring>
+        <name>LoadWhere&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>where</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/DataBaseStorageHelper.cs" line="45" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/DataBaseStorageHelper.cs" bodystart="45" bodyend="49"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="28">
+        <label>ASS2.RoundStatType</label>
+        <link refid="class_a_s_s2_1_1_round_stat_type"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>ASS2.ParcelType</label>
+        <link refid="class_a_s_s2_1_1_parcel_type"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>ASS2.CounterType</label>
+        <link refid="class_a_s_s2_1_1_counter_type"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>ASS2.DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+      <node id="29">
+        <label>ASS2.RunStatType</label>
+        <link refid="class_a_s_s2_1_1_run_stat_type"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>ASS2.RunType</label>
+        <link refid="class_a_s_s2_1_1_run_type"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>ASS2.MachineType</label>
+        <link refid="class_a_s_s2_1_1_machine_type"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>ASS2.DictType</label>
+        <link refid="class_a_s_s2_1_1_dict_type"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>ASS2.DirectionItemType</label>
+        <link refid="class_a_s_s2_1_1_direction_item_type"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>ASS2.SortProgramType</label>
+        <link refid="class_a_s_s2_1_1_sort_program_type"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>ASS2.DirectionType</label>
+        <link refid="class_a_s_s2_1_1_direction_type"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/DataBaseStorageHelper.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/DataBaseStorageHelper.cs" bodystart="11" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a24cadf21177fee7a33e2060a1034d067" prot="public" virt="non-virtual"><scope>ASS2::DataBaseStorageHelper</scope><name>CreateTable</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a53c274faca217ed300cfa46c4f465b50" prot="public" virt="non-virtual"><scope>ASS2::DataBaseStorageHelper</scope><name>Load&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ae190bdcee51591d2a705490ccdffe940" prot="public" virt="non-virtual"><scope>ASS2::DataBaseStorageHelper</scope><name>LoadAll&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ab0a3f846534fe15e795ff95fc0e73ade" prot="public" virt="non-virtual"><scope>ASS2::DataBaseStorageHelper</scope><name>LoadWhere&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a483e584dcfb0eaa9f6a6da3b4e8b3f1f" prot="public" virt="non-virtual"><scope>ASS2::DataBaseStorageHelper</scope><name>Save</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a1751417872a03695c3547e418d9ae301" prot="public" virt="non-virtual"><scope>ASS2::DataBaseStorageHelper</scope><name>SaveAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

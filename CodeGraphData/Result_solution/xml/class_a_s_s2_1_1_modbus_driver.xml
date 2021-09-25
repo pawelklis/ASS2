@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_modbus_driver" kind="class" prot="public">
+    <compoundname>ASS2::ModbusDriver</compoundname>
+    <innerclass refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" prot="public">ASS2::ModbusDriver::ModbusValueEventArgs</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_modbus_driver_1add2b4fc7f6972af4569abf662f961452" prot="private" static="no" mutable="no">
+        <type>ModbusIpMaster</type>
+        <definition>ModbusIpMaster ASS2.ModbusDriver.master</definition>
+        <argsstring></argsstring>
+        <name>master</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a4b6e44b1c40e63997eb9cf7b298e1f93" compoundref="_modbus_driver_8cs" startline="44" endline="62">ASS2.ModbusDriver.ConnectClient</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a3c60b49e2e2ad7987dc050c973e871b8" compoundref="_modbus_driver_8cs" startline="122" endline="137">ASS2.ModbusDriver.WriteCoils</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_modbus_driver_1af2a67f5d30fb3793b3d865a7913c00f8" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusValueEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;ModbusValueEventArgs&gt; ASS2.ModbusDriver.CoilValueChanged</definition>
+        <argsstring></argsstring>
+        <name>CoilValueChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="20" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="event" id="class_a_s_s2_1_1_modbus_driver_1a58c4dec4e28e398a80eb574e0be43b49" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler ASS2.ModbusDriver.ModbusConnected</definition>
+        <argsstring></argsstring>
+        <name>ModbusConnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="21" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a16ee229d13dd90277b0346642e16553e" compoundref="_modbus_driver_8cs" startline="168" endline="202">ASS2.ModbusDriver.Client_ConnectedChanged</referencedby>
+      </memberdef>
+      <memberdef kind="event" id="class_a_s_s2_1_1_modbus_driver_1a0890bfd24a23edfa06f9a4a19e7fd9a5" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler ASS2.ModbusDriver.ModbusDisconnected</definition>
+        <argsstring></argsstring>
+        <name>ModbusDisconnected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="22" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a16ee229d13dd90277b0346642e16553e" compoundref="_modbus_driver_8cs" startline="168" endline="202">ASS2.ModbusDriver.Client_ConnectedChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_modbus_driver_1a7da523820e5e321c4e6c6c4ebf377228" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Timer</type>
+        <definition>Timer ASS2.ModbusDriver.timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="23" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="23" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a16ee229d13dd90277b0346642e16553e" compoundref="_modbus_driver_8cs" startline="168" endline="202">ASS2.ModbusDriver.Client_ConnectedChanged</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a3d451592083e19e7dc0f4c6b50b390cc" compoundref="_modbus_driver_8cs" startline="140" endline="167">ASS2.ModbusDriver.ConnectionChange</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_modbus_driver_1a00beaaae84c3372bba6153807236b8f1" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Timer</type>
+        <definition>Timer ASS2.ModbusDriver.ReconnectTimer</definition>
+        <argsstring></argsstring>
+        <name>ReconnectTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="24" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="24" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a4b6e44b1c40e63997eb9cf7b298e1f93" compoundref="_modbus_driver_8cs" startline="44" endline="62">ASS2.ModbusDriver.ConnectClient</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1afea815087156b305bc48cef92f6df94d" compoundref="_modbus_driver_8cs" startline="66" endline="74">ASS2.ModbusDriver.StartReconnectTimer</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_modbus_driver_1ad6014b314319f17e9584093811ee9d2d" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ModbusDriver.clientip</definition>
+        <argsstring></argsstring>
+        <name>clientip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="25" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="25" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a4b6e44b1c40e63997eb9cf7b298e1f93" compoundref="_modbus_driver_8cs" startline="44" endline="62">ASS2.ModbusDriver.ConnectClient</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a89eab240971ef78029b45c6e2c6b711a" compoundref="_modbus_driver_8cs" startline="76" endline="79">ASS2.ModbusDriver.ReconnectTimer_Elapsed</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_modbus_driver_1a4f43a8002610593abaca39b15a8b5c28" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.ModbusDriver.clientport</definition>
+        <argsstring></argsstring>
+        <name>clientport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="26" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="26" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a4b6e44b1c40e63997eb9cf7b298e1f93" compoundref="_modbus_driver_8cs" startline="44" endline="62">ASS2.ModbusDriver.ConnectClient</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a89eab240971ef78029b45c6e2c6b711a" compoundref="_modbus_driver_8cs" startline="76" endline="79">ASS2.ModbusDriver.ReconnectTimer_Elapsed</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_modbus_driver_1a9e210e01655f832309f2316143c21666" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Dictionary&lt; int, bool &gt;</type>
+        <definition>Dictionary&lt;int, bool&gt; ASS2.ModbusDriver.Coils</definition>
+        <argsstring></argsstring>
+        <name>Coils</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="27" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_modbus_driver_1aa40b4dc29e5d75a6e0e78e4e11ded31a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.ModbusDriver.Connected</definition>
+        <argsstring></argsstring>
+        <name>Connected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="29" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="29" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1aa689c1cd7f236ef16102968f42cbd49c" compoundref="us_maintenance_8cs" startline="71" endline="75">ASS2_WF.usMaintenance.button1_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1ac385cf5fa41425a43d0af7b551cdb641" compoundref="us_maintenance_8cs" startline="77" endline="81">ASS2_WF.usMaintenance.button2_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a544daa8c48932fc71a144bc54c722961" compoundref="us_maintenance_8cs" startline="83" endline="87">ASS2_WF.usMaintenance.button3_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a3c011eeb1b68410fc462581c448f833a" compoundref="us_maintenance_8cs" startline="89" endline="93">ASS2_WF.usMaintenance.button4_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a651c4f03827b592aa43f0c1ff19a4249" compoundref="us_maintenance_8cs" startline="95" endline="105">ASS2_WF.usMaintenance.button5_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a42678e6041ed88f887a4b40bd3c690d5" compoundref="us_maintenance_8cs" startline="107" endline="114">ASS2_WF.usMaintenance.button6_Click</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a16ee229d13dd90277b0346642e16553e" compoundref="_modbus_driver_8cs" startline="168" endline="202">ASS2.ModbusDriver.Client_ConnectedChanged</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a3d451592083e19e7dc0f4c6b50b390cc" compoundref="_modbus_driver_8cs" startline="140" endline="167">ASS2.ModbusDriver.ConnectionChange</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1ae13f95e432b051444e192a4de0653d6d" compoundref="us_work_8cs" startline="85" endline="152">ASS2_WF.usWork.Refreshtimer_Tick</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1afea815087156b305bc48cef92f6df94d" compoundref="_modbus_driver_8cs" startline="66" endline="74">ASS2.ModbusDriver.StartReconnectTimer</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_modbus_driver_1a5c6dab2b285bd41504de0f735605623e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_sensor_start_detection_type" kindref="compound">SensorStartDetectionType</ref></type>
+        <definition>SensorStartDetectionType ASS2.ModbusDriver.StartDetectionSensor</definition>
+        <argsstring></argsstring>
+        <name>StartDetectionSensor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="31" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="31" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a484b95dae1d6eb4a2b976e251dc7e181" compoundref="_modbus_driver_8cs" startline="88" endline="118">ASS2.ModbusDriver.ReadDigitalInputsAsync</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_modbus_driver_1ae69484e3f8eea272cab3c6df52da2002" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_sensor_start_parcel_type" kindref="compound">SensorStartParcelType</ref></type>
+        <definition>SensorStartParcelType ASS2.ModbusDriver.StartParcelSensor</definition>
+        <argsstring></argsstring>
+        <name>StartParcelSensor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="32" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a484b95dae1d6eb4a2b976e251dc7e181" compoundref="_modbus_driver_8cs" startline="88" endline="118">ASS2.ModbusDriver.ReadDigitalInputsAsync</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_modbus_driver_1a770fa99475c73c518776523544666ee2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_stop_sensor_type" kindref="compound">StopSensorType</ref></type>
+        <definition>StopSensorType ASS2.ModbusDriver.StopSensor</definition>
+        <argsstring></argsstring>
+        <name>StopSensor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="33" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a484b95dae1d6eb4a2b976e251dc7e181" compoundref="_modbus_driver_8cs" startline="88" endline="118">ASS2.ModbusDriver.ReadDigitalInputsAsync</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_modbus_driver_1af1c67c4f2f24222fe4c7ce94a1f57f9f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_tact_sensor_type" kindref="compound">TactSensorType</ref></type>
+        <definition>TactSensorType ASS2.ModbusDriver.TactSensor</definition>
+        <argsstring></argsstring>
+        <name>TactSensor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="34" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="34" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a484b95dae1d6eb4a2b976e251dc7e181" compoundref="_modbus_driver_8cs" startline="88" endline="118">ASS2.ModbusDriver.ReadDigitalInputsAsync</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_modbus_driver_1a0b31a935e66125866e53198a43e2ebee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ModbusDriver.ModbusDriver</definition>
+        <argsstring>()</argsstring>
+        <name>ModbusDriver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="35" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_modbus_driver_1a4b6e44b1c40e63997eb9cf7b298e1f93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ModbusDriver.ConnectClient</definition>
+        <argsstring>(string ip, int port)</argsstring>
+        <name>ConnectClient</name>
+        <param>
+          <type>string</type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="44" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="44" bodyend="62"/>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1ad6014b314319f17e9584093811ee9d2d" compoundref="_modbus_driver_8cs" startline="25">ASS2.ModbusDriver.clientip</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a4f43a8002610593abaca39b15a8b5c28" compoundref="_modbus_driver_8cs" startline="26">ASS2.ModbusDriver.clientport</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a3d451592083e19e7dc0f4c6b50b390cc" compoundref="_modbus_driver_8cs" startline="140" endline="167">ASS2.ModbusDriver.ConnectionChange</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1add2b4fc7f6972af4569abf662f961452" compoundref="_modbus_driver_8cs" startline="18">ASS2.ModbusDriver.master</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a00beaaae84c3372bba6153807236b8f1" compoundref="_modbus_driver_8cs" startline="24">ASS2.ModbusDriver.ReconnectTimer</references>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a89eab240971ef78029b45c6e2c6b711a" compoundref="_modbus_driver_8cs" startline="76" endline="79">ASS2.ModbusDriver.ReconnectTimer_Elapsed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_modbus_driver_1a3c60b49e2e2ad7987dc050c973e871b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ModbusDriver.WriteCoils</definition>
+        <argsstring>(int startingAddress, bool[] values)</argsstring>
+        <name>WriteCoils</name>
+        <param>
+          <type>int</type>
+          <declname>startingAddress</declname>
+        </param>
+        <param>
+          <type>bool[]</type>
+          <declname>values</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="122" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="122" bodyend="137"/>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1add2b4fc7f6972af4569abf662f961452" compoundref="_modbus_driver_8cs" startline="18">ASS2.ModbusDriver.master</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_modbus_driver_1afea815087156b305bc48cef92f6df94d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ModbusDriver.StartReconnectTimer</definition>
+        <argsstring>()</argsstring>
+        <name>StartReconnectTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="66" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="66" bodyend="74"/>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1aa40b4dc29e5d75a6e0e78e4e11ded31a" compoundref="_modbus_driver_8cs" startline="29">ASS2.ModbusDriver.Connected</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a00beaaae84c3372bba6153807236b8f1" compoundref="_modbus_driver_8cs" startline="24">ASS2.ModbusDriver.ReconnectTimer</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a89eab240971ef78029b45c6e2c6b711a" compoundref="_modbus_driver_8cs" startline="76" endline="79">ASS2.ModbusDriver.ReconnectTimer_Elapsed</references>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a16ee229d13dd90277b0346642e16553e" compoundref="_modbus_driver_8cs" startline="168" endline="202">ASS2.ModbusDriver.Client_ConnectedChanged</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a3d451592083e19e7dc0f4c6b50b390cc" compoundref="_modbus_driver_8cs" startline="140" endline="167">ASS2.ModbusDriver.ConnectionChange</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_modbus_driver_1a89eab240971ef78029b45c6e2c6b711a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ModbusDriver.ReconnectTimer_Elapsed</definition>
+        <argsstring>(object sender, ElapsedEventArgs e)</argsstring>
+        <name>ReconnectTimer_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="76" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="76" bodyend="79"/>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1ad6014b314319f17e9584093811ee9d2d" compoundref="_modbus_driver_8cs" startline="25">ASS2.ModbusDriver.clientip</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a4f43a8002610593abaca39b15a8b5c28" compoundref="_modbus_driver_8cs" startline="26">ASS2.ModbusDriver.clientport</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a4b6e44b1c40e63997eb9cf7b298e1f93" compoundref="_modbus_driver_8cs" startline="44" endline="62">ASS2.ModbusDriver.ConnectClient</references>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1afea815087156b305bc48cef92f6df94d" compoundref="_modbus_driver_8cs" startline="66" endline="74">ASS2.ModbusDriver.StartReconnectTimer</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_modbus_driver_1a8104ff1a3d6c2f6fb1c8a99a0b5bef24" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ModbusDriver.Timer_Elapsed</definition>
+        <argsstring>(object sender, ElapsedEventArgs e)</argsstring>
+        <name>Timer_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="83" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="83" bodyend="86"/>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a484b95dae1d6eb4a2b976e251dc7e181" compoundref="_modbus_driver_8cs" startline="88" endline="118">ASS2.ModbusDriver.ReadDigitalInputsAsync</references>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a16ee229d13dd90277b0346642e16553e" compoundref="_modbus_driver_8cs" startline="168" endline="202">ASS2.ModbusDriver.Client_ConnectedChanged</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a3d451592083e19e7dc0f4c6b50b390cc" compoundref="_modbus_driver_8cs" startline="140" endline="167">ASS2.ModbusDriver.ConnectionChange</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_modbus_driver_1a484b95dae1d6eb4a2b976e251dc7e181" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void ASS2.ModbusDriver.ReadDigitalInputsAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ReadDigitalInputsAsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="88" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="88" bodyend="118"/>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a3d451592083e19e7dc0f4c6b50b390cc" compoundref="_modbus_driver_8cs" startline="140" endline="167">ASS2.ModbusDriver.ConnectionChange</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a5c6dab2b285bd41504de0f735605623e" compoundref="_modbus_driver_8cs" startline="31">ASS2.ModbusDriver.StartDetectionSensor</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1ae69484e3f8eea272cab3c6df52da2002" compoundref="_modbus_driver_8cs" startline="32">ASS2.ModbusDriver.StartParcelSensor</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a770fa99475c73c518776523544666ee2" compoundref="_modbus_driver_8cs" startline="33">ASS2.ModbusDriver.StopSensor</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1af1c67c4f2f24222fe4c7ce94a1f57f9f" compoundref="_modbus_driver_8cs" startline="34">ASS2.ModbusDriver.TactSensor</references>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a8104ff1a3d6c2f6fb1c8a99a0b5bef24" compoundref="_modbus_driver_8cs" startline="83" endline="86">ASS2.ModbusDriver.Timer_Elapsed</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_modbus_driver_1a3d451592083e19e7dc0f4c6b50b390cc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ModbusDriver.ConnectionChange</definition>
+        <argsstring>(bool connected)</argsstring>
+        <name>ConnectionChange</name>
+        <param>
+          <type>bool</type>
+          <declname>connected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="140" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="140" bodyend="167"/>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1aa40b4dc29e5d75a6e0e78e4e11ded31a" compoundref="_modbus_driver_8cs" startline="29">ASS2.ModbusDriver.Connected</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1afea815087156b305bc48cef92f6df94d" compoundref="_modbus_driver_8cs" startline="66" endline="74">ASS2.ModbusDriver.StartReconnectTimer</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a7da523820e5e321c4e6c6c4ebf377228" compoundref="_modbus_driver_8cs" startline="23">ASS2.ModbusDriver.timer</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a8104ff1a3d6c2f6fb1c8a99a0b5bef24" compoundref="_modbus_driver_8cs" startline="83" endline="86">ASS2.ModbusDriver.Timer_Elapsed</references>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a4b6e44b1c40e63997eb9cf7b298e1f93" compoundref="_modbus_driver_8cs" startline="44" endline="62">ASS2.ModbusDriver.ConnectClient</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_modbus_driver_1a484b95dae1d6eb4a2b976e251dc7e181" compoundref="_modbus_driver_8cs" startline="88" endline="118">ASS2.ModbusDriver.ReadDigitalInputsAsync</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_modbus_driver_1a16ee229d13dd90277b0346642e16553e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ModbusDriver.Client_ConnectedChanged</definition>
+        <argsstring>(object sender)</argsstring>
+        <name>Client_ConnectedChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Console.WriteLine(&quot;Modbus connected&quot;);</para>        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="168" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="168" bodyend="202"/>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1aa40b4dc29e5d75a6e0e78e4e11ded31a" compoundref="_modbus_driver_8cs" startline="29">ASS2.ModbusDriver.Connected</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a58c4dec4e28e398a80eb574e0be43b49" compoundref="_modbus_driver_8cs" startline="21">ASS2.ModbusDriver.ModbusConnected</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a0890bfd24a23edfa06f9a4a19e7fd9a5" compoundref="_modbus_driver_8cs" startline="22">ASS2.ModbusDriver.ModbusDisconnected</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1afea815087156b305bc48cef92f6df94d" compoundref="_modbus_driver_8cs" startline="66" endline="74">ASS2.ModbusDriver.StartReconnectTimer</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a7da523820e5e321c4e6c6c4ebf377228" compoundref="_modbus_driver_8cs" startline="23">ASS2.ModbusDriver.timer</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1a8104ff1a3d6c2f6fb1c8a99a0b5bef24" compoundref="_modbus_driver_8cs" startline="83" endline="86">ASS2.ModbusDriver.Timer_Elapsed</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="187">
+        <label>ASS2.SensorStartDetectionType</label>
+        <link refid="class_a_s_s2_1_1_sensor_start_detection_type"/>
+      </node>
+      <node id="184">
+        <label>SensorType</label>
+        <link refid="interface_a_s_s2_1_1_sensor_type"/>
+      </node>
+      <node id="186">
+        <label>ASS2.SensorStartParcelType</label>
+        <link refid="class_a_s_s2_1_1_sensor_start_parcel_type"/>
+      </node>
+      <node id="182">
+        <label>ASS2.ModbusDriver</label>
+        <link refid="class_a_s_s2_1_1_modbus_driver"/>
+        <childnode refid="183" relation="usage">
+          <edgelabel>TactSensor</edgelabel>
+        </childnode>
+        <childnode refid="185" relation="usage">
+          <edgelabel>StopSensor</edgelabel>
+        </childnode>
+        <childnode refid="186" relation="usage">
+          <edgelabel>StartParcelSensor</edgelabel>
+        </childnode>
+        <childnode refid="187" relation="usage">
+          <edgelabel>StartDetectionSensor</edgelabel>
+        </childnode>
+      </node>
+      <node id="185">
+        <label>ASS2.StopSensorType</label>
+        <link refid="class_a_s_s2_1_1_stop_sensor_type"/>
+        <childnode refid="184" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>ASS2.TactSensorType</label>
+        <link refid="class_a_s_s2_1_1_tact_sensor_type"/>
+        <childnode refid="184" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver/ModbusDriver.cs" bodystart="15" bodyend="212"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a16ee229d13dd90277b0346642e16553e" prot="private" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>Client_ConnectedChanged</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1ad6014b314319f17e9584093811ee9d2d" prot="private" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>clientip</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a4f43a8002610593abaca39b15a8b5c28" prot="private" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>clientport</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a9e210e01655f832309f2316143c21666" prot="private" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>Coils</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1af2a67f5d30fb3793b3d865a7913c00f8" prot="public" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>CoilValueChanged</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a4b6e44b1c40e63997eb9cf7b298e1f93" prot="public" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>ConnectClient</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1aa40b4dc29e5d75a6e0e78e4e11ded31a" prot="public" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>Connected</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a3d451592083e19e7dc0f4c6b50b390cc" prot="private" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>ConnectionChange</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1add2b4fc7f6972af4569abf662f961452" prot="private" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>master</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a58c4dec4e28e398a80eb574e0be43b49" prot="public" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>ModbusConnected</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a0890bfd24a23edfa06f9a4a19e7fd9a5" prot="public" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>ModbusDisconnected</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a0b31a935e66125866e53198a43e2ebee" prot="public" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>ModbusDriver</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a484b95dae1d6eb4a2b976e251dc7e181" prot="private" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>ReadDigitalInputsAsync</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a00beaaae84c3372bba6153807236b8f1" prot="private" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>ReconnectTimer</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a89eab240971ef78029b45c6e2c6b711a" prot="private" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>ReconnectTimer_Elapsed</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a5c6dab2b285bd41504de0f735605623e" prot="public" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>StartDetectionSensor</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1ae69484e3f8eea272cab3c6df52da2002" prot="public" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>StartParcelSensor</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1afea815087156b305bc48cef92f6df94d" prot="private" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>StartReconnectTimer</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a770fa99475c73c518776523544666ee2" prot="public" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>StopSensor</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1af1c67c4f2f24222fe4c7ce94a1f57f9f" prot="public" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>TactSensor</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a7da523820e5e321c4e6c6c4ebf377228" prot="private" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>timer</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a8104ff1a3d6c2f6fb1c8a99a0b5bef24" prot="private" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>Timer_Elapsed</name></member>
+      <member refid="class_a_s_s2_1_1_modbus_driver_1a3c60b49e2e2ad7987dc050c973e871b8" prot="public" virt="non-virtual"><scope>ASS2::ModbusDriver</scope><name>WriteCoils</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

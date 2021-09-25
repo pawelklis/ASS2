@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::SzczDaneJednostki</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1ab0422a725ebb953099327702327bacaa" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ASS2.ServiceReference1.SzczDaneJednostki.dlGeogrField</definition>
+        <argsstring></argsstring>
+        <name>dlGeogrField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="855" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="855" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1ab173d01d2edbdac7114ce0c5f14fb582" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.SzczDaneJednostki.dlGeogrFieldSpecified</definition>
+        <argsstring></argsstring>
+        <name>dlGeogrFieldSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="857" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="857" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1acf94bffb7cd7706bf11b4434fa350850" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy" kindref="compound">GodzinyPracy</ref></type>
+        <definition>GodzinyPracy ASS2.ServiceReference1.SzczDaneJednostki.godzinyPracyField</definition>
+        <argsstring></argsstring>
+        <name>godzinyPracyField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="859" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="859" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a772071cc30527cb3b4555c95ae5c4c65" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.SzczDaneJednostki.miejscowoscField</definition>
+        <argsstring></argsstring>
+        <name>miejscowoscField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="861" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="861" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a6067745710c4f4ed495f5a3c16fe89cc" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.SzczDaneJednostki.nrDomuField</definition>
+        <argsstring></argsstring>
+        <name>nrDomuField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="863" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="863" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1accdf620dadd5eb4d1eb2d6baf9eab6be" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.SzczDaneJednostki.nrLokaluField</definition>
+        <argsstring></argsstring>
+        <name>nrLokaluField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="865" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="865" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a1f7836619b6e47839779786dbef76d65" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.SzczDaneJednostki.pnaField</definition>
+        <argsstring></argsstring>
+        <name>pnaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="867" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="867" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1ad76bc8d82929ee26346d4012e777d643" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ASS2.ServiceReference1.SzczDaneJednostki.szerGeogrField</definition>
+        <argsstring></argsstring>
+        <name>szerGeogrField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="869" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="869" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1aed3ad836460e1ef3706936f7e4bf3920" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.SzczDaneJednostki.szerGeogrFieldSpecified</definition>
+        <argsstring></argsstring>
+        <name>szerGeogrFieldSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="871" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="871" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a3bebb1f598d9b9ee4375bc6958d7a815" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.SzczDaneJednostki.ulicaField</definition>
+        <argsstring></argsstring>
+        <name>ulicaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="873" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="873" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a99977c559b12b4b2950206f7ffa433c7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float ASS2.ServiceReference1.SzczDaneJednostki.dlGeogr</definition>
+        <argsstring></argsstring>
+        <name>dlGeogr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="877" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="877" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a00a27493dc918341786857d40ac4209f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.SzczDaneJednostki.dlGeogrSpecified</definition>
+        <argsstring></argsstring>
+        <name>dlGeogrSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="889" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="889" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1ad1f75cd1c70636ed81392ff5762629d7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy" kindref="compound">GodzinyPracy</ref></type>
+        <definition>GodzinyPracy ASS2.ServiceReference1.SzczDaneJednostki.godzinyPracy</definition>
+        <argsstring></argsstring>
+        <name>godzinyPracy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="901" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="901" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1aa84df385c0c354d2b256ec182686d0de" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.SzczDaneJednostki.miejscowosc</definition>
+        <argsstring></argsstring>
+        <name>miejscowosc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="913" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="913" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a20b4e4509f4392fdaeecc75644b559f5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.SzczDaneJednostki.nrDomu</definition>
+        <argsstring></argsstring>
+        <name>nrDomu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="925" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="925" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a7c77e9ac27a432fb8349bef309ef3619" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.SzczDaneJednostki.nrLokalu</definition>
+        <argsstring></argsstring>
+        <name>nrLokalu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="937" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="937" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a4c00b4326020d15525700e2e24f4b400" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.SzczDaneJednostki.pna</definition>
+        <argsstring></argsstring>
+        <name>pna</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="949" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="949" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a0d18a7dbf79bff40b356529121d4218b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float ASS2.ServiceReference1.SzczDaneJednostki.szerGeogr</definition>
+        <argsstring></argsstring>
+        <name>szerGeogr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="961" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="961" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1ae768a243d7713b8221cff1050934fa9c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.SzczDaneJednostki.szerGeogrSpecified</definition>
+        <argsstring></argsstring>
+        <name>szerGeogrSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="973" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="973" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1af35c2f57694a45f25c5948f3effb991f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.SzczDaneJednostki.ulica</definition>
+        <argsstring></argsstring>
+        <name>ulica</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="985" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="985" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a9d1e80ac6f64230e6cdb0c350e21cb37" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>System.ComponentModel.PropertyChangedEventHandler</type>
+        <definition>System.ComponentModel.PropertyChangedEventHandler ASS2.ServiceReference1.SzczDaneJednostki.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="995" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="995" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a152a3d8bea144209fb5213fec1d547f1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ServiceReference1.SzczDaneJednostki.RaisePropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>RaisePropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="997" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="997" bodyend="1002"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="392">
+        <label>ASS2.ServiceReference1.SzczDaneJednostki</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki"/>
+        <childnode refid="393" relation="public-inheritance">
+        </childnode>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="393">
+        <label>object</label>
+      </node>
+      <node id="394">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="395">
+        <label>ASS2.ServiceReference1.SzczDaneJednostki</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki"/>
+        <childnode refid="396" relation="public-inheritance">
+        </childnode>
+        <childnode refid="397" relation="public-inheritance">
+        </childnode>
+        <childnode refid="398" relation="usage">
+          <edgelabel>godzinyPracyField</edgelabel>
+        </childnode>
+      </node>
+      <node id="398">
+        <label>ASS2.ServiceReference1.GodzinyPracy</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy"/>
+        <childnode refid="396" relation="public-inheritance">
+        </childnode>
+        <childnode refid="397" relation="public-inheritance">
+        </childnode>
+        <childnode refid="399" relation="usage">
+          <edgelabel>sobotyField</edgelabel>
+          <edgelabel>dniRoboczeField</edgelabel>
+          <edgelabel>niedzISwField</edgelabel>
+        </childnode>
+      </node>
+      <node id="396">
+        <label>object</label>
+      </node>
+      <node id="399">
+        <label>ASS2.ServiceReference1.GodzinyZUwagami</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami"/>
+        <childnode refid="396" relation="public-inheritance">
+        </childnode>
+        <childnode refid="397" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="397">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="853" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="853" bodyend="1003"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a99977c559b12b4b2950206f7ffa433c7" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>dlGeogr</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1ab0422a725ebb953099327702327bacaa" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>dlGeogrField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1ab173d01d2edbdac7114ce0c5f14fb582" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>dlGeogrFieldSpecified</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a00a27493dc918341786857d40ac4209f" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>dlGeogrSpecified</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1ad1f75cd1c70636ed81392ff5762629d7" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>godzinyPracy</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1acf94bffb7cd7706bf11b4434fa350850" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>godzinyPracyField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1aa84df385c0c354d2b256ec182686d0de" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>miejscowosc</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a772071cc30527cb3b4555c95ae5c4c65" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>miejscowoscField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a20b4e4509f4392fdaeecc75644b559f5" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>nrDomu</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a6067745710c4f4ed495f5a3c16fe89cc" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>nrDomuField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a7c77e9ac27a432fb8349bef309ef3619" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>nrLokalu</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1accdf620dadd5eb4d1eb2d6baf9eab6be" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>nrLokaluField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a4c00b4326020d15525700e2e24f4b400" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>pna</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a1f7836619b6e47839779786dbef76d65" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>pnaField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a9d1e80ac6f64230e6cdb0c350e21cb37" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>PropertyChanged</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a152a3d8bea144209fb5213fec1d547f1" prot="protected" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a0d18a7dbf79bff40b356529121d4218b" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>szerGeogr</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1ad76bc8d82929ee26346d4012e777d643" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>szerGeogrField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1aed3ad836460e1ef3706936f7e4bf3920" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>szerGeogrFieldSpecified</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1ae768a243d7713b8221cff1050934fa9c" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>szerGeogrSpecified</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1af35c2f57694a45f25c5948f3effb991f" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>ulica</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a3bebb1f598d9b9ee4375bc6958d7a815" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::SzczDaneJednostki</scope><name>ulicaField</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_p_n_a_range_type" kind="class" prot="public">
+    <compoundname>ASS2::PNARangeType</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_p_n_a_range_type_1a8c90e081f1137b4b11324f78aba15ff5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.PNARangeType.FromPNA</definition>
+        <argsstring></argsstring>
+        <name>FromPNA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/PNARangeType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/PNARangeType.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_p_n_a_range_type_1a67c151da359fdb743e4b801d5a951035" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.PNARangeType.ToPNA</definition>
+        <argsstring></argsstring>
+        <name>ToPNA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/PNARangeType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/PNARangeType.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/PNARangeType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions/PNARangeType.cs" bodystart="9" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_p_n_a_range_type_1a8c90e081f1137b4b11324f78aba15ff5" prot="public" virt="non-virtual"><scope>ASS2::PNARangeType</scope><name>FromPNA</name></member>
+      <member refid="class_a_s_s2_1_1_p_n_a_range_type_1a67c151da359fdb743e4b801d5a951035" prot="public" virt="non-virtual"><scope>ASS2::PNARangeType</scope><name>ToPNA</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

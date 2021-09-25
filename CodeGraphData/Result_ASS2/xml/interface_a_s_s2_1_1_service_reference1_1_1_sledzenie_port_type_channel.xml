@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_channel" kind="interface" prot="public">
+    <compoundname>ASS2::ServiceReference1::SledzeniePortTypeChannel</compoundname>
+    <basecompoundref refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type" prot="public" virt="non-virtual">ASS2.ServiceReference1.SledzeniePortType</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IClientChannel</basecompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="244">
+        <label>System::ServiceModel::IClientChannel</label>
+      </node>
+      <node id="242">
+        <label>ASS2.ServiceReference1.SledzeniePortTypeChannel</label>
+        <link refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_channel"/>
+        <childnode refid="243" relation="public-inheritance">
+        </childnode>
+        <childnode refid="244" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="243">
+        <label>ASS2::ServiceReference1::SledzeniePortType</label>
+        <link refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="247">
+        <label>System::ServiceModel::IClientChannel</label>
+      </node>
+      <node id="245">
+        <label>ASS2.ServiceReference1.SledzeniePortTypeChannel</label>
+        <link refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_channel"/>
+        <childnode refid="246" relation="public-inheritance">
+        </childnode>
+        <childnode refid="247" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="246">
+        <label>ASS2::ServiceReference1::SledzeniePortType</label>
+        <link refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1411" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1411" bodyend="1412"/>
+    <listofallmembers>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1aa39b4ffcefe7552f1723d19d965e5a6b" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>maksymalnaLiczbaPrzesylek</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a98c586d44b8ca4468bc2463247baeefe" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>maksymalnaLiczbaPrzesylekAsync</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ae7512de38ab7e29ae47ebb49d74599b1" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>sprawdzPrzesylke</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ae74e53b4adbcb6c68e5ec11d39c81446" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>sprawdzPrzesylkeAsync</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1af02c822cea41b214eadc6e89399a8f0d" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>sprawdzPrzesylkePl</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a8d39ac0870e988bc3ee049712b626207" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>sprawdzPrzesylkePlAsync</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1aef297e2ab0e479c24e830cd71fc27625" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>sprawdzPrzesylki</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a10e282ff430b1899ead64e31519fddbb" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>sprawdzPrzesylkiAsync</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ab4c1beb9f42fe72fec3ddb81bac09262" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>sprawdzPrzesylkiOdDo</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a4023dd9bc8d8d754f59378e146056f3a" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>sprawdzPrzesylkiOdDoAsync</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ab4f5bbee227a5c55100afb9af2fe37a8" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>sprawdzPrzesylkiOdDoPl</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a02649f92d6dec361facf01cf4d78f184" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>sprawdzPrzesylkiOdDoPlAsync</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a627975fe22c25abb7b212f3221261e09" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>sprawdzPrzesylkiPl</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a4a5d8e4072fec40c5caf9c8276364ddd" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>sprawdzPrzesylkiPlAsync</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ad37b1fdafb87de10db66be681e10d04b" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>wersja</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a1eda1d0f63e4da1700e822a446535e4b" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>wersjaAsync</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ac1fb378a65ba4404dff91867e09f25eb" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>witaj</name></member>
+      <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a6bce6c8bc4e758c519c280d36c96bd64" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::SledzeniePortTypeChannel</scope><name>witajAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

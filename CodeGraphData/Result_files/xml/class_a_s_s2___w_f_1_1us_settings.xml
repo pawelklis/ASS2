@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2___w_f_1_1us_settings" kind="class" prot="public">
+    <compoundname>ASS2_WF::usSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a447fada7f41f627446b0db5609ee319a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_machine_type" kindref="compound">MachineType</ref></type>
+        <definition>MachineType ASS2_WF.usSettings.machine</definition>
+        <argsstring></argsstring>
+        <name>machine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a0f04ad3fe34abb702de04a25ef2605dc" compoundref="us_settings_8cs" startline="49" endline="59">ASS2_WF.usSettings.button1_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a073ec4ce5cba7b7b20a1c6c31cb2fe21" compoundref="us_settings_8cs" startline="22" endline="47">ASS2_WF.usSettings.usSettings_Load</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a353f24ad5552afcea4f80693fa4fb282" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer ASS2_WF.usSettings.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="8" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a69a03fac32785887cc3da31475c91788" compoundref="us_settings_8_designer_8cs" startline="14" endline="21">ASS2_WF.usSettings.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1aab6f31d72ce679e5e49474be3131bfac" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usSettings.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="309" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a3a5e23cec1922bb5cf8e8d1490d1606f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usSettings.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="310" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1aefbf79d54582245826dcd3bfcfe6043c" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usSettings.label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="311" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a7ede86bf871d05b15daa7e104b906f09" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox ASS2_WF.usSettings.groupBox1</definition>
+        <argsstring></argsstring>
+        <name>groupBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="312" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1af5afdc0e05e250750078321b97f03072" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox ASS2_WF.usSettings.txCom</definition>
+        <argsstring></argsstring>
+        <name>txCom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="313" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a9434ec7b6a7245201febe3bf30b862a2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usSettings.label4</definition>
+        <argsstring></argsstring>
+        <name>label4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="314" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a10b7750f0ceaaeb04adf488eb28b4bd7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usSettings.label5</definition>
+        <argsstring></argsstring>
+        <name>label5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="315" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1ac28c66da5a2d1527e42f059724d48636" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usSettings.label6</definition>
+        <argsstring></argsstring>
+        <name>label6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="316" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1ae09bb154128ef3bae705c41554047c70" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usSettings.label7</definition>
+        <argsstring></argsstring>
+        <name>label7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="317" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a4738a9fd3d1a10f750bcda1a976c7ebd" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.NumericUpDown</type>
+        <definition>System.Windows.Forms.NumericUpDown ASS2_WF.usSettings.txtactscount</definition>
+        <argsstring></argsstring>
+        <name>txtactscount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="318" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="318" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a365108d77d9ebaaa7934e3ee261371cf" compoundref="us_settings_8_designer_8cs" startline="29" endline="305">ASS2_WF.usSettings.InitializeComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a3e7e8f5d3941da4a4a6a11bb54485342" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.NumericUpDown</type>
+        <definition>System.Windows.Forms.NumericUpDown ASS2_WF.usSettings.txparcelstoptactnumber</definition>
+        <argsstring></argsstring>
+        <name>txparcelstoptactnumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="319" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="319" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a0f04ad3fe34abb702de04a25ef2605dc" compoundref="us_settings_8cs" startline="49" endline="59">ASS2_WF.usSettings.button1_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a365108d77d9ebaaa7934e3ee261371cf" compoundref="us_settings_8_designer_8cs" startline="29" endline="305">ASS2_WF.usSettings.InitializeComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1acb0b3763da67fd909aeec625e4e41136" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.NumericUpDown</type>
+        <definition>System.Windows.Forms.NumericUpDown ASS2_WF.usSettings.txstartdetectionparcel</definition>
+        <argsstring></argsstring>
+        <name>txstartdetectionparcel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="320" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="320" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a365108d77d9ebaaa7934e3ee261371cf" compoundref="us_settings_8_designer_8cs" startline="29" endline="305">ASS2_WF.usSettings.InitializeComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a315a5a953250bf0dca01140f5739d490" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.NumericUpDown</type>
+        <definition>System.Windows.Forms.NumericUpDown ASS2_WF.usSettings.txstopsensortact</definition>
+        <argsstring></argsstring>
+        <name>txstopsensortact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="321" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="321" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a0f04ad3fe34abb702de04a25ef2605dc" compoundref="us_settings_8cs" startline="49" endline="59">ASS2_WF.usSettings.button1_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a365108d77d9ebaaa7934e3ee261371cf" compoundref="us_settings_8_designer_8cs" startline="29" endline="305">ASS2_WF.usSettings.InitializeComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1aeabcafeee7653876d807f822e89f5861" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.GroupBox</type>
+        <definition>System.Windows.Forms.GroupBox ASS2_WF.usSettings.groupBox2</definition>
+        <argsstring></argsstring>
+        <name>groupBox2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="322" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a3f81ec8952adaf09bf19571da3eec65c" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usSettings.button1</definition>
+        <argsstring></argsstring>
+        <name>button1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="323" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="323" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a4c4cf9e6456774c7d50c0835e90b1e79" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.NumericUpDown</type>
+        <definition>System.Windows.Forms.NumericUpDown ASS2_WF.usSettings.txdelay</definition>
+        <argsstring></argsstring>
+        <name>txdelay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="324" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="324" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a365108d77d9ebaaa7934e3ee261371cf" compoundref="us_settings_8_designer_8cs" startline="29" endline="305">ASS2_WF.usSettings.InitializeComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1adfbdc0ec44ae1c88c988d0b8d59de072" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.NumericUpDown</type>
+        <definition>System.Windows.Forms.NumericUpDown ASS2_WF.usSettings.txspeed</definition>
+        <argsstring></argsstring>
+        <name>txspeed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="325" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="325" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a0f04ad3fe34abb702de04a25ef2605dc" compoundref="us_settings_8cs" startline="49" endline="59">ASS2_WF.usSettings.button1_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1a365108d77d9ebaaa7934e3ee261371cf" compoundref="us_settings_8_designer_8cs" startline="29" endline="305">ASS2_WF.usSettings.InitializeComponent</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a5e933274855c800135b7fc539f051113" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Panel</type>
+        <definition>System.Windows.Forms.Panel ASS2_WF.usSettings.panel1</definition>
+        <argsstring></argsstring>
+        <name>panel1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="326" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a8e9d22a3c63d86950465ebc06b0e1576" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usSettings.S2L2</definition>
+        <argsstring></argsstring>
+        <name>S2L2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="327" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a40339e1429c81a64221be76a75de8a51" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.NumericUpDown</type>
+        <definition>System.Windows.Forms.NumericUpDown ASS2_WF.usSettings.S2NM1</definition>
+        <argsstring></argsstring>
+        <name>S2NM1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="328" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a3732c41a69a760ac2b664aa2c006a963" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usSettings.S2L1</definition>
+        <argsstring></argsstring>
+        <name>S2L1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="329" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1a6b2c2e3507617b13eefe08395118bebf" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usSettings.label8</definition>
+        <argsstring></argsstring>
+        <name>label8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="330" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_settings_1ae9a110cf4d35ac6d21f505144709101b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usSettings.label9</definition>
+        <argsstring></argsstring>
+        <name>label9</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="331" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_settings_1addc133e7ed2c78ed477cbb65cc68187a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2_WF.usSettings.usSettings</definition>
+        <argsstring>()</argsstring>
+        <name>usSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.cs" line="17" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.cs" bodystart="17" bodyend="20"/>
+        <references refid="class_a_s_s2___w_f_1_1us_settings_1a365108d77d9ebaaa7934e3ee261371cf" compoundref="us_settings_8_designer_8cs" startline="29" endline="305">ASS2_WF.usSettings.InitializeComponent</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_settings_1a073ec4ce5cba7b7b20a1c6c31cb2fe21" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usSettings.usSettings_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>usSettings_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.cs" line="22" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.cs" bodystart="22" bodyend="47"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" compoundref="_machine_type_8cs" startline="19">ASS2.MachineType.dict</references>
+        <references refid="class_a_s_s2___w_f_1_1us_settings_1a447fada7f41f627446b0db5609ee319a" compoundref="us_settings_8cs" startline="16">ASS2_WF.usSettings.machine</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1abe547dc49cdd5465c9636ff919d7bd12" compoundref="_dict_type_8cs" startline="20">ASS2.DictType.Stands</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_settings_1a0f04ad3fe34abb702de04a25ef2605dc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usSettings.button1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.cs" line="49" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.cs" bodystart="49" bodyend="59"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" compoundref="_machine_type_8cs" startline="19">ASS2.MachineType.dict</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1a1319a453a2f46cdb806259ead36bd779" compoundref="_dict_type_8cs" startline="28">ASS2.DictType.FeederStartDetectionSensorTactNumber</references>
+        <references refid="class_a_s_s2___w_f_1_1us_settings_1a447fada7f41f627446b0db5609ee319a" compoundref="us_settings_8cs" startline="16">ASS2_WF.usSettings.machine</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1a547df86e57dd47510f96227ced8ff43a" compoundref="_dict_type_8cs" startline="21">ASS2.DictType.SerialConfigs</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1aa19c35f39b5153373f31c0851f97a08a" compoundref="_dict_type_8cs" startline="25">ASS2.DictType.TactsCount</references>
+        <references refid="class_a_s_s2___w_f_1_1us_settings_1a3e7e8f5d3941da4a4a6a11bb54485342" compoundref="us_settings_8_designer_8cs" startline="319">ASS2_WF.usSettings.txparcelstoptactnumber</references>
+        <references refid="class_a_s_s2___w_f_1_1us_settings_1adfbdc0ec44ae1c88c988d0b8d59de072" compoundref="us_settings_8_designer_8cs" startline="325">ASS2_WF.usSettings.txspeed</references>
+        <references refid="class_a_s_s2___w_f_1_1us_settings_1a315a5a953250bf0dca01140f5739d490" compoundref="us_settings_8_designer_8cs" startline="321">ASS2_WF.usSettings.txstopsensortact</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_settings_1a365108d77d9ebaaa7934e3ee261371cf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usSettings.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="29" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="29" bodyend="305"/>
+        <references refid="class_a_s_s2___w_f_1_1us_settings_1a4c4cf9e6456774c7d50c0835e90b1e79" compoundref="us_settings_8_designer_8cs" startline="324">ASS2_WF.usSettings.txdelay</references>
+        <references refid="class_a_s_s2___w_f_1_1us_settings_1a3e7e8f5d3941da4a4a6a11bb54485342" compoundref="us_settings_8_designer_8cs" startline="319">ASS2_WF.usSettings.txparcelstoptactnumber</references>
+        <references refid="class_a_s_s2___w_f_1_1us_settings_1adfbdc0ec44ae1c88c988d0b8d59de072" compoundref="us_settings_8_designer_8cs" startline="325">ASS2_WF.usSettings.txspeed</references>
+        <references refid="class_a_s_s2___w_f_1_1us_settings_1acb0b3763da67fd909aeec625e4e41136" compoundref="us_settings_8_designer_8cs" startline="320">ASS2_WF.usSettings.txstartdetectionparcel</references>
+        <references refid="class_a_s_s2___w_f_1_1us_settings_1a315a5a953250bf0dca01140f5739d490" compoundref="us_settings_8_designer_8cs" startline="321">ASS2_WF.usSettings.txstopsensortact</references>
+        <references refid="class_a_s_s2___w_f_1_1us_settings_1a4738a9fd3d1a10f750bcda1a976c7ebd" compoundref="us_settings_8_designer_8cs" startline="318">ASS2_WF.usSettings.txtactscount</references>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_settings_1addc133e7ed2c78ed477cbb65cc68187a" compoundref="us_settings_8cs" startline="17" endline="20">ASS2_WF.usSettings.usSettings</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_settings_1a69a03fac32785887cc3da31475c91788" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ASS2_WF.usSettings.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_a_s_s2___w_f_1_1us_settings_1a353f24ad5552afcea4f80693fa4fb282" compoundref="us_settings_8_designer_8cs" startline="8">ASS2_WF.usSettings.components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="261">
+        <label>ASS2_WF.usSettings</label>
+        <link refid="class_a_s_s2___w_f_1_1us_settings"/>
+        <childnode refid="262" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="262">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="265">
+        <label>System</label>
+      </node>
+      <node id="263">
+        <label>ASS2_WF.usSettings</label>
+        <link refid="class_a_s_s2___w_f_1_1us_settings"/>
+        <childnode refid="264" relation="public-inheritance">
+        </childnode>
+        <childnode refid="265" relation="usage">
+          <edgelabel>label1</edgelabel>
+          <edgelabel>panel1</edgelabel>
+          <edgelabel>label2</edgelabel>
+          <edgelabel>txspeed</edgelabel>
+          <edgelabel>label3</edgelabel>
+          <edgelabel>label4</edgelabel>
+          <edgelabel>txstopsensortact</edgelabel>
+          <edgelabel>label5</edgelabel>
+          <edgelabel>txparcelstoptactnumber</edgelabel>
+          <edgelabel>label6</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="264">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.cs" bodystart="14" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a3f81ec8952adaf09bf19571da3eec65c" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>button1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a0f04ad3fe34abb702de04a25ef2605dc" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>button1_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a353f24ad5552afcea4f80693fa4fb282" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>components</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a69a03fac32785887cc3da31475c91788" prot="protected" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>Dispose</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a7ede86bf871d05b15daa7e104b906f09" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>groupBox1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1aeabcafeee7653876d807f822e89f5861" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>groupBox2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a365108d77d9ebaaa7934e3ee261371cf" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>InitializeComponent</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1aab6f31d72ce679e5e49474be3131bfac" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>label1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a3a5e23cec1922bb5cf8e8d1490d1606f" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>label2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1aefbf79d54582245826dcd3bfcfe6043c" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>label3</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a9434ec7b6a7245201febe3bf30b862a2" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>label4</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a10b7750f0ceaaeb04adf488eb28b4bd7" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>label5</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1ac28c66da5a2d1527e42f059724d48636" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>label6</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1ae09bb154128ef3bae705c41554047c70" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>label7</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a6b2c2e3507617b13eefe08395118bebf" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>label8</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1ae9a110cf4d35ac6d21f505144709101b" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>label9</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a447fada7f41f627446b0db5609ee319a" prot="public" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>machine</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a5e933274855c800135b7fc539f051113" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>panel1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a3732c41a69a760ac2b664aa2c006a963" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>S2L1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a8e9d22a3c63d86950465ebc06b0e1576" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>S2L2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a40339e1429c81a64221be76a75de8a51" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>S2NM1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1af5afdc0e05e250750078321b97f03072" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>txCom</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a4c4cf9e6456774c7d50c0835e90b1e79" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>txdelay</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a3e7e8f5d3941da4a4a6a11bb54485342" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>txparcelstoptactnumber</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1adfbdc0ec44ae1c88c988d0b8d59de072" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>txspeed</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1acb0b3763da67fd909aeec625e4e41136" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>txstartdetectionparcel</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a315a5a953250bf0dca01140f5739d490" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>txstopsensortact</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a4738a9fd3d1a10f750bcda1a976c7ebd" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>txtactscount</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1addc133e7ed2c78ed477cbb65cc68187a" prot="public" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>usSettings</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_settings_1a073ec4ce5cba7b7b20a1c6c31cb2fe21" prot="private" virt="non-virtual"><scope>ASS2_WF::usSettings</scope><name>usSettings_Load</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

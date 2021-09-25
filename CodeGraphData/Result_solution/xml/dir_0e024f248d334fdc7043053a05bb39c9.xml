@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_0e024f248d334fdc7043053a05bb39c9" kind="dir">
+    <compoundname>C:/Users/klispawel/source/repos/ASS2/ASS2WEB</compoundname>
+    <innerdir refid="dir_aabca3320b5adeec0b95c64c8e5acb8c">C:/Users/klispawel/source/repos/ASS2/ASS2WEB/App_Start</innerdir>
+    <innerdir refid="dir_519bc9da01f7bc69f8d7fd34f88ebd7a">C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Properties</innerdir>
+    <innerfile refid="_about_8aspx_8cs">About.aspx.cs</innerfile>
+    <innerfile refid="_about_8aspx_8designer_8cs">About.aspx.designer.cs</innerfile>
+    <innerfile refid="_colors_dict_8aspx_8cs">ColorsDict.aspx.cs</innerfile>
+    <innerfile refid="_colors_dict_8aspx_8designer_8cs">ColorsDict.aspx.designer.cs</innerfile>
+    <innerfile refid="_contact_8aspx_8cs">Contact.aspx.cs</innerfile>
+    <innerfile refid="_contact_8aspx_8designer_8cs">Contact.aspx.designer.cs</innerfile>
+    <innerfile refid="_default_8aspx_8cs">Default.aspx.cs</innerfile>
+    <innerfile refid="_default_8aspx_8designer_8cs">Default.aspx.designer.cs</innerfile>
+    <innerfile refid="directions_8aspx_8cs">directions.aspx.cs</innerfile>
+    <innerfile refid="directions_8aspx_8designer_8cs">directions.aspx.designer.cs</innerfile>
+    <innerfile refid="dr_8aspx_8cs">dr.aspx.cs</innerfile>
+    <innerfile refid="dr_8aspx_8designer_8cs">dr.aspx.designer.cs</innerfile>
+    <innerfile refid="drp_8aspx_8cs">drp.aspx.cs</innerfile>
+    <innerfile refid="drp_8aspx_8designer_8cs">drp.aspx.designer.cs</innerfile>
+    <innerfile refid="_global_8asax_8cs">Global.asax.cs</innerfile>
+    <innerfile refid="_site_8_master_8cs">Site.Master.cs</innerfile>
+    <innerfile refid="_site_8_master_8designer_8cs">Site.Master.designer.cs</innerfile>
+    <innerfile refid="_site_8_mobile_8_master_8cs">Site.Mobile.Master.cs</innerfile>
+    <innerfile refid="_site_8_mobile_8_master_8designer_8cs">Site.Mobile.Master.designer.cs</innerfile>
+    <innerfile refid="sortprograms_8aspx_8cs">sortprograms.aspx.cs</innerfile>
+    <innerfile refid="sortprograms_8aspx_8designer_8cs">sortprograms.aspx.designer.cs</innerfile>
+    <innerfile refid="stands_8aspx_8cs">stands.aspx.cs</innerfile>
+    <innerfile refid="stands_8aspx_8designer_8cs">stands.aspx.designer.cs</innerfile>
+    <innerfile refid="stats_8aspx_8cs">stats.aspx.cs</innerfile>
+    <innerfile refid="stats_8aspx_8designer_8cs">stats.aspx.designer.cs</innerfile>
+    <innerfile refid="_view_switcher_8ascx_8cs">ViewSwitcher.ascx.cs</innerfile>
+    <innerfile refid="_view_switcher_8ascx_8designer_8cs">ViewSwitcher.ascx.designer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::PrzesylkaPowiazana</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana_1a510efb78e5df374365315b6346304923" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.PrzesylkaPowiazana.nrPrzesylkiPowiazanejField</definition>
+        <argsstring></argsstring>
+        <name>nrPrzesylkiPowiazanejField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="615" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="615" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana_1ac1a0779a60d8e5d9c1ed504341fb024c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.PrzesylkaPowiazana.nrPrzesylkiPowiazanej</definition>
+        <argsstring></argsstring>
+        <name>nrPrzesylkiPowiazanej</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="619" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="619" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana_1a3fe2afe52ca8e17f44783af9c14052a2" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>System.ComponentModel.PropertyChangedEventHandler</type>
+        <definition>System.ComponentModel.PropertyChangedEventHandler ASS2.ServiceReference1.PrzesylkaPowiazana.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="629" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="629" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana_1a3040f99fded4d1face0f2d91d5892209" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ServiceReference1.PrzesylkaPowiazana.RaisePropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>RaisePropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="631" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="631" bodyend="636"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="249">
+        <label>ASS2.ServiceReference1.PrzesylkaPowiazana</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana"/>
+        <childnode refid="250" relation="public-inheritance">
+        </childnode>
+        <childnode refid="251" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>object</label>
+      </node>
+      <node id="251">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="252">
+        <label>ASS2.ServiceReference1.PrzesylkaPowiazana</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana"/>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+        <childnode refid="254" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="253">
+        <label>object</label>
+      </node>
+      <node id="254">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="613" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="613" bodyend="637"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana_1ac1a0779a60d8e5d9c1ed504341fb024c" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::PrzesylkaPowiazana</scope><name>nrPrzesylkiPowiazanej</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana_1a510efb78e5df374365315b6346304923" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::PrzesylkaPowiazana</scope><name>nrPrzesylkiPowiazanejField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana_1a3fe2afe52ca8e17f44783af9c14052a2" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::PrzesylkaPowiazana</scope><name>PropertyChanged</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana_1a3040f99fded4d1face0f2d91d5892209" prot="protected" virt="non-virtual"><scope>ASS2::ServiceReference1::PrzesylkaPowiazana</scope><name>RaisePropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

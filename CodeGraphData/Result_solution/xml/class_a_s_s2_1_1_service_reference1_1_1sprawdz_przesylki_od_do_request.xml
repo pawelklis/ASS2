@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::sprawdzPrzesylkiOdDoRequest</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request_1a1e4a0b6d1cb7e797e4a39632fb42867f" prot="public" static="no" mutable="no">
+        <type>string[]</type>
+        <definition>string [] ASS2.ServiceReference1.sprawdzPrzesylkiOdDoRequest.numer</definition>
+        <argsstring></argsstring>
+        <name>numer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1191" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1191" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request_1ae5f9667f1b76fa5e5dbc0049f3308572" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.sprawdzPrzesylkiOdDoRequest.odDnia</definition>
+        <argsstring></argsstring>
+        <name>odDnia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1195" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request_1a25225b3626431f027b110a50d86a3521" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.sprawdzPrzesylkiOdDoRequest.doDnia</definition>
+        <argsstring></argsstring>
+        <name>doDnia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1199" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1199" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request_1ad83919cd1549df664ae2f05df290bb5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.sprawdzPrzesylkiOdDoRequest.sprawdzPrzesylkiOdDoRequest</definition>
+        <argsstring>()</argsstring>
+        <name>sprawdzPrzesylkiOdDoRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1201" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1201" bodyend="1202"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request_1afdb5b8ea9f1d162a4b251e2b158f27e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.sprawdzPrzesylkiOdDoRequest.sprawdzPrzesylkiOdDoRequest</definition>
+        <argsstring>(string[] numer, string odDnia, string doDnia)</argsstring>
+        <name>sprawdzPrzesylkiOdDoRequest</name>
+        <param>
+          <type>string[]</type>
+          <declname>numer</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>odDnia</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>doDnia</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1204" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1204" bodyend="1208"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1187" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1187" bodyend="1209"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request_1a25225b3626431f027b110a50d86a3521" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::sprawdzPrzesylkiOdDoRequest</scope><name>doDnia</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request_1a1e4a0b6d1cb7e797e4a39632fb42867f" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::sprawdzPrzesylkiOdDoRequest</scope><name>numer</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request_1ae5f9667f1b76fa5e5dbc0049f3308572" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::sprawdzPrzesylkiOdDoRequest</scope><name>odDnia</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request_1ad83919cd1549df664ae2f05df290bb5e" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::sprawdzPrzesylkiOdDoRequest</scope><name>sprawdzPrzesylkiOdDoRequest</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request_1afdb5b8ea9f1d162a4b251e2b158f27e7" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::sprawdzPrzesylkiOdDoRequest</scope><name>sprawdzPrzesylkiOdDoRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

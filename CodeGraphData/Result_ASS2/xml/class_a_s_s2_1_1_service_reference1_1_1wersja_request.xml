@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1wersja_request" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::wersjaRequest</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1wersja_request_1a63e3bf2e5242e692bc237deec4bea73d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.wersjaRequest.wersjaRequest</definition>
+        <argsstring>()</argsstring>
+        <name>wersjaRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="104" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="104" bodyend="105"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="102" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="102" bodyend="106"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1wersja_request_1a63e3bf2e5242e692bc237deec4bea73d" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::wersjaRequest</scope><name>wersjaRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

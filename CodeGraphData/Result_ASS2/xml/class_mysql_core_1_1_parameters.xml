@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_mysql_core_1_1_parameters" kind="class" prot="public">
+    <compoundname>MysqlCore::Parameters</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_mysql_core_1_1_parameters_1a691431fe7f93b0334f8ae84f1470c691" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MysqlCore.Parameters.Database</definition>
+        <argsstring></argsstring>
+        <name>Database</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="572" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="572" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1_1_parameters_1a4e8c0e17f770db60c02e552890d81802" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MysqlCore.Parameters.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="573" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="573" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1_1_parameters_1a5add3b31914041e53efd9414302e9fb4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MysqlCore.Parameters.Server</definition>
+        <argsstring></argsstring>
+        <name>Server</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="574" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="574" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1_1_parameters_1abb1f8d8536dabae8c5253f6946747b41" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MysqlCore.Parameters.SecondServer</definition>
+        <argsstring></argsstring>
+        <name>SecondServer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="575" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="575" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1_1_parameters_1ab52faa94b25cb618c72c68bfb7c23883" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MysqlCore.Parameters.User</definition>
+        <argsstring></argsstring>
+        <name>User</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="576" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="576" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1_1_parameters_1aabdf63645d3de46adecc6e0bd638ca1a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int MysqlCore.Parameters.Port</definition>
+        <argsstring></argsstring>
+        <name>Port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="577" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="577" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1_1_parameters_1a0e0634fa3de509858fb898001a6e7712" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string MysqlCore.Parameters.CharacterSet</definition>
+        <argsstring></argsstring>
+        <name>CharacterSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="578" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="578" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1_1_parameters_1a927721e0c65da254d812e07798a21505" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int MysqlCore.Parameters.ConnectionTimeout</definition>
+        <argsstring></argsstring>
+        <name>ConnectionTimeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="579" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="579" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1_1_parameters_1a61f31d3648c87b087b10fb3915aebd23" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool MysqlCore.Parameters.ConvertZeroDate</definition>
+        <argsstring></argsstring>
+        <name>ConvertZeroDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="580" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="580" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_mysql_core_1_1_parameters_1a2859dc0db57d73e9266f0c335d97e6c8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool MysqlCore.Parameters.UseCompression</definition>
+        <argsstring></argsstring>
+        <name>UseCompression</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="581" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="581" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" line="571" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/DAL/MysqlCore.cs" bodystart="570" bodyend="582"/>
+    <listofallmembers>
+      <member refid="class_mysql_core_1_1_parameters_1a0e0634fa3de509858fb898001a6e7712" prot="public" virt="non-virtual"><scope>MysqlCore::Parameters</scope><name>CharacterSet</name></member>
+      <member refid="class_mysql_core_1_1_parameters_1a927721e0c65da254d812e07798a21505" prot="public" virt="non-virtual"><scope>MysqlCore::Parameters</scope><name>ConnectionTimeout</name></member>
+      <member refid="class_mysql_core_1_1_parameters_1a61f31d3648c87b087b10fb3915aebd23" prot="public" virt="non-virtual"><scope>MysqlCore::Parameters</scope><name>ConvertZeroDate</name></member>
+      <member refid="class_mysql_core_1_1_parameters_1a691431fe7f93b0334f8ae84f1470c691" prot="public" virt="non-virtual"><scope>MysqlCore::Parameters</scope><name>Database</name></member>
+      <member refid="class_mysql_core_1_1_parameters_1a4e8c0e17f770db60c02e552890d81802" prot="public" virt="non-virtual"><scope>MysqlCore::Parameters</scope><name>Password</name></member>
+      <member refid="class_mysql_core_1_1_parameters_1aabdf63645d3de46adecc6e0bd638ca1a" prot="public" virt="non-virtual"><scope>MysqlCore::Parameters</scope><name>Port</name></member>
+      <member refid="class_mysql_core_1_1_parameters_1abb1f8d8536dabae8c5253f6946747b41" prot="public" virt="non-virtual"><scope>MysqlCore::Parameters</scope><name>SecondServer</name></member>
+      <member refid="class_mysql_core_1_1_parameters_1a5add3b31914041e53efd9414302e9fb4" prot="public" virt="non-virtual"><scope>MysqlCore::Parameters</scope><name>Server</name></member>
+      <member refid="class_mysql_core_1_1_parameters_1a2859dc0db57d73e9266f0c335d97e6c8" prot="public" virt="non-virtual"><scope>MysqlCore::Parameters</scope><name>UseCompression</name></member>
+      <member refid="class_mysql_core_1_1_parameters_1ab52faa94b25cb618c72c68bfb7c23883" prot="public" virt="non-virtual"><scope>MysqlCore::Parameters</scope><name>User</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

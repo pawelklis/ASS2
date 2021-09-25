@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_program" kind="class" prot="public">
+    <compoundname>ASS2::Program</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_program_1a3050331b15377752a0c3ef16631e765a" prot="private" static="no" mutable="no">
+        <type>Timer</type>
+        <definition>Timer ASS2.Program.tm</definition>
+        <argsstring></argsstring>
+        <name>tm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Program.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Program.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_program_1aa71d878d2cb7913fb5c28cbc1e9564a6" compoundref="_program_8cs" startline="134" endline="140">ASS2.Program.test</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_program_1a09625af4568dbec417ded79740456c69" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.Program.onof</definition>
+        <argsstring></argsstring>
+        <name>onof</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Program.cs" line="142" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Program.cs" bodystart="142" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_program_1a1ad98ba1bdb468a25ab56e801545e554" compoundref="_program_8cs" startline="144" endline="158">ASS2.Program.Tm_Elapsed</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_program_1ae90559f6e20e0220153af56488f4774a" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_machine_type" kindref="compound">MachineType</ref></type>
+        <definition>MachineType ASS2.Program.m</definition>
+        <argsstring></argsstring>
+        <name>m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Program.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Program.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_program_1aeb77f880cead9cf751bd8ca9fb956d45" compoundref="_program_8cs" startline="16" endline="131">ASS2.Program.Main</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_program_1aeb77f880cead9cf751bd8ca9fb956d45" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ASS2.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Program.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Program.cs" bodystart="16" bodyend="131"/>
+        <references refid="class_a_s_s2_1_1_program_1ae90559f6e20e0220153af56488f4774a" compoundref="_program_8cs" startline="15">ASS2.Program.m</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_program_1aa71d878d2cb7913fb5c28cbc1e9564a6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.Program.test</definition>
+        <argsstring>(MachineType mm)</argsstring>
+        <name>test</name>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_machine_type" kindref="compound">MachineType</ref></type>
+          <declname>mm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Program.cs" line="134" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Program.cs" bodystart="134" bodyend="140"/>
+        <references refid="class_a_s_s2_1_1_program_1a3050331b15377752a0c3ef16631e765a" compoundref="_program_8cs" startline="14">ASS2.Program.tm</references>
+        <references refid="class_a_s_s2_1_1_program_1a1ad98ba1bdb468a25ab56e801545e554" compoundref="_program_8cs" startline="144" endline="158">ASS2.Program.Tm_Elapsed</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_program_1a1ad98ba1bdb468a25ab56e801545e554" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.Program.Tm_Elapsed</definition>
+        <argsstring>(object sender, ElapsedEventArgs e)</argsstring>
+        <name>Tm_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Program.cs" line="144" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Program.cs" bodystart="144" bodyend="158"/>
+        <references refid="class_a_s_s2_1_1_program_1a09625af4568dbec417ded79740456c69" compoundref="_program_8cs" startline="142">ASS2.Program.onof</references>
+        <referencedby refid="class_a_s_s2_1_1_program_1aa71d878d2cb7913fb5c28cbc1e9564a6" compoundref="_program_8cs" startline="134" endline="140">ASS2.Program.test</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="179">
+        <label>ASS2.RoundStatType</label>
+        <link refid="class_a_s_s2_1_1_round_stat_type"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="175">
+        <label>ASS2.SensorStartDetectionType</label>
+        <link refid="class_a_s_s2_1_1_sensor_start_detection_type"/>
+      </node>
+      <node id="177">
+        <label>ASS2.RunType</label>
+        <link refid="class_a_s_s2_1_1_run_type"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="170">
+        <label>SensorType</label>
+        <link refid="interface_a_s_s2_1_1_sensor_type"/>
+      </node>
+      <node id="172">
+        <label>ASS2.FeederType</label>
+        <link refid="class_a_s_s2_1_1_feeder_type"/>
+        <childnode refid="167" relation="usage">
+          <edgelabel>machine</edgelabel>
+        </childnode>
+        <childnode refid="173" relation="usage">
+          <edgelabel>driver</edgelabel>
+        </childnode>
+      </node>
+      <node id="174">
+        <label>ASS2.SensorStartParcelType</label>
+        <link refid="class_a_s_s2_1_1_sensor_start_parcel_type"/>
+      </node>
+      <node id="166">
+        <label>ASS2.Program</label>
+        <link refid="class_a_s_s2_1_1_program"/>
+        <childnode refid="167" relation="usage">
+          <edgelabel>m</edgelabel>
+        </childnode>
+      </node>
+      <node id="167">
+        <label>ASS2.MachineType</label>
+        <link refid="class_a_s_s2_1_1_machine_type"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+        <childnode refid="169" relation="usage">
+          <edgelabel>TactSensor</edgelabel>
+        </childnode>
+        <childnode refid="171" relation="usage">
+          <edgelabel>StopSensor</edgelabel>
+        </childnode>
+        <childnode refid="172" relation="usage">
+          <edgelabel>Feeder1</edgelabel>
+        </childnode>
+        <childnode refid="174" relation="usage">
+          <edgelabel>StartParcelSensor</edgelabel>
+        </childnode>
+        <childnode refid="176" relation="usage">
+          <edgelabel>dict</edgelabel>
+        </childnode>
+        <childnode refid="177" relation="usage">
+          <edgelabel>CurrentRun</edgelabel>
+        </childnode>
+        <childnode refid="178" relation="usage">
+          <edgelabel>CurrentSortProgram</edgelabel>
+        </childnode>
+        <childnode refid="175" relation="usage">
+          <edgelabel>StartDetectionSensor</edgelabel>
+        </childnode>
+        <childnode refid="179" relation="usage">
+          <edgelabel>RoundStat</edgelabel>
+        </childnode>
+      </node>
+      <node id="173">
+        <label>ASS2.ModbusDriver</label>
+        <link refid="class_a_s_s2_1_1_modbus_driver"/>
+        <childnode refid="169" relation="usage">
+          <edgelabel>TactSensor</edgelabel>
+        </childnode>
+        <childnode refid="171" relation="usage">
+          <edgelabel>StopSensor</edgelabel>
+        </childnode>
+        <childnode refid="174" relation="usage">
+          <edgelabel>StartParcelSensor</edgelabel>
+        </childnode>
+        <childnode refid="175" relation="usage">
+          <edgelabel>StartDetectionSensor</edgelabel>
+        </childnode>
+      </node>
+      <node id="168">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+      <node id="176">
+        <label>ASS2.DictType</label>
+        <link refid="class_a_s_s2_1_1_dict_type"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="171">
+        <label>ASS2.StopSensorType</label>
+        <link refid="class_a_s_s2_1_1_stop_sensor_type"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="178">
+        <label>ASS2.SortProgramType</label>
+        <link refid="class_a_s_s2_1_1_sort_program_type"/>
+        <childnode refid="168" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="169">
+        <label>ASS2.TactSensorType</label>
+        <link refid="class_a_s_s2_1_1_tact_sensor_type"/>
+        <childnode refid="170" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Program.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Program.cs" bodystart="12" bodyend="160"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_program_1ae90559f6e20e0220153af56488f4774a" prot="private" virt="non-virtual"><scope>ASS2::Program</scope><name>m</name></member>
+      <member refid="class_a_s_s2_1_1_program_1aeb77f880cead9cf751bd8ca9fb956d45" prot="private" virt="non-virtual"><scope>ASS2::Program</scope><name>Main</name></member>
+      <member refid="class_a_s_s2_1_1_program_1a09625af4568dbec417ded79740456c69" prot="private" virt="non-virtual"><scope>ASS2::Program</scope><name>onof</name></member>
+      <member refid="class_a_s_s2_1_1_program_1aa71d878d2cb7913fb5c28cbc1e9564a6" prot="private" virt="non-virtual"><scope>ASS2::Program</scope><name>test</name></member>
+      <member refid="class_a_s_s2_1_1_program_1a3050331b15377752a0c3ef16631e765a" prot="private" virt="non-virtual"><scope>ASS2::Program</scope><name>tm</name></member>
+      <member refid="class_a_s_s2_1_1_program_1a1ad98ba1bdb468a25ab56e801545e554" prot="private" virt="non-virtual"><scope>ASS2::Program</scope><name>Tm_Elapsed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

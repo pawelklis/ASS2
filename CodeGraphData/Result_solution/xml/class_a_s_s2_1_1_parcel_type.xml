@@ -1,0 +1,710 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_parcel_type" kind="class" prot="public">
+    <compoundname>ASS2::ParcelType</compoundname>
+    <basecompoundref refid="class_a_s_s2_1_1_data_base_storage_helper" prot="public" virt="non-virtual">ASS2.DataBaseStorageHelper</basecompoundref>
+    <innerclass refid="class_a_s_s2_1_1_parcel_type_1_1_parcel_event_args" prot="public">ASS2::ParcelType::ParcelEventArgs</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_a_s_s2_1_1_parcel_type_1a01fc6c69854fb013ef86a88e2364c614" prot="public" static="no">
+        <name>OdrzutyReason</name>
+        <enumvalue id="class_a_s_s2_1_1_parcel_type_1a01fc6c69854fb013ef86a88e2364c614a4abe32ef4bfb95f3b79be0702581bc58" prot="public">
+          <name>brakskanu</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_a_s_s2_1_1_parcel_type_1a01fc6c69854fb013ef86a88e2364c614a5cc0865c54372ce0f2b6eebf3a265a4e" prot="public">
+          <name>brakdanych</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_a_s_s2_1_1_parcel_type_1a01fc6c69854fb013ef86a88e2364c614a475370d04848e5723bc6476b1abb9839" prot="public">
+          <name>brakwplanie</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="363" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="362" bodyend="367"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_parcel_type_1a4e60ca42017570b6080e753a82e62e7a" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_a_s_s2_1_1_parcel_type_1_1_parcel_event_args" kindref="compound">ParcelEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;ParcelEventArgs&gt; ASS2.ParcelType.OnParcelStopRun</definition>
+        <argsstring></argsstring>
+        <name>OnParcelStopRun</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_parcel_type_1a2462fc7eca18e8e71bac4057818e470e" compoundref="_parcel_type_8cs" startline="121" endline="150">ASS2.ParcelType.StopRun</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1aa2982a67fdd00397644d06d84004b002" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.ParcelType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1a047ff03dea388cbfe48edaa79ff2cba2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ParcelType.GuidID</definition>
+        <argsstring></argsstring>
+        <name>GuidID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1a6e9454a32ea973c885ef60acfe087f1a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime ASS2.ParcelType.CreateTime</definition>
+        <argsstring></argsstring>
+        <name>CreateTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1ac5e487c417e8eda1632aa33d447e9268" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ParcelType.Number</definition>
+        <argsstring></argsstring>
+        <name>Number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="17" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1a0d80234d0768adf7a7bf87b7fbbd72c0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.ParcelType.Lenght</definition>
+        <argsstring></argsstring>
+        <name>Lenght</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1a488b10ccffa15692cdf389fd9e2e445c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ParcelType.DestinationUnitPostCode</definition>
+        <argsstring></argsstring>
+        <name>DestinationUnitPostCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="19" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1ac06b55e564dcb2891d0ef868dcc28ccb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_stand_type" kindref="compound">StandType</ref></type>
+        <definition>StandType ASS2.ParcelType.DestinationStand</definition>
+        <argsstring></argsstring>
+        <name>DestinationStand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="20" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_parcel_type_1aa3658f941e785cd26f3c9cc4351a5d49" compoundref="_parcel_type_8cs" startline="72" endline="105">ASS2.ParcelType.AddTact</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" compoundref="_feeder_type_8cs" startline="62" endline="119">ASS2.FeederType.Startdetectionsensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1a8e85cf555673eade780fe088e676628a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_stand_item_type" kindref="compound">StandItemType</ref></type>
+        <definition>StandItemType ASS2.ParcelType.DestinationStandItem</definition>
+        <argsstring></argsstring>
+        <name>DestinationStandItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="21" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_parcel_type_1a2462fc7eca18e8e71bac4057818e470e" compoundref="_parcel_type_8cs" startline="121" endline="150">ASS2.ParcelType.StopRun</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1afab9003257661bb1eac3e39fa9526e55" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.ParcelType.CurrentTactNumber</definition>
+        <argsstring></argsstring>
+        <name>CurrentTactNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="22" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_parcel_type_1aa3658f941e785cd26f3c9cc4351a5d49" compoundref="_parcel_type_8cs" startline="72" endline="105">ASS2.ParcelType.AddTact</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1a2833d2137041fd5c5f24689c2386dd36" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.ParcelType.RunId</definition>
+        <argsstring></argsstring>
+        <name>RunId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="24" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1a476a472e8d2856b94c116b0edc1782e9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.ParcelType.SortProgramID</definition>
+        <argsstring></argsstring>
+        <name>SortProgramID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="25" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1ac187261ae67d20e4247d9853e1b0b48a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ParcelType.UPnad</definition>
+        <argsstring></argsstring>
+        <name>UPnad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="26" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1a842c5b7e4e6bdb14f871eaf0d3d7f9b9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ParcelType.UPdor</definition>
+        <argsstring></argsstring>
+        <name>UPdor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="27" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1abdc0fee10a100b8cd0d47f2fa20089a2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime ASS2.ParcelType.Datanad</definition>
+        <argsstring></argsstring>
+        <name>Datanad</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="28" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1a28427cbcaf4c2263af94d80e0dfc5c59" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ParcelType.parceltypename</definition>
+        <argsstring></argsstring>
+        <name>parceltypename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="29" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1a3a126c7f1864a5c3d7943258da40ff16" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ParcelType.ParcelTypeCode</definition>
+        <argsstring></argsstring>
+        <name>ParcelTypeCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="30" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_parcel_type_1ac4493fb42c925f465c49c9e8ca9718fd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.ParcelType.RoundCounts</definition>
+        <argsstring></argsstring>
+        <name>RoundCounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="33" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="33" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_parcel_type_1aa3658f941e785cd26f3c9cc4351a5d49" compoundref="_parcel_type_8cs" startline="72" endline="105">ASS2.ParcelType.AddTact</referencedby>
+        <referencedby refid="class_a_s_s2_1_1_parcel_type_1a2462fc7eca18e8e71bac4057818e470e" compoundref="_parcel_type_8cs" startline="121" endline="150">ASS2.ParcelType.StopRun</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_parcel_type_1a4d962b8f707028c0e9348604ba2424f3" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.ParcelType.Recircuit</definition>
+        <argsstring></argsstring>
+        <name>Recircuit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="32" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="32" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_parcel_type_1aa3658f941e785cd26f3c9cc4351a5d49" compoundref="_parcel_type_8cs" startline="72" endline="105">ASS2.ParcelType.AddTact</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_parcel_type_1ab930106ed64217c961e4cec288ec8edf" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.ParcelType.visible</definition>
+        <argsstring></argsstring>
+        <name>visible</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="34" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_parcel_type_1af1c1addf61463889e0bb132246f28484" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.ParcelType.StopRunTactNumber</definition>
+        <argsstring></argsstring>
+        <name>StopRunTactNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="36" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="36" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_parcel_type_1aa3658f941e785cd26f3c9cc4351a5d49" compoundref="_parcel_type_8cs" startline="72" endline="105">ASS2.ParcelType.AddTact</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_parcel_type_1a4401bb9d8d9b1c5231de65acfef17142" prot="private" static="no" mutable="no">
+        <type>Timer</type>
+        <definition>Timer ASS2.ParcelType.Lamp2OffTimer</definition>
+        <argsstring></argsstring>
+        <name>Lamp2OffTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="38" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_parcel_type_1ab9b342454de3601026d5056209f2305a" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_modbus_driver" kindref="compound">ModbusDriver</ref></type>
+        <definition>ModbusDriver ASS2.ParcelType.driver</definition>
+        <argsstring></argsstring>
+        <name>driver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="41" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_parcel_type_1a83cfe5c797f3f1d7301dee5e4a18e21c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ParcelType.ParcelType</definition>
+        <argsstring>()</argsstring>
+        <name>ParcelType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="43" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_parcel_type_1a9323873f1f960c9f0b4ba1db45a2147c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ParcelType.ParcelType</definition>
+        <argsstring>(ModbusDriver Driver, int stopruntactnumber, List&lt; StandType &gt; Stands, int runid, int sortprogramid)</argsstring>
+        <name>ParcelType</name>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_modbus_driver" kindref="compound">ModbusDriver</ref></type>
+          <declname>Driver</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stopruntactnumber</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_a_s_s2_1_1_stand_type" kindref="compound">StandType</ref> &gt;</type>
+          <declname>Stands</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>runid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sortprogramid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="47" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="47" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_parcel_type_1aa3658f941e785cd26f3c9cc4351a5d49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void ASS2.ParcelType.AddTact</definition>
+        <argsstring>(int alltacts)</argsstring>
+        <name>AddTact</name>
+        <param>
+          <type>int</type>
+          <declname>alltacts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="72" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="72" bodyend="105"/>
+        <references refid="class_a_s_s2_1_1_parcel_type_1afab9003257661bb1eac3e39fa9526e55" compoundref="_parcel_type_8cs" startline="22">ASS2.ParcelType.CurrentTactNumber</references>
+        <references refid="class_a_s_s2_1_1_parcel_type_1ac06b55e564dcb2891d0ef868dcc28ccb" compoundref="_parcel_type_8cs" startline="20">ASS2.ParcelType.DestinationStand</references>
+        <references refid="class_a_s_s2_1_1_stand_type_1a17e65184f4e00b6830d9704c4ca6e003" compoundref="_stand_type_8cs" startline="18">ASS2.StandType.Lamp1</references>
+        <references refid="class_a_s_s2_1_1_parcel_type_1a03a16def8448010afff4bc1839457a0c" compoundref="_parcel_type_8cs" startline="152" endline="180">ASS2.ParcelType.Lamp1On</references>
+        <references refid="class_a_s_s2_1_1_stand_type_1a6fc9e38b595e4fcb0361c9efa08adb94" compoundref="_stand_type_8cs" startline="19">ASS2.StandType.Lamp2</references>
+        <references refid="class_a_s_s2_1_1_parcel_type_1ab48d459bc768301d62e563875bee2619" compoundref="_parcel_type_8cs" startline="181" endline="223">ASS2.ParcelType.Lamp2On</references>
+        <references refid="class_a_s_s2_1_1_parcel_type_1a4d962b8f707028c0e9348604ba2424f3" compoundref="_parcel_type_8cs" startline="32">ASS2.ParcelType.Recircuit</references>
+        <references refid="class_a_s_s2_1_1_parcel_type_1ac4493fb42c925f465c49c9e8ca9718fd" compoundref="_parcel_type_8cs" startline="33">ASS2.ParcelType.RoundCounts</references>
+        <references refid="class_a_s_s2_1_1_parcel_type_1a2462fc7eca18e8e71bac4057818e470e" compoundref="_parcel_type_8cs" startline="121" endline="150">ASS2.ParcelType.StopRun</references>
+        <references refid="class_a_s_s2_1_1_parcel_type_1af1c1addf61463889e0bb132246f28484" compoundref="_parcel_type_8cs" startline="36">ASS2.ParcelType.StopRunTactNumber</references>
+        <references refid="class_a_s_s2_1_1_lamp_type_1a77ef255ad59038dc938d6c05986de809" compoundref="_lamp_type_8cs" startline="12">ASS2.LampType.TactOnNumber</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_parcel_type_1aadc91b7d8bd2ccb6434164e70445f6ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ParcelType.NextRound</definition>
+        <argsstring>()</argsstring>
+        <name>NextRound</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="107" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="107" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_parcel_type_1a2462fc7eca18e8e71bac4057818e470e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ParcelType.StopRun</definition>
+        <argsstring>(ref StandItemType standitem)</argsstring>
+        <name>StopRun</name>
+        <param>
+          <type>ref <ref refid="class_a_s_s2_1_1_stand_item_type" kindref="compound">StandItemType</ref></type>
+          <declname>standitem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="121" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="121" bodyend="150"/>
+        <references refid="class_a_s_s2_1_1_parcel_type_1a8e85cf555673eade780fe088e676628a" compoundref="_parcel_type_8cs" startline="21">ASS2.ParcelType.DestinationStandItem</references>
+        <references refid="class_a_s_s2_1_1_stand_item_type_1a4235d1e679594e4037498d486bcf1280" compoundref="_stand_item_type_8cs" startline="8">ASS2.StandItemType.Direction</references>
+        <references refid="class_a_s_s2_1_1_direction_type_1afdec89774f72a81739ce6b039600534a" compoundref="_direction_type_8cs" startline="13">ASS2.DirectionType.Name</references>
+        <references refid="class_a_s_s2_1_1_parcel_type_1a4e60ca42017570b6080e753a82e62e7a" compoundref="_parcel_type_8cs" startline="12">ASS2.ParcelType.OnParcelStopRun</references>
+        <references refid="class_a_s_s2_1_1_parcel_type_1ac4493fb42c925f465c49c9e8ca9718fd" compoundref="_parcel_type_8cs" startline="33">ASS2.ParcelType.RoundCounts</references>
+        <referencedby refid="class_a_s_s2_1_1_parcel_type_1aa3658f941e785cd26f3c9cc4351a5d49" compoundref="_parcel_type_8cs" startline="72" endline="105">ASS2.ParcelType.AddTact</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_parcel_type_1a03a16def8448010afff4bc1839457a0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void ASS2.ParcelType.Lamp1On</definition>
+        <argsstring>()</argsstring>
+        <name>Lamp1On</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="152" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="152" bodyend="180"/>
+        <referencedby refid="class_a_s_s2_1_1_parcel_type_1aa3658f941e785cd26f3c9cc4351a5d49" compoundref="_parcel_type_8cs" startline="72" endline="105">ASS2.ParcelType.AddTact</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_parcel_type_1ab48d459bc768301d62e563875bee2619" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void ASS2.ParcelType.Lamp2On</definition>
+        <argsstring>()</argsstring>
+        <name>Lamp2On</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="181" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="181" bodyend="223"/>
+        <referencedby refid="class_a_s_s2_1_1_parcel_type_1aa3658f941e785cd26f3c9cc4351a5d49" compoundref="_parcel_type_8cs" startline="72" endline="105">ASS2.ParcelType.AddTact</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_parcel_type_1ab4818637e53b574786b396c3bc158953" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>new async void</type>
+        <definition>new async void ASS2.ParcelType.SaveAsync</definition>
+        <argsstring>()</argsstring>
+        <name>SaveAsync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="243" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="243" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_parcel_type_1a619216ef659061e8011a0263d89c0c0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void ASS2.ParcelType.SetNumber</definition>
+        <argsstring>(string number, List&lt; StandType &gt; Stands)</argsstring>
+        <name>SetNumber</name>
+        <param>
+          <type>string</type>
+          <declname>number</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_a_s_s2_1_1_stand_type" kindref="compound">StandType</ref> &gt;</type>
+          <declname>Stands</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="258" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="258" bodyend="343"/>
+        <references refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_1a2d42c13c22973a07daa8d1abecef68a6" compoundref="_reference_8cs" startline="205">ASS2.ServiceReference1.Przesylka.danePrzesylki</references>
+        <references refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a7c640b3d9beb2a523d32007191f3648c" compoundref="_reference_8cs" startline="307">ASS2.ServiceReference1.DanePrzesylki.dataNadania</references>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1af7991d13332647ad135a21c59c80d025" compoundref="_feeder_type_8cs" startline="213" endline="248">ASS2.FeederType.Scanned</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_parcel_type_1ac449893618ed1464881a2eaf3b48086e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ParcelType.SetOdrzuty</definition>
+        <argsstring>(List&lt; StandType &gt; Stands, OdrzutyReason Reason)</argsstring>
+        <name>SetOdrzuty</name>
+        <param>
+          <type>List&lt; <ref refid="class_a_s_s2_1_1_stand_type" kindref="compound">StandType</ref> &gt;</type>
+          <declname>Stands</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_parcel_type_1a01fc6c69854fb013ef86a88e2364c614" kindref="member">OdrzutyReason</ref></type>
+          <declname>Reason</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="345" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="345" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_parcel_type_1abead45e0f8750d410c248aa66df73917" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ParcelType.SetLenght</definition>
+        <argsstring>(int lenght)</argsstring>
+        <name>SetLenght</name>
+        <param>
+          <type>int</type>
+          <declname>lenght</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="369" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="369" bodyend="372"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_parcel_type_1a31a39a82f8ec2e782e4451f54af27a7c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ParcelType.Lamp2OffTimer_Elapsed</definition>
+        <argsstring>(object sender, ElapsedEventArgs e)</argsstring>
+        <name>Lamp2OffTimer_Elapsed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ElapsedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="227" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="227" bodyend="241"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="197">
+        <label>ASS2.ParcelType</label>
+        <link refid="class_a_s_s2_1_1_parcel_type"/>
+        <childnode refid="198" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="198">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="199">
+        <label>ASS2.ParcelType</label>
+        <link refid="class_a_s_s2_1_1_parcel_type"/>
+        <childnode refid="200" relation="public-inheritance">
+        </childnode>
+        <childnode refid="201" relation="usage">
+          <edgelabel>driver</edgelabel>
+        </childnode>
+      </node>
+      <node id="206">
+        <label>ASS2.SensorStartDetectionType</label>
+        <link refid="class_a_s_s2_1_1_sensor_start_detection_type"/>
+      </node>
+      <node id="203">
+        <label>SensorType</label>
+        <link refid="interface_a_s_s2_1_1_sensor_type"/>
+      </node>
+      <node id="205">
+        <label>ASS2.SensorStartParcelType</label>
+        <link refid="class_a_s_s2_1_1_sensor_start_parcel_type"/>
+      </node>
+      <node id="201">
+        <label>ASS2.ModbusDriver</label>
+        <link refid="class_a_s_s2_1_1_modbus_driver"/>
+        <childnode refid="202" relation="usage">
+          <edgelabel>TactSensor</edgelabel>
+        </childnode>
+        <childnode refid="204" relation="usage">
+          <edgelabel>StopSensor</edgelabel>
+        </childnode>
+        <childnode refid="205" relation="usage">
+          <edgelabel>StartParcelSensor</edgelabel>
+        </childnode>
+        <childnode refid="206" relation="usage">
+          <edgelabel>StartDetectionSensor</edgelabel>
+        </childnode>
+      </node>
+      <node id="200">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+      <node id="204">
+        <label>ASS2.StopSensorType</label>
+        <link refid="class_a_s_s2_1_1_stop_sensor_type"/>
+        <childnode refid="203" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="202">
+        <label>ASS2.TactSensorType</label>
+        <link refid="class_a_s_s2_1_1_tact_sensor_type"/>
+        <childnode refid="203" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels/ParcelType.cs" bodystart="10" bodyend="379"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_parcel_type_1aa3658f941e785cd26f3c9cc4351a5d49" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>AddTact</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a24cadf21177fee7a33e2060a1034d067" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>CreateTable</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a6e9454a32ea973c885ef60acfe087f1a" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>CreateTime</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1afab9003257661bb1eac3e39fa9526e55" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>CurrentTactNumber</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1abdc0fee10a100b8cd0d47f2fa20089a2" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>Datanad</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1ac06b55e564dcb2891d0ef868dcc28ccb" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>DestinationStand</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a8e85cf555673eade780fe088e676628a" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>DestinationStandItem</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a488b10ccffa15692cdf389fd9e2e445c" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>DestinationUnitPostCode</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1ab9b342454de3601026d5056209f2305a" prot="private" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>driver</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a047ff03dea388cbfe48edaa79ff2cba2" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>GuidID</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1aa2982a67fdd00397644d06d84004b002" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>Id</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a03a16def8448010afff4bc1839457a0c" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>Lamp1On</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a4401bb9d8d9b1c5231de65acfef17142" prot="private" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>Lamp2OffTimer</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a31a39a82f8ec2e782e4451f54af27a7c" prot="private" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>Lamp2OffTimer_Elapsed</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1ab48d459bc768301d62e563875bee2619" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>Lamp2On</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a0d80234d0768adf7a7bf87b7fbbd72c0" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>Lenght</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a53c274faca217ed300cfa46c4f465b50" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>Load&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ae190bdcee51591d2a705490ccdffe940" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>LoadAll&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ab0a3f846534fe15e795ff95fc0e73ade" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>LoadWhere&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1aadc91b7d8bd2ccb6434164e70445f6ad" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>NextRound</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1ac5e487c417e8eda1632aa33d447e9268" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>Number</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a01fc6c69854fb013ef86a88e2364c614" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>OdrzutyReason</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a4e60ca42017570b6080e753a82e62e7a" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>OnParcelStopRun</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a83cfe5c797f3f1d7301dee5e4a18e21c" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>ParcelType</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a9323873f1f960c9f0b4ba1db45a2147c" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>ParcelType</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a3a126c7f1864a5c3d7943258da40ff16" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>ParcelTypeCode</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a28427cbcaf4c2263af94d80e0dfc5c59" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>parceltypename</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a4d962b8f707028c0e9348604ba2424f3" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>Recircuit</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1ac4493fb42c925f465c49c9e8ca9718fd" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>RoundCounts</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a2833d2137041fd5c5f24689c2386dd36" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>RunId</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a483e584dcfb0eaa9f6a6da3b4e8b3f1f" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>Save</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1ab4818637e53b574786b396c3bc158953" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>SaveAsync</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1abead45e0f8750d410c248aa66df73917" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>SetLenght</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a619216ef659061e8011a0263d89c0c0a" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>SetNumber</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1ac449893618ed1464881a2eaf3b48086e" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>SetOdrzuty</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a476a472e8d2856b94c116b0edc1782e9" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>SortProgramID</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a2462fc7eca18e8e71bac4057818e470e" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>StopRun</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1af1c1addf61463889e0bb132246f28484" prot="private" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>StopRunTactNumber</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1a842c5b7e4e6bdb14f871eaf0d3d7f9b9" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>UPdor</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1ac187261ae67d20e4247d9853e1b0b48a" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>UPnad</name></member>
+      <member refid="class_a_s_s2_1_1_parcel_type_1ab930106ed64217c961e4cec288ec8edf" prot="public" virt="non-virtual"><scope>ASS2::ParcelType</scope><name>visible</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

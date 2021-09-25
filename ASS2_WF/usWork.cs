@@ -25,9 +25,10 @@ namespace ASS2_WF
         public MachineType machine;
         private void usWork_Load(object sender, EventArgs e)
         {
+            //this.machine  = MachineType.Load<MachineType>(1);
 
             machine.OnLogAdded += Machine_OnLogAdded;
-
+            LoadSortPrograms();
             refreshtimer = new Timer();
             refreshtimer.Interval = 500;
             refreshtimer.Tick += Refreshtimer_Tick;
@@ -56,10 +57,12 @@ namespace ASS2_WF
             t.SetToolTip(lbtactnumber, "Numer taktu");
 
 
-            LoadSortPrograms();
-            BindCharts();
 
+            BindCharts();
+            
             label4.Parent = this;
+
+            runText();
         }
 
         private void Machine_OnLogAdded(object sender, MachineType.MachineLogEventArgs e)
@@ -68,18 +71,14 @@ namespace ASS2_WF
             {
                 listBox1.Invoke(new Action(() =>
                 {
-
                     listBox1.Items.Insert(0, e.item.Time + " " + e.item.Event);
-
-
                 }));
             });
-
         }
 
-        private async void StatTimer_TickAsync(object sender, EventArgs e)
+        private  void StatTimer_TickAsync(object sender, EventArgs e)
         {
-            await BindCharts();
+            BindCharts();
         }
 
         private async void Refreshtimer_Tick(object sender, EventArgs e)
@@ -131,7 +130,8 @@ namespace ASS2_WF
                     lbAllsorted.Invoke(new Action(() => { lbAllsorted.Text = allsorted.ToString(); }));
                     lbAllMissed.Invoke(new Action(() => { lbAllMissed.Text = allmissed.ToString(); }));
 
-
+                    if (machine.CurrentRun == null)
+                        machine.CurrentRun = new RunType();
                     if (machine.CurrentRun.IsWorking() == false)
                         btnStartRun.Invoke(new Action(() => { btnStartRun.Enabled = true;}));
                     else
@@ -173,7 +173,7 @@ namespace ASS2_WF
         void InitMachine()
         {
             ComboboxItem item = (ComboboxItem)cbSortProgram.SelectedItem;
-          Task.Run(()=> { machine.InitMachine(item.Value); });
+            machine.InitMachine(item.Value);
             runText();
         }
 
@@ -221,12 +221,12 @@ namespace ASS2_WF
 
         private void button1_Click(object sender, EventArgs e)
         {
-            machine.StressSimulation();
+            machine.StressSimulation(false); ;
 
 
         }
 
-        private async Task BindCharts()
+        private async void BindCharts()
         {
             
             List<Task> tasks = new List<Task>();
@@ -267,7 +267,6 @@ namespace ASS2_WF
 
 
              var task2 = Task.Run(() => {
-
                  try
                  {
                      chart2.Invoke(new Action(async () =>
@@ -329,13 +328,19 @@ namespace ASS2_WF
 
 
                  }
-
-
-
              });
             tasks.Add(task2);
 
             await Task.WhenAll(tasks);
+
+
+            //if (pr!=null)
+            //{
+            //    pr.Invoke(new Action(() => {
+            //        Task.Run(() => {pr.BindDG(machine.PArcelsAtLineTable().Result); });
+            //    }));
+            //}
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -360,6 +365,28 @@ namespace ASS2_WF
 
 
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.machine.StartDetectionSensor.Value = true;
+            this.machine.StartDetectionSensor.Value = false;
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        frmparcels pr;
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+            pr = new frmparcels();
+            pr.machine = this.machine;
+            pr.Show();
+            pr.BringToFront();
+
         }
     }
 }

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="us_settings_8cs" kind="file">
+    <compoundname>usSettings.cs</compoundname>
+    <innerclass refid="class_a_s_s2___w_f_1_1us_settings" prot="public">ASS2_WF::usSettings</innerclass>
+    <innernamespace refid="namespace_a_s_s2___w_f">ASS2_WF</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.ComponentModel;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Drawing;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Data;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Windows.Forms;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>ASS2;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ASS2_WF</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14" refid="class_a_s_s2___w_f_1_1us_settings" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">partial<sp/>class<sp/></highlight><highlight class="normal"><ref refid="class_a_s_s2___w_f_1_1us_settings" kindref="compound">usSettings</ref><sp/>:<sp/>UserControl</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16" refid="class_a_s_s2___w_f_1_1us_settings_1a447fada7f41f627446b0db5609ee319a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_a_s_s2_1_1_machine_type" kindref="compound">MachineType</ref><sp/><ref refid="class_a_s_s2___w_f_1_1us_settings_1a447fada7f41f627446b0db5609ee319a" kindref="member">machine</ref>;</highlight></codeline>
+<codeline lineno="17" refid="class_a_s_s2___w_f_1_1us_settings_1addc133e7ed2c78ed477cbb65cc68187a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_a_s_s2___w_f_1_1us_settings_1addc133e7ed2c78ed477cbb65cc68187a" kindref="member">usSettings</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_s_s2___w_f_1_1us_settings_1a365108d77d9ebaaa7934e3ee261371cf" kindref="member">InitializeComponent</ref>();</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_a_s_s2___w_f_1_1us_settings_1a073ec4ce5cba7b7b20a1c6c31cb2fe21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_s_s2___w_f_1_1us_settings_1a073ec4ce5cba7b7b20a1c6c31cb2fe21" kindref="member">usSettings_Load</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>sender,<sp/>EventArgs<sp/>e)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>txCom.Text<sp/>=<sp/>machine.dict.SerialConfigs[0].PortName;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>txspeed.Value<sp/>=<sp/>machine.dict.SerialConfigs[0].Speed;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>txdelay.Value<sp/>=<sp/>machine.dict.SerialConfigs[0].Delay;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>txparcelstoptactnumber.Value<sp/>=<sp/>machine.dict.ParcelStopRunTactNumber;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>txstartdetectionparcel.Value<sp/>=<sp/>machine.dict.FeederStartDetectionSensorTactNumber;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>txstopsensortact.Value<sp/>=<sp/>machine.dict.StopSensorTact;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>txtactscount.Value<sp/>=<sp/>machine.dict.TactsCount;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this.panel1.Controls.Clear();</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>tp<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">foreach</highlight><highlight class="normal">(var<sp/>s<sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/><ref refid="class_a_s_s2___w_f_1_1us_settings_1a447fada7f41f627446b0db5609ee319a" kindref="member">machine</ref>.<ref refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" kindref="member">dict</ref>.<ref refid="class_a_s_s2_1_1_dict_type_1abe547dc49cdd5465c9636ff919d7bd12" kindref="member">Stands</ref>)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_s_s2___w_f_1_1us_l_settings" kindref="compound">usLSettings</ref><sp/>us<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_a_s_s2___w_f_1_1us_l_settings" kindref="compound">usLSettings</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>us.machine<sp/>=<sp/><ref refid="class_a_s_s2___w_f_1_1us_settings_1a447fada7f41f627446b0db5609ee319a" kindref="member">machine</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>us.stand<sp/>=<sp/>s;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>us.Top<sp/>=<sp/>tp;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>panel1.Controls.Add(us);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tp<sp/>+=<sp/>(us.Height<sp/>+<sp/>5);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="class_a_s_s2___w_f_1_1us_settings_1a0f04ad3fe34abb702de04a25ef2605dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_a_s_s2___w_f_1_1us_settings_1a0f04ad3fe34abb702de04a25ef2605dc" kindref="member">button1_Click</ref>(</highlight><highlight class="keywordtype">object</highlight><highlight class="normal"><sp/>sender,<sp/>EventArgs<sp/>e)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>machine.dict.SerialConfigs[0].PortName<sp/>=<sp/>txCom.Text;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>machine.dict.SerialConfigs[0].Speed<sp/>=(int)<ref refid="class_a_s_s2___w_f_1_1us_settings_1adfbdc0ec44ae1c88c988d0b8d59de072" kindref="member">txspeed</ref>.Value;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_s_s2___w_f_1_1us_settings_1a447fada7f41f627446b0db5609ee319a" kindref="member">machine</ref>.<ref refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" kindref="member">dict</ref>.<ref refid="class_a_s_s2_1_1_dict_type_1a547df86e57dd47510f96227ced8ff43a" kindref="member">SerialConfigs</ref>[0].Delay<sp/>=<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)txdelay.Value;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>machine.dict.ParcelStopRunTactNumber<sp/>=<sp/>(int)<ref refid="class_a_s_s2___w_f_1_1us_settings_1a3e7e8f5d3941da4a4a6a11bb54485342" kindref="member">txparcelstoptactnumber</ref>.Value;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_s_s2___w_f_1_1us_settings_1a447fada7f41f627446b0db5609ee319a" kindref="member">machine</ref>.<ref refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" kindref="member">dict</ref>.<ref refid="class_a_s_s2_1_1_dict_type_1a1319a453a2f46cdb806259ead36bd779" kindref="member">FeederStartDetectionSensorTactNumber</ref><sp/>=<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)txstartdetectionparcel.Value;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>machine.dict.StopSensorTact<sp/>=<sp/>(int)<ref refid="class_a_s_s2___w_f_1_1us_settings_1a315a5a953250bf0dca01140f5739d490" kindref="member">txstopsensortact</ref>.Value;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_a_s_s2___w_f_1_1us_settings_1a447fada7f41f627446b0db5609ee319a" kindref="member">machine</ref>.<ref refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" kindref="member">dict</ref>.<ref refid="class_a_s_s2_1_1_dict_type_1aa19c35f39b5153373f31c0851f97a08a" kindref="member">TactsCount</ref><sp/>=<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)txtactscount.Value;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>machine.dict.SaveAsync();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usSettings.cs"/>
+  </compounddef>
+</doxygen>

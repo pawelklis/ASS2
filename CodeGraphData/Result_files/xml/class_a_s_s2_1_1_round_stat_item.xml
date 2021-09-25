@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_round_stat_item" kind="class" prot="public">
+    <compoundname>ASS2::RoundStatItem</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_item_1aef1b20d770aea60cd9d682ccb890a800" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RoundStatItem.TactNumber</definition>
+        <argsstring></argsstring>
+        <name>TactNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatItem.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatItem.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_item_1a46b34d0c5957fc43f892fed258634702" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RoundStatItem.TactTime</definition>
+        <argsstring></argsstring>
+        <name>TactTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatItem.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatItem.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_item_1ae6c44c8a682e782b64c30bd2c5f52e30" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RoundStatItem.StartDetectionSensorReads</definition>
+        <argsstring></argsstring>
+        <name>StartDetectionSensorReads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatItem.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatItem.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_item_1a2276dd9f8447ae4e741c95e32b273e91" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RoundStatItem.StartParcelSensorReads</definition>
+        <argsstring></argsstring>
+        <name>StartParcelSensorReads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatItem.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatItem.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_item_1a54bffc907a1912fb72c41746f6884693" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RoundStatItem.StopSensorReads</definition>
+        <argsstring></argsstring>
+        <name>StopSensorReads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatItem.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatItem.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_item_1a56d46939eaee1c7f59b591f7db3e1509" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RoundStatItem.TactSensorReads</definition>
+        <argsstring></argsstring>
+        <name>TactSensorReads</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatItem.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatItem.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatItem.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatItem.cs" bodystart="9" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_round_stat_item_1ae6c44c8a682e782b64c30bd2c5f52e30" prot="public" virt="non-virtual"><scope>ASS2::RoundStatItem</scope><name>StartDetectionSensorReads</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_item_1a2276dd9f8447ae4e741c95e32b273e91" prot="public" virt="non-virtual"><scope>ASS2::RoundStatItem</scope><name>StartParcelSensorReads</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_item_1a54bffc907a1912fb72c41746f6884693" prot="public" virt="non-virtual"><scope>ASS2::RoundStatItem</scope><name>StopSensorReads</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_item_1aef1b20d770aea60cd9d682ccb890a800" prot="public" virt="non-virtual"><scope>ASS2::RoundStatItem</scope><name>TactNumber</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_item_1a56d46939eaee1c7f59b591f7db3e1509" prot="public" virt="non-virtual"><scope>ASS2::RoundStatItem</scope><name>TactSensorReads</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_item_1a46b34d0c5957fc43f892fed258634702" prot="public" virt="non-virtual"><scope>ASS2::RoundStatItem</scope><name>TactTime</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

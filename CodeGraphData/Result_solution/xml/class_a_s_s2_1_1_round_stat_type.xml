@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_round_stat_type" kind="class" prot="public">
+    <compoundname>ASS2::RoundStatType</compoundname>
+    <basecompoundref refid="class_a_s_s2_1_1_data_base_storage_helper" prot="public" virt="non-virtual">ASS2.DataBaseStorageHelper</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_type_1a2fb252c25f2c92d25bf6b14fc497a041" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RoundStatType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_type_1a3fc236f75e0f7c7faef65522b1c2478c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RoundStatType.RoundTime</definition>
+        <argsstring></argsstring>
+        <name>RoundTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_type_1a3df129b44faa1a536ddeb15d91f02257" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RoundStatType.RoundNumber</definition>
+        <argsstring></argsstring>
+        <name>RoundNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_type_1a3050477f9f3b3700b7e1135296683360" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RoundStatType.ParcelsCount</definition>
+        <argsstring></argsstring>
+        <name>ParcelsCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_type_1a37cc370e6b12c36ce3d2987d10d48e3b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RoundStatType.MachineId</definition>
+        <argsstring></argsstring>
+        <name>MachineId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_type_1a61dfd8838e92a987ab5b06e00e138285" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RoundStatType.SortProgramId</definition>
+        <argsstring></argsstring>
+        <name>SortProgramId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_type_1affa82b5e87e61c03cc2b22602f45c63e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_a_s_s2_1_1_machine_status_log_type" kindref="compound">MachineStatusLogType</ref> &gt;</type>
+        <definition>List&lt;MachineStatusLogType&gt; ASS2.RoundStatType.logs</definition>
+        <argsstring></argsstring>
+        <name>logs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="17" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_round_stat_type_1a9c41a5786fca4dcfd411acb7e4f30970" compoundref="_round_stat_type_8cs" startline="77" endline="99">ASS2.RoundStatType.EndCircle</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_type_1ac4ef1fb907546db5be261935debd2cb6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_a_s_s2_1_1_round_stat_item" kindref="compound">RoundStatItem</ref> &gt;</type>
+        <definition>List&lt;RoundStatItem&gt; ASS2.RoundStatType.StatItems</definition>
+        <argsstring></argsstring>
+        <name>StatItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_type_1a502f0e4e6f9cae1994e648011551334b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime ASS2.RoundStatType.CircleStartTime</definition>
+        <argsstring></argsstring>
+        <name>CircleStartTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="20" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_round_stat_type_1a9c41a5786fca4dcfd411acb7e4f30970" compoundref="_round_stat_type_8cs" startline="77" endline="99">ASS2.RoundStatType.EndCircle</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_type_1a902e30c28b69f373343dd37586480f36" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime ASS2.RoundStatType.CircleEndTime</definition>
+        <argsstring></argsstring>
+        <name>CircleEndTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="21" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_round_stat_type_1a9c41a5786fca4dcfd411acb7e4f30970" compoundref="_round_stat_type_8cs" startline="77" endline="99">ASS2.RoundStatType.EndCircle</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_round_stat_type_1a80bb9066291723a8903a38dfd4523790" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RoundStatType.CircleTime</definition>
+        <argsstring></argsstring>
+        <name>CircleTime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="22" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_round_stat_type_1a6ad9890a7fdc72d7b533afae137d0c49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.RoundStatType.RoundStatType</definition>
+        <argsstring>()</argsstring>
+        <name>RoundStatType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="24" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_round_stat_type_1ac659ff5b59210279b1fdb0314e253774" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.RoundStatType.RoundStatType</definition>
+        <argsstring>(int roundnumber, int machineid, int sortprogramid)</argsstring>
+        <name>RoundStatType</name>
+        <param>
+          <type>int</type>
+          <declname>roundnumber</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>machineid</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sortprogramid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="28" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="28" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_round_stat_type_1a25405d2ecae12f09b0387541d43f9327" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.RoundStatType.AddItem</definition>
+        <argsstring>(int tactnnumber, int startdetectionsensorreads, int startparcelreads, int stopsensorreads, int tactsensorreads, int tacttime)</argsstring>
+        <name>AddItem</name>
+        <param>
+          <type>int</type>
+          <declname>tactnnumber</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startdetectionsensorreads</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startparcelreads</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stopsensorreads</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tactsensorreads</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tacttime</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="46" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="46" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_round_stat_type_1a9c41a5786fca4dcfd411acb7e4f30970" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void ASS2.RoundStatType.EndCircle</definition>
+        <argsstring>(List&lt; MachineStatusLogType &gt; logs)</argsstring>
+        <name>EndCircle</name>
+        <param>
+          <type>List&lt; <ref refid="class_a_s_s2_1_1_machine_status_log_type" kindref="compound">MachineStatusLogType</ref> &gt;</type>
+          <declname>logs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="77" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="77" bodyend="99"/>
+        <references refid="class_a_s_s2_1_1_round_stat_type_1a902e30c28b69f373343dd37586480f36" compoundref="_round_stat_type_8cs" startline="21">ASS2.RoundStatType.CircleEndTime</references>
+        <references refid="class_a_s_s2_1_1_round_stat_type_1a502f0e4e6f9cae1994e648011551334b" compoundref="_round_stat_type_8cs" startline="20">ASS2.RoundStatType.CircleStartTime</references>
+        <references refid="class_a_s_s2_1_1_round_stat_type_1affa82b5e87e61c03cc2b22602f45c63e" compoundref="_round_stat_type_8cs" startline="17">ASS2.RoundStatType.logs</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="266">
+        <label>ASS2.RoundStatType</label>
+        <link refid="class_a_s_s2_1_1_round_stat_type"/>
+        <childnode refid="267" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="267">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="268">
+        <label>ASS2.RoundStatType</label>
+        <link refid="class_a_s_s2_1_1_round_stat_type"/>
+        <childnode refid="269" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="269">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/RoundStatType.cs" bodystart="9" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_round_stat_type_1a25405d2ecae12f09b0387541d43f9327" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>AddItem</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_type_1a902e30c28b69f373343dd37586480f36" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>CircleEndTime</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_type_1a502f0e4e6f9cae1994e648011551334b" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>CircleStartTime</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_type_1a80bb9066291723a8903a38dfd4523790" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>CircleTime</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a24cadf21177fee7a33e2060a1034d067" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>CreateTable</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_type_1a9c41a5786fca4dcfd411acb7e4f30970" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>EndCircle</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_type_1a2fb252c25f2c92d25bf6b14fc497a041" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>Id</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a53c274faca217ed300cfa46c4f465b50" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>Load&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ae190bdcee51591d2a705490ccdffe940" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>LoadAll&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ab0a3f846534fe15e795ff95fc0e73ade" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>LoadWhere&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_type_1affa82b5e87e61c03cc2b22602f45c63e" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>logs</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_type_1a37cc370e6b12c36ce3d2987d10d48e3b" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>MachineId</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_type_1a3050477f9f3b3700b7e1135296683360" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>ParcelsCount</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_type_1a3df129b44faa1a536ddeb15d91f02257" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>RoundNumber</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_type_1a6ad9890a7fdc72d7b533afae137d0c49" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>RoundStatType</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_type_1ac659ff5b59210279b1fdb0314e253774" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>RoundStatType</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_type_1a3fc236f75e0f7c7faef65522b1c2478c" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>RoundTime</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a483e584dcfb0eaa9f6a6da3b4e8b3f1f" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>Save</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a1751417872a03695c3547e418d9ae301" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>SaveAsync</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_type_1a61dfd8838e92a987ab5b06e00e138285" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>SortProgramId</name></member>
+      <member refid="class_a_s_s2_1_1_round_stat_type_1ac4ef1fb907546db5be261935debd2cb6" prot="public" virt="non-virtual"><scope>ASS2::RoundStatType</scope><name>StatItems</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

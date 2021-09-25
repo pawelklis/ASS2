@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2___w_f_1_1us_work_1_1_combobox_item" kind="class" prot="public">
+    <compoundname>ASS2_WF::usWork::ComboboxItem</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2___w_f_1_1us_work_1_1_combobox_item_1a22b864e3504ac71d59678f02f1d9225c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2_WF.usWork.ComboboxItem.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/ComboboxItem.cs" line="7" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/ComboboxItem.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1_1_combobox_item_1aeab927c073bed26d2b99aba073b8c3d1" compoundref="_combobox_item_8cs" startline="10" endline="13">ASS2_WF.usWork.ComboboxItem.ToString</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2___w_f_1_1us_work_1_1_combobox_item_1a667688ebf4935c1b4fc9e46dc3c2617b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2_WF.usWork.ComboboxItem.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/ComboboxItem.cs" line="8" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/ComboboxItem.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1afafa50839d9be9815e13bf7d20fefa65" compoundref="us_work_8cs" startline="205" endline="210">ASS2_WF.usWork.btnStartRun_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_work_1ae25f06528ea91949031ac7381c5cdaab" compoundref="us_work_8cs" startline="173" endline="178">ASS2_WF.usWork.InitMachine</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_work_1_1_combobox_item_1aeab927c073bed26d2b99aba073b8c3d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string ASS2_WF.usWork.ComboboxItem.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/ComboboxItem.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/ComboboxItem.cs" bodystart="10" bodyend="13"/>
+        <references refid="class_a_s_s2___w_f_1_1us_work_1_1_combobox_item_1a22b864e3504ac71d59678f02f1d9225c" compoundref="_combobox_item_8cs" startline="7">ASS2_WF.usWork.ComboboxItem.Text</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/ComboboxItem.cs" line="6" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/ComboboxItem.cs" bodystart="5" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1_1_combobox_item_1a22b864e3504ac71d59678f02f1d9225c" prot="public" virt="non-virtual"><scope>ASS2_WF::usWork::ComboboxItem</scope><name>Text</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1_1_combobox_item_1aeab927c073bed26d2b99aba073b8c3d1" prot="public" virt="non-virtual"><scope>ASS2_WF::usWork::ComboboxItem</scope><name>ToString</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_work_1_1_combobox_item_1a667688ebf4935c1b4fc9e46dc3c2617b" prot="public" virt="non-virtual"><scope>ASS2_WF::usWork::ComboboxItem</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

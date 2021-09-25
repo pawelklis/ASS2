@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_stand_item_type" kind="class" prot="public">
+    <compoundname>ASS2::StandItemType</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_stand_item_type_1a7b57057fe6461f38211768bbc5c1afe3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.StandItemType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" line="7" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" bodystart="7" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_stand_item_type_1a290952a84385154f209dd0dd7c99dd2a" compoundref="_stand_item_type_8cs" startline="17" endline="23">ASS2.StandItemType.StandItemType</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_stand_item_type_1a4235d1e679594e4037498d486bcf1280" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_direction_type" kindref="compound">DirectionType</ref></type>
+        <definition>DirectionType ASS2.StandItemType.Direction</definition>
+        <argsstring></argsstring>
+        <name>Direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" line="8" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_parcel_type_1a2462fc7eca18e8e71bac4057818e470e" compoundref="_parcel_type_8cs" startline="121" endline="150">ASS2.ParcelType.StopRun</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_stand_item_type_1ad206b842fcb83f80dd9ead08a0b411f1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_color_type" kindref="compound">ColorType</ref></type>
+        <definition>ColorType ASS2.StandItemType.Color</definition>
+        <argsstring></argsstring>
+        <name>Color</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" line="9" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_stand_item_type_1a4550bab1cc60350498f4cae157f097c2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.StandItemType.MissedParcels</definition>
+        <argsstring></argsstring>
+        <name>MissedParcels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_stand_item_type_1a43a9a7d5a7d41375552d27ebda5a74cd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.StandItemType.SortedParcels</definition>
+        <argsstring></argsstring>
+        <name>SortedParcels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_stand_item_type_1af6655f839264bb3332e26e3aaee9f3b3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.StandItemType.Lamp1OnTacts</definition>
+        <argsstring></argsstring>
+        <name>Lamp1OnTacts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_stand_item_type_1ab61524a58957eed8613bcf7b8528909a" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.StandItemType.Lamp1IsOn</definition>
+        <argsstring></argsstring>
+        <name>Lamp1IsOn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_stand_item_type_1a290952a84385154f209dd0dd7c99dd2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.StandItemType.StandItemType</definition>
+        <argsstring>()</argsstring>
+        <name>StandItemType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" line="17" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" bodystart="17" bodyend="23"/>
+        <references refid="class_a_s_s2_1_1_stand_item_type_1a7b57057fe6461f38211768bbc5c1afe3" compoundref="_stand_item_type_8cs" startline="7">ASS2.StandItemType.Id</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" line="6" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items/StandItemType.cs" bodystart="5" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_stand_item_type_1ad206b842fcb83f80dd9ead08a0b411f1" prot="public" virt="non-virtual"><scope>ASS2::StandItemType</scope><name>Color</name></member>
+      <member refid="class_a_s_s2_1_1_stand_item_type_1a4235d1e679594e4037498d486bcf1280" prot="public" virt="non-virtual"><scope>ASS2::StandItemType</scope><name>Direction</name></member>
+      <member refid="class_a_s_s2_1_1_stand_item_type_1a7b57057fe6461f38211768bbc5c1afe3" prot="public" virt="non-virtual"><scope>ASS2::StandItemType</scope><name>Id</name></member>
+      <member refid="class_a_s_s2_1_1_stand_item_type_1ab61524a58957eed8613bcf7b8528909a" prot="public" virt="non-virtual"><scope>ASS2::StandItemType</scope><name>Lamp1IsOn</name></member>
+      <member refid="class_a_s_s2_1_1_stand_item_type_1af6655f839264bb3332e26e3aaee9f3b3" prot="public" virt="non-virtual"><scope>ASS2::StandItemType</scope><name>Lamp1OnTacts</name></member>
+      <member refid="class_a_s_s2_1_1_stand_item_type_1a4550bab1cc60350498f4cae157f097c2" prot="public" virt="non-virtual"><scope>ASS2::StandItemType</scope><name>MissedParcels</name></member>
+      <member refid="class_a_s_s2_1_1_stand_item_type_1a43a9a7d5a7d41375552d27ebda5a74cd" prot="public" virt="non-virtual"><scope>ASS2::StandItemType</scope><name>SortedParcels</name></member>
+      <member refid="class_a_s_s2_1_1_stand_item_type_1a290952a84385154f209dd0dd7c99dd2a" prot="public" virt="non-virtual"><scope>ASS2::StandItemType</scope><name>StandItemType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_r_s232_device_type" kind="class" prot="public">
+    <compoundname>RS232DeviceType</compoundname>
+    <innerclass refid="class_r_s232_device_type_1_1_skaner_event_args" prot="public">RS232DeviceType::SkanerEventArgs</innerclass>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_r_s232_device_type_1a055aedeae533633982b143ea24669db6" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>SerialPort</type>
+        <definition>SerialPort RS232DeviceType._serialPort</definition>
+        <argsstring></argsstring>
+        <name>_serialPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_r_s232_device_type_1a7f1680b7ea5e71716323744e3fa1c75c" compoundref="_r_s232_device_type_8cs" startline="34" endline="71">Connect</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_r_s232_device_type_1a32b2990e968d3e71cebcedc3915019b6" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int RS232DeviceType.delay</definition>
+        <argsstring></argsstring>
+        <name>delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_r_s232_device_type_1a7f1680b7ea5e71716323744e3fa1c75c" compoundref="_r_s232_device_type_8cs" startline="34" endline="71">Connect</referencedby>
+        <referencedby refid="class_r_s232_device_type_1a7761afd5b42fcdbf21675bdbb7cc5ee1" compoundref="_r_s232_device_type_8cs" startline="80" endline="129">DataReceived</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_r_s232_device_type_1a3b3d814a71973726c3c2607b7e7e1aa6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string RS232DeviceType.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_r_s232_device_type_1a0c6cb36d03272783f707bc2a518e0532" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_r_s232_device_type_1_1_skaner_event_args" kindref="compound">SkanerEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;SkanerEventArgs&gt; RS232DeviceType.OnDataReceived</definition>
+        <argsstring></argsstring>
+        <name>OnDataReceived</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_r_s232_device_type_1a7761afd5b42fcdbf21675bdbb7cc5ee1" compoundref="_r_s232_device_type_8cs" startline="80" endline="129">DataReceived</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_r_s232_device_type_1ac32bb201dbe125090ff09b2102bc799d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RS232DeviceType.Disconnect</definition>
+        <argsstring>()</argsstring>
+        <name>Disconnect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" line="23" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" bodystart="23" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_r_s232_device_type_1a7f1680b7ea5e71716323744e3fa1c75c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RS232DeviceType.Connect</definition>
+        <argsstring>(string PortName, string name, int speed=9600, int delay=0)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>string</type>
+          <declname>PortName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>speed</declname>
+          <defval>9600</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>delay</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" line="34" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" bodystart="34" bodyend="71"/>
+        <references refid="class_r_s232_device_type_1a055aedeae533633982b143ea24669db6" compoundref="_r_s232_device_type_8cs" startline="12">_serialPort</references>
+        <references refid="class_r_s232_device_type_1a7761afd5b42fcdbf21675bdbb7cc5ee1" compoundref="_r_s232_device_type_8cs" startline="80" endline="129">DataReceived</references>
+        <references refid="class_r_s232_device_type_1a32b2990e968d3e71cebcedc3915019b6" compoundref="_r_s232_device_type_8cs" startline="13">delay</references>
+        <references refid="class_r_s232_device_type_1a2a5922f28e96eb755b6c737e4430f423" compoundref="_r_s232_device_type_8cs" startline="72" endline="75">errorrreceived</references>
+        <references refid="class_r_s232_device_type_1aa2ba322a0a251c2317df93be6f418466" compoundref="_r_s232_device_type_8cs" startline="76" endline="79">pinchanged</references>
+      </memberdef>
+      <memberdef kind="function" id="class_r_s232_device_type_1a2a5922f28e96eb755b6c737e4430f423" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RS232DeviceType.errorrreceived</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>errorrreceived</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" line="72" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" bodystart="72" bodyend="75"/>
+        <referencedby refid="class_r_s232_device_type_1a7f1680b7ea5e71716323744e3fa1c75c" compoundref="_r_s232_device_type_8cs" startline="34" endline="71">Connect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_r_s232_device_type_1aa2ba322a0a251c2317df93be6f418466" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RS232DeviceType.pinchanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>pinchanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" line="76" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" bodystart="76" bodyend="79"/>
+        <referencedby refid="class_r_s232_device_type_1a7f1680b7ea5e71716323744e3fa1c75c" compoundref="_r_s232_device_type_8cs" startline="34" endline="71">Connect</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_r_s232_device_type_1a7761afd5b42fcdbf21675bdbb7cc5ee1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void RS232DeviceType.DataReceived</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>DataReceived</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" line="80" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" bodystart="80" bodyend="129"/>
+        <references refid="class_r_s232_device_type_1a32b2990e968d3e71cebcedc3915019b6" compoundref="_r_s232_device_type_8cs" startline="13">delay</references>
+        <references refid="class_r_s232_device_type_1a0c6cb36d03272783f707bc2a518e0532" compoundref="_r_s232_device_type_8cs" startline="16">OnDataReceived</references>
+        <referencedby refid="class_r_s232_device_type_1a7f1680b7ea5e71716323744e3fa1c75c" compoundref="_r_s232_device_type_8cs" startline="34" endline="71">Connect</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" bodystart="9" bodyend="132"/>
+    <listofallmembers>
+      <member refid="class_r_s232_device_type_1a055aedeae533633982b143ea24669db6" prot="private" virt="non-virtual"><scope>RS232DeviceType</scope><name>_serialPort</name></member>
+      <member refid="class_r_s232_device_type_1a7f1680b7ea5e71716323744e3fa1c75c" prot="public" virt="non-virtual"><scope>RS232DeviceType</scope><name>Connect</name></member>
+      <member refid="class_r_s232_device_type_1a7761afd5b42fcdbf21675bdbb7cc5ee1" prot="public" virt="non-virtual"><scope>RS232DeviceType</scope><name>DataReceived</name></member>
+      <member refid="class_r_s232_device_type_1a32b2990e968d3e71cebcedc3915019b6" prot="private" virt="non-virtual"><scope>RS232DeviceType</scope><name>delay</name></member>
+      <member refid="class_r_s232_device_type_1ac32bb201dbe125090ff09b2102bc799d" prot="public" virt="non-virtual"><scope>RS232DeviceType</scope><name>Disconnect</name></member>
+      <member refid="class_r_s232_device_type_1a2a5922f28e96eb755b6c737e4430f423" prot="public" virt="non-virtual"><scope>RS232DeviceType</scope><name>errorrreceived</name></member>
+      <member refid="class_r_s232_device_type_1a3b3d814a71973726c3c2607b7e7e1aa6" prot="public" virt="non-virtual"><scope>RS232DeviceType</scope><name>Name</name></member>
+      <member refid="class_r_s232_device_type_1a0c6cb36d03272783f707bc2a518e0532" prot="public" virt="non-virtual"><scope>RS232DeviceType</scope><name>OnDataReceived</name></member>
+      <member refid="class_r_s232_device_type_1aa2ba322a0a251c2317df93be6f418466" prot="public" virt="non-virtual"><scope>RS232DeviceType</scope><name>pinchanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

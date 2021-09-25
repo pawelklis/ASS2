@@ -1,0 +1,947 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2___w_f_1_1us_maintenance" kind="class" prot="public">
+    <compoundname>ASS2_WF::usMaintenance</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1afc739f97405628145384f3f1cf73314d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_machine_type" kindref="compound">MachineType</ref></type>
+        <definition>MachineType ASS2_WF.usMaintenance.machine</definition>
+        <argsstring></argsstring>
+        <name>machine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1aa689c1cd7f236ef16102968f42cbd49c" compoundref="us_maintenance_8cs" startline="71" endline="75">ASS2_WF.usMaintenance.button1_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1ac385cf5fa41425a43d0af7b551cdb641" compoundref="us_maintenance_8cs" startline="77" endline="81">ASS2_WF.usMaintenance.button2_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a544daa8c48932fc71a144bc54c722961" compoundref="us_maintenance_8cs" startline="83" endline="87">ASS2_WF.usMaintenance.button3_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a3c011eeb1b68410fc462581c448f833a" compoundref="us_maintenance_8cs" startline="89" endline="93">ASS2_WF.usMaintenance.button4_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a651c4f03827b592aa43f0c1ff19a4249" compoundref="us_maintenance_8cs" startline="95" endline="105">ASS2_WF.usMaintenance.button5_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a42678e6041ed88f887a4b40bd3c690d5" compoundref="us_maintenance_8cs" startline="107" endline="114">ASS2_WF.usMaintenance.button6_Click</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1afb0edff89171dd367068e551e06110b2" compoundref="us_maintenance_8cs" startline="143" endline="147">ASS2_WF.usMaintenance.Machine_OnTacted1</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1ac449de0dadc3a4349d15bab48c7f350e" compoundref="us_maintenance_8cs" startline="127" endline="131">ASS2_WF.usMaintenance.StartParcelSensor_ValueChanged</referencedby>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1ac86d3591d37718c8dba94253d02a14e0" compoundref="us_maintenance_8cs" startline="22" endline="43">ASS2_WF.usMaintenance.usMaintenance_Load</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1ab725327a89ad018fcf04a40e9d537408" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer ASS2_WF.usMaintenance.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="8" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="8" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1afa3df2806866d1ffe4e57a84e5d217a3" compoundref="us_maintenance_8_designer_8cs" startline="14" endline="21">ASS2_WF.usMaintenance.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1aab0d1740c60ca277b5bb28c301ea84dc" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Panel</type>
+        <definition>System.Windows.Forms.Panel ASS2_WF.usMaintenance.panel1</definition>
+        <argsstring></argsstring>
+        <name>panel1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="375" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="375" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a57432b406a1317570c9413cb2d8aa762" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usMaintenance.lbCounter</definition>
+        <argsstring></argsstring>
+        <name>lbCounter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="376" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="376" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1aeac89b31a4510d9da214fa6bd87afc11" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usMaintenance.label2</definition>
+        <argsstring></argsstring>
+        <name>label2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="377" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="377" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1ae30770e644e8622eadff589003a59c13" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Panel</type>
+        <definition>System.Windows.Forms.Panel ASS2_WF.usMaintenance.panel2</definition>
+        <argsstring></argsstring>
+        <name>panel2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="378" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a3a423a74516143f94bbe81772d151433" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usMaintenance.button1</definition>
+        <argsstring></argsstring>
+        <name>button1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="379" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a3d99fedc3ac8ac31c1d0f563bbcc9366" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usMaintenance.button2</definition>
+        <argsstring></argsstring>
+        <name>button2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="380" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="380" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a2defe536b0b2846685046216a9bb5503" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usMaintenance.button3</definition>
+        <argsstring></argsstring>
+        <name>button3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="381" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="381" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1ac6c326a96acece3f5e43d32d399ed2b7" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usMaintenance.button4</definition>
+        <argsstring></argsstring>
+        <name>button4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="382" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a5c30a81bde95c8b8a48795ca7303267b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ComboBox</type>
+        <definition>System.Windows.Forms.ComboBox ASS2_WF.usMaintenance.comboBox1</definition>
+        <argsstring></argsstring>
+        <name>comboBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="383" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="383" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a98780a81ac2f206f42f3cb38330245e4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ComboBox</type>
+        <definition>System.Windows.Forms.ComboBox ASS2_WF.usMaintenance.comboBox2</definition>
+        <argsstring></argsstring>
+        <name>comboBox2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="384" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="384" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a651c4f03827b592aa43f0c1ff19a4249" compoundref="us_maintenance_8cs" startline="95" endline="105">ASS2_WF.usMaintenance.button5_Click</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a53b78704ec07a338d4ed7cb0ac899fbd" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usMaintenance.button5</definition>
+        <argsstring></argsstring>
+        <name>button5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="385" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="385" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1ab18de652bdc0df02d81f88aae0a208e2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usMaintenance.button6</definition>
+        <argsstring></argsstring>
+        <name>button6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="386" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="386" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a10486f76080893c7b5cbb66684cd6d24" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Panel</type>
+        <definition>System.Windows.Forms.Panel ASS2_WF.usMaintenance.panel3</definition>
+        <argsstring></argsstring>
+        <name>panel3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="387" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="387" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1ae67678fc9d3f42b5bc114dc42c9eac7f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usMaintenance.lbdetectionsensortact</definition>
+        <argsstring></argsstring>
+        <name>lbdetectionsensortact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="388" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="388" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1ab1477415a0512048d4706c74f194f6a2" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usMaintenance.lbstopsensortact</definition>
+        <argsstring></argsstring>
+        <name>lbstopsensortact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="389" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="389" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a9070524656c39c62f6baa5d1a8b6b3b6" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usMaintenance.lbparceltact</definition>
+        <argsstring></argsstring>
+        <name>lbparceltact</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="390" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="390" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a1fb04d4c8f60956484659c420328bcad" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usMaintenance.label5</definition>
+        <argsstring></argsstring>
+        <name>label5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="391" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="391" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a6161c1cf917fd41abfd0a2b2e027bdff" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usMaintenance.label4</definition>
+        <argsstring></argsstring>
+        <name>label4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="392" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="392" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a1d6bf6a6233dab180b08a65f29ba9599" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usMaintenance.label3</definition>
+        <argsstring></argsstring>
+        <name>label3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="393" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="393" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a652c5ca3281ab61120300c08695ffb37" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usMaintenance.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="394" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="394" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a385ced58c1bf2d5b11ed0d46cd11c805" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usMaintenance.button7</definition>
+        <argsstring></argsstring>
+        <name>button7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="395" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a51a446ab72f33a337940960589802d3c" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usMaintenance.label6</definition>
+        <argsstring></argsstring>
+        <name>label6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="396" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="396" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a4e7d19caa22e8b1de3c71d95824ca933" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.ListBox</type>
+        <definition>System.Windows.Forms.ListBox ASS2_WF.usMaintenance.listBox1</definition>
+        <argsstring></argsstring>
+        <name>listBox1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="397" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="397" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a0bdc183db4516f2edb1cb55ce001c75f" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button ASS2_WF.usMaintenance.button8</definition>
+        <argsstring></argsstring>
+        <name>button8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="398" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="398" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1acdd63302799d814ccd10546806f7a310" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usMaintenance.lbdetectp</definition>
+        <argsstring></argsstring>
+        <name>lbdetectp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="399" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="399" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a0b82c46ea2df3cc70c8f9cbf5fe60000" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usMaintenance.lbstopp</definition>
+        <argsstring></argsstring>
+        <name>lbstopp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="400" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="400" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1a38ab777b341e630b568844be085e7fa4" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usMaintenance.label7</definition>
+        <argsstring></argsstring>
+        <name>label7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="401" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1us_maintenance_1ac4c1242c344eb43acd0a480bafa15522" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label ASS2_WF.usMaintenance.label8</definition>
+        <argsstring></argsstring>
+        <name>label8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="402" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="402" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1af1d6be5f764b76e3db0231cbe171dead" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2_WF.usMaintenance.usMaintenance</definition>
+        <argsstring>()</argsstring>
+        <name>usMaintenance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="17" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="17" bodyend="20"/>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1a5a482ee2641a463030f22b09411e42ee" compoundref="us_maintenance_8_designer_8cs" startline="29" endline="371">ASS2_WF.usMaintenance.InitializeComponent</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1ac86d3591d37718c8dba94253d02a14e0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.usMaintenance_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>usMaintenance_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="22" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="22" bodyend="43"/>
+        <references refid="class_a_s_s2_1_1_dict_type_1a56f3bd8d16140b622d2b438d69402413" compoundref="_dict_type_8cs" startline="19">ASS2.DictType.Colors</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" compoundref="_machine_type_8cs" startline="19">ASS2.MachineType.dict</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1aef599aa4d299e4d3880c91bc14306c84" compoundref="_dict_type_8cs" startline="18">ASS2.DictType.Lamps</references>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1afc739f97405628145384f3f1cf73314d" compoundref="us_maintenance_8cs" startline="16">ASS2_WF.usMaintenance.machine</references>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1ac4931598d7368f0d11dd5e6affed1ef7" compoundref="us_maintenance_8cs" startline="45" endline="56">ASS2_WF.usMaintenance.Machine_OnLogAdded</references>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1a1cce54d16b80aee82dc6d56555031dbb" compoundref="us_maintenance_8cs" startline="58" endline="61">ASS2_WF.usMaintenance.Machine_OnStartParcelSensorRead</references>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1af10d45baa604f8d826fdf1ec1f720c29" compoundref="us_maintenance_8cs" startline="63" endline="69">ASS2_WF.usMaintenance.Machine_OnTacted</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1ac4931598d7368f0d11dd5e6affed1ef7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.Machine_OnLogAdded</definition>
+        <argsstring>(object sender, MachineType.MachineLogEventArgs e)</argsstring>
+        <name>Machine_OnLogAdded</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_machine_type_1_1_machine_log_event_args" kindref="compound">MachineType.MachineLogEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="45" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="45" bodyend="56"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1ac86d3591d37718c8dba94253d02a14e0" compoundref="us_maintenance_8cs" startline="22" endline="43">ASS2_WF.usMaintenance.usMaintenance_Load</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1a1cce54d16b80aee82dc6d56555031dbb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.Machine_OnStartParcelSensorRead</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Machine_OnStartParcelSensorRead</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="58" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="58" bodyend="61"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1ac86d3591d37718c8dba94253d02a14e0" compoundref="us_maintenance_8cs" startline="22" endline="43">ASS2_WF.usMaintenance.usMaintenance_Load</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1af10d45baa604f8d826fdf1ec1f720c29" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.Machine_OnTacted</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Machine_OnTacted</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="63" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="63" bodyend="69"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1ac86d3591d37718c8dba94253d02a14e0" compoundref="us_maintenance_8cs" startline="22" endline="43">ASS2_WF.usMaintenance.usMaintenance_Load</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1aa689c1cd7f236ef16102968f42cbd49c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.button1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="71" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="71" bodyend="75"/>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1aa40b4dc29e5d75a6e0e78e4e11ded31a" compoundref="_modbus_driver_8cs" startline="29">ASS2.ModbusDriver.Connected</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a48cb8c621e6f471590f9e8cc537e3f1f" compoundref="_machine_type_8cs" startline="15">ASS2.MachineType.Driver</references>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1afc739f97405628145384f3f1cf73314d" compoundref="us_maintenance_8cs" startline="16">ASS2_WF.usMaintenance.machine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1ac385cf5fa41425a43d0af7b551cdb641" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.button2_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button2_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="77" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="77" bodyend="81"/>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1aa40b4dc29e5d75a6e0e78e4e11ded31a" compoundref="_modbus_driver_8cs" startline="29">ASS2.ModbusDriver.Connected</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a48cb8c621e6f471590f9e8cc537e3f1f" compoundref="_machine_type_8cs" startline="15">ASS2.MachineType.Driver</references>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1afc739f97405628145384f3f1cf73314d" compoundref="us_maintenance_8cs" startline="16">ASS2_WF.usMaintenance.machine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1a544daa8c48932fc71a144bc54c722961" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.button3_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button3_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="83" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="83" bodyend="87"/>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1aa40b4dc29e5d75a6e0e78e4e11ded31a" compoundref="_modbus_driver_8cs" startline="29">ASS2.ModbusDriver.Connected</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a48cb8c621e6f471590f9e8cc537e3f1f" compoundref="_machine_type_8cs" startline="15">ASS2.MachineType.Driver</references>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1afc739f97405628145384f3f1cf73314d" compoundref="us_maintenance_8cs" startline="16">ASS2_WF.usMaintenance.machine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1a3c011eeb1b68410fc462581c448f833a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.button4_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button4_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="89" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="89" bodyend="93"/>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1aa40b4dc29e5d75a6e0e78e4e11ded31a" compoundref="_modbus_driver_8cs" startline="29">ASS2.ModbusDriver.Connected</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a48cb8c621e6f471590f9e8cc537e3f1f" compoundref="_machine_type_8cs" startline="15">ASS2.MachineType.Driver</references>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1afc739f97405628145384f3f1cf73314d" compoundref="us_maintenance_8cs" startline="16">ASS2_WF.usMaintenance.machine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1a651c4f03827b592aa43f0c1ff19a4249" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.button5_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button5_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="95" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="95" bodyend="105"/>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1a98780a81ac2f206f42f3cb38330245e4" compoundref="us_maintenance_8_designer_8cs" startline="384">ASS2_WF.usMaintenance.comboBox2</references>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1aa40b4dc29e5d75a6e0e78e4e11ded31a" compoundref="_modbus_driver_8cs" startline="29">ASS2.ModbusDriver.Connected</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a48cb8c621e6f471590f9e8cc537e3f1f" compoundref="_machine_type_8cs" startline="15">ASS2.MachineType.Driver</references>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1afc739f97405628145384f3f1cf73314d" compoundref="us_maintenance_8cs" startline="16">ASS2_WF.usMaintenance.machine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1a42678e6041ed88f887a4b40bd3c690d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.button6_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button6_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="107" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="107" bodyend="114"/>
+        <references refid="class_a_s_s2_1_1_modbus_driver_1aa40b4dc29e5d75a6e0e78e4e11ded31a" compoundref="_modbus_driver_8cs" startline="29">ASS2.ModbusDriver.Connected</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a48cb8c621e6f471590f9e8cc537e3f1f" compoundref="_machine_type_8cs" startline="15">ASS2.MachineType.Driver</references>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1afc739f97405628145384f3f1cf73314d" compoundref="us_maintenance_8cs" startline="16">ASS2_WF.usMaintenance.machine</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1a98d9798eb9ec9ef95d1be48aed596657" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.button7_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button7_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="116" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="116" bodyend="125"/>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1afb0edff89171dd367068e551e06110b2" compoundref="us_maintenance_8cs" startline="143" endline="147">ASS2_WF.usMaintenance.Machine_OnTacted1</references>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1a8e1953922e74be7ea49c8bc5c658aeab" compoundref="us_maintenance_8cs" startline="133" endline="136">ASS2_WF.usMaintenance.StartDetectionSensor_ValueChanged</references>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1ac449de0dadc3a4349d15bab48c7f350e" compoundref="us_maintenance_8cs" startline="127" endline="131">ASS2_WF.usMaintenance.StartParcelSensor_ValueChanged</references>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1a7b71e20deea05ecbdfc50c176aeb1849" compoundref="us_maintenance_8cs" startline="138" endline="141">ASS2_WF.usMaintenance.StopSensor_ValueChanged</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1ac449de0dadc3a4349d15bab48c7f350e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.StartParcelSensor_ValueChanged</definition>
+        <argsstring>(object sender, ModbusDriver.ModbusValueEventArgs e)</argsstring>
+        <name>StartParcelSensor_ValueChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusDriver.ModbusValueEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="127" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="127" bodyend="131"/>
+        <references refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" compoundref="_machine_type_8cs" startline="19">ASS2.MachineType.dict</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a48cb8c621e6f471590f9e8cc537e3f1f" compoundref="_machine_type_8cs" startline="15">ASS2.MachineType.Driver</references>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1afc739f97405628145384f3f1cf73314d" compoundref="us_maintenance_8cs" startline="16">ASS2_WF.usMaintenance.machine</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1abe547dc49cdd5465c9636ff919d7bd12" compoundref="_dict_type_8cs" startline="20">ASS2.DictType.Stands</references>
+        <references refid="class_a_s_s2_1_1_dict_type_1a756a32212310124bcacecd8ef3949eb0" compoundref="_dict_type_8cs" startline="26">ASS2.DictType.StopSensorTact</references>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a98d9798eb9ec9ef95d1be48aed596657" compoundref="us_maintenance_8cs" startline="116" endline="125">ASS2_WF.usMaintenance.button7_Click</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1a8e1953922e74be7ea49c8bc5c658aeab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.StartDetectionSensor_ValueChanged</definition>
+        <argsstring>(object sender, ModbusDriver.ModbusValueEventArgs e)</argsstring>
+        <name>StartDetectionSensor_ValueChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusDriver.ModbusValueEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="133" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="133" bodyend="136"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a98d9798eb9ec9ef95d1be48aed596657" compoundref="us_maintenance_8cs" startline="116" endline="125">ASS2_WF.usMaintenance.button7_Click</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1a7b71e20deea05ecbdfc50c176aeb1849" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.StopSensor_ValueChanged</definition>
+        <argsstring>(object sender, ModbusDriver.ModbusValueEventArgs e)</argsstring>
+        <name>StopSensor_ValueChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusDriver.ModbusValueEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="138" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="138" bodyend="141"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a98d9798eb9ec9ef95d1be48aed596657" compoundref="us_maintenance_8cs" startline="116" endline="125">ASS2_WF.usMaintenance.button7_Click</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1afb0edff89171dd367068e551e06110b2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.Machine_OnTacted1</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Machine_OnTacted1</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="143" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="143" bodyend="147"/>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1afc739f97405628145384f3f1cf73314d" compoundref="us_maintenance_8cs" startline="16">ASS2_WF.usMaintenance.machine</references>
+        <references refid="class_a_s_s2_1_1_machine_type_1a21d73970cb31409721f1012256148a3f" compoundref="_machine_type_8cs" startline="23">ASS2.MachineType.ParcelsOnRun</references>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1a98d9798eb9ec9ef95d1be48aed596657" compoundref="us_maintenance_8cs" startline="116" endline="125">ASS2_WF.usMaintenance.button7_Click</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1acb27157d07e40d001fe7bf1a674d1fa8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.button8_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button8_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="149" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="149" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1a5a482ee2641a463030f22b09411e42ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2_WF.usMaintenance.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="29" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="29" bodyend="371"/>
+        <referencedby refid="class_a_s_s2___w_f_1_1us_maintenance_1af1d6be5f764b76e3db0231cbe171dead" compoundref="us_maintenance_8cs" startline="17" endline="20">ASS2_WF.usMaintenance.usMaintenance</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2___w_f_1_1us_maintenance_1afa3df2806866d1ffe4e57a84e5d217a3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void ASS2_WF.usMaintenance.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.Designer.cs" bodystart="14" bodyend="21"/>
+        <references refid="class_a_s_s2___w_f_1_1us_maintenance_1ab725327a89ad018fcf04a40e9d537408" compoundref="us_maintenance_8_designer_8cs" startline="8">ASS2_WF.usMaintenance.components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="414">
+        <label>ASS2_WF.usMaintenance</label>
+        <link refid="class_a_s_s2___w_f_1_1us_maintenance"/>
+        <childnode refid="415" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="415">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="416">
+        <label>ASS2_WF.usMaintenance</label>
+        <link refid="class_a_s_s2___w_f_1_1us_maintenance"/>
+        <childnode refid="417" relation="public-inheritance">
+        </childnode>
+        <childnode refid="418" relation="usage">
+          <edgelabel>listBox1</edgelabel>
+          <edgelabel>comboBox2</edgelabel>
+          <edgelabel>button4</edgelabel>
+          <edgelabel>lbdetectp</edgelabel>
+          <edgelabel>label1</edgelabel>
+          <edgelabel>lbdetectionsensortact</edgelabel>
+          <edgelabel>button5</edgelabel>
+          <edgelabel>lbparceltact</edgelabel>
+          <edgelabel>button6</edgelabel>
+          <edgelabel>label2</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="418">
+        <label>System</label>
+      </node>
+      <node id="417">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/usMaintenance.cs" bodystart="14" bodyend="153"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a3a423a74516143f94bbe81772d151433" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1aa689c1cd7f236ef16102968f42cbd49c" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button1_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a3d99fedc3ac8ac31c1d0f563bbcc9366" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1ac385cf5fa41425a43d0af7b551cdb641" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button2_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a2defe536b0b2846685046216a9bb5503" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button3</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a544daa8c48932fc71a144bc54c722961" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button3_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1ac6c326a96acece3f5e43d32d399ed2b7" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button4</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a3c011eeb1b68410fc462581c448f833a" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button4_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a53b78704ec07a338d4ed7cb0ac899fbd" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button5</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a651c4f03827b592aa43f0c1ff19a4249" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button5_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1ab18de652bdc0df02d81f88aae0a208e2" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button6</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a42678e6041ed88f887a4b40bd3c690d5" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button6_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a385ced58c1bf2d5b11ed0d46cd11c805" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button7</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a98d9798eb9ec9ef95d1be48aed596657" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button7_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a0bdc183db4516f2edb1cb55ce001c75f" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button8</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1acb27157d07e40d001fe7bf1a674d1fa8" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>button8_Click</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a5c30a81bde95c8b8a48795ca7303267b" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>comboBox1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a98780a81ac2f206f42f3cb38330245e4" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>comboBox2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1ab725327a89ad018fcf04a40e9d537408" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>components</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1afa3df2806866d1ffe4e57a84e5d217a3" prot="protected" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>Dispose</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a5a482ee2641a463030f22b09411e42ee" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>InitializeComponent</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a652c5ca3281ab61120300c08695ffb37" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>label1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1aeac89b31a4510d9da214fa6bd87afc11" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>label2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a1d6bf6a6233dab180b08a65f29ba9599" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>label3</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a6161c1cf917fd41abfd0a2b2e027bdff" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>label4</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a1fb04d4c8f60956484659c420328bcad" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>label5</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a51a446ab72f33a337940960589802d3c" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>label6</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a38ab777b341e630b568844be085e7fa4" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>label7</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1ac4c1242c344eb43acd0a480bafa15522" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>label8</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a57432b406a1317570c9413cb2d8aa762" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>lbCounter</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1ae67678fc9d3f42b5bc114dc42c9eac7f" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>lbdetectionsensortact</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1acdd63302799d814ccd10546806f7a310" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>lbdetectp</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a9070524656c39c62f6baa5d1a8b6b3b6" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>lbparceltact</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a0b82c46ea2df3cc70c8f9cbf5fe60000" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>lbstopp</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1ab1477415a0512048d4706c74f194f6a2" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>lbstopsensortact</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a4e7d19caa22e8b1de3c71d95824ca933" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>listBox1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1afc739f97405628145384f3f1cf73314d" prot="public" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>machine</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1ac4931598d7368f0d11dd5e6affed1ef7" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>Machine_OnLogAdded</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a1cce54d16b80aee82dc6d56555031dbb" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>Machine_OnStartParcelSensorRead</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1af10d45baa604f8d826fdf1ec1f720c29" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>Machine_OnTacted</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1afb0edff89171dd367068e551e06110b2" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>Machine_OnTacted1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1aab0d1740c60ca277b5bb28c301ea84dc" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>panel1</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1ae30770e644e8622eadff589003a59c13" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>panel2</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a10486f76080893c7b5cbb66684cd6d24" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>panel3</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a8e1953922e74be7ea49c8bc5c658aeab" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>StartDetectionSensor_ValueChanged</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1ac449de0dadc3a4349d15bab48c7f350e" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>StartParcelSensor_ValueChanged</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1a7b71e20deea05ecbdfc50c176aeb1849" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>StopSensor_ValueChanged</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1af1d6be5f764b76e3db0231cbe171dead" prot="public" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>usMaintenance</name></member>
+      <member refid="class_a_s_s2___w_f_1_1us_maintenance_1ac86d3591d37718c8dba94253d02a14e0" prot="private" virt="non-virtual"><scope>ASS2_WF::usMaintenance</scope><name>usMaintenance_Load</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

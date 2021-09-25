@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_w_e_b_1_1_site_master" kind="class" prot="public">
+    <compoundname>ASS2WEB::SiteMaster</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MasterPage</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_w_e_b_1_1_site_master_1ae07cc4124ac02589939033e4adff11a8" prot="protected" static="no" mutable="no">
+        <type>global::System.Web.UI.UpdatePanel</type>
+        <definition>global::System.Web.UI.UpdatePanel ASS2WEB.SiteMaster.up1</definition>
+        <argsstring></argsstring>
+        <name>up1</name>
+        <briefdescription>
+<para>up1 control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated field. To modify move field declaration from designer file to code-behind file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.designer.cs" line="24" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.designer.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_w_e_b_1_1_site_master_1acff5e6ee3e083305599cfe7b51e32bdd" prot="protected" static="no" mutable="no">
+        <type>global::System.Web.UI.HtmlControls.HtmlAnchor</type>
+        <definition>global::System.Web.UI.HtmlControls.HtmlAnchor ASS2WEB.SiteMaster.btnWork</definition>
+        <argsstring></argsstring>
+        <name>btnWork</name>
+        <briefdescription>
+<para>btnWork control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated field. To modify move field declaration from designer file to code-behind file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.designer.cs" line="33" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.designer.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_w_e_b_1_1_site_master_1a865d8f928d66481c1be8ceadf510d2aa" prot="protected" static="no" mutable="no">
+        <type>global::System.Web.UI.HtmlControls.HtmlAnchor</type>
+        <definition>global::System.Web.UI.HtmlControls.HtmlAnchor ASS2WEB.SiteMaster.btnsortprogrems</definition>
+        <argsstring></argsstring>
+        <name>btnsortprogrems</name>
+        <briefdescription>
+<para>btnsortprogrems control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated field. To modify move field declaration from designer file to code-behind file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.designer.cs" line="42" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.designer.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_w_e_b_1_1_site_master_1a01fb04ed89c16f2540d0215960ac099c" prot="protected" static="no" mutable="no">
+        <type>global::System.Web.UI.HtmlControls.HtmlAnchor</type>
+        <definition>global::System.Web.UI.HtmlControls.HtmlAnchor ASS2WEB.SiteMaster.btndirections</definition>
+        <argsstring></argsstring>
+        <name>btndirections</name>
+        <briefdescription>
+<para>btndirections control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated field. To modify move field declaration from designer file to code-behind file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.designer.cs" line="51" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.designer.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_w_e_b_1_1_site_master_1af907504c6ef8d6003b91a1b06351fc80" prot="protected" static="no" mutable="no">
+        <type>global::System.Web.UI.HtmlControls.HtmlAnchor</type>
+        <definition>global::System.Web.UI.HtmlControls.HtmlAnchor ASS2WEB.SiteMaster.btnstats</definition>
+        <argsstring></argsstring>
+        <name>btnstats</name>
+        <briefdescription>
+<para>btnstats control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated field. To modify move field declaration from designer file to code-behind file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.designer.cs" line="60" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.designer.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_w_e_b_1_1_site_master_1abc4387bec0f1432e1da96da7b5ae9812" prot="protected" static="no" mutable="no">
+        <type>global::System.Web.UI.WebControls.ContentPlaceHolder</type>
+        <definition>global::System.Web.UI.WebControls.ContentPlaceHolder ASS2WEB.SiteMaster.MainContent</definition>
+        <argsstring></argsstring>
+        <name>MainContent</name>
+        <briefdescription>
+<para>MainContent control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated field. To modify move field declaration from designer file to code-behind file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.designer.cs" line="69" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.designer.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1_site_master_1a25f26794e4d258190024dcb9bdb74f77" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.SiteMaster.Page_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Page_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1_site_master_1a55f633793ac03faf2a0b1408f869525a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.SiteMaster.btnWork_ServerClick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnWork_ServerClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.cs" line="19" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1_site_master_1adc6bf3987dfaa3905ec3811535ce2d03" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.SiteMaster.btnsortprogrems_ServerClick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnsortprogrems_ServerClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.cs" line="24" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1_site_master_1a25cabda1381b74c565e572a565340739" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.SiteMaster.btndirections_ServerClick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btndirections_ServerClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.cs" line="29" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1_site_master_1aa1027f5dc8791749c55f4d3c5bb18c27" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.SiteMaster.btnstats_ServerClick</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>btnstats_ServerClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.cs" line="34" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="200">
+        <label>MasterPage</label>
+      </node>
+      <node id="199">
+        <label>ASS2WEB.SiteMaster</label>
+        <link refid="class_a_s_s2_w_e_b_1_1_site_master"/>
+        <childnode refid="200" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="202">
+        <label>MasterPage</label>
+      </node>
+      <node id="201">
+        <label>ASS2WEB.SiteMaster</label>
+        <link refid="class_a_s_s2_w_e_b_1_1_site_master"/>
+        <childnode refid="202" relation="public-inheritance">
+        </childnode>
+        <childnode refid="203" relation="usage">
+          <edgelabel>up1</edgelabel>
+          <edgelabel>btnstats</edgelabel>
+          <edgelabel>MainContent</edgelabel>
+          <edgelabel>btnsortprogrems</edgelabel>
+          <edgelabel>btnWork</edgelabel>
+          <edgelabel>btndirections</edgelabel>
+        </childnode>
+      </node>
+      <node id="203">
+        <label>Web</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Master.cs" bodystart="10" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_w_e_b_1_1_site_master_1a01fb04ed89c16f2540d0215960ac099c" prot="protected" virt="non-virtual"><scope>ASS2WEB::SiteMaster</scope><name>btndirections</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_site_master_1a25cabda1381b74c565e572a565340739" prot="protected" virt="non-virtual"><scope>ASS2WEB::SiteMaster</scope><name>btndirections_ServerClick</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_site_master_1a865d8f928d66481c1be8ceadf510d2aa" prot="protected" virt="non-virtual"><scope>ASS2WEB::SiteMaster</scope><name>btnsortprogrems</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_site_master_1adc6bf3987dfaa3905ec3811535ce2d03" prot="protected" virt="non-virtual"><scope>ASS2WEB::SiteMaster</scope><name>btnsortprogrems_ServerClick</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_site_master_1af907504c6ef8d6003b91a1b06351fc80" prot="protected" virt="non-virtual"><scope>ASS2WEB::SiteMaster</scope><name>btnstats</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_site_master_1aa1027f5dc8791749c55f4d3c5bb18c27" prot="protected" virt="non-virtual"><scope>ASS2WEB::SiteMaster</scope><name>btnstats_ServerClick</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_site_master_1acff5e6ee3e083305599cfe7b51e32bdd" prot="protected" virt="non-virtual"><scope>ASS2WEB::SiteMaster</scope><name>btnWork</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_site_master_1a55f633793ac03faf2a0b1408f869525a" prot="protected" virt="non-virtual"><scope>ASS2WEB::SiteMaster</scope><name>btnWork_ServerClick</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_site_master_1abc4387bec0f1432e1da96da7b5ae9812" prot="protected" virt="non-virtual"><scope>ASS2WEB::SiteMaster</scope><name>MainContent</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_site_master_1a25f26794e4d258190024dcb9bdb74f77" prot="protected" virt="non-virtual"><scope>ASS2WEB::SiteMaster</scope><name>Page_Load</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_site_master_1ae07cc4124ac02589939033e4adff11a8" prot="protected" virt="non-virtual"><scope>ASS2WEB::SiteMaster</scope><name>up1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

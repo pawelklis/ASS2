@@ -1,0 +1,1045 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_a_s_s2_1_1_color_type" kind="class"><name>ASS2::ColorType</name>
+    <member refid="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269ede" kind="enum"><name>ColorsList</name></member>
+    <member refid="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edeadbc59d47cce2b9a9fcf57102dceecbaa" kind="enumvalue"><name>Biały</name></member>
+    <member refid="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edeafd0dde6741230c3c7aaaf5fd3fac93e7" kind="enumvalue"><name>Zielony</name></member>
+    <member refid="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edeab2b7e488ca21e0aada6b70fc45db0edb" kind="enumvalue"><name>Niebieski</name></member>
+    <member refid="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edeaa56190daca98c4e046e955ecbb548305" kind="enumvalue"><name>Czerwony</name></member>
+    <member refid="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edea64434c13026693690430e24536c2c8b3" kind="enumvalue"><name>Żółty</name></member>
+    <member refid="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edeaf1744da6e322504178e8b119f90c2dd9" kind="enumvalue"><name>BiałoZielony</name></member>
+    <member refid="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edeac319051f8444bbfdff0da86fe9581da1" kind="enumvalue"><name>BiałoNiebieski</name></member>
+    <member refid="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edea5ff65ba2a98c0a648937772a3ae93b6b" kind="enumvalue"><name>BiałoCzerwony</name></member>
+    <member refid="class_a_s_s2_1_1_color_type_1ac197c36d61d38dc74fdf6b3ae5cf2643" kind="property"><name>Values</name></member>
+    <member refid="class_a_s_s2_1_1_color_type_1aa515d72139576290b208bcd590b3e479" kind="property"><name>Name</name></member>
+    <member refid="class_a_s_s2_1_1_color_type_1a4be7f6c467c65ee86ea54e30669c172c" kind="function"><name>ColorType</name></member>
+    <member refid="class_a_s_s2_1_1_color_type_1a5280f400ca2c6c89c65ae68af1203594" kind="function"><name>ColorType</name></member>
+    <member refid="class_a_s_s2_1_1_color_type_1ad3957be7e25084b35dc7a380bf29729c" kind="function"><name>ColorType</name></member>
+    <member refid="class_a_s_s2_1_1_color_type_1a1b15563ace758253b38decfd6e60965e" kind="function"><name>ValuesString</name></member>
+    <member refid="class_a_s_s2_1_1_color_type_1ab3433dc9f9ecd9268aaa6b3cbdc46721" kind="function"><name>CssString</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_counter_type" kind="class"><name>ASS2::CounterType</name>
+    <member refid="class_a_s_s2_1_1_counter_type_1a7e38c79e8ff7188b637f42e08cdb62fd" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_counter_type_1a0a874c4968ebbe563b1bee8b159c2c6d" kind="property"><name>MachineId</name></member>
+    <member refid="class_a_s_s2_1_1_counter_type_1abcc3b8f65f3dc0ecb7e7c91d10d4f0f8" kind="property"><name>TactNumber</name></member>
+    <member refid="class_a_s_s2_1_1_counter_type_1a5756522a16a11ba19353830ab0b48c7f" kind="property"><name>CircleNumber</name></member>
+    <member refid="class_a_s_s2_1_1_counter_type_1afe32d96bdc0b3b76c6a1882d8b3f64a7" kind="variable"><name>TactCountsAll</name></member>
+    <member refid="class_a_s_s2_1_1_counter_type_1a38a28cc816514a94cf26e45e28c8c002" kind="event"><name>OnNewCirle</name></member>
+    <member refid="class_a_s_s2_1_1_counter_type_1a0443b8a00bfed01fc9eb4bcdbe82c9cf" kind="function"><name>CounterType</name></member>
+    <member refid="class_a_s_s2_1_1_counter_type_1aeb21baa3149ac7d998fc4748966cf475" kind="function"><name>CounterType</name></member>
+    <member refid="class_a_s_s2_1_1_counter_type_1a16c3cd64491bada205745b7433f6659f" kind="function"><name>AddTact</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki" kind="class"><name>ASS2::ServiceReference1::DanePrzesylki</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1aec86ebf953ea0e6d047a7d4538a07277" kind="variable"><name>dataNadaniaField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a93eb6101308a10e7be9c5fcd9c1f5f42" kind="variable"><name>dataNadaniaFieldSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ad6e70743ad57b121fbbf1654bdf1dad9" kind="variable"><name>formatField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a9af2983368492935f149c7dfec8c67de" kind="variable"><name>kodKrajuNadaniaField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a80254617497855617bf48f29542fa882" kind="variable"><name>kodKrajuPrzeznField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1aeb440c9222edc0c27dd646c6c0d2b3fa" kind="variable"><name>kodRodzPrzesField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1acd51f1180b1f9fc9e6cd6ed7e8109fc1" kind="variable"><name>krajNadaniaField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a7fc05545054958bf9a91d68587aa23e9" kind="variable"><name>krajPrzeznField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a189b8dd988a67aa149892e5e9a0d83d4" kind="variable"><name>masaField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a232f0ffc4c5ae1c9fce6d6a10c49df0e" kind="variable"><name>masaFieldSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ac47c3c6c15922928840a6d70955fc474" kind="variable"><name>numerField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a0b8f68620ce1541371b617de355731b9" kind="variable"><name>proceduraSerwisField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a3db05b9cdfd939d2eec40ad8f74519b2" kind="variable"><name>rodzPrzesField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a74cdff7ca9611615e2eae2584befe9ac" kind="variable"><name>urzadNadaniaField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a6ec36ce91ab63e51265a16eed1917a2c" kind="variable"><name>urzadPrzeznField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ae43be4bf1782bcdf56253d6d3e794d76" kind="variable"><name>zakonczonoObslugeField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ae282e7f4a1b51377f9d39c7d7a009aa2" kind="variable"><name>zakonczonoObslugeFieldSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a341b780c8068af3fa5ae9de70a91513d" kind="variable"><name>zdarzeniaField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a7c640b3d9beb2a523d32007191f3648c" kind="property"><name>dataNadania</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1adab5a4cf01bc2dd4abf963a2dfe79153" kind="property"><name>dataNadaniaSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a63e0f2fd1c55d282c0ee9527e34d08a0" kind="property"><name>format</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a57f4e02bddadca49201c4b6006c28dd0" kind="property"><name>kodKrajuNadania</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a04640ab06264fe0ebdce7dce42c698ac" kind="property"><name>kodKrajuPrzezn</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a5bd932793b934de4e4b0732d604a962f" kind="property"><name>kodRodzPrzes</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a652329d524700ed978192b86e0c6976b" kind="property"><name>krajNadania</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a4f01ee6dd86af5b1af5b64915b55d2fc" kind="property"><name>krajPrzezn</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ae61507c8ae43c3baf1c2c0ca90af0726" kind="property"><name>masa</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a9322a7fba2958faf65b404a3dee0a243" kind="property"><name>masaSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a5c1d9d494bbf1af94c28387b68ca4719" kind="property"><name>numer</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ac1a3271b2f1226c20b837014b117b719" kind="property"><name>proceduraSerwis</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a2a657039cef2b802b04f448eef59ba6f" kind="property"><name>rodzPrzes</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1afe3080404d104238ac121405cc292b09" kind="property"><name>urzadNadania</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1aac549469c65cc9992d6ff700fbd075a9" kind="property"><name>urzadPrzezn</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a07882cf6c33423065111fe98070880fb" kind="property"><name>zakonczonoObsluge</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a58c87b5054f5b0911c8a999fe6241e0e" kind="property"><name>zakonczonoObslugeSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a9a4001e7c5c4f38bb710bd3dd127c0c3" kind="property"><name>zdarzenia</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1aa11504aa39272613e649230581c70bbd" kind="event"><name>PropertyChanged</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1aa03b1caf4ca63dbbf3f8345dd31ab58f" kind="function"><name>RaisePropertyChanged</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_data_base_storage_helper" kind="class"><name>ASS2::DataBaseStorageHelper</name>
+    <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a1751417872a03695c3547e418d9ae301" kind="function"><name>SaveAsync</name></member>
+    <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a483e584dcfb0eaa9f6a6da3b4e8b3f1f" kind="function"><name>Save</name></member>
+    <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a24cadf21177fee7a33e2060a1034d067" kind="function"><name>CreateTable</name></member>
+    <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a53c274faca217ed300cfa46c4f465b50" kind="function"><name>Load&lt; T &gt;</name></member>
+    <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ae190bdcee51591d2a705490ccdffe940" kind="function"><name>LoadAll&lt; T &gt;</name></member>
+    <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ab0a3f846534fe15e795ff95fc0e73ade" kind="function"><name>LoadWhere&lt; T &gt;</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_dict_type" kind="class"><name>ASS2::DictType</name>
+    <member refid="class_a_s_s2_1_1_dict_type_1a9787d0a071b4b84d246de99016dad436" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1aad20d61857b346c3c244badf25bad434" kind="property"><name>MachineId</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1a2050363cf095a389956e197990c76cf2" kind="property"><name>Directions</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1a386687acef905813e6ef06416f6b3bd2" kind="property"><name>iModbusIP</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1a98946f67736696b06a506fb0afaf826d" kind="property"><name>ModbusPort</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1aef599aa4d299e4d3880c91bc14306c84" kind="property"><name>Lamps</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1a56f3bd8d16140b622d2b438d69402413" kind="property"><name>Colors</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1abe547dc49cdd5465c9636ff919d7bd12" kind="property"><name>Stands</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1a547df86e57dd47510f96227ced8ff43a" kind="property"><name>SerialConfigs</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1a53ed28355faf90385c32b657c1dcdd61" kind="property"><name>OdrzutyLamp1Tact</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1a309c5a33fccd2ad319e24c1ac6317ccb" kind="property"><name>OdrzutyLamp2Tact</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1aa19c35f39b5153373f31c0851f97a08a" kind="property"><name>TactsCount</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1a756a32212310124bcacecd8ef3949eb0" kind="property"><name>StopSensorTact</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1abb832e9d3916eb92427115446971bc99" kind="property"><name>ParcelStopRunTactNumber</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1a1319a453a2f46cdb806259ead36bd779" kind="property"><name>FeederStartDetectionSensorTactNumber</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1ab17a222f7630db0258e1eabdcb4b30cd" kind="function"><name>Load&lt; T &gt;</name></member>
+    <member refid="class_a_s_s2_1_1_dict_type_1a5afdfa7e132cc24d4c58bdf8f3276a8e" kind="function"><name>DictType</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_direction_item_type" kind="class"><name>ASS2::DirectionItemType</name>
+    <member refid="class_a_s_s2_1_1_direction_item_type_1a3ea86efe2cd98f250dded1f6cedc083b" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_direction_item_type_1a824f0b4194d46b33a9afd74f351ad656" kind="property"><name>Name</name></member>
+    <member refid="class_a_s_s2_1_1_direction_item_type_1a14209ae522f2493f3536f5126fe28119" kind="property"><name>PnaFrom</name></member>
+    <member refid="class_a_s_s2_1_1_direction_item_type_1a1a5ec861fc717ecc314d929decf55fa1" kind="property"><name>PnaTo</name></member>
+    <member refid="class_a_s_s2_1_1_direction_item_type_1a935041006b37c78e931f34785874dde6" kind="property"><name>WSR</name></member>
+    <member refid="class_a_s_s2_1_1_direction_item_type_1ac95a76643fb16f3118ee8a5b1a55aeff" kind="property"><name>ParcelTypes</name></member>
+    <member refid="class_a_s_s2_1_1_direction_item_type_1a4d525784babd0fef4335b196e4d501c4" kind="function"><name>ParcelTypesList</name></member>
+    <member refid="class_a_s_s2_1_1_direction_item_type_1affc9225c1c6cf90ebe95850806875e9a" kind="function"><name>IsInParcelType</name></member>
+    <member refid="class_a_s_s2_1_1_direction_item_type_1a2d0e15a017d9e618d63a138eec8a1bbd" kind="function"><name>DirectionItemType</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_direction_type" kind="class"><name>ASS2::DirectionType</name>
+    <member refid="class_a_s_s2_1_1_direction_type_1adef8902eb6b2abcfea3d8172ca7a2ce2" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_direction_type_1afdec89774f72a81739ce6b039600534a" kind="property"><name>Name</name></member>
+    <member refid="class_a_s_s2_1_1_direction_type_1a9557261d7f097b0fa8ac15b629840b83" kind="property"><name>IdMachine</name></member>
+    <member refid="class_a_s_s2_1_1_direction_type_1a3208f72ccf2a463bcde434aeb5157cba" kind="property"><name>Items</name></member>
+    <member refid="class_a_s_s2_1_1_direction_type_1aa6ba00ab0811012863d4e7d877d2af2b" kind="function"><name>DirectionType</name></member>
+    <member refid="class_a_s_s2_1_1_direction_type_1a06079b3945e052d69dbcd41542fbba34" kind="function"><name>ToTable</name></member>
+    <member refid="class_a_s_s2_1_1_direction_type_1aadfe434c734f198055d5d4510c0a73eb" kind="function"><name>AddItem</name></member>
+    <member refid="class_a_s_s2_1_1_direction_type_1aad875127327ba0b307c3d2c628d721aa" kind="function"><name>isInRange</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_error_log" kind="class"><name>ASS2::ErrorLog</name>
+    <member refid="class_a_s_s2_1_1_error_log_1aa7a6812f5bb6ca2f792d2a60872a05d9" kind="variable"><name>logPath</name></member>
+    <member refid="class_a_s_s2_1_1_error_log_1a5a4b418098a29baebbae47a58a3c444c" kind="function"><name>SaveError</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_feeder_type_1_1_feeder_event_args" kind="class"><name>ASS2::FeederType::FeederEventArgs</name>
+    <member refid="class_a_s_s2_1_1_feeder_type_1_1_feeder_event_args_1aee2207ca0752cf94ce1cdba6582be043" kind="property"><name>parcel</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_feeder_type" kind="class"><name>ASS2::FeederType</name>
+    <member refid="class_a_s_s2_1_1_feeder_type_1ab43a3cabca1a334df9aa6cd3b3231369" kind="property"><name>Skaner</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a3db622c51514bbd488636b22ab327eee" kind="property"><name>Parcels</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a2eb2be089f168d8480345f04a55af5f9" kind="variable"><name>Stands</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a33fe9e56d5b72b4e128ae872e5747929" kind="variable"><name>driver</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1aabb4d62f69058aa15ce6a2d8ceba90d2" kind="variable"><name>machine</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a103e9be98ae9559e9026cb941de1b4e2" kind="variable"><name>ignition</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a121a23e89a3217fc2639d07ce33ef44a" kind="variable"><name>White</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1aeed60e355de88521d1b1d04c58cd9a7e" kind="variable"><name>Green</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a136564581a2596dac52c859629d64bad" kind="variable"><name>Red</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a7e14233a40988437c9144fb7f0aa7de8" kind="variable"><name>parcelstoptactnumber</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a64247b19757c599be1385cd9933d27a4" kind="variable"><name>ParcelsAtLine</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a3b2cf54df47142c8649882310156c3c7" kind="variable"><name>ParcelWasScanned</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a11679eab3bb1aaf74838a00040694cdd" kind="variable"><name>TactNumber</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a9dc29a36e5ef71e97e9d2df95f5d544c" kind="event"><name>OnParcelStartRun</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a4c8b071110ffec0428fbebda7d4eccb8" kind="function"><name>FeederType</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" kind="function"><name>Startdetectionsensor_ValueChanged</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a038c0c4db258f3de591bcbe5a316fe9d" kind="function"><name>Startparcelsensor_ValueChanged</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1ad84ad49884900ec2970047b61fa51618" kind="function"><name>StartParcelSensorEndReading</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1af7991d13332647ad135a21c59c80d025" kind="function"><name>Scanned</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a50061f3e20004bbef3f4fc2ffd2ba8ae" kind="function"><name>Np_OnParcelStopRun</name></member>
+    <member refid="class_a_s_s2_1_1_feeder_type_1a7036a7a243f9cc1b2ded3c23f0ce95ad" kind="function"><name>Skaner_OnDataReceivedAsync</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy" kind="class"><name>ASS2::ServiceReference1::GodzinyPracy</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1afb0885933ae3b5f5960814e26abb3f02" kind="variable"><name>dniRoboczeField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1a8f1eeb82ea53d373f0a5a2fd0ac070d5" kind="variable"><name>niedzISwField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1ade5b4e751f9142092974409b242b7e33" kind="variable"><name>sobotyField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1a3139abbecf87b0b4c8075ce1e324d128" kind="property"><name>dniRobocze</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1aeae7fa8ad07f2edee662035989be5667" kind="property"><name>niedzISw</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1a02be1457e1c3e83aa6fb01da5e4c4866" kind="property"><name>soboty</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1a516938957345e57fa801242a682a1e40" kind="event"><name>PropertyChanged</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy_1a9eb2ab3b7acbd7ea20a6ebbc350230d9" kind="function"><name>RaisePropertyChanged</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami" kind="class"><name>ASS2::ServiceReference1::GodzinyZUwagami</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1a5b240840b411e222966c4706e8411e65" kind="variable"><name>godzinyField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1a0177e2b9248c1d55c42ee40854df4639" kind="variable"><name>uwagiField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1a0bb482b53f566dda70b666c8af11d901" kind="property"><name>godziny</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1a47e806edd0c8b7667a58027605e9ff99" kind="property"><name>uwagi</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1a54c973395c2540f42340bf97149ddb7c" kind="event"><name>PropertyChanged</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami_1afaf23e632cba223b21437ab75d0801ef" kind="function"><name>RaisePropertyChanged</name></member>
+  </compound>
+  <compound refid="interface_a_s_s2_1_1_i_naming_d_b" kind="interface"><name>ASS2::INamingDB</name>
+    <member refid="interface_a_s_s2_1_1_i_naming_d_b_1a63178c53f41cbce6d24eb89838988460" kind="property"><name>Id</name></member>
+    <member refid="interface_a_s_s2_1_1_i_naming_d_b_1a555acb3a0a2acb8ea15ce0a0d3a7d17d" kind="property"><name>Name</name></member>
+    <member refid="interface_a_s_s2_1_1_i_naming_d_b_1a4b10dcc0b9c9b3af5e5d4426401e5586" kind="property"><name>Js</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka" kind="class"><name>ASS2::ServiceReference1::Jednostka</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1ac99ed06bfa8087a4ef08354af97ca125" kind="variable"><name>daneSzczegoloweField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1a39e1f881bb93ab9679b5a38795bc01d5" kind="variable"><name>nazwaField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1a4dd86b62e9ddaa422f7bc2b7cc1fc4a3" kind="property"><name>daneSzczegolowe</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1a230bfce33391b111a2c2d73644750317" kind="property"><name>nazwa</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1a9b3e863cc64050edc0d66b0e073e72d6" kind="event"><name>PropertyChanged</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1adfa5f0a7c4ac19e1e5a519a84dbfa2fe" kind="function"><name>RaisePropertyChanged</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat" kind="class"><name>ASS2::ServiceReference1::Komunikat</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1ac57f2aea07255a86052e2997f9a08ec4" kind="variable"><name>przesylkiField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1afb8f725b27c616051a152e86ec26ac4a" kind="variable"><name>statusField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1a4ac5ff6bb25d6f97366be6d7c9303869" kind="variable"><name>statusFieldSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1aa13e1167b39ea8f9f42a5bf2c050399f" kind="property"><name>przesylki</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1a03f7f2e863f9021f0f289a40cd09b4b4" kind="property"><name>status</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1ab44ac9f5ee837ad5e9cd6bb5b37dcd1b" kind="property"><name>statusSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1a614d9ffee525b69207383a99a8a3218f" kind="event"><name>PropertyChanged</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1aee96cdf340c6c3a70450582fe7dc1b94" kind="function"><name>RaisePropertyChanged</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_lamp_type" kind="class"><name>ASS2::LampType</name>
+    <member refid="class_a_s_s2_1_1_lamp_type_1a331478ecf79b1c1f0aa5782ede9d5155" kind="property"><name>Address</name></member>
+    <member refid="class_a_s_s2_1_1_lamp_type_1a77ef255ad59038dc938d6c05986de809" kind="property"><name>TactOnNumber</name></member>
+    <member refid="class_a_s_s2_1_1_lamp_type_1a3daf60a0383606a9e8f1c9a4deba94c4" kind="property"><name>IsLamp1</name></member>
+    <member refid="class_a_s_s2_1_1_lamp_type_1a634a8a05043d478c853bee001e970054" kind="function"><name>LightOn</name></member>
+    <member refid="class_a_s_s2_1_1_lamp_type_1a1d09eb9b9d5ce9ececd2b1d3f8114015" kind="function"><name>LightOff</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_machine_type_1_1_machine_log_event_args" kind="class"><name>ASS2::MachineType::MachineLogEventArgs</name>
+    <member refid="class_a_s_s2_1_1_machine_type_1_1_machine_log_event_args_1aac06162ec6c7400b8b3606275dfaef0c" kind="variable"><name>item</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_machine_status_log_type" kind="class"><name>ASS2::MachineStatusLogType</name>
+    <member refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800" kind="enum"><name>MachineEventsLogs</name></member>
+    <member refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800a99b8bf90907ab383d9c08c9501161c52" kind="enumvalue"><name>Start_programu</name></member>
+    <member refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800a98c3dca20d7d18911e8703873e7146fc" kind="enumvalue"><name>Sterowanie_połączono</name></member>
+    <member refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800a10dcb12a7b131f936fc99ed0e80ba785" kind="enumvalue"><name>Sterowanie_rozłączono</name></member>
+    <member refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800ae90864cc43631751aa40491f51073f46" kind="enumvalue"><name>Przenośnik_uruchomiony</name></member>
+    <member refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800a2d79508532e3799b075a7c1c8fc6ec88" kind="enumvalue"><name>Przenośnik_zatrzymany</name></member>
+    <member refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800a54659153f74e7d2582b4be532823da77" kind="enumvalue"><name>Brak_taktu</name></member>
+    <member refid="class_a_s_s2_1_1_machine_status_log_type_1a5697b51b21fa62ae41fd59d935b14357" kind="property"><name>Time</name></member>
+    <member refid="class_a_s_s2_1_1_machine_status_log_type_1a9a4da4b06e82e401777056f65883e5aa" kind="property"><name>Event</name></member>
+    <member refid="class_a_s_s2_1_1_machine_status_log_type_1a542eabdad18ffe1cae7a539d092c66f3" kind="property"><name>logtype</name></member>
+    <member refid="class_a_s_s2_1_1_machine_status_log_type_1a74b6b02eaec86ba0b1296ac74c2aeac6" kind="property"><name>Description</name></member>
+    <member refid="class_a_s_s2_1_1_machine_status_log_type_1af7a5dd0c828d8bfb218222573aa03413" kind="function"><name>MachineStatusLogType</name></member>
+    <member refid="class_a_s_s2_1_1_machine_status_log_type_1a203352e5ac4ab6e19ed593c260d5c4a0" kind="function"><name>MachineStatusLogType</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_machine_type" kind="class"><name>ASS2::MachineType</name>
+    <member refid="class_a_s_s2_1_1_machine_type_1a2e6bd3bfd125db64e32cab7e7b97e6e4" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a5c28db98d3ac25f42c53fff460f1b506" kind="property"><name>Name</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a48cb8c621e6f471590f9e8cc537e3f1f" kind="property"><name>Driver</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1ac3d48af74012572029462576b6df3b02" kind="variable"><name>RoundStat</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1aedeb7907971aa3c2c2e77400809c44e2" kind="variable"><name>Logs</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1aa8ca4c8bc53d86189e0e59514e6c7417" kind="variable"><name>dict</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1ae4be99e5f92a6641e6c233817ec64756" kind="variable"><name>CurrentSortProgram</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1aa40c95e656a6f917e5a947d9768c4e3b" kind="variable"><name>CurrentRun</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a21d73970cb31409721f1012256148a3f" kind="variable"><name>ParcelsOnRun</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a7c7bd85494677f22a878b54e8bae5ae2" kind="variable"><name>TactSensor</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1aa81025777b4b628f2280941339d19230" kind="variable"><name>StopSensor</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a6b82ababb891ac9f7c6a2d07f961f692" kind="variable"><name>StartDetectionSensor</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a1007a1a452468d76c1e44b7b4f984acf" kind="variable"><name>StartParcelSensor</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1aee239b745cb772ccd61bdb18092e2b00" kind="variable"><name>Feeder1</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1aacd430eb368620b9485402c8e38ec7c0" kind="variable"><name>BeltRunning</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a25f668614ad9b88645fb20e820d0b84a" kind="variable"><name>StatTable</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a933f4cfcdeeacb131641371825646f1b" kind="variable"><name>StatTimer</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1abfb2cf1bbc678ca553e7359a4cfc67c1" kind="variable"><name>StatParcelscount</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a825f3b2cc5872b11838208c8cb8fae22" kind="variable"><name>tactsensorread</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1ab839622dd43d0d726608f2cdc21b944a" kind="variable"><name>startdetectionsensorread</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a548d993f653ab54c05d818804065f119" kind="variable"><name>startparcelread</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a8132c71d0fb2b119f44eff7677101b44" kind="variable"><name>stopsensorread</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1afc23e207388d5f6fc77dcc4aad30eb91" kind="event"><name>OnTacted</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a0dd10a2a20b1ea1a05d72b0a6f90b353" kind="event"><name>OnStartParcelSensorRead</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a0c0641863ea66ac8208958dc142386b2" kind="event"><name>OnLogAdded</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1ab6aa0e1bf918136d0028c42a9bf8b618" kind="function"><name>MachineType</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1ac22f97ab34152cf7039f2cd97194dee6" kind="function"><name>InitMachine</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1affc864d5439cfd9b510902c808ee9ef0" kind="function"><name>AllSortedAsync</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a602b0c68a72928becc82a084d50fa645" kind="function"><name>AllMissedAsync</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1ad37c7f6e7e691a2da9c00ff3c8955bbd" kind="function"><name>GetStandStats</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1af00246daf4cbdfd04cbe1ead31cd9b8c" kind="function"><name>PArcelsAtLineTable</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1ac82953aeb7e3b6fc43a2f4d0afd37f7b" kind="function"><name>LampTest</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a2eda61958682a1b8f8813232250097d7" kind="function"><name>LampTestSingleOn</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a791676620a7b8ed1ef43db3947417195" kind="function"><name>LampTestTurnOnAll</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1aa16a07047a5169aa9e6632c178cee24b" kind="function"><name>LampTestTurnOffAll</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a67e8945c0d4fe19a0c3dfc0c21fbef6f" kind="function"><name>StartStopRun</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1adb4ce2f437678fb079fa72580ca511cd" kind="function"><name>PrintSettings</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1afa08c5c86f0ce38000c88e788fee498d" kind="function"><name>StressSimulation</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a962b089d88d5db9109a90f0407b252c0" kind="function"><name>SetSortProgram</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a8777b9d732ba8b7ad9f432db2eda7803" kind="function"><name>StatTimer_Elapsed</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a13c7538266f731bcc0384c2004acd866" kind="function"><name>AllSorted</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1abd64615565f65de4d3fbfd1bccfec597" kind="function"><name>AllMissed</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1af598db0b0279f9cdc7a1ddfa71b94965" kind="function"><name>Driver_ModbusDisconnected</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1ae98507bbac94dde411c70c0c0869bef7" kind="function"><name>Driver_ModbusConnected</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a803fd8519daa106146c1e5193c9040b7" kind="function"><name>Counter_OnNewCirle</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a00b02396ef369c6d9c36aca722aeffda" kind="function"><name>StartParcelSensor_OnLenghtReaded</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a3a9e6a68b01a5fabc7946b2aa2e58e0f" kind="function"><name>StartParcelSensor_ValueChanged</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a3ba60bee38ac8a0fa8df8321525dfab2" kind="function"><name>StartDetectionSensor_ValueChanged</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a6661a09823ec0bd800b3ed5890b90760" kind="function"><name>StopSensor_ValueChanged</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a9d6b84836f113d4a4e5ed53f1893976f" kind="function"><name>TactSensor_TactMissed</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a026dce47cb9d314fc863658f286e4f6f" kind="function"><name>TactSensor_BeltStop</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a469583cfc630c1f092143e7d621549d6" kind="function"><name>TactSensor_BeltStart</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a55b8bc361c39f6682b8d6153e1cf25d1" kind="function"><name>TactSensor_ValueChanged</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1ac7314be3a4cdd59230d2b946bda77901" kind="function"><name>GetColor</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1aa8dab868bdfe039a93f26e9645e3718e" kind="function"><name>Tacted</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a7dfd28661c8279405db595573c5576a8" kind="function"><name>Feeder_OnParcelStartRun</name></member>
+    <member refid="class_a_s_s2_1_1_machine_type_1a20bc554e962358509089a950087b6584" kind="function"><name>Tm_Elapsed</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_request" kind="class"><name>ASS2::ServiceReference1::maksymalnaLiczbaPrzesylekRequest</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_request_1a986f017d1a0c96961c890a7a64f98683" kind="function"><name>maksymalnaLiczbaPrzesylekRequest</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_response" kind="class"><name>ASS2::ServiceReference1::maksymalnaLiczbaPrzesylekResponse</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_response_1a261495c773f9bd3f4bb9f173b1f35437" kind="variable"><name>return</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_response_1ad85e8fa4f3ec06017eea91789f3d862e" kind="function"><name>maksymalnaLiczbaPrzesylekResponse</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1maksymalna_liczba_przesylek_response_1adf5428fb264ef4a18c2ea724a31e2464" kind="function"><name>maksymalnaLiczbaPrzesylekResponse</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_modbus_driver" kind="class"><name>ASS2::ModbusDriver</name>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1add2b4fc7f6972af4569abf662f961452" kind="variable"><name>master</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1af2a67f5d30fb3793b3d865a7913c00f8" kind="event"><name>CoilValueChanged</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a58c4dec4e28e398a80eb574e0be43b49" kind="event"><name>ModbusConnected</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a0890bfd24a23edfa06f9a4a19e7fd9a5" kind="event"><name>ModbusDisconnected</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a7da523820e5e321c4e6c6c4ebf377228" kind="property"><name>timer</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a00beaaae84c3372bba6153807236b8f1" kind="property"><name>ReconnectTimer</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1ad6014b314319f17e9584093811ee9d2d" kind="property"><name>clientip</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a4f43a8002610593abaca39b15a8b5c28" kind="property"><name>clientport</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a9e210e01655f832309f2316143c21666" kind="property"><name>Coils</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1aa40b4dc29e5d75a6e0e78e4e11ded31a" kind="variable"><name>Connected</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a5c6dab2b285bd41504de0f735605623e" kind="variable"><name>StartDetectionSensor</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1ae69484e3f8eea272cab3c6df52da2002" kind="variable"><name>StartParcelSensor</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a770fa99475c73c518776523544666ee2" kind="variable"><name>StopSensor</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1af1c67c4f2f24222fe4c7ce94a1f57f9f" kind="variable"><name>TactSensor</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a0b31a935e66125866e53198a43e2ebee" kind="function"><name>ModbusDriver</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a4b6e44b1c40e63997eb9cf7b298e1f93" kind="function"><name>ConnectClient</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a3c60b49e2e2ad7987dc050c973e871b8" kind="function"><name>WriteCoils</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1afea815087156b305bc48cef92f6df94d" kind="function"><name>StartReconnectTimer</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a89eab240971ef78029b45c6e2c6b711a" kind="function"><name>ReconnectTimer_Elapsed</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a8104ff1a3d6c2f6fb1c8a99a0b5bef24" kind="function"><name>Timer_Elapsed</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a484b95dae1d6eb4a2b976e251dc7e181" kind="function"><name>ReadDigitalInputsAsync</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a3d451592083e19e7dc0f4c6b50b390cc" kind="function"><name>ConnectionChange</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1a16ee229d13dd90277b0346642e16553e" kind="function"><name>Client_ConnectedChanged</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kind="class"><name>ASS2::ModbusDriver::ModbusValueEventArgs</name>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args_1ab895d0e472f2e29a4260860fd8d65090" kind="property"><name>Address</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args_1aba323d4722702082ed5324c08a42b470" kind="property"><name>OldValue</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args_1a47c7588618ac856c2e4dd3ee44dbc246" kind="property"><name>NewValue</name></member>
+    <member refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args_1a0c672c2e0ee8ce8cdea2b2a139c89a93" kind="property"><name>Name</name></member>
+  </compound>
+  <compound refid="class_mysql_core" kind="class"><name>MysqlCore</name>
+    <member refid="class_mysql_core_1ac836087eaae4d789294d3d2097bda216" kind="variable"><name>OnConnection</name></member>
+    <member refid="class_mysql_core_1abbd35fbd9b3a4bd07edbbed7f604d8b2" kind="property"><name>OperationCount</name></member>
+    <member refid="class_mysql_core_1a3abd33c64c4a86f5cee5330742d3bccd" kind="property"><name>ConnectionStr</name></member>
+    <member refid="class_mysql_core_1a36995559c72ba2344721a36f1053a878" kind="property"><name>ErrorHistory</name></member>
+    <member refid="class_mysql_core_1a2663853a4ffb0f743c9e9995393b56cb" kind="property"><name>EventHistory</name></member>
+    <member refid="class_mysql_core_1a3bac3a44f9d072fd25e5883b00a709e1" kind="property"><name>LastError</name></member>
+    <member refid="class_mysql_core_1a25e266727cdf31312075e8b4f3dbacfb" kind="property"><name>con</name></member>
+    <member refid="class_mysql_core_1ac78a2987cbc1b5630a7de928c64aaff1" kind="property"><name>com</name></member>
+    <member refid="class_mysql_core_1a54c0fbc2afca9fd5a0196f51f32ff16e" kind="property"><name>adpt</name></member>
+    <member refid="class_mysql_core_1ab349b9113f90c0753af4770d63265880" kind="variable"><name>ConParameters</name></member>
+    <member refid="class_mysql_core_1a64f8dd0e616560c009b933b8500d93a5" kind="function"><name>DB_Main</name></member>
+    <member refid="class_mysql_core_1adb402d523304e4beebe44761580b691f" kind="function"><name>KillSleepConnections</name></member>
+    <member refid="class_mysql_core_1a4fae4ea055de4049f9412d9b90694511" kind="function"><name>CreateTable</name></member>
+    <member refid="class_mysql_core_1a69e4efcc53638377617dcaf4bdd7f384" kind="function"><name>NewUpdate</name></member>
+    <member refid="class_mysql_core_1a13dac8029ecf04a1e477ff2fc848677c" kind="function"><name>NewInsertOrUpdate</name></member>
+    <member refid="class_mysql_core_1ae7c56e9bc742c0d502319fbe1de609db" kind="function"><name>NewInsert</name></member>
+    <member refid="class_mysql_core_1af3cdef7ebe9bb61632c353061a253097" kind="function"><name>NewGetSingleObject&lt; T &gt;</name></member>
+    <member refid="class_mysql_core_1a397f880ba8be38dc3bcf3430e451b106" kind="function"><name>NewGetObjects&lt; T &gt;</name></member>
+    <member refid="class_mysql_core_1a4c5088b74bd12bf0a08c00730764ba07" kind="function"><name>ConString</name></member>
+    <member refid="class_mysql_core_1ab8978c2dfa8cf47b4a5df123ecb0f761" kind="function"><name>MysqlCore</name></member>
+    <member refid="class_mysql_core_1a3cff2bbcf2e0fd36e9185db850a8d4f3" kind="function"><name>ConnectionTest</name></member>
+    <member refid="class_mysql_core_1ad5ad49789682d1f64a7571c6f12a0e68" kind="function"><name>Connection</name></member>
+    <member refid="class_mysql_core_1ae8f837cef4095a7c6ff19a45f56c5ee5" kind="function"><name>toDict</name></member>
+    <member refid="class_mysql_core_1a7fa6d7e86a7a4378290659ff2919d53f" kind="function"><name>GetSingleObject&lt; T &gt;</name></member>
+    <member refid="class_mysql_core_1afcb27f03be6886180a2fc4a15f2b8e93" kind="function"><name>ExecuteNonQuery</name></member>
+    <member refid="class_mysql_core_1ad62e11d7a1b35bb76c39197b3164ff35" kind="function"><name>ExecuteScalar</name></member>
+    <member refid="class_mysql_core_1ab9426013433a5298de29c0c4d1bb90f7" kind="function"><name>FillDatatable</name></member>
+    <member refid="class_mysql_core_1a482fe6d9926e0414de55458e6d4c1067" kind="function"><name>GetInsertString</name></member>
+    <member refid="class_mysql_core_1a1b1c7e99c3ea2f529e36061f012ab004" kind="function"><name>GetInsertStringWithoutID</name></member>
+    <member refid="class_mysql_core_1acc95e61e597b023f73acc4886b0e35bf" kind="function"><name>Insert</name></member>
+    <member refid="class_mysql_core_1a04debdf607695292738751728eb81d37" kind="function"><name>NewUpdateList&lt; T &gt;</name></member>
+    <member refid="class_mysql_core_1a81efc82fd0deb596971dd909aa69d5c0" kind="function"><name>NewInsertList&lt; T &gt;</name></member>
+    <member refid="class_mysql_core_1aadf58bad01b6334deef23a625df7618b" kind="function"><name>InsertList</name></member>
+    <member refid="class_mysql_core_1a5687deb8be17379e913ef267d4fdf519" kind="function"><name>InsertOnDuplicateUpdate</name></member>
+    <member refid="class_mysql_core_1a79e3af063492a226f2ecf895f620576c" kind="function"><name>GetUpdatetString</name></member>
+    <member refid="class_mysql_core_1ac6eaf23259ef76cfc21c2cde98083e97" kind="function"><name>InsertOrUpdate</name></member>
+    <member refid="class_mysql_core_1a66b8a282647e95481fca12b2abf0034b" kind="function"><name>Update</name></member>
+    <member refid="class_mysql_core_1a6fcafc6ca2235bc907a269c845b028a8" kind="function"><name>UpdateList</name></member>
+    <member refid="class_mysql_core_1a55907dad91180dba69bafa3543f8745e" kind="function"><name>GetString</name></member>
+    <member refid="class_mysql_core_1abf874c10393d5b7ef9727838987c4eac" kind="function"><name>GetByte</name></member>
+    <member refid="class_mysql_core_1ab1dde606027c6bac85a73d81e91828e2" kind="function"><name>GetCount</name></member>
+    <member refid="class_mysql_core_1af0a4585f80223dcd1e7f4ceeb5fd1d6e" kind="function"><name>GetObject&lt; T &gt;</name></member>
+    <member refid="class_mysql_core_1a55130438d8440e6fdaa4b92046fc975f" kind="function"><name>GetObject&lt; T &gt;</name></member>
+    <member refid="class_mysql_core_1ae296d2e1d918e60558804572195e8d30" kind="function"><name>Delete</name></member>
+    <member refid="class_mysql_core_1a5a34426d6b3e02b70f69ae25d2211ed4" kind="function"><name>Truncate</name></member>
+    <member refid="class_mysql_core_1abfea92f628e56957f16141fbab23f76c" kind="function"><name>DropTable</name></member>
+    <member refid="class_mysql_core_1aa3a40ad3dfe9a03ba59edd6f6cbf4171" kind="function"><name>InsertUpdateDuplicateKey</name></member>
+    <member refid="class_mysql_core_1a50e28c788a9a2accad8f702a211314f7" kind="function"><name>SetPropvalue</name></member>
+    <member refid="class_mysql_core_1a6de4ac65d086bc0bc3ad5163d6e7ad31" kind="function"><name>getinsertduplicateString</name></member>
+  </compound>
+  <compound refid="class_mysql_core_1_1_parameters" kind="class"><name>MysqlCore::Parameters</name>
+    <member refid="class_mysql_core_1_1_parameters_1a691431fe7f93b0334f8ae84f1470c691" kind="property"><name>Database</name></member>
+    <member refid="class_mysql_core_1_1_parameters_1a4e8c0e17f770db60c02e552890d81802" kind="property"><name>Password</name></member>
+    <member refid="class_mysql_core_1_1_parameters_1a5add3b31914041e53efd9414302e9fb4" kind="property"><name>Server</name></member>
+    <member refid="class_mysql_core_1_1_parameters_1abb1f8d8536dabae8c5253f6946747b41" kind="property"><name>SecondServer</name></member>
+    <member refid="class_mysql_core_1_1_parameters_1ab52faa94b25cb618c72c68bfb7c23883" kind="property"><name>User</name></member>
+    <member refid="class_mysql_core_1_1_parameters_1aabdf63645d3de46adecc6e0bd638ca1a" kind="property"><name>Port</name></member>
+    <member refid="class_mysql_core_1_1_parameters_1a0e0634fa3de509858fb898001a6e7712" kind="property"><name>CharacterSet</name></member>
+    <member refid="class_mysql_core_1_1_parameters_1a927721e0c65da254d812e07798a21505" kind="property"><name>ConnectionTimeout</name></member>
+    <member refid="class_mysql_core_1_1_parameters_1a61f31d3648c87b087b10fb3915aebd23" kind="property"><name>ConvertZeroDate</name></member>
+    <member refid="class_mysql_core_1_1_parameters_1a2859dc0db57d73e9266f0c335d97e6c8" kind="property"><name>UseCompression</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_parcel_type_1_1_parcel_event_args" kind="class"><name>ASS2::ParcelType::ParcelEventArgs</name>
+    <member refid="class_a_s_s2_1_1_parcel_type_1_1_parcel_event_args_1af37b464dc57d9a0873d74697828bec19" kind="property"><name>parcel</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_parcel_type" kind="class"><name>ASS2::ParcelType</name>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a01fc6c69854fb013ef86a88e2364c614" kind="enum"><name>OdrzutyReason</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a01fc6c69854fb013ef86a88e2364c614a4abe32ef4bfb95f3b79be0702581bc58" kind="enumvalue"><name>brakskanu</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a01fc6c69854fb013ef86a88e2364c614a5cc0865c54372ce0f2b6eebf3a265a4e" kind="enumvalue"><name>brakdanych</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a01fc6c69854fb013ef86a88e2364c614a475370d04848e5723bc6476b1abb9839" kind="enumvalue"><name>brakwplanie</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a4e60ca42017570b6080e753a82e62e7a" kind="event"><name>OnParcelStopRun</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1aa2982a67fdd00397644d06d84004b002" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a047ff03dea388cbfe48edaa79ff2cba2" kind="property"><name>GuidID</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a6e9454a32ea973c885ef60acfe087f1a" kind="property"><name>CreateTime</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1ac5e487c417e8eda1632aa33d447e9268" kind="property"><name>Number</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a0d80234d0768adf7a7bf87b7fbbd72c0" kind="property"><name>Lenght</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a488b10ccffa15692cdf389fd9e2e445c" kind="property"><name>DestinationUnitPostCode</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1ac06b55e564dcb2891d0ef868dcc28ccb" kind="property"><name>DestinationStand</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a8e85cf555673eade780fe088e676628a" kind="property"><name>DestinationStandItem</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1afab9003257661bb1eac3e39fa9526e55" kind="property"><name>CurrentTactNumber</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a2833d2137041fd5c5f24689c2386dd36" kind="property"><name>RunId</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a476a472e8d2856b94c116b0edc1782e9" kind="property"><name>SortProgramID</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1ac187261ae67d20e4247d9853e1b0b48a" kind="property"><name>UPnad</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a842c5b7e4e6bdb14f871eaf0d3d7f9b9" kind="property"><name>UPdor</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1abdc0fee10a100b8cd0d47f2fa20089a2" kind="property"><name>Datanad</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a28427cbcaf4c2263af94d80e0dfc5c59" kind="property"><name>parceltypename</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a3a126c7f1864a5c3d7943258da40ff16" kind="property"><name>ParcelTypeCode</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1ac4493fb42c925f465c49c9e8ca9718fd" kind="property"><name>RoundCounts</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a4d962b8f707028c0e9348604ba2424f3" kind="variable"><name>Recircuit</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1ab930106ed64217c961e4cec288ec8edf" kind="variable"><name>visible</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1af1c1addf61463889e0bb132246f28484" kind="variable"><name>StopRunTactNumber</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a4401bb9d8d9b1c5231de65acfef17142" kind="variable"><name>Lamp2OffTimer</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1ab9b342454de3601026d5056209f2305a" kind="variable"><name>driver</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a83cfe5c797f3f1d7301dee5e4a18e21c" kind="function"><name>ParcelType</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a9323873f1f960c9f0b4ba1db45a2147c" kind="function"><name>ParcelType</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1aa3658f941e785cd26f3c9cc4351a5d49" kind="function"><name>AddTact</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1aadc91b7d8bd2ccb6434164e70445f6ad" kind="function"><name>NextRound</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a2462fc7eca18e8e71bac4057818e470e" kind="function"><name>StopRun</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a03a16def8448010afff4bc1839457a0c" kind="function"><name>Lamp1On</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1ab48d459bc768301d62e563875bee2619" kind="function"><name>Lamp2On</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1ab4818637e53b574786b396c3bc158953" kind="function"><name>SaveAsync</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a619216ef659061e8011a0263d89c0c0a" kind="function"><name>SetNumber</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1ac449893618ed1464881a2eaf3b48086e" kind="function"><name>SetOdrzuty</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1abead45e0f8750d410c248aa66df73917" kind="function"><name>SetLenght</name></member>
+    <member refid="class_a_s_s2_1_1_parcel_type_1a31a39a82f8ec2e782e4451f54af27a7c" kind="function"><name>Lamp2OffTimer_Elapsed</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_p_n_a_range_type" kind="class"><name>ASS2::PNARangeType</name>
+    <member refid="class_a_s_s2_1_1_p_n_a_range_type_1a8c90e081f1137b4b11324f78aba15ff5" kind="property"><name>FromPNA</name></member>
+    <member refid="class_a_s_s2_1_1_p_n_a_range_type_1a67c151da359fdb743e4b801d5a951035" kind="property"><name>ToPNA</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1_procedura" kind="class"><name>ASS2::ServiceReference1::Procedura</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1af3cc87bb19e650233f6d7b0bd1fcc92a" kind="variable"><name>kodField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1a0de8bcedd7f164bb9e260056009bbe5e" kind="variable"><name>kopertaFirmowaField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1a8aa3ead73c4f5c1cdc160a23ede268ce" kind="variable"><name>nazwaField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1adc8bdfc3337cbfefc26f915953c4c026" kind="variable"><name>przesylkiPowiazaneField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1ac172982c593f5bfaca50a4197481c542" kind="property"><name>kod</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1a6d698d7d33beae8cbf1563e09a45e37d" kind="property"><name>kopertaFirmowa</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1a24f913abde2abe42abc5ef171ec31a2e" kind="property"><name>nazwa</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1ade697bd4fd51b5f13c0b58ff6d31badc" kind="property"><name>przesylkiPowiazane</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1a4366a6e05ad87319cf3cba79eb74990c" kind="event"><name>PropertyChanged</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_procedura_1afcf0d4d69c9bb8345d22490d74d37dd0" kind="function"><name>RaisePropertyChanged</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_program" kind="class"><name>ASS2::Program</name>
+    <member refid="class_a_s_s2_1_1_program_1a3050331b15377752a0c3ef16631e765a" kind="variable"><name>tm</name></member>
+    <member refid="class_a_s_s2_1_1_program_1a09625af4568dbec417ded79740456c69" kind="variable"><name>onof</name></member>
+    <member refid="class_a_s_s2_1_1_program_1ae90559f6e20e0220153af56488f4774a" kind="variable"><name>m</name></member>
+    <member refid="class_a_s_s2_1_1_program_1aeb77f880cead9cf751bd8ca9fb956d45" kind="function"><name>Main</name></member>
+    <member refid="class_a_s_s2_1_1_program_1aa71d878d2cb7913fb5c28cbc1e9564a6" kind="function"><name>test</name></member>
+    <member refid="class_a_s_s2_1_1_program_1a1ad98ba1bdb468a25ab56e801545e554" kind="function"><name>Tm_Elapsed</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka" kind="class"><name>ASS2::ServiceReference1::Przesylka</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_1acf4d392e4319f0554a9c88a72f96578a" kind="variable"><name>danePrzesylkiField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_1a82a08caba2d42a9fbde76b1dfaf1badc" kind="variable"><name>numerField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_1af876c003e6f453d4de55501aec089f0c" kind="variable"><name>statusField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_1a0496e289191837f6c74d50c355ed57a4" kind="variable"><name>statusFieldSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_1a2d42c13c22973a07daa8d1abecef68a6" kind="property"><name>danePrzesylki</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_1a37ac0592e0dd77c609851531c23f07a2" kind="property"><name>numer</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_1a0225485f30ddb163a1a7b509bc56d735" kind="property"><name>status</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_1a6cbc18bb443b95cf768a5cdced3db418" kind="property"><name>statusSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_1ae36ba7e17689fddf0981e322426d9397" kind="event"><name>PropertyChanged</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_1a89a5902ec0b2ada30f5b00f7c9a3d125" kind="function"><name>RaisePropertyChanged</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana" kind="class"><name>ASS2::ServiceReference1::PrzesylkaPowiazana</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana_1a510efb78e5df374365315b6346304923" kind="variable"><name>nrPrzesylkiPowiazanejField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana_1ac1a0779a60d8e5d9c1ed504341fb024c" kind="property"><name>nrPrzesylkiPowiazanej</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana_1a3fe2afe52ca8e17f44783af9c14052a2" kind="event"><name>PropertyChanged</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana_1a3040f99fded4d1face0f2d91d5892209" kind="function"><name>RaisePropertyChanged</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna" kind="class"><name>ASS2::ServiceReference1::Przyczyna</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1a9efb83ca1bbedb95c082b9dccac4746e" kind="variable"><name>kodField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1ab6f0dbb1f85b942a6c0f16f647389c8c" kind="variable"><name>nazwaField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1a5f344a7d24156b615517352abea083da" kind="property"><name>kod</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1a1fe436fe1251bdc64de1cfdfac9bae1b" kind="property"><name>nazwa</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1ac0836482b8405d34153185551b3d5368" kind="event"><name>PropertyChanged</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna_1aace7eb4841cf20c99ab0e85fe8f11b94" kind="function"><name>RaisePropertyChanged</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_round_stat_item" kind="class"><name>ASS2::RoundStatItem</name>
+    <member refid="class_a_s_s2_1_1_round_stat_item_1aef1b20d770aea60cd9d682ccb890a800" kind="property"><name>TactNumber</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_item_1a46b34d0c5957fc43f892fed258634702" kind="property"><name>TactTime</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_item_1ae6c44c8a682e782b64c30bd2c5f52e30" kind="property"><name>StartDetectionSensorReads</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_item_1a2276dd9f8447ae4e741c95e32b273e91" kind="property"><name>StartParcelSensorReads</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_item_1a54bffc907a1912fb72c41746f6884693" kind="property"><name>StopSensorReads</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_item_1a56d46939eaee1c7f59b591f7db3e1509" kind="property"><name>TactSensorReads</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_round_stat_type" kind="class"><name>ASS2::RoundStatType</name>
+    <member refid="class_a_s_s2_1_1_round_stat_type_1a2fb252c25f2c92d25bf6b14fc497a041" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_type_1a3fc236f75e0f7c7faef65522b1c2478c" kind="property"><name>RoundTime</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_type_1a3df129b44faa1a536ddeb15d91f02257" kind="property"><name>RoundNumber</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_type_1a3050477f9f3b3700b7e1135296683360" kind="property"><name>ParcelsCount</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_type_1a37cc370e6b12c36ce3d2987d10d48e3b" kind="property"><name>MachineId</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_type_1a61dfd8838e92a987ab5b06e00e138285" kind="property"><name>SortProgramId</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_type_1affa82b5e87e61c03cc2b22602f45c63e" kind="property"><name>logs</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_type_1ac4ef1fb907546db5be261935debd2cb6" kind="property"><name>StatItems</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_type_1a502f0e4e6f9cae1994e648011551334b" kind="property"><name>CircleStartTime</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_type_1a902e30c28b69f373343dd37586480f36" kind="property"><name>CircleEndTime</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_type_1a80bb9066291723a8903a38dfd4523790" kind="property"><name>CircleTime</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_type_1a6ad9890a7fdc72d7b533afae137d0c49" kind="function"><name>RoundStatType</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_type_1ac659ff5b59210279b1fdb0314e253774" kind="function"><name>RoundStatType</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_type_1a25405d2ecae12f09b0387541d43f9327" kind="function"><name>AddItem</name></member>
+    <member refid="class_a_s_s2_1_1_round_stat_type_1a9c41a5786fca4dcfd411acb7e4f30970" kind="function"><name>EndCircle</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_r_s232_config_type" kind="class"><name>ASS2::RS232ConfigType</name>
+    <member refid="class_a_s_s2_1_1_r_s232_config_type_1a814e5bf892b0258054d9b3502117d9d5" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_r_s232_config_type_1a6f44cae6025cc9029649ec094d8e9e42" kind="property"><name>Name</name></member>
+    <member refid="class_a_s_s2_1_1_r_s232_config_type_1a36a092edd5439822fd87a79aefe3714b" kind="property"><name>Speed</name></member>
+    <member refid="class_a_s_s2_1_1_r_s232_config_type_1aa46870137c82bc3cb6a8f8745b4fd818" kind="property"><name>Delay</name></member>
+    <member refid="class_a_s_s2_1_1_r_s232_config_type_1aff0be236a0be15f079eb2425ce1ce2b7" kind="property"><name>PortName</name></member>
+  </compound>
+  <compound refid="class_r_s232_device_type" kind="class"><name>RS232DeviceType</name>
+    <member refid="class_r_s232_device_type_1a055aedeae533633982b143ea24669db6" kind="property"><name>_serialPort</name></member>
+    <member refid="class_r_s232_device_type_1a32b2990e968d3e71cebcedc3915019b6" kind="property"><name>delay</name></member>
+    <member refid="class_r_s232_device_type_1a3b3d814a71973726c3c2607b7e7e1aa6" kind="property"><name>Name</name></member>
+    <member refid="class_r_s232_device_type_1a0c6cb36d03272783f707bc2a518e0532" kind="event"><name>OnDataReceived</name></member>
+    <member refid="class_r_s232_device_type_1ac32bb201dbe125090ff09b2102bc799d" kind="function"><name>Disconnect</name></member>
+    <member refid="class_r_s232_device_type_1a7f1680b7ea5e71716323744e3fa1c75c" kind="function"><name>Connect</name></member>
+    <member refid="class_r_s232_device_type_1a2a5922f28e96eb755b6c737e4430f423" kind="function"><name>errorrreceived</name></member>
+    <member refid="class_r_s232_device_type_1aa2ba322a0a251c2317df93be6f418466" kind="function"><name>pinchanged</name></member>
+    <member refid="class_r_s232_device_type_1a7761afd5b42fcdbf21675bdbb7cc5ee1" kind="function"><name>DataReceived</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_run_stat_item_type" kind="class"><name>ASS2::RunStatItemType</name>
+    <member refid="class_a_s_s2_1_1_run_stat_item_type_1af51196926ba206c6ea5eb7e28e80d430" kind="property"><name>StandName</name></member>
+    <member refid="class_a_s_s2_1_1_run_stat_item_type_1af6b1613b92d809b87f88609af8985732" kind="property"><name>DirectionName</name></member>
+    <member refid="class_a_s_s2_1_1_run_stat_item_type_1ab2b8b6b73b9ff1c4c0e18a0bd42b3e15" kind="property"><name>SortedParcels</name></member>
+    <member refid="class_a_s_s2_1_1_run_stat_item_type_1a7dce27d2f7e11d29700e5aec1d90175f" kind="property"><name>MissedParcels</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_run_stat_type" kind="class"><name>ASS2::RunStatType</name>
+    <member refid="class_a_s_s2_1_1_run_stat_type_1af19ab6acd63142ff3e1a473abbcadf8c" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_run_stat_type_1ab2a78128fe43b956f3eacd1c48b21c45" kind="property"><name>RunId</name></member>
+    <member refid="class_a_s_s2_1_1_run_stat_type_1aef4681a469bf7cee9d1d1b10ccd889f6" kind="property"><name>MachineId</name></member>
+    <member refid="class_a_s_s2_1_1_run_stat_type_1a8e33fcdee16d47921d0a0a7afb1c2a06" kind="property"><name>CircleNumber</name></member>
+    <member refid="class_a_s_s2_1_1_run_stat_type_1af343b85606b9d9453f9b9686604aeb68" kind="property"><name>RunStart</name></member>
+    <member refid="class_a_s_s2_1_1_run_stat_type_1a3f18afaff2e443417bfab9ef0738ee0e" kind="property"><name>RunStop</name></member>
+    <member refid="class_a_s_s2_1_1_run_stat_type_1a8edb24e279d50dbc5677fc3d45d0f5a0" kind="property"><name>Items</name></member>
+    <member refid="class_a_s_s2_1_1_run_stat_type_1a9383b67a7839fd6a25956af3adbe487b" kind="function"><name>RunStatType</name></member>
+    <member refid="class_a_s_s2_1_1_run_stat_type_1af876daff208d53f7699e6dbb838796f6" kind="function"><name>RunStatType</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_run_type" kind="class"><name>ASS2::RunType</name>
+    <member refid="class_a_s_s2_1_1_run_type_1a921256f035c386d1241c572fc0199ab0" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_run_type_1a5bc29453585957eef92bbe87bf14a32e" kind="property"><name>StartTime</name></member>
+    <member refid="class_a_s_s2_1_1_run_type_1a84a76bc4a8c5b5d3a4c7d55d96aa8555" kind="property"><name>EndTime</name></member>
+    <member refid="class_a_s_s2_1_1_run_type_1a60eda5ec844b2c042d992df1155ddaf7" kind="property"><name>MachineId</name></member>
+    <member refid="class_a_s_s2_1_1_run_type_1a7967d08859e8ed134b268de883df00c5" kind="property"><name>SortProgramId</name></member>
+    <member refid="class_a_s_s2_1_1_run_type_1ad622f72a9172bf0e92402a3437c8f69f" kind="function"><name>IsWorking</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_sensor_start_detection_type" kind="class"><name>ASS2::SensorStartDetectionType</name>
+    <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1ae9cdd6c165f1674e6c0b29438ecc34be" kind="variable"><name>ignition</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a73b24c80cd8efcd1915976787feb0b80" kind="variable"><name>TrueValue</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1ac74d27ee2ac43004a1ab29beb8fc4db9" kind="variable"><name>falseValue</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a9c82f32b30681cd55bdd13a27cadd17d" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1aa9eccdcf83e8c451e7cfb59e8488f9eb" kind="property"><name>Name</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a09dc8921a27b41af81d8081c129acc42" kind="property"><name>Address</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a154ea5173f65e6fc2bac680940e3c209" kind="property"><name>myVal</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a0125981a438e7e5260f8e8b0bf4a49b5" kind="property"><name>Value</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a73bae417fdcab30d050950f49e7290a9" kind="variable"><name>FeederIndex</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1abe9390bc026e55ff235a7fbe0dd3f550" kind="event"><name>ValueChanged</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1ae5f4baf47644d9b4ba371edea90d2818" kind="event"><name>OnLenghtReaded</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a6925011a65d2ede5c91cde76e6f3212e" kind="function"><name>SensorStartDetectionType</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1a0110fa6397a87b76648d0cb6f317346e" kind="function"><name>RaiseEvent</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_sensor_start_parcel_type" kind="class"><name>ASS2::SensorStartParcelType</name>
+    <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a56431fa8ba2c342c357ca561bd01ba99" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a0e8816b7fd7a05cf3e635481ac5f14ba" kind="property"><name>Name</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a1d1685ebadf95231bfcc5e1c8a55fe2b" kind="property"><name>Address</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a92916b24c6a7e669f48c035a2fa103a5" kind="property"><name>myVal</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a7d5c53af7faef39e26013228609ce951" kind="property"><name>Value</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a5ca894947d08234ca2f8fda0010f4b66" kind="variable"><name>FeederIndex</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a3236352f3cefd0c7248187042d020270" kind="variable"><name>TrueValue</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a1200ddacf33869b45d55b954cf19e1f1" kind="variable"><name>falseValue</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a4e35e138e16ba644cd504b5b1dbd71c9" kind="event"><name>ValueChanged</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1a5372044b97921d5a3e229c44fd355197" kind="event"><name>OnLenghtReaded</name></member>
+    <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1aba226b7a0f4dd19b882fd7b35cdc2815" kind="function"><name>RaiseEvent</name></member>
+  </compound>
+  <compound refid="interface_a_s_s2_1_1_sensor_type" kind="interface"><name>ASS2::SensorType</name>
+    <member refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9" kind="enum"><name>SensorName</name></member>
+    <member refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9ac5243f45ab03ee781ad4dd234d26e6e2" kind="enumvalue"><name>startdetectionsensor</name></member>
+    <member refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9aeb9e2b8983340be98bceb47546c97d92" kind="enumvalue"><name>startparcelsensor</name></member>
+    <member refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9a0da1f03a79e84955304ae76bd610cf12" kind="enumvalue"><name>tactsensor</name></member>
+    <member refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9a29d5e1612a5dbc5cfa64c634a261a558" kind="enumvalue"><name>stopsensor</name></member>
+    <member refid="interface_a_s_s2_1_1_sensor_type_1a104ad910593aab61ace15a4e3ad9ba3e" kind="property"><name>Id</name></member>
+    <member refid="interface_a_s_s2_1_1_sensor_type_1a4e6e8efeb78fe30e1c66f1653f10cc41" kind="property"><name>Name</name></member>
+    <member refid="interface_a_s_s2_1_1_sensor_type_1a70b367c49c9746a5fd7664cfa28cfd7a" kind="property"><name>Address</name></member>
+    <member refid="interface_a_s_s2_1_1_sensor_type_1a3749bbb3df243a02059c6fc909803825" kind="property"><name>Value</name></member>
+    <member refid="interface_a_s_s2_1_1_sensor_type_1ace4a3103a7b9589b5d1bb60febbd7c97" kind="event"><name>ValueChanged</name></member>
+  </compound>
+  <compound refid="class_r_s232_device_type_1_1_skaner_event_args" kind="class"><name>RS232DeviceType::SkanerEventArgs</name>
+    <member refid="class_r_s232_device_type_1_1_skaner_event_args_1acfc14461d64574107611d05dbcd265f4" kind="property"><name>DataReceived</name></member>
+  </compound>
+  <compound refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type" kind="interface"><name>ASS2::ServiceReference1::SledzeniePortType</name>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ad37b1fdafb87de10db66be681e10d04b" kind="function"><name>wersja</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a1eda1d0f63e4da1700e822a446535e4b" kind="function"><name>wersjaAsync</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a627975fe22c25abb7b212f3221261e09" kind="function"><name>sprawdzPrzesylkiPl</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a4a5d8e4072fec40c5caf9c8276364ddd" kind="function"><name>sprawdzPrzesylkiPlAsync</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1af02c822cea41b214eadc6e89399a8f0d" kind="function"><name>sprawdzPrzesylkePl</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a8d39ac0870e988bc3ee049712b626207" kind="function"><name>sprawdzPrzesylkePlAsync</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ab4c1beb9f42fe72fec3ddb81bac09262" kind="function"><name>sprawdzPrzesylkiOdDo</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a4023dd9bc8d8d754f59378e146056f3a" kind="function"><name>sprawdzPrzesylkiOdDoAsync</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1aa39b4ffcefe7552f1723d19d965e5a6b" kind="function"><name>maksymalnaLiczbaPrzesylek</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a98c586d44b8ca4468bc2463247baeefe" kind="function"><name>maksymalnaLiczbaPrzesylekAsync</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ae7512de38ab7e29ae47ebb49d74599b1" kind="function"><name>sprawdzPrzesylke</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ae74e53b4adbcb6c68e5ec11d39c81446" kind="function"><name>sprawdzPrzesylkeAsync</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ab4f5bbee227a5c55100afb9af2fe37a8" kind="function"><name>sprawdzPrzesylkiOdDoPl</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a02649f92d6dec361facf01cf4d78f184" kind="function"><name>sprawdzPrzesylkiOdDoPlAsync</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1ac1fb378a65ba4404dff91867e09f25eb" kind="function"><name>witaj</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a6bce6c8bc4e758c519c280d36c96bd64" kind="function"><name>witajAsync</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1aef297e2ab0e479c24e830cd71fc27625" kind="function"><name>sprawdzPrzesylki</name></member>
+    <member refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_1a10e282ff430b1899ead64e31519fddbb" kind="function"><name>sprawdzPrzesylkiAsync</name></member>
+  </compound>
+  <compound refid="interface_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_channel" kind="interface"><name>ASS2::ServiceReference1::SledzeniePortTypeChannel</name>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client" kind="class"><name>ASS2::ServiceReference1::SledzeniePortTypeClient</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a57ff40a7d4e01171a132ac36cecdc19a" kind="function"><name>SledzeniePortTypeClient</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a9ece0789743daad90f07f82951832397" kind="function"><name>SledzeniePortTypeClient</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1aafe5381161e02f1a9b8575217e40c468" kind="function"><name>SledzeniePortTypeClient</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a7d40be11d40da49bd406fcf136c1d713" kind="function"><name>SledzeniePortTypeClient</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a3d4835c50fcdff7637aea7d9e81b7f7d" kind="function"><name>SledzeniePortTypeClient</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a4628bf307089062e46b1b78f6d778aa6" kind="function"><name>wersja</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a3fdae3fe4ef7c5330d8a1e2efc9b562f" kind="function"><name>wersjaAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a33499b135c1c056b49f43306c003167f" kind="function"><name>sprawdzPrzesylkiPl</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a3980484d473bc8fd5958ccf1b94c26da" kind="function"><name>sprawdzPrzesylkiPlAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1afa22c1c67e7227bf257d23a955e380ee" kind="function"><name>sprawdzPrzesylkePl</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a3753531b37f3af8a5aed837ab1447f41" kind="function"><name>sprawdzPrzesylkePlAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1aa3e56251caaaf66ed60fdbfc38c0df7b" kind="function"><name>sprawdzPrzesylkiOdDo</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a7fc91c676ddb3444833171f15f00f0ef" kind="function"><name>sprawdzPrzesylkiOdDoAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a5456dbc07c9bbac677b13cebf83ee864" kind="function"><name>maksymalnaLiczbaPrzesylek</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a12fc38b2f28f92d404694c01038493cc" kind="function"><name>maksymalnaLiczbaPrzesylekAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1ae456d2c6a2423a003e9bb1790da50676" kind="function"><name>sprawdzPrzesylke</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a388969e8bbc520a6c2f5b1505a289748" kind="function"><name>sprawdzPrzesylkeAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1ab34fb75ea84ab5ffade4ea925224dbcc" kind="function"><name>sprawdzPrzesylkiOdDoPl</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1ad0ac544766384deba63b3fd95d5d3804" kind="function"><name>sprawdzPrzesylkiOdDoPlAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a334413ebc2492bf7e89c2d2e186bab30" kind="function"><name>witaj</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a5537d3991e047e7d139a1eb59c351f5c" kind="function"><name>witajAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a03379e2666cce237cfc2b9089c94c354" kind="function"><name>sprawdzPrzesylki</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a7f49de6d935af71206773933e5b3a98f" kind="function"><name>sprawdzPrzesylkiAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1af7e075a2b9b82300d40d53a4ff8f8bbd" kind="function"><name>wersja</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a7a0d5f10383bbb1a9044623de4ed61eb" kind="function"><name>wersjaAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1adb6e4fad2cbc4b7e6012771c2dbefe52" kind="function"><name>sprawdzPrzesylkiPl</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a361981eceaec2dc4eebbeeee6a5f2082" kind="function"><name>sprawdzPrzesylkiPlAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a05ed81b336cd628b1f18315f31d4d555" kind="function"><name>sprawdzPrzesylkePl</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a367e8ab83febab2cdcf7cd31eed8cd71" kind="function"><name>sprawdzPrzesylkePlAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a2e8bdd719a6c2b1187138b3dba268267" kind="function"><name>sprawdzPrzesylkiOdDo</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a9188424151239da6e519c4346cee49d6" kind="function"><name>sprawdzPrzesylkiOdDoAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1af0960c63c3c8becf699383e63ec301d6" kind="function"><name>maksymalnaLiczbaPrzesylek</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a8784c87910653188497d518627c5c27e" kind="function"><name>maksymalnaLiczbaPrzesylekAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1af36f61bf8b1618fd011a8d6d96e3e0ea" kind="function"><name>sprawdzPrzesylke</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a453b1a37e7c48982bb447b603722cd87" kind="function"><name>sprawdzPrzesylkeAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a4bfad9b2241f7584908a079bc6615b79" kind="function"><name>sprawdzPrzesylkiOdDoPl</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1ad462b1af2168e13bac5d6d0c7475f2af" kind="function"><name>sprawdzPrzesylkiOdDoPlAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a94cdde0190fc951bf0c61fe761378a87" kind="function"><name>witaj</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1aae314e94631d03b6e12eadf2957cae9a" kind="function"><name>witajAsync</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1a2a20e680f28275cc9546ec1214d34c43" kind="function"><name>sprawdzPrzesylki</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_sledzenie_port_type_client_1ae80b2d9fdcf712d350ddae28df3e8a24" kind="function"><name>sprawdzPrzesylkiAsync</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_sledzenie_service_type" kind="class"><name>ASS2::SledzenieServiceType</name>
+    <member refid="class_a_s_s2_1_1_sledzenie_service_type_1af447ea9fb814e4cf4d086923fe190943" kind="function"><name>SprawdzPrzesylkeAsync</name></member>
+    <member refid="class_a_s_s2_1_1_sledzenie_service_type_1a3c263ef27a057f3c17c248bd5da0f3cb" kind="function"><name>SprawdzPrzesylke</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_sort_program_item_type" kind="class"><name>ASS2::SortProgramItemType</name>
+    <member refid="class_a_s_s2_1_1_sort_program_item_type_1af5031c18aa523ec631806f5e73015b77" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_sort_program_item_type_1a6a071a629007125a20f6cc0d66802e7b" kind="property"><name>StandIndex</name></member>
+    <member refid="class_a_s_s2_1_1_sort_program_item_type_1afbc1fda1d6afaa8f70775788f841ba60" kind="property"><name>DirectionIndex</name></member>
+    <member refid="class_a_s_s2_1_1_sort_program_item_type_1a257315b59dd87d7c65b4349998a4f354" kind="property"><name>Direction</name></member>
+    <member refid="class_a_s_s2_1_1_sort_program_item_type_1a0473bcf813e8fb63a6aa907e6deda1e7" kind="property"><name>Color</name></member>
+    <member refid="class_a_s_s2_1_1_sort_program_item_type_1a462267867ef3146e34801dc6d8af4663" kind="function"><name>SortProgramItemType</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_sort_program_type" kind="class"><name>ASS2::SortProgramType</name>
+    <member refid="class_a_s_s2_1_1_sort_program_type_1ab5c71b9c8d5a7cff392bf85f1be5455b" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_sort_program_type_1afc992471f1b2f57045d9254bc05e0bc6" kind="property"><name>MachineId</name></member>
+    <member refid="class_a_s_s2_1_1_sort_program_type_1a2324b9abc80e734038eded28ed63b2e6" kind="property"><name>Name</name></member>
+    <member refid="class_a_s_s2_1_1_sort_program_type_1a51d09afccfeff27703591e105211453c" kind="property"><name>Items</name></member>
+    <member refid="class_a_s_s2_1_1_sort_program_type_1abccba71dda74e1a3be5e18bfbb7f6c61" kind="function"><name>SortProgramType</name></member>
+    <member refid="class_a_s_s2_1_1_sort_program_type_1ac907479634e190fa18f7de7cf25812d2" kind="function"><name>SortProgramType</name></member>
+    <member refid="class_a_s_s2_1_1_sort_program_type_1a50dbb0ebb1a14c76b15891bd5ab6b43e" kind="function"><name>GetItem</name></member>
+    <member refid="class_a_s_s2_1_1_sort_program_type_1ae2220b26685082fe32f99a9625519caf" kind="function"><name>LoadMachineId</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_request" kind="class"><name>ASS2::ServiceReference1::sprawdzPrzesylkePlRequest</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_request_1aa4e4df6e09105f648c5b56b8845552e8" kind="variable"><name>numer</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_request_1add0b3ff0f1dd0fa7b207e10ed68f2a4f" kind="function"><name>sprawdzPrzesylkePlRequest</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_request_1ae82697248754e7e37009ef847c78dda7" kind="function"><name>sprawdzPrzesylkePlRequest</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response" kind="class"><name>ASS2::ServiceReference1::sprawdzPrzesylkePlResponse</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response_1a79a4f680d0859b45a592dfe745bc722f" kind="variable"><name>return</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response_1a4e7bee8f9b51c8ac35413670ff34ca8c" kind="function"><name>sprawdzPrzesylkePlResponse</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_pl_response_1aa2bc3a7e57548a5229b8c5ef9029c8cd" kind="function"><name>sprawdzPrzesylkePlResponse</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_request" kind="class"><name>ASS2::ServiceReference1::sprawdzPrzesylkeRequest</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_request_1a3d118921365a7b737821ae7f5d2a0549" kind="variable"><name>numer</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_request_1abaa7e3ebd84f1df7de16ff0faff1c75b" kind="function"><name>sprawdzPrzesylkeRequest</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_request_1a482a657e1646b32aa8d765cbd25988bd" kind="function"><name>sprawdzPrzesylkeRequest</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_response" kind="class"><name>ASS2::ServiceReference1::sprawdzPrzesylkeResponse</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_response_1ae172da7e551243072401015a10ee854e" kind="variable"><name>return</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_response_1a298b08b969e2a4126c91c670b4bbd17e" kind="function"><name>sprawdzPrzesylkeResponse</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylke_response_1ab57da058441b1dc5aa62c42d8e862dfd" kind="function"><name>sprawdzPrzesylkeResponse</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_request" kind="class"><name>ASS2::ServiceReference1::sprawdzPrzesylkiOdDoPlRequest</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_request_1a260c98f23914a49315c144cbd683088a" kind="variable"><name>numer</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_request_1a41af2000d39927d8aaba6d903987b5fd" kind="variable"><name>odDnia</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_request_1a5c411718148adda3ad24f95317fa8cca" kind="variable"><name>doDnia</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_request_1a222ca56d58ab34486cca6209ecf49c0c" kind="function"><name>sprawdzPrzesylkiOdDoPlRequest</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_request_1ae8be15bea325e7cb0315a376925466de" kind="function"><name>sprawdzPrzesylkiOdDoPlRequest</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_response" kind="class"><name>ASS2::ServiceReference1::sprawdzPrzesylkiOdDoPlResponse</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_response_1a5f7a57fbc92883ef727e5f963b3f3962" kind="variable"><name>return</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_response_1a98a953d41b35197c737c94c42fc2ed5a" kind="function"><name>sprawdzPrzesylkiOdDoPlResponse</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_pl_response_1a6d7b75ad3c7be82c0c72999a4dfdb9e0" kind="function"><name>sprawdzPrzesylkiOdDoPlResponse</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request" kind="class"><name>ASS2::ServiceReference1::sprawdzPrzesylkiOdDoRequest</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request_1a1e4a0b6d1cb7e797e4a39632fb42867f" kind="variable"><name>numer</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request_1ae5f9667f1b76fa5e5dbc0049f3308572" kind="variable"><name>odDnia</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request_1a25225b3626431f027b110a50d86a3521" kind="variable"><name>doDnia</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request_1ad83919cd1549df664ae2f05df290bb5e" kind="function"><name>sprawdzPrzesylkiOdDoRequest</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_request_1afdb5b8ea9f1d162a4b251e2b158f27e7" kind="function"><name>sprawdzPrzesylkiOdDoRequest</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_response" kind="class"><name>ASS2::ServiceReference1::sprawdzPrzesylkiOdDoResponse</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_response_1a63a3eaed2bf478499627296eab77c883" kind="variable"><name>return</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_response_1add8fe7d461d9968522ae8e36d63ca5dc" kind="function"><name>sprawdzPrzesylkiOdDoResponse</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_od_do_response_1aa5df33daa1a6913f628f88b0655bde20" kind="function"><name>sprawdzPrzesylkiOdDoResponse</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_pl_request" kind="class"><name>ASS2::ServiceReference1::sprawdzPrzesylkiPlRequest</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_pl_request_1a985a5002f590f9182c5167a184c74fa8" kind="variable"><name>numer</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_pl_request_1a2a6a69dc1287daf54dbaf98bbd78c4ee" kind="function"><name>sprawdzPrzesylkiPlRequest</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_pl_request_1a98110f39c2bbc104ac7e5dd55e54e1e7" kind="function"><name>sprawdzPrzesylkiPlRequest</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_pl_response" kind="class"><name>ASS2::ServiceReference1::sprawdzPrzesylkiPlResponse</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_pl_response_1a6f4d19dd067d9486ed4a44afe6c9b893" kind="variable"><name>return</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_pl_response_1ac7baffc12e42720a1dd7e4fc93f0efc8" kind="function"><name>sprawdzPrzesylkiPlResponse</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_pl_response_1a0995ee1ae9b4c9a913f667d50044a848" kind="function"><name>sprawdzPrzesylkiPlResponse</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_request" kind="class"><name>ASS2::ServiceReference1::sprawdzPrzesylkiRequest</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_request_1ae832ff2ddc5a20606ed8886e0b9bb04c" kind="variable"><name>numer</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_request_1a147a89bc97617e7a8f71136b9bdf318e" kind="function"><name>sprawdzPrzesylkiRequest</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_request_1a1e88fced90b48cc855442592b1f19360" kind="function"><name>sprawdzPrzesylkiRequest</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_response" kind="class"><name>ASS2::ServiceReference1::sprawdzPrzesylkiResponse</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_response_1a2b30d9c00242ea5ee39c30acabf3037c" kind="variable"><name>return</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_response_1a71c82033af555ae93b5b2946027c19d1" kind="function"><name>sprawdzPrzesylkiResponse</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1sprawdz_przesylki_response_1aaed6eeee1d28fbb62de1056cc648c7ec" kind="function"><name>sprawdzPrzesylkiResponse</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_stand_item_type" kind="class"><name>ASS2::StandItemType</name>
+    <member refid="class_a_s_s2_1_1_stand_item_type_1a7b57057fe6461f38211768bbc5c1afe3" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_stand_item_type_1a4235d1e679594e4037498d486bcf1280" kind="property"><name>Direction</name></member>
+    <member refid="class_a_s_s2_1_1_stand_item_type_1ad206b842fcb83f80dd9ead08a0b411f1" kind="property"><name>Color</name></member>
+    <member refid="class_a_s_s2_1_1_stand_item_type_1a4550bab1cc60350498f4cae157f097c2" kind="property"><name>MissedParcels</name></member>
+    <member refid="class_a_s_s2_1_1_stand_item_type_1a43a9a7d5a7d41375552d27ebda5a74cd" kind="property"><name>SortedParcels</name></member>
+    <member refid="class_a_s_s2_1_1_stand_item_type_1af6655f839264bb3332e26e3aaee9f3b3" kind="variable"><name>Lamp1OnTacts</name></member>
+    <member refid="class_a_s_s2_1_1_stand_item_type_1ab61524a58957eed8613bcf7b8528909a" kind="variable"><name>Lamp1IsOn</name></member>
+    <member refid="class_a_s_s2_1_1_stand_item_type_1a290952a84385154f209dd0dd7c99dd2a" kind="function"><name>StandItemType</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_stand_type" kind="class"><name>ASS2::StandType</name>
+    <member refid="class_a_s_s2_1_1_stand_type_1a889b2c3c5189662a8bcc98b57261d325" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_stand_type_1aa2d88ca0430a0c36f487853e4f4d810d" kind="property"><name>OrderNumber</name></member>
+    <member refid="class_a_s_s2_1_1_stand_type_1a1767ab89edea5594552f84a06f8a2897" kind="property"><name>Name</name></member>
+    <member refid="class_a_s_s2_1_1_stand_type_1a1c148be95a07e4b383fe83a9042340ba" kind="property"><name>Lamp1Index</name></member>
+    <member refid="class_a_s_s2_1_1_stand_type_1a248c7baa5b26060d74d472f91109149e" kind="property"><name>Lamp2Index</name></member>
+    <member refid="class_a_s_s2_1_1_stand_type_1a3c60638e25e8682a5ed1c60f92eed539" kind="property"><name>Items</name></member>
+    <member refid="class_a_s_s2_1_1_stand_type_1a17e65184f4e00b6830d9704c4ca6e003" kind="variable"><name>Lamp1</name></member>
+    <member refid="class_a_s_s2_1_1_stand_type_1a6fc9e38b595e4fcb0361c9efa08adb94" kind="variable"><name>Lamp2</name></member>
+    <member refid="class_a_s_s2_1_1_stand_type_1ac2fafefa1ab5981ddfd945d6a0cfde3c" kind="function"><name>StandType</name></member>
+    <member refid="class_a_s_s2_1_1_stand_type_1a613417a60847bd2a48dcd2d3741bd672" kind="function"><name>SetLamps</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_sensor_start_parcel_type_1_1_start_sensor_event_args" kind="class"><name>ASS2::SensorStartParcelType::StartSensorEventArgs</name>
+    <member refid="class_a_s_s2_1_1_sensor_start_parcel_type_1_1_start_sensor_event_args_1aff001d8f0800ff96cff9ef22567900da" kind="property"><name>TimeValue</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_sensor_start_detection_type_1_1_start_sensor_event_args" kind="class"><name>ASS2::SensorStartDetectionType::StartSensorEventArgs</name>
+    <member refid="class_a_s_s2_1_1_sensor_start_detection_type_1_1_start_sensor_event_args_1a95fd6301df7ab74d18aa3434ee4044c5" kind="property"><name>TimeValue</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_stop_sensor_type" kind="class"><name>ASS2::StopSensorType</name>
+    <member refid="class_a_s_s2_1_1_stop_sensor_type_1a1abc6e11e6202525b7923fa9a5a6495f" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_stop_sensor_type_1ab187952f9b5899c5246682278dd561cd" kind="property"><name>Name</name></member>
+    <member refid="class_a_s_s2_1_1_stop_sensor_type_1a9ee2fa668654b216c4ef3cb54d613ed0" kind="property"><name>Address</name></member>
+    <member refid="class_a_s_s2_1_1_stop_sensor_type_1a8d26670008c3e8aa7a70d4f6c97e9201" kind="property"><name>myVal</name></member>
+    <member refid="class_a_s_s2_1_1_stop_sensor_type_1a9228587ac25df97a6ea02fc985db4133" kind="property"><name>TactNumber</name></member>
+    <member refid="class_a_s_s2_1_1_stop_sensor_type_1ad92a25b7bf6cea6986773214b22909a6" kind="property"><name>Value</name></member>
+    <member refid="class_a_s_s2_1_1_stop_sensor_type_1af9143bba4dba85aa9cc8732f4442e7ac" kind="event"><name>ValueChanged</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki" kind="class"><name>ASS2::ServiceReference1::SzczDaneJednostki</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1ab0422a725ebb953099327702327bacaa" kind="variable"><name>dlGeogrField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1ab173d01d2edbdac7114ce0c5f14fb582" kind="variable"><name>dlGeogrFieldSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1acf94bffb7cd7706bf11b4434fa350850" kind="variable"><name>godzinyPracyField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a772071cc30527cb3b4555c95ae5c4c65" kind="variable"><name>miejscowoscField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a6067745710c4f4ed495f5a3c16fe89cc" kind="variable"><name>nrDomuField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1accdf620dadd5eb4d1eb2d6baf9eab6be" kind="variable"><name>nrLokaluField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a1f7836619b6e47839779786dbef76d65" kind="variable"><name>pnaField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1ad76bc8d82929ee26346d4012e777d643" kind="variable"><name>szerGeogrField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1aed3ad836460e1ef3706936f7e4bf3920" kind="variable"><name>szerGeogrFieldSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a3bebb1f598d9b9ee4375bc6958d7a815" kind="variable"><name>ulicaField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a99977c559b12b4b2950206f7ffa433c7" kind="property"><name>dlGeogr</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a00a27493dc918341786857d40ac4209f" kind="property"><name>dlGeogrSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1ad1f75cd1c70636ed81392ff5762629d7" kind="property"><name>godzinyPracy</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1aa84df385c0c354d2b256ec182686d0de" kind="property"><name>miejscowosc</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a20b4e4509f4392fdaeecc75644b559f5" kind="property"><name>nrDomu</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a7c77e9ac27a432fb8349bef309ef3619" kind="property"><name>nrLokalu</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a4c00b4326020d15525700e2e24f4b400" kind="property"><name>pna</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a0d18a7dbf79bff40b356529121d4218b" kind="property"><name>szerGeogr</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1ae768a243d7713b8221cff1050934fa9c" kind="property"><name>szerGeogrSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1af35c2f57694a45f25c5948f3effb991f" kind="property"><name>ulica</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a9d1e80ac6f64230e6cdb0c350e21cb37" kind="event"><name>PropertyChanged</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki_1a152a3d8bea144209fb5213fec1d547f1" kind="function"><name>RaisePropertyChanged</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_tact_sensor_type" kind="class"><name>ASS2::TactSensorType</name>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1a870d4578780605e13746927d73cad70a" kind="property"><name>Id</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1a7cd97028eb290b032dc50e5e0eae8a72" kind="property"><name>Name</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1a283bad3f5ea145a19f9680e8543df611" kind="property"><name>Address</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1aed39c25345bb3b4b2258998ab45d6140" kind="property"><name>ValueChangedTime</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1a68b6112b66d94592dde8faf3e5f0dcdf" kind="property"><name>TactLenghtTime</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1aaadff8df55b29bda97f17d152de83c49" kind="property"><name>WorkDetectionTimer</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1a37d5397cbdf98c372f394272f765b3b1" kind="property"><name>SupposedTactTime</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1acce0aab9e109338d375690cd78839db4" kind="property"><name>Counter</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1ace23690f80d582daa2e279dae72f7706" kind="property"><name>myVal</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1a4d5228692db424fc62d28123b864da91" kind="property"><name>Value</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1aecbfdb3b760a47ee80c9b4a37cf2bfac" kind="event"><name>ValueChanged</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1a2cff81750617c007312b9ccedd8c03d4" kind="event"><name>BeltStart</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1a3fdfe04700f269f956be9cf32a1d6e68" kind="event"><name>BeltStop</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1a8f484f213fa900945c72969ccb70bbdd" kind="event"><name>TactMissed</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1ab7340e78bab1993c75a5746c43d2b5dc" kind="function"><name>TactSensorType</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1a073eccaa79956f7952c4cfcb0ad456f8" kind="function"><name>TactSensorType</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1ad2759534769f9db4ee5575e206fc3ca6" kind="function"><name>BeltStarted</name></member>
+    <member refid="class_a_s_s2_1_1_tact_sensor_type_1adae92c4b24ce23f157c261d7b07ad914" kind="function"><name>WorkDetectionTimer_Elapsed</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1wersja_request" kind="class"><name>ASS2::ServiceReference1::wersjaRequest</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1wersja_request_1a63e3bf2e5242e692bc237deec4bea73d" kind="function"><name>wersjaRequest</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1wersja_response" kind="class"><name>ASS2::ServiceReference1::wersjaResponse</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1wersja_response_1ab710d1319eec54d456dfd2f164e50ada" kind="variable"><name>return</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1wersja_response_1ac58944ba1d468c6bd8e4ffeff772f13b" kind="function"><name>wersjaResponse</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1wersja_response_1a719f31edae91b59bee80d20dac87e80f" kind="function"><name>wersjaResponse</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1witaj_request" kind="class"><name>ASS2::ServiceReference1::witajRequest</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1witaj_request_1a8206ddf729ddc4881d2043a298cf43c6" kind="variable"><name>imie</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1witaj_request_1a403941140ce1e0c4386639666de8232c" kind="function"><name>witajRequest</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1witaj_request_1adfde94e23d4257579059e6627a64054b" kind="function"><name>witajRequest</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1witaj_response" kind="class"><name>ASS2::ServiceReference1::witajResponse</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1witaj_response_1ae1f50e8efd9634f99b68a76b5dd3d2f1" kind="variable"><name>return</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1witaj_response_1a44f00ab6999c35c6cc70610c826c1530" kind="function"><name>witajResponse</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1witaj_response_1ac5be8222365d3211c12e10c79035a40a" kind="function"><name>witajResponse</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_w_s_r_type" kind="class"><name>ASS2::WSRType</name>
+    <member refid="class_a_s_s2_1_1_w_s_r_type_1a897f1fe7ab966f5dadee7f26d2851e56" kind="property"><name>WSR</name></member>
+  </compound>
+  <compound refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie" kind="class"><name>ASS2::ServiceReference1::Zdarzenie</name>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a2fbe34f7beaca643354e4623c44b30c3" kind="variable"><name>czasField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a334818c9df3a7efeef26f0bd40897f20" kind="variable"><name>jednostkaField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a9bfb4bd504bf199e94253ad9ae6ce59e" kind="variable"><name>kodField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1af275173c03612ddf694349293f33d073" kind="variable"><name>konczaceField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a70c93d8cf7103561c142238e6d5e828c" kind="variable"><name>konczaceFieldSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a58e8479c06edb244819c3b60d31d4609" kind="variable"><name>nazwaField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1ade714beebe8ccc83a892cdb50cb0f323" kind="variable"><name>przyczynaField</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a6041795f333cbd612cb8853a514412e9" kind="property"><name>czas</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a988a2992acd6d9bff6cebedc60c249a6" kind="property"><name>jednostka</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a6f0341e23fdd11cc25590002fe63dc45" kind="property"><name>kod</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a4909669a5325973dd63c4261f24de049" kind="property"><name>konczace</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a20524e23501d4309f40c5028aec2662b" kind="property"><name>konczaceSpecified</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1af458e192b9f65c1d580df4cc384f479c" kind="property"><name>nazwa</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1ac968ea414b5a3619b4cf2a714a2c482c" kind="property"><name>przyczyna</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1ad722196b687bdd947dde5d3a7602d678" kind="event"><name>PropertyChanged</name></member>
+    <member refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie_1a45517bf55432b8c9318af8071beecb29" kind="function"><name>RaisePropertyChanged</name></member>
+  </compound>
+  <compound refid="namespace_a_s_s2" kind="namespace"><name>ASS2</name>
+  </compound>
+  <compound refid="namespace_a_s_s2_1_1_service_reference1" kind="namespace"><name>ASS2::ServiceReference1</name>
+  </compound>
+  <compound refid="namespace_easy_modbus" kind="namespace"><name>EasyModbus</name>
+  </compound>
+  <compound refid="namespace_microsoft_1_1_visual_basic" kind="namespace"><name>Microsoft::VisualBasic</name>
+  </compound>
+  <compound refid="namespace_modbus_1_1_device" kind="namespace"><name>Modbus::Device</name>
+  </compound>
+  <compound refid="namespace_my_sql_1_1_data_1_1_my_sql_client" kind="namespace"><name>MySql::Data::MySqlClient</name>
+  </compound>
+  <compound refid="namespace_newtonsoft_1_1_json" kind="namespace"><name>Newtonsoft::Json</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_globalization" kind="namespace"><name>System::Globalization</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o_1_1_ports" kind="namespace"><name>System::IO::Ports</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net" kind="namespace"><name>System::Net</name>
+  </compound>
+  <compound refid="namespace_system_1_1_net_1_1_sockets" kind="namespace"><name>System::Net::Sockets</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security" kind="namespace"><name>System::Security</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_timers" kind="namespace"><name>System::Timers</name>
+  </compound>
+  <compound refid="_reference_8cs" kind="file"><name>Reference.cs</name>
+  </compound>
+  <compound refid="_data_base_storage_helper_8cs" kind="file"><name>DataBaseStorageHelper.cs</name>
+  </compound>
+  <compound refid="_mysql_core_8cs" kind="file"><name>MysqlCore.cs</name>
+  </compound>
+  <compound refid="_i_naming_d_b_8cs" kind="file"><name>INamingDB.cs</name>
+  </compound>
+  <compound refid="_sensor_type_8cs" kind="file"><name>SensorType.cs</name>
+  </compound>
+  <compound refid="_color_type_8cs" kind="file"><name>ColorType.cs</name>
+  </compound>
+  <compound refid="_dict_type_8cs" kind="file"><name>DictType.cs</name>
+  </compound>
+  <compound refid="_direction_item_type_8cs" kind="file"><name>DirectionItemType.cs</name>
+  </compound>
+  <compound refid="_direction_type_8cs" kind="file"><name>DirectionType.cs</name>
+  </compound>
+  <compound refid="_p_n_a_range_type_8cs" kind="file"><name>PNARangeType.cs</name>
+  </compound>
+  <compound refid="_w_s_r_type_8cs" kind="file"><name>WSRType.cs</name>
+  </compound>
+  <compound refid="_lamp_type_8cs" kind="file"><name>LampType.cs</name>
+  </compound>
+  <compound refid="_r_s232_config_type_8cs" kind="file"><name>RS232ConfigType.cs</name>
+  </compound>
+  <compound refid="_sort_program_item_type_8cs" kind="file"><name>SortProgramItemType.cs</name>
+  </compound>
+  <compound refid="_sort_program_type_8cs" kind="file"><name>SortProgramType.cs</name>
+  </compound>
+  <compound refid="_stand_item_type_8cs" kind="file"><name>StandItemType.cs</name>
+  </compound>
+  <compound refid="_stand_type_8cs" kind="file"><name>StandType.cs</name>
+  </compound>
+  <compound refid="_modbus_driver_8cs" kind="file"><name>ModbusDriver.cs</name>
+  </compound>
+  <compound refid="_feeder_type_8cs" kind="file"><name>FeederType.cs</name>
+  </compound>
+  <compound refid="_r_s232_device_type_8cs" kind="file"><name>RS232DeviceType.cs</name>
+  </compound>
+  <compound refid="_sensor_start_detection_type_8cs" kind="file"><name>SensorStartDetectionType.cs</name>
+  </compound>
+  <compound refid="_sensor_start_parcel_type_8cs" kind="file"><name>SensorStartParcelType.cs</name>
+  </compound>
+  <compound refid="_stop_sensor_type_8cs" kind="file"><name>StopSensorType.cs</name>
+  </compound>
+  <compound refid="_counter_type_8cs" kind="file"><name>CounterType.cs</name>
+  </compound>
+  <compound refid="_tact_sensor_type_8cs" kind="file"><name>TactSensorType.cs</name>
+  </compound>
+  <compound refid="_machine_type_8cs" kind="file"><name>MachineType.cs</name>
+  </compound>
+  <compound refid="_parcel_type_8cs" kind="file"><name>ParcelType.cs</name>
+  </compound>
+  <compound refid="_run_type_8cs" kind="file"><name>RunType.cs</name>
+  </compound>
+  <compound refid="_error_log_8cs" kind="file"><name>ErrorLog.cs</name>
+  </compound>
+  <compound refid="_machine_status_log_type_8cs" kind="file"><name>MachineStatusLogType.cs</name>
+  </compound>
+  <compound refid="_round_stat_item_8cs" kind="file"><name>RoundStatItem.cs</name>
+  </compound>
+  <compound refid="_round_stat_type_8cs" kind="file"><name>RoundStatType.cs</name>
+  </compound>
+  <compound refid="_run_stat_item_type_8cs" kind="file"><name>RunStatItemType.cs</name>
+  </compound>
+  <compound refid="_run_stat_type_8cs" kind="file"><name>RunStatType.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_sledzenie_service_type_8cs" kind="file"><name>SledzenieServiceType.cs</name>
+  </compound>
+  <compound refid="dir_2189f0151beee41920d2ba9fc500fc8f" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2</name>
+  </compound>
+  <compound refid="dir_8915a3a16647b95daeefcea70816ac75" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2</name>
+  </compound>
+  <compound refid="dir_d5f28b9e8c3ec4d246589af8a0cff77e" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors</name>
+  </compound>
+  <compound refid="dir_e84f6b665b49ea39de7dbce57948ba20" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services</name>
+  </compound>
+  <compound refid="dir_1b2b0a883db6e5b3d6cbcc43e0f20cbd" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/DAL</name>
+  </compound>
+  <compound refid="dir_7f3a91afeef3b5c7352029e7b67dc378" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict</name>
+  </compound>
+  <compound refid="dir_acb66d1b7d0c64007cbed91c81d6c135" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Directions</name>
+  </compound>
+  <compound refid="dir_62de6ee1425c7d2eadf3d6922564158c" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Driver</name>
+  </compound>
+  <compound refid="dir_9f9d894c6c5ee7c3e407e0b583c7db63" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder</name>
+  </compound>
+  <compound refid="dir_752e63531ca2def484c544781c584a48" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces</name>
+  </compound>
+  <compound refid="dir_64581fbbe7521a2ef238be6290a7944e" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType/Items</name>
+  </compound>
+  <compound refid="dir_0b2c96c1ea5d6328452de1665d2a9d1e" kind="dir"><name>C:/Users/klispawel</name>
+  </compound>
+  <compound refid="dir_b77106405a259aa7a6ee7131de60cf41" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Lamps</name>
+  </compound>
+  <compound refid="dir_4e2db6558d0adb04fe0e48ad0e533a75" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs</name>
+  </compound>
+  <compound refid="dir_98cfcc95a999fb3586be29a3d787c76e" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine</name>
+  </compound>
+  <compound refid="dir_66ce72d3500a143fdd1484af7207da41" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Parcels</name>
+  </compound>
+  <compound refid="dir_16ed43d4b2565e0d2dfe960d22af9fb7" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Properties</name>
+  </compound>
+  <compound refid="dir_fbb1eac25e0131d6e1a3a43695bd0ff6" kind="dir"><name>C:/Users/klispawel/source/repos</name>
+  </compound>
+  <compound refid="dir_ba5e20dfbbb51efd6a528663ba6fa21d" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle</name>
+  </compound>
+  <compound refid="dir_d7dd37d17e5b4d2c32fffb5d21854fab" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/rs232</name>
+  </compound>
+  <compound refid="dir_7b62e9b3ee787263fc0f08087d0da59a" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run</name>
+  </compound>
+  <compound refid="dir_1dd79cdc739c5507b8dacf4bd5538dc4" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Run</name>
+  </compound>
+  <compound refid="dir_4ca82ede0ece3b0a4e59cef196d24c1d" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner</name>
+  </compound>
+  <compound refid="dir_e4f9a3f6547eac68df328bd3cfe3c4f0" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors</name>
+  </compound>
+  <compound refid="dir_c6e8797e418dbabade980254c836db09" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1</name>
+  </compound>
+  <compound refid="dir_b449201473d17a0ce0da318066529773" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans</name>
+  </compound>
+  <compound refid="dir_aee71d31f9c226b201b9ac131d3cd3e5" kind="dir"><name>C:/Users/klispawel/source</name>
+  </compound>
+  <compound refid="dir_5e2167f2cf8fc002c3787c5555967f70" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands</name>
+  </compound>
+  <compound refid="dir_23407212855e2426200be5a084a8666c" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Stands/StandType</name>
+  </compound>
+  <compound refid="dir_6e62067da010163fbde72ecfc8fc7ff7" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats</name>
+  </compound>
+  <compound refid="dir_1a6e5875f5523e5e40c8f38c834006dd" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Tact</name>
+  </compound>
+  <compound refid="dir_8ceffd4ee35c3518d4e8bdc7e638efe8" kind="dir"><name>C:/Users</name>
+  </compound>
+  <compound refid="dir_b2cd55ba5927005e62a2b8f38da10cd8" kind="dir"><name>C:/Users/klispawel/source/repos/ASS2/ASS2/WebServices</name>
+  </compound>
+</doxygenindex>

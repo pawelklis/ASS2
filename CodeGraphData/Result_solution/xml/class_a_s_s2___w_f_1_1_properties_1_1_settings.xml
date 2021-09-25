@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2___w_f_1_1_properties_1_1_settings" kind="class" prot="package">
+    <compoundname>ASS2_WF::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_a_s_s2___w_f_1_1_properties_1_1_settings_1aef31b78101dff903b1fe55c027ac98a5" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_a_s_s2___w_f_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings ASS2_WF.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((<ref refid="class_a_s_s2___w_f_1_1_properties_1_1_settings" kindref="compound">Settings</ref>)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new <ref refid="class_a_s_s2___w_f_1_1_properties_1_1_settings" kindref="compound">Settings</ref>())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Properties/Settings.Designer.cs" line="20" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Properties/Settings.Designer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2___w_f_1_1_properties_1_1_settings_1aafff67fb6985aac2344b6fbc5987cbfc" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="class_a_s_s2___w_f_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings ASS2_WF.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Properties/Settings.Designer.cs" line="22" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Properties/Settings.Designer.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="294">
+        <label>ASS2_WF.Properties.Settings</label>
+        <link refid="class_a_s_s2___w_f_1_1_properties_1_1_settings"/>
+        <childnode refid="295" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="295">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="296">
+        <label>ASS2_WF.Properties.Settings</label>
+        <link refid="class_a_s_s2___w_f_1_1_properties_1_1_settings"/>
+        <childnode refid="297" relation="public-inheritance">
+        </childnode>
+        <childnode refid="296" relation="usage">
+          <edgelabel>defaultInstance</edgelabel>
+        </childnode>
+      </node>
+      <node id="297">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Properties/Settings.Designer.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/Properties/Settings.Designer.cs" bodystart="17" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2___w_f_1_1_properties_1_1_settings_1aafff67fb6985aac2344b6fbc5987cbfc" prot="public" virt="non-virtual"><scope>ASS2_WF::Properties::Settings</scope><name>Default</name></member>
+      <member refid="class_a_s_s2___w_f_1_1_properties_1_1_settings_1aef31b78101dff903b1fe55c027ac98a5" prot="private" virt="non-virtual"><scope>ASS2_WF::Properties::Settings</scope><name>defaultInstance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

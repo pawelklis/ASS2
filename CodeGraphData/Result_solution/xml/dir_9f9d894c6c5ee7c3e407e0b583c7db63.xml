@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_9f9d894c6c5ee7c3e407e0b583c7db63" kind="dir">
+    <compoundname>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder</compoundname>
+    <innerdir refid="dir_e4f9a3f6547eac68df328bd3cfe3c4f0">C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors</innerdir>
+    <innerfile refid="_feeder_type_8cs">FeederType.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/"/>
+  </compounddef>
+</doxygen>

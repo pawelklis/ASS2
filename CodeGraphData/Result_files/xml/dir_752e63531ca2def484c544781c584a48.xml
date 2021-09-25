@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_752e63531ca2def484c544781c584a48" kind="dir">
+    <compoundname>C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces</compoundname>
+    <innerfile refid="_i_naming_d_b_8cs">INamingDB.cs</innerfile>
+    <innerfile refid="_sensor_type_8cs">SensorType.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Interfaces/"/>
+  </compounddef>
+</doxygen>

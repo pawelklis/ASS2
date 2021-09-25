@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_a_s_s2___w_f" kind="namespace">
+    <compoundname>ASS2_WF</compoundname>
+    <innerclass refid="class_a_s_s2___w_f_1_1us_work" prot="public">ASS2_WF::usWork</innerclass>
+    <innerclass refid="class_a_s_s2___w_f_1_1_form1" prot="public">ASS2_WF::Form1</innerclass>
+    <innerclass refid="class_a_s_s2___w_f_1_1_form2" prot="public">ASS2_WF::Form2</innerclass>
+    <innerclass refid="class_a_s_s2___w_f_1_1_program" prot="public">ASS2_WF::Program</innerclass>
+    <innerclass refid="class_a_s_s2___w_f_1_1us_directions" prot="public">ASS2_WF::usDirections</innerclass>
+    <innerclass refid="class_a_s_s2___w_f_1_1us_l_settings" prot="public">ASS2_WF::usLSettings</innerclass>
+    <innerclass refid="class_a_s_s2___w_f_1_1us_maintenance" prot="public">ASS2_WF::usMaintenance</innerclass>
+    <innerclass refid="class_a_s_s2___w_f_1_1us_settings" prot="public">ASS2_WF::usSettings</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/ComboboxItem.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

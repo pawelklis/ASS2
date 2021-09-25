@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_run_stat_item_type" kind="class" prot="public">
+    <compoundname>ASS2::RunStatItemType</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_stat_item_type_1af51196926ba206c6ea5eb7e28e80d430" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.RunStatItemType.StandName</definition>
+        <argsstring></argsstring>
+        <name>StandName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatItemType.cs" line="5" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatItemType.cs" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_stat_item_type_1af6b1613b92d809b87f88609af8985732" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.RunStatItemType.DirectionName</definition>
+        <argsstring></argsstring>
+        <name>DirectionName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatItemType.cs" line="6" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatItemType.cs" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_stat_item_type_1ab2b8b6b73b9ff1c4c0e18a0bd42b3e15" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RunStatItemType.SortedParcels</definition>
+        <argsstring></argsstring>
+        <name>SortedParcels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatItemType.cs" line="7" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatItemType.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_stat_item_type_1a7dce27d2f7e11d29700e5aec1d90175f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RunStatItemType.MissedParcels</definition>
+        <argsstring></argsstring>
+        <name>MissedParcels</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatItemType.cs" line="8" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatItemType.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatItemType.cs" line="4" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatItemType.cs" bodystart="3" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_run_stat_item_type_1af6b1613b92d809b87f88609af8985732" prot="public" virt="non-virtual"><scope>ASS2::RunStatItemType</scope><name>DirectionName</name></member>
+      <member refid="class_a_s_s2_1_1_run_stat_item_type_1a7dce27d2f7e11d29700e5aec1d90175f" prot="public" virt="non-virtual"><scope>ASS2::RunStatItemType</scope><name>MissedParcels</name></member>
+      <member refid="class_a_s_s2_1_1_run_stat_item_type_1ab2b8b6b73b9ff1c4c0e18a0bd42b3e15" prot="public" virt="non-virtual"><scope>ASS2::RunStatItemType</scope><name>SortedParcels</name></member>
+      <member refid="class_a_s_s2_1_1_run_stat_item_type_1af51196926ba206c6ea5eb7e28e80d430" prot="public" virt="non-virtual"><scope>ASS2::RunStatItemType</scope><name>StandName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

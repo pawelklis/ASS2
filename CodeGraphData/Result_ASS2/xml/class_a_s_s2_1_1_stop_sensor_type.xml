@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_stop_sensor_type" kind="class" prot="public">
+    <compoundname>ASS2::StopSensorType</compoundname>
+    <basecompoundref refid="interface_a_s_s2_1_1_sensor_type" prot="public" virt="non-virtual">ASS2.SensorType</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_stop_sensor_type_1a1abc6e11e6202525b7923fa9a5a6495f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.StopSensorType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_stop_sensor_type_1ab187952f9b5899c5246682278dd561cd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9" kindref="member">SensorType.SensorName</ref></type>
+        <definition>SensorType.SensorName ASS2.StopSensorType.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_stop_sensor_type_1a9ee2fa668654b216c4ef3cb54d613ed0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.StopSensorType.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_stop_sensor_type_1a8d26670008c3e8aa7a70d4f6c97e9201" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.StopSensorType.myVal</definition>
+        <argsstring></argsstring>
+        <name>myVal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_stop_sensor_type_1a9228587ac25df97a6ea02fc985db4133" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.StopSensorType.TactNumber</definition>
+        <argsstring></argsstring>
+        <name>TactNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a6661a09823ec0bd800b3ed5890b90760" compoundref="_machine_type_8cs" startline="536" endline="563">ASS2.MachineType.StopSensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_stop_sensor_type_1ad92a25b7bf6cea6986773214b22909a6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>new bool</type>
+        <definition>new bool ASS2.StopSensorType.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a6661a09823ec0bd800b3ed5890b90760" compoundref="_machine_type_8cs" startline="536" endline="563">ASS2.MachineType.StopSensor_ValueChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_stop_sensor_type_1af9143bba4dba85aa9cc8732f4442e7ac" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler&lt; <ref refid="class_a_s_s2_1_1_modbus_driver_1_1_modbus_value_event_args" kindref="compound">ModbusDriver.ModbusValueEventArgs</ref> &gt;</type>
+        <definition>EventHandler&lt;ModbusDriver.ModbusValueEventArgs&gt; ASS2.StopSensorType.ValueChanged</definition>
+        <argsstring></argsstring>
+        <name>ValueChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="302">
+        <label>SensorType</label>
+        <link refid="interface_a_s_s2_1_1_sensor_type"/>
+      </node>
+      <node id="301">
+        <label>ASS2.StopSensorType</label>
+        <link refid="class_a_s_s2_1_1_stop_sensor_type"/>
+        <childnode refid="302" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="304">
+        <label>SensorType</label>
+        <link refid="interface_a_s_s2_1_1_sensor_type"/>
+      </node>
+      <node id="303">
+        <label>ASS2.StopSensorType</label>
+        <link refid="class_a_s_s2_1_1_stop_sensor_type"/>
+        <childnode refid="304" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/StopSensorType.cs" bodystart="9" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_stop_sensor_type_1a9ee2fa668654b216c4ef3cb54d613ed0" prot="public" virt="non-virtual"><scope>ASS2::StopSensorType</scope><name>Address</name></member>
+      <member refid="class_a_s_s2_1_1_stop_sensor_type_1a1abc6e11e6202525b7923fa9a5a6495f" prot="public" virt="non-virtual"><scope>ASS2::StopSensorType</scope><name>Id</name></member>
+      <member refid="class_a_s_s2_1_1_stop_sensor_type_1a8d26670008c3e8aa7a70d4f6c97e9201" prot="private" virt="non-virtual"><scope>ASS2::StopSensorType</scope><name>myVal</name></member>
+      <member refid="class_a_s_s2_1_1_stop_sensor_type_1ab187952f9b5899c5246682278dd561cd" prot="public" virt="non-virtual"><scope>ASS2::StopSensorType</scope><name>Name</name></member>
+      <member refid="interface_a_s_s2_1_1_sensor_type_1a5dec1bd244907f3a2e9bd2b110a7c7f9" prot="public" virt="non-virtual"><scope>ASS2::StopSensorType</scope><name>SensorName</name></member>
+      <member refid="class_a_s_s2_1_1_stop_sensor_type_1a9228587ac25df97a6ea02fc985db4133" prot="public" virt="non-virtual"><scope>ASS2::StopSensorType</scope><name>TactNumber</name></member>
+      <member refid="class_a_s_s2_1_1_stop_sensor_type_1ad92a25b7bf6cea6986773214b22909a6" prot="public" virt="non-virtual"><scope>ASS2::StopSensorType</scope><name>Value</name></member>
+      <member refid="class_a_s_s2_1_1_stop_sensor_type_1af9143bba4dba85aa9cc8732f4442e7ac" prot="public" virt="non-virtual"><scope>ASS2::StopSensorType</scope><name>ValueChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

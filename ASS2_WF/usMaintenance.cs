@@ -66,6 +66,7 @@ namespace ASS2_WF
             lbCounter.Invoke(new Action(() => {
                 lbCounter.Text = ((int)(ci + 1)).ToString();
             }));
+            lbtc.Invoke(new Action(() => { lbtc.Text = machine.TactSensor.Counter.TactNumber.ToString(); }));
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -137,7 +138,8 @@ namespace ASS2_WF
 
         private void StopSensor_ValueChanged(object sender, ModbusDriver.ModbusValueEventArgs e)
         {
-            lbstopsensortact.Invoke(new Action(() => { lbstopsensortact.Text = machine.ParcelsOnRun[0].CurrentTactNumber.ToString(); }));
+            if(machine.ParcelsOnRun.Count>0)
+                lbstopsensortact.Invoke(new Action(() => { lbstopsensortact.Text = machine.ParcelsOnRun[0].CurrentTactNumber.ToString(); }));
         }
 
         private void Machine_OnTacted1(object sender, EventArgs e)
@@ -149,6 +151,11 @@ namespace ASS2_WF
         private void button8_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
         }
     }
 }

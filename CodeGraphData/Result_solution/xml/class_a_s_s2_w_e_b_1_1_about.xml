@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_w_e_b_1_1_about" kind="class" prot="public">
+    <compoundname>ASS2WEB::About</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Page</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1_about_1ae03bf9d19e97558483276602aa98880e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.About.Page_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Page_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/About.aspx.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/About.aspx.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>Page</label>
+      </node>
+      <node id="5">
+        <label>ASS2WEB.About</label>
+        <link refid="class_a_s_s2_w_e_b_1_1_about"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>Page</label>
+      </node>
+      <node id="7">
+        <label>ASS2WEB.About</label>
+        <link refid="class_a_s_s2_w_e_b_1_1_about"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/About.aspx.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/About.aspx.cs" bodystart="10" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_w_e_b_1_1_about_1ae03bf9d19e97558483276602aa98880e" prot="protected" virt="non-virtual"><scope>ASS2WEB::About</scope><name>Page_Load</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

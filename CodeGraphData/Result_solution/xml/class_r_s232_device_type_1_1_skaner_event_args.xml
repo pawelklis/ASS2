@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_r_s232_device_type_1_1_skaner_event_args" kind="class" prot="public">
+    <compoundname>RS232DeviceType::SkanerEventArgs</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_r_s232_device_type_1_1_skaner_event_args_1acfc14461d64574107611d05dbcd265f4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string RS232DeviceType.SkanerEventArgs.DataReceived</definition>
+        <argsstring></argsstring>
+        <name>DataReceived</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" line="19" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Feeder/sensors/Scanner/RS232DeviceType.cs" bodystart="17" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_r_s232_device_type_1_1_skaner_event_args_1acfc14461d64574107611d05dbcd265f4" prot="public" virt="non-virtual"><scope>RS232DeviceType::SkanerEventArgs</scope><name>DataReceived</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

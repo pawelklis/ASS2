@@ -25,7 +25,7 @@ namespace ASS2WEB
         {
 
             MysqlCore m = MysqlCore.DB_Main();
-            DataTable dt = m.FillDatatable("select roundnumber as 'Okrążenie', parcelscount as 'Liczba przesyłek',Round(circletime/60/1000,2) as 'Czas' from roundstats order by id desc limit 100;");
+            DataTable dt = m.FillDatatable("select roundnumber as 'Okrążenie', parcelscount as 'Liczba przesyłek',Round(circletime/60/1000,3) as 'Czas' from roundstats order by id desc limit 100;");
 
             chart1.Series.Clear();
             chart1.DataSource = dt;

@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_sort_program_type" kind="class" prot="public">
+    <compoundname>ASS2::SortProgramType</compoundname>
+    <basecompoundref refid="class_a_s_s2_1_1_data_base_storage_helper" prot="public" virt="non-virtual">ASS2.DataBaseStorageHelper</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_sort_program_type_1ab5c71b9c8d5a7cff392bf85f1be5455b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.SortProgramType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" bodystart="11" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_feeder_type_1a795fbd1614e460b33bb641fae65598f0" compoundref="_feeder_type_8cs" startline="62" endline="119">ASS2.FeederType.Startdetectionsensor_ValueChanged</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_sort_program_type_1afc992471f1b2f57045d9254bc05e0bc6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.SortProgramType.MachineId</definition>
+        <argsstring></argsstring>
+        <name>MachineId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_sort_program_type_1a2324b9abc80e734038eded28ed63b2e6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.SortProgramType.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_sort_program_type_1a51d09afccfeff27703591e105211453c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_a_s_s2_1_1_sort_program_item_type" kindref="compound">SortProgramItemType</ref> &gt;</type>
+        <definition>List&lt;SortProgramItemType&gt; ASS2.SortProgramType.Items</definition>
+        <argsstring></argsstring>
+        <name>Items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_machine_type_1a962b089d88d5db9109a90f0407b252c0" compoundref="_machine_type_8cs" startline="167" endline="226">ASS2.MachineType.SetSortProgram</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_sort_program_type_1abccba71dda74e1a3be5e18bfbb7f6c61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.SortProgramType.SortProgramType</definition>
+        <argsstring>()</argsstring>
+        <name>SortProgramType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_sort_program_type_1ac907479634e190fa18f7de7cf25812d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.SortProgramType.SortProgramType</definition>
+        <argsstring>(int machineid, string name)</argsstring>
+        <name>SortProgramType</name>
+        <param>
+          <type>int</type>
+          <declname>machineid</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" line="19" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" bodystart="19" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_sort_program_type_1a50dbb0ebb1a14c76b15891bd5ab6b43e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_sort_program_item_type" kindref="compound">SortProgramItemType</ref></type>
+        <definition>SortProgramItemType ASS2.SortProgramType.GetItem</definition>
+        <argsstring>(int standindex, int directionindex)</argsstring>
+        <name>GetItem</name>
+        <param>
+          <type>int</type>
+          <declname>standindex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>directionindex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" line="49" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" bodystart="49" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_sort_program_type_1ae2220b26685082fe32f99a9625519caf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_a_s_s2_1_1_sort_program_type" kindref="compound">SortProgramType</ref></type>
+        <definition>static SortProgramType ASS2.SortProgramType.LoadMachineId</definition>
+        <argsstring>(int machineId)</argsstring>
+        <name>LoadMachineId</name>
+        <param>
+          <type>int</type>
+          <declname>machineId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" line="63" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" bodystart="63" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="259">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+      <node id="258">
+        <label>ASS2.SortProgramType</label>
+        <link refid="class_a_s_s2_1_1_sort_program_type"/>
+        <childnode refid="259" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="261">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+      <node id="260">
+        <label>ASS2.SortProgramType</label>
+        <link refid="class_a_s_s2_1_1_sort_program_type"/>
+        <childnode refid="261" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/SortPlans/SortProgramType.cs" bodystart="9" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a24cadf21177fee7a33e2060a1034d067" prot="public" virt="non-virtual"><scope>ASS2::SortProgramType</scope><name>CreateTable</name></member>
+      <member refid="class_a_s_s2_1_1_sort_program_type_1a50dbb0ebb1a14c76b15891bd5ab6b43e" prot="public" virt="non-virtual"><scope>ASS2::SortProgramType</scope><name>GetItem</name></member>
+      <member refid="class_a_s_s2_1_1_sort_program_type_1ab5c71b9c8d5a7cff392bf85f1be5455b" prot="public" virt="non-virtual"><scope>ASS2::SortProgramType</scope><name>Id</name></member>
+      <member refid="class_a_s_s2_1_1_sort_program_type_1a51d09afccfeff27703591e105211453c" prot="public" virt="non-virtual"><scope>ASS2::SortProgramType</scope><name>Items</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a53c274faca217ed300cfa46c4f465b50" prot="public" virt="non-virtual"><scope>ASS2::SortProgramType</scope><name>Load&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ae190bdcee51591d2a705490ccdffe940" prot="public" virt="non-virtual"><scope>ASS2::SortProgramType</scope><name>LoadAll&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_sort_program_type_1ae2220b26685082fe32f99a9625519caf" prot="public" virt="non-virtual"><scope>ASS2::SortProgramType</scope><name>LoadMachineId</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ab0a3f846534fe15e795ff95fc0e73ade" prot="public" virt="non-virtual"><scope>ASS2::SortProgramType</scope><name>LoadWhere&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_sort_program_type_1afc992471f1b2f57045d9254bc05e0bc6" prot="public" virt="non-virtual"><scope>ASS2::SortProgramType</scope><name>MachineId</name></member>
+      <member refid="class_a_s_s2_1_1_sort_program_type_1a2324b9abc80e734038eded28ed63b2e6" prot="public" virt="non-virtual"><scope>ASS2::SortProgramType</scope><name>Name</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a483e584dcfb0eaa9f6a6da3b4e8b3f1f" prot="public" virt="non-virtual"><scope>ASS2::SortProgramType</scope><name>Save</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a1751417872a03695c3547e418d9ae301" prot="public" virt="non-virtual"><scope>ASS2::SortProgramType</scope><name>SaveAsync</name></member>
+      <member refid="class_a_s_s2_1_1_sort_program_type_1abccba71dda74e1a3be5e18bfbb7f6c61" prot="public" virt="non-virtual"><scope>ASS2::SortProgramType</scope><name>SortProgramType</name></member>
+      <member refid="class_a_s_s2_1_1_sort_program_type_1ac907479634e190fa18f7de7cf25812d2" prot="public" virt="non-virtual"><scope>ASS2::SortProgramType</scope><name>SortProgramType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

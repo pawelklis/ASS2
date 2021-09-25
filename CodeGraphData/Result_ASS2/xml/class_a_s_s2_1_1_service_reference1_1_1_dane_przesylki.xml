@@ -1,0 +1,693 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::DanePrzesylki</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1aec86ebf953ea0e6d047a7d4538a07277" prot="private" static="no" mutable="no">
+        <type>System.Nullable&lt; System.DateTime &gt;</type>
+        <definition>System.Nullable&lt;System.DateTime&gt; ASS2.ServiceReference1.DanePrzesylki.dataNadaniaField</definition>
+        <argsstring></argsstring>
+        <name>dataNadaniaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="269" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a93eb6101308a10e7be9c5fcd9c1f5f42" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.DanePrzesylki.dataNadaniaFieldSpecified</definition>
+        <argsstring></argsstring>
+        <name>dataNadaniaFieldSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="271" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ad6e70743ad57b121fbbf1654bdf1dad9" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.formatField</definition>
+        <argsstring></argsstring>
+        <name>formatField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="273" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a9af2983368492935f149c7dfec8c67de" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.kodKrajuNadaniaField</definition>
+        <argsstring></argsstring>
+        <name>kodKrajuNadaniaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="275" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a80254617497855617bf48f29542fa882" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.kodKrajuPrzeznField</definition>
+        <argsstring></argsstring>
+        <name>kodKrajuPrzeznField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="277" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1aeb440c9222edc0c27dd646c6c0d2b3fa" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.kodRodzPrzesField</definition>
+        <argsstring></argsstring>
+        <name>kodRodzPrzesField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="279" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1acd51f1180b1f9fc9e6cd6ed7e8109fc1" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.krajNadaniaField</definition>
+        <argsstring></argsstring>
+        <name>krajNadaniaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="281" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a7fc05545054958bf9a91d68587aa23e9" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.krajPrzeznField</definition>
+        <argsstring></argsstring>
+        <name>krajPrzeznField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="283" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a189b8dd988a67aa149892e5e9a0d83d4" prot="private" static="no" mutable="no">
+        <type>System.Nullable&lt; float &gt;</type>
+        <definition>System.Nullable&lt;float&gt; ASS2.ServiceReference1.DanePrzesylki.masaField</definition>
+        <argsstring></argsstring>
+        <name>masaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="285" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a232f0ffc4c5ae1c9fce6d6a10c49df0e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.DanePrzesylki.masaFieldSpecified</definition>
+        <argsstring></argsstring>
+        <name>masaFieldSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="287" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ac47c3c6c15922928840a6d70955fc474" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.numerField</definition>
+        <argsstring></argsstring>
+        <name>numerField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="289" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a0b8f68620ce1541371b617de355731b9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_procedura" kindref="compound">Procedura</ref></type>
+        <definition>Procedura ASS2.ServiceReference1.DanePrzesylki.proceduraSerwisField</definition>
+        <argsstring></argsstring>
+        <name>proceduraSerwisField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="291" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a3db05b9cdfd939d2eec40ad8f74519b2" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.rodzPrzesField</definition>
+        <argsstring></argsstring>
+        <name>rodzPrzesField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="293" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a74cdff7ca9611615e2eae2584befe9ac" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka" kindref="compound">Jednostka</ref></type>
+        <definition>Jednostka ASS2.ServiceReference1.DanePrzesylki.urzadNadaniaField</definition>
+        <argsstring></argsstring>
+        <name>urzadNadaniaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="295" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a6ec36ce91ab63e51265a16eed1917a2c" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka" kindref="compound">Jednostka</ref></type>
+        <definition>Jednostka ASS2.ServiceReference1.DanePrzesylki.urzadPrzeznField</definition>
+        <argsstring></argsstring>
+        <name>urzadPrzeznField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="297" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ae43be4bf1782bcdf56253d6d3e794d76" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.DanePrzesylki.zakonczonoObslugeField</definition>
+        <argsstring></argsstring>
+        <name>zakonczonoObslugeField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="299" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ae282e7f4a1b51377f9d39c7d7a009aa2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.DanePrzesylki.zakonczonoObslugeFieldSpecified</definition>
+        <argsstring></argsstring>
+        <name>zakonczonoObslugeFieldSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="301" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a341b780c8068af3fa5ae9de70a91513d" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie" kindref="compound">Zdarzenie</ref>[]</type>
+        <definition>Zdarzenie [] ASS2.ServiceReference1.DanePrzesylki.zdarzeniaField</definition>
+        <argsstring></argsstring>
+        <name>zdarzeniaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="303" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a7c640b3d9beb2a523d32007191f3648c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.Nullable&lt; System.DateTime &gt;</type>
+        <definition>System.Nullable&lt;System.DateTime&gt; ASS2.ServiceReference1.DanePrzesylki.dataNadania</definition>
+        <argsstring></argsstring>
+        <name>dataNadania</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="307" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="307" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_parcel_type_1a619216ef659061e8011a0263d89c0c0a" compoundref="_parcel_type_8cs" startline="258" endline="343">ASS2.ParcelType.SetNumber</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1adab5a4cf01bc2dd4abf963a2dfe79153" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.DanePrzesylki.dataNadaniaSpecified</definition>
+        <argsstring></argsstring>
+        <name>dataNadaniaSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="319" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a63e0f2fd1c55d282c0ee9527e34d08a0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.format</definition>
+        <argsstring></argsstring>
+        <name>format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="331" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a57f4e02bddadca49201c4b6006c28dd0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.kodKrajuNadania</definition>
+        <argsstring></argsstring>
+        <name>kodKrajuNadania</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="343" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a04640ab06264fe0ebdce7dce42c698ac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.kodKrajuPrzezn</definition>
+        <argsstring></argsstring>
+        <name>kodKrajuPrzezn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="355" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a5bd932793b934de4e4b0732d604a962f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.kodRodzPrzes</definition>
+        <argsstring></argsstring>
+        <name>kodRodzPrzes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="367" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a652329d524700ed978192b86e0c6976b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.krajNadania</definition>
+        <argsstring></argsstring>
+        <name>krajNadania</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="379" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a4f01ee6dd86af5b1af5b64915b55d2fc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.krajPrzezn</definition>
+        <argsstring></argsstring>
+        <name>krajPrzezn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="391" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="391" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ae61507c8ae43c3baf1c2c0ca90af0726" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.Nullable&lt; float &gt;</type>
+        <definition>System.Nullable&lt;float&gt; ASS2.ServiceReference1.DanePrzesylki.masa</definition>
+        <argsstring></argsstring>
+        <name>masa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="403" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="403" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a9322a7fba2958faf65b404a3dee0a243" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.DanePrzesylki.masaSpecified</definition>
+        <argsstring></argsstring>
+        <name>masaSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="415" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="415" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a5c1d9d494bbf1af94c28387b68ca4719" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.numer</definition>
+        <argsstring></argsstring>
+        <name>numer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="427" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="427" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ac1a3271b2f1226c20b837014b117b719" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_procedura" kindref="compound">Procedura</ref></type>
+        <definition>Procedura ASS2.ServiceReference1.DanePrzesylki.proceduraSerwis</definition>
+        <argsstring></argsstring>
+        <name>proceduraSerwis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="439" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="439" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a2a657039cef2b802b04f448eef59ba6f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.DanePrzesylki.rodzPrzes</definition>
+        <argsstring></argsstring>
+        <name>rodzPrzes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="451" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="451" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1afe3080404d104238ac121405cc292b09" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka" kindref="compound">Jednostka</ref></type>
+        <definition>Jednostka ASS2.ServiceReference1.DanePrzesylki.urzadNadania</definition>
+        <argsstring></argsstring>
+        <name>urzadNadania</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="463" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="463" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1aac549469c65cc9992d6ff700fbd075a9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka" kindref="compound">Jednostka</ref></type>
+        <definition>Jednostka ASS2.ServiceReference1.DanePrzesylki.urzadPrzezn</definition>
+        <argsstring></argsstring>
+        <name>urzadPrzezn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="475" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="475" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a07882cf6c33423065111fe98070880fb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.DanePrzesylki.zakonczonoObsluge</definition>
+        <argsstring></argsstring>
+        <name>zakonczonoObsluge</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="487" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="487" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a58c87b5054f5b0911c8a999fe6241e0e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.DanePrzesylki.zakonczonoObslugeSpecified</definition>
+        <argsstring></argsstring>
+        <name>zakonczonoObslugeSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="499" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="499" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a9a4001e7c5c4f38bb710bd3dd127c0c3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie" kindref="compound">Zdarzenie</ref>[]</type>
+        <definition>Zdarzenie [] ASS2.ServiceReference1.DanePrzesylki.zdarzenia</definition>
+        <argsstring></argsstring>
+        <name>zdarzenia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="512" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="512" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1aa11504aa39272613e649230581c70bbd" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>System.ComponentModel.PropertyChangedEventHandler</type>
+        <definition>System.ComponentModel.PropertyChangedEventHandler ASS2.ServiceReference1.DanePrzesylki.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="522" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="522" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1aa03b1caf4ca63dbbf3f8345dd31ab58f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ServiceReference1.DanePrzesylki.RaisePropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>RaisePropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="524" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="524" bodyend="529"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>ASS2.ServiceReference1.DanePrzesylki</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>object</label>
+      </node>
+      <node id="8">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="12">
+        <label>ASS2.ServiceReference1.Jednostka</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>daneSzczegoloweField</edgelabel>
+        </childnode>
+      </node>
+      <node id="19">
+        <label>ASS2.ServiceReference1.PrzesylkaPowiazana</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>ASS2.ServiceReference1.Przyczyna</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>ASS2.ServiceReference1.SzczDaneJednostki</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>godzinyPracyField</edgelabel>
+        </childnode>
+      </node>
+      <node id="14">
+        <label>ASS2.ServiceReference1.GodzinyPracy</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>sobotyField</edgelabel>
+          <edgelabel>dniRoboczeField</edgelabel>
+          <edgelabel>niedzISwField</edgelabel>
+        </childnode>
+      </node>
+      <node id="9">
+        <label>ASS2.ServiceReference1.DanePrzesylki</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>urzadPrzeznField</edgelabel>
+          <edgelabel>urzadNadaniaField</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>zdarzeniaField</edgelabel>
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>proceduraSerwisField</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>masaField</edgelabel>
+          <edgelabel>dataNadaniaField</edgelabel>
+        </childnode>
+      </node>
+      <node id="18">
+        <label>ASS2.ServiceReference1.Procedura</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_procedura"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>przesylkiPowiazaneField</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>object</label>
+      </node>
+      <node id="20">
+        <label>System</label>
+      </node>
+      <node id="16">
+        <label>ASS2.ServiceReference1.Zdarzenie</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>jednostkaField</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>przyczynaField</edgelabel>
+        </childnode>
+      </node>
+      <node id="15">
+        <label>ASS2.ServiceReference1.GodzinyZUwagami</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="267" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="267" bodyend="530"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a7c640b3d9beb2a523d32007191f3648c" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>dataNadania</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1aec86ebf953ea0e6d047a7d4538a07277" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>dataNadaniaField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a93eb6101308a10e7be9c5fcd9c1f5f42" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>dataNadaniaFieldSpecified</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1adab5a4cf01bc2dd4abf963a2dfe79153" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>dataNadaniaSpecified</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a63e0f2fd1c55d282c0ee9527e34d08a0" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>format</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ad6e70743ad57b121fbbf1654bdf1dad9" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>formatField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a57f4e02bddadca49201c4b6006c28dd0" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>kodKrajuNadania</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a9af2983368492935f149c7dfec8c67de" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>kodKrajuNadaniaField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a04640ab06264fe0ebdce7dce42c698ac" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>kodKrajuPrzezn</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a80254617497855617bf48f29542fa882" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>kodKrajuPrzeznField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a5bd932793b934de4e4b0732d604a962f" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>kodRodzPrzes</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1aeb440c9222edc0c27dd646c6c0d2b3fa" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>kodRodzPrzesField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a652329d524700ed978192b86e0c6976b" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>krajNadania</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1acd51f1180b1f9fc9e6cd6ed7e8109fc1" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>krajNadaniaField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a4f01ee6dd86af5b1af5b64915b55d2fc" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>krajPrzezn</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a7fc05545054958bf9a91d68587aa23e9" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>krajPrzeznField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ae61507c8ae43c3baf1c2c0ca90af0726" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>masa</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a189b8dd988a67aa149892e5e9a0d83d4" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>masaField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a232f0ffc4c5ae1c9fce6d6a10c49df0e" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>masaFieldSpecified</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a9322a7fba2958faf65b404a3dee0a243" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>masaSpecified</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a5c1d9d494bbf1af94c28387b68ca4719" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>numer</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ac47c3c6c15922928840a6d70955fc474" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>numerField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ac1a3271b2f1226c20b837014b117b719" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>proceduraSerwis</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a0b8f68620ce1541371b617de355731b9" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>proceduraSerwisField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1aa11504aa39272613e649230581c70bbd" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>PropertyChanged</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1aa03b1caf4ca63dbbf3f8345dd31ab58f" prot="protected" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a2a657039cef2b802b04f448eef59ba6f" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>rodzPrzes</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a3db05b9cdfd939d2eec40ad8f74519b2" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>rodzPrzesField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1afe3080404d104238ac121405cc292b09" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>urzadNadania</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a74cdff7ca9611615e2eae2584befe9ac" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>urzadNadaniaField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1aac549469c65cc9992d6ff700fbd075a9" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>urzadPrzezn</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a6ec36ce91ab63e51265a16eed1917a2c" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>urzadPrzeznField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a07882cf6c33423065111fe98070880fb" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>zakonczonoObsluge</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ae43be4bf1782bcdf56253d6d3e794d76" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>zakonczonoObslugeField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1ae282e7f4a1b51377f9d39c7d7a009aa2" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>zakonczonoObslugeFieldSpecified</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a58c87b5054f5b0911c8a999fe6241e0e" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>zakonczonoObslugeSpecified</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a9a4001e7c5c4f38bb710bd3dd127c0c3" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>zdarzenia</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki_1a341b780c8068af3fa5ae9de70a91513d" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::DanePrzesylki</scope><name>zdarzeniaField</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

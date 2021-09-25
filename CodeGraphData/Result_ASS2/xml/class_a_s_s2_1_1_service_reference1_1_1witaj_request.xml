@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1witaj_request" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::witajRequest</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1witaj_request_1a8206ddf729ddc4881d2043a298cf43c6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.witajRequest.imie</definition>
+        <argsstring></argsstring>
+        <name>imie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1346" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1346" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1witaj_request_1a403941140ce1e0c4386639666de8232c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.witajRequest.witajRequest</definition>
+        <argsstring>()</argsstring>
+        <name>witajRequest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1348" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1348" bodyend="1349"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1witaj_request_1adfde94e23d4257579059e6627a64054b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ServiceReference1.witajRequest.witajRequest</definition>
+        <argsstring>(string imie)</argsstring>
+        <name>witajRequest</name>
+        <param>
+          <type>string</type>
+          <declname>imie</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1351" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1351" bodyend="1353"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="1342" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="1342" bodyend="1354"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1witaj_request_1a8206ddf729ddc4881d2043a298cf43c6" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::witajRequest</scope><name>imie</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1witaj_request_1a403941140ce1e0c4386639666de8232c" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::witajRequest</scope><name>witajRequest</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1witaj_request_1adfde94e23d4257579059e6627a64054b" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::witajRequest</scope><name>witajRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_machine_type_1_1_machine_log_event_args" kind="class" prot="public">
+    <compoundname>ASS2::MachineType::MachineLogEventArgs</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_machine_type_1_1_machine_log_event_args_1aac06162ec6c7400b8b3606275dfaef0c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_machine_status_log_type" kindref="compound">MachineStatusLogType</ref></type>
+        <definition>MachineStatusLogType ASS2.MachineType.MachineLogEventArgs.item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="48" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="102">
+        <label>ASS2.MachineType.MachineLogEventArgs</label>
+        <link refid="class_a_s_s2_1_1_machine_type_1_1_machine_log_event_args"/>
+        <childnode refid="103" relation="usage">
+          <edgelabel>item</edgelabel>
+        </childnode>
+      </node>
+      <node id="103">
+        <label>ASS2.MachineStatusLogType</label>
+        <link refid="class_a_s_s2_1_1_machine_status_log_type"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" line="47" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/MachineType.cs" bodystart="46" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_machine_type_1_1_machine_log_event_args_1aac06162ec6c7400b8b3606275dfaef0c" prot="public" virt="non-virtual"><scope>ASS2::MachineType::MachineLogEventArgs</scope><name>item</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

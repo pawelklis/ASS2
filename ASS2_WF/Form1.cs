@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Deployment.Application;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -13,6 +15,12 @@ namespace ASS2_WF
 {
     public partial class Form1 : Form
     {
+
+            Assembly executingAssembly;
+
+            AssemblyName executingAssemblyName;
+
+            Version executingAssemblyVersion;
         public Form1()
         {
             InitializeComponent();
@@ -23,6 +31,26 @@ namespace ASS2_WF
         private void Form1_Load(object sender, EventArgs e)
         {
 
+            string ver = "v2.0.0.1";
+            try
+            {
+             if (ApplicationDeployment.IsNetworkDeployed)
+            {
+                ver = string.Format("Your application name - v{0}",
+                    ApplicationDeployment.CurrentDeployment.CurrentVersion.ToString(4));
+            }
+            }
+            catch (Exception)
+            {
+
+               
+            }
+
+  
+
+            label3.Text = ver + " klispawel 2021";
+
+    
             button1.Visible = false;
             button2.Visible = false;
             button5.Visible = false;
@@ -42,7 +70,7 @@ namespace ASS2_WF
             panel4.Visible = true;
             panel4.BringToFront();
 
-            this.WindowState = FormWindowState.Maximized;
+         //   this.WindowState = FormWindowState.Maximized;
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -88,8 +116,8 @@ namespace ASS2_WF
         {
             if (Machine.CurrentRun == null)
                 Machine.CurrentRun = new RunType();
-            if (Machine.CurrentRun.IsWorking() == false)
-            {
+            //if (Machine.CurrentRun.IsWorking() == false)
+            //{
                 ClearpnContrainer();
 
                 usMaintenance usm = new usMaintenance();
@@ -97,7 +125,7 @@ namespace ASS2_WF
                 usm.machine = Machine;
                 this.pnContainer.Controls.Add(usm);
                 usm.BringToFront();
-            }
+            //}
 
      
         }

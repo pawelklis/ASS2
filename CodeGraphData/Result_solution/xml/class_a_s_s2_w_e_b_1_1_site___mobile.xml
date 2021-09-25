@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_w_e_b_1_1_site___mobile" kind="class" prot="public">
+    <compoundname>ASS2WEB::Site_Mobile</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MasterPage</basecompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_w_e_b_1_1_site___mobile_1a8ac1039765c9bb743a40e71eb43172db" prot="protected" static="no" mutable="no">
+        <type>global::System.Web.UI.WebControls.ContentPlaceHolder</type>
+        <definition>global::System.Web.UI.WebControls.ContentPlaceHolder ASS2WEB.Site_Mobile.HeadContent</definition>
+        <argsstring></argsstring>
+        <name>HeadContent</name>
+        <briefdescription>
+<para>HeadContent control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated field. To modify move field declaration from designer file to code-behind file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Mobile.Master.designer.cs" line="22" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Mobile.Master.designer.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_w_e_b_1_1_site___mobile_1af550db9f22fb2a969a6f0df3e3d59a01" prot="protected" static="no" mutable="no">
+        <type>global::System.Web.UI.HtmlControls.HtmlForm</type>
+        <definition>global::System.Web.UI.HtmlControls.HtmlForm ASS2WEB.Site_Mobile.form1</definition>
+        <argsstring></argsstring>
+        <name>form1</name>
+        <briefdescription>
+<para>form1 control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated field. To modify move field declaration from designer file to code-behind file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Mobile.Master.designer.cs" line="31" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Mobile.Master.designer.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_w_e_b_1_1_site___mobile_1aa21de60694175d63e849acbed6b93774" prot="protected" static="no" mutable="no">
+        <type>global::System.Web.UI.WebControls.ContentPlaceHolder</type>
+        <definition>global::System.Web.UI.WebControls.ContentPlaceHolder ASS2WEB.Site_Mobile.FeaturedContent</definition>
+        <argsstring></argsstring>
+        <name>FeaturedContent</name>
+        <briefdescription>
+<para>FeaturedContent control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated field. To modify move field declaration from designer file to code-behind file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Mobile.Master.designer.cs" line="40" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Mobile.Master.designer.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_w_e_b_1_1_site___mobile_1a8ba1d7b7bfcc7b15539eb4cfcecd442a" prot="protected" static="no" mutable="no">
+        <type>global::System.Web.UI.WebControls.ContentPlaceHolder</type>
+        <definition>global::System.Web.UI.WebControls.ContentPlaceHolder ASS2WEB.Site_Mobile.MainContent</definition>
+        <argsstring></argsstring>
+        <name>MainContent</name>
+        <briefdescription>
+<para>MainContent control. </para>        </briefdescription>
+        <detaileddescription>
+<para>Auto-generated field. To modify move field declaration from designer file to code-behind file. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Mobile.Master.designer.cs" line="49" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Mobile.Master.designer.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1_site___mobile_1a31251763a373225a1a15af58e647d32a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.Site_Mobile.Page_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Page_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Mobile.Master.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Mobile.Master.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="299">
+        <label>System::Web::UI::MasterPage</label>
+      </node>
+      <node id="298">
+        <label>ASS2WEB.Site_Mobile</label>
+        <link refid="class_a_s_s2_w_e_b_1_1_site___mobile"/>
+        <childnode refid="299" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="301">
+        <label>System::Web::UI::MasterPage</label>
+      </node>
+      <node id="300">
+        <label>ASS2WEB.Site_Mobile</label>
+        <link refid="class_a_s_s2_w_e_b_1_1_site___mobile"/>
+        <childnode refid="301" relation="public-inheritance">
+        </childnode>
+        <childnode refid="302" relation="usage">
+          <edgelabel>FeaturedContent</edgelabel>
+          <edgelabel>MainContent</edgelabel>
+          <edgelabel>HeadContent</edgelabel>
+          <edgelabel>form1</edgelabel>
+        </childnode>
+      </node>
+      <node id="302">
+        <label>Web</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Mobile.Master.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Site.Mobile.Master.cs" bodystart="10" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_w_e_b_1_1_site___mobile_1aa21de60694175d63e849acbed6b93774" prot="protected" virt="non-virtual"><scope>ASS2WEB::Site_Mobile</scope><name>FeaturedContent</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_site___mobile_1af550db9f22fb2a969a6f0df3e3d59a01" prot="protected" virt="non-virtual"><scope>ASS2WEB::Site_Mobile</scope><name>form1</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_site___mobile_1a8ac1039765c9bb743a40e71eb43172db" prot="protected" virt="non-virtual"><scope>ASS2WEB::Site_Mobile</scope><name>HeadContent</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_site___mobile_1a8ba1d7b7bfcc7b15539eb4cfcecd442a" prot="protected" virt="non-virtual"><scope>ASS2WEB::Site_Mobile</scope><name>MainContent</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_site___mobile_1a31251763a373225a1a15af58e647d32a" prot="protected" virt="non-virtual"><scope>ASS2WEB::Site_Mobile</scope><name>Page_Load</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,98 +13,54 @@ namespace ASS2
     class Program
     {
          Timer tm;
+        static Stopwatch st;
+         static Timer tt;
+        static DateTime start;
+       static int tact;
         static MachineType m;
         static void Main(string[] args)
         {
-            //CounterType.CreateTable(new CounterType(1, 385));
-            //RunStatType.CreateTable(new RunStatType(new RunType(), null,1,0));
 
-            //SortProgramType.CreateTable(new SortProgramType());
+          
 
-
-           
-
-            //DictType dict = new DictType();
-            //DictType.CreateTable(dict);
-            //dict.Save();
-
-            //Timer tm = new Timer();
-            //tm.Interval = 1000;
-            //tm.Elapsed += Tm_Elapsed;
-            //tm.Start();
-
-            //MachineType m = new MachineType();
-            //m.Name = "Komorniki";
-
-            //m.Save();m
-
-            m = MachineType.Load<MachineType>(1);
+            m = new MachineType();
+            m.Id = 1;
             m.InitMachine(1);
 
-            MachineType machine = m;
-
-            //ModbusDriver d = new ModbusDriver();
-            //d.ConnectClient("192.254.52.3", 502);
-
-            //var x = m.Driver.Client.ReadDiscreteInputs(0, 16);
-
-            //m.LampTestTurnOnAll();
-            //m.LampTestTurnOffAll();
-            //m.dict.SerialConfigs.Add(new RS232ConfigType() { Delay = 20, Id = Guid.NewGuid().ToString(), Name = "Skaner1", PortName = "Com41", Speed = 9600 });
-            //m.dict.Save();
-
-            m.StressSimulation();
+            m.SetSortProgram(2);
 
 
 
+            Task.Run(() => {
 
-
-            Program p = new Program();
-            //p.test(m);
-            //m.LampTest();
-
-            //m.Driver.WriteCoils(0, new bool[] { true, true });
-
-            //DirectionType d = new DirectionType();
-            //d.Name = "Komorniki ";
-            //d.Items.Add(new DirectionItemType() { Name = "Komorniki", PnaFrom = "62000", PnaTo = "63000" });
-            //m.Stands[0].Items.Add(new StandItemType() { Direction = d });
-
-            //m.Save();
-
-            //ParcelType p = new ParcelType();
-            //ParcelType.CreateTable(p);
-            //p.SetNumber("1",m.Stands);
-            //p.SaveAsync();
-
-
-            // var przesylka = SledzenieServiceType.SprawdzPrzesylke("1");
-            // var x = SledzenieServiceType.SprawdzPrzesylkeAsync("1");
-
-            //Console.WriteLine("poszło");
-
-            //DataTable dt = m.PrintSettings();
-            //dt.TableName = "set1";
-            //dt.WriteXml(@"C:\Users\klispawel\Downloads\set.xml");
+                for (int i = 0; i < 100; i++)
+                {
+                    m.TactSensor.SetValue();
+                    System.Threading.Thread.Sleep(500);
+                }
+            
+            
+            });
 
 
 
-            //m.LampTest();
+        //m.OnTacted += M_OnTacted;
+
+        //tt = new Timer();
+        //tt.Interval = 500;
+        //tt.Elapsed += Tt_Elapsed;
+        //start = DateTime.Now;
+        //tt.Start();
+
+        //st = new Stopwatch();
+        //for (int i = 0; i < 385*10; i++)
+        //{
+        //    st.Start();
+        //    if (st.ElapsedMilliseconds == 500)
+        //        st.Stop();
+        //}
 
 
-        //DirectionType d = new DirectionType();
-        //d.Name = "WER Wrocław";
-        //DirectionType.CreateTable(d);
-
-        //d.AddItem(new DirectionItemType() { Name = "Kłodzko" });
-        //d.AddItem(new DirectionItemType() { Name = "Wałbrzych" });
-        //d.Items[0].AddPNARange("57300", "57399");
-        //d.Items[0].AddWSR("WKL");
-        //d.Save();
-
-        //DirectionType nd = DirectionType.Load<DirectionType>(d.Id);
-
-        ////Console.WriteLine(x.Result.numer);
 
         rp:
             string a =Console.ReadLine();
@@ -130,7 +87,32 @@ namespace ASS2
             //Console.ReadKey();
         }
 
-       
+        private static void M_OnTacted(object sender, EventArgs e)
+        {
+            Console.WriteLine("tacted" + m.TactSensor.TactLenghtTime.TotalMilliseconds.ToString());
+        }
+
+        private static void Tt_Elapsed(object sender, ElapsedEventArgs e)
+        {
+            tact += 1;
+            Console.Title = tact.ToString() + " " + m.TactSensor.Counter.CircleNumber + " " + m.Driver.TactSensor.Counter.TactNumber;
+            if (tact == 385)
+            {
+                tact = 0;
+                TimeSpan circletime = DateTime.Now - start;
+                Console.WriteLine((double)circletime.TotalMilliseconds/60/1000 + " " + circletime.ToString());
+
+
+                start = DateTime.Now;
+            }
+            st = new Stopwatch();
+            st.Start();
+            m.Driver.TactSensor.Value = true;
+            m.Driver.TactSensor.Value = false;
+            st.Stop();
+            Console.Title += " /" +st.ElapsedMilliseconds + " " + st.ElapsedMilliseconds.ToString() +"[ms]" + st.ElapsedTicks + "[ticks]";
+        }
+
         void test(MachineType mm)
         {
             tm = new Timer();

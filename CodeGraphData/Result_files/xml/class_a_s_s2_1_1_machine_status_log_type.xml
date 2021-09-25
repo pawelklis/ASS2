@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_machine_status_log_type" kind="class" prot="public">
+    <compoundname>ASS2::MachineStatusLogType</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800" prot="public" static="no">
+        <name>MachineEventsLogs</name>
+        <enumvalue id="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800a99b8bf90907ab383d9c08c9501161c52" prot="public">
+          <name>Start_programu</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800a98c3dca20d7d18911e8703873e7146fc" prot="public">
+          <name>Sterowanie_połączono</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800a10dcb12a7b131f936fc99ed0e80ba785" prot="public">
+          <name>Sterowanie_rozłączono</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800ae90864cc43631751aa40491f51073f46" prot="public">
+          <name>Przenośnik_uruchomiony</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800a2d79508532e3799b075a7c1c8fc6ec88" prot="public">
+          <name>Przenośnik_zatrzymany</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800a54659153f74e7d2582b4be532823da77" prot="public">
+          <name>Brak_taktu</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" line="23" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" bodystart="22" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_machine_status_log_type_1a5697b51b21fa62ae41fd59d935b14357" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime ASS2.MachineStatusLogType.Time</definition>
+        <argsstring></argsstring>
+        <name>Time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_machine_status_log_type_1a9a4da4b06e82e401777056f65883e5aa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.MachineStatusLogType.Event</definition>
+        <argsstring></argsstring>
+        <name>Event</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_machine_status_log_type_1a542eabdad18ffe1cae7a539d092c66f3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800" kindref="member">MachineEventsLogs</ref></type>
+        <definition>MachineEventsLogs ASS2.MachineStatusLogType.logtype</definition>
+        <argsstring></argsstring>
+        <name>logtype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_machine_status_log_type_1a74b6b02eaec86ba0b1296ac74c2aeac6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.MachineStatusLogType.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_status_log_type_1af7a5dd0c828d8bfb218222573aa03413" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.MachineStatusLogType.MachineStatusLogType</definition>
+        <argsstring>()</argsstring>
+        <name>MachineStatusLogType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" line="17" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_machine_status_log_type_1a203352e5ac4ab6e19ed593c260d5c4a0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.MachineStatusLogType.MachineStatusLogType</definition>
+        <argsstring>(MachineEventsLogs EventName, string description=&quot;&quot;)</argsstring>
+        <name>MachineStatusLogType</name>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800" kindref="member">MachineEventsLogs</ref></type>
+          <declname>EventName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" line="32" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" bodystart="32" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Logs/MachineStatusLogType.cs" bodystart="9" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_machine_status_log_type_1a74b6b02eaec86ba0b1296ac74c2aeac6" prot="public" virt="non-virtual"><scope>ASS2::MachineStatusLogType</scope><name>Description</name></member>
+      <member refid="class_a_s_s2_1_1_machine_status_log_type_1a9a4da4b06e82e401777056f65883e5aa" prot="public" virt="non-virtual"><scope>ASS2::MachineStatusLogType</scope><name>Event</name></member>
+      <member refid="class_a_s_s2_1_1_machine_status_log_type_1a542eabdad18ffe1cae7a539d092c66f3" prot="public" virt="non-virtual"><scope>ASS2::MachineStatusLogType</scope><name>logtype</name></member>
+      <member refid="class_a_s_s2_1_1_machine_status_log_type_1a1ae7a672bf21e3d2fd35f607e8e98800" prot="public" virt="non-virtual"><scope>ASS2::MachineStatusLogType</scope><name>MachineEventsLogs</name></member>
+      <member refid="class_a_s_s2_1_1_machine_status_log_type_1af7a5dd0c828d8bfb218222573aa03413" prot="public" virt="non-virtual"><scope>ASS2::MachineStatusLogType</scope><name>MachineStatusLogType</name></member>
+      <member refid="class_a_s_s2_1_1_machine_status_log_type_1a203352e5ac4ab6e19ed593c260d5c4a0" prot="public" virt="non-virtual"><scope>ASS2::MachineStatusLogType</scope><name>MachineStatusLogType</name></member>
+      <member refid="class_a_s_s2_1_1_machine_status_log_type_1a5697b51b21fa62ae41fd59d935b14357" prot="public" virt="non-virtual"><scope>ASS2::MachineStatusLogType</scope><name>Time</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_a_s_s2_w_e_b" kind="namespace">
+    <compoundname>ASS2WEB</compoundname>
+    <innerclass refid="class_a_s_s2_w_e_b_1_1_about" prot="public">ASS2WEB::About</innerclass>
+    <innerclass refid="class_a_s_s2_w_e_b_1_1_colors_dict" prot="public">ASS2WEB::ColorsDict</innerclass>
+    <innerclass refid="class_a_s_s2_w_e_b_1_1_contact" prot="public">ASS2WEB::Contact</innerclass>
+    <innerclass refid="class_a_s_s2_w_e_b_1_1___default" prot="public">ASS2WEB::_Default</innerclass>
+    <innerclass refid="class_a_s_s2_w_e_b_1_1directions" prot="public">ASS2WEB::directions</innerclass>
+    <innerclass refid="class_a_s_s2_w_e_b_1_1dr" prot="public">ASS2WEB::dr</innerclass>
+    <innerclass refid="class_a_s_s2_w_e_b_1_1drp" prot="public">ASS2WEB::drp</innerclass>
+    <innerclass refid="class_a_s_s2_w_e_b_1_1_global" prot="public">ASS2WEB::Global</innerclass>
+    <innerclass refid="class_a_s_s2_w_e_b_1_1_site_master" prot="public">ASS2WEB::SiteMaster</innerclass>
+    <innerclass refid="class_a_s_s2_w_e_b_1_1_site___mobile" prot="public">ASS2WEB::Site_Mobile</innerclass>
+    <innerclass refid="class_a_s_s2_w_e_b_1_1sortprograms" prot="public">ASS2WEB::sortprograms</innerclass>
+    <innerclass refid="class_a_s_s2_w_e_b_1_1stands" prot="public">ASS2WEB::stands</innerclass>
+    <innerclass refid="class_a_s_s2_w_e_b_1_1stats" prot="public">ASS2WEB::stats</innerclass>
+    <innerclass refid="class_a_s_s2_w_e_b_1_1_view_switcher" prot="public">ASS2WEB::ViewSwitcher</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/About.aspx.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

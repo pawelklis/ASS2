@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_sledzenie_service_type" kind="class" prot="public">
+    <compoundname>ASS2::SledzenieServiceType</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_sledzenie_service_type_1af447ea9fb814e4cf4d086923fe190943" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ASS2.ServiceReference1.Przesylka &gt;</type>
+        <definition>static async Task&lt;ASS2.ServiceReference1.Przesylka&gt; ASS2.SledzenieServiceType.SprawdzPrzesylkeAsync</definition>
+        <argsstring>(string nr)</argsstring>
+        <name>SprawdzPrzesylkeAsync</name>
+        <param>
+          <type>string</type>
+          <declname>nr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/WebServices/SledzenieServiceType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/WebServices/SledzenieServiceType.cs" bodystart="12" bodyend="15"/>
+        <references refid="class_a_s_s2_1_1_sledzenie_service_type_1a3c263ef27a057f3c17c248bd5da0f3cb" compoundref="_sledzenie_service_type_8cs" startline="16" endline="34">ASS2.SledzenieServiceType.SprawdzPrzesylke</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_sledzenie_service_type_1a3c263ef27a057f3c17c248bd5da0f3cb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ASS2.ServiceReference1.Przesylka</type>
+        <definition>static ASS2.ServiceReference1.Przesylka ASS2.SledzenieServiceType.SprawdzPrzesylke</definition>
+        <argsstring>(string nr)</argsstring>
+        <name>SprawdzPrzesylke</name>
+        <param>
+          <type>string</type>
+          <declname>nr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/WebServices/SledzenieServiceType.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/WebServices/SledzenieServiceType.cs" bodystart="16" bodyend="34"/>
+        <referencedby refid="class_a_s_s2_1_1_sledzenie_service_type_1af447ea9fb814e4cf4d086923fe190943" compoundref="_sledzenie_service_type_8cs" startline="12" endline="15">ASS2.SledzenieServiceType.SprawdzPrzesylkeAsync</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/WebServices/SledzenieServiceType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/WebServices/SledzenieServiceType.cs" bodystart="10" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_sledzenie_service_type_1a3c263ef27a057f3c17c248bd5da0f3cb" prot="public" virt="non-virtual"><scope>ASS2::SledzenieServiceType</scope><name>SprawdzPrzesylke</name></member>
+      <member refid="class_a_s_s2_1_1_sledzenie_service_type_1af447ea9fb814e4cf4d086923fe190943" prot="public" virt="non-virtual"><scope>ASS2::SledzenieServiceType</scope><name>SprawdzPrzesylkeAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

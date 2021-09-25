@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_color_type" kind="class" prot="public">
+    <compoundname>ASS2::ColorType</compoundname>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269ede" prot="public" static="no">
+        <name>ColorsList</name>
+        <enumvalue id="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edeadbc59d47cce2b9a9fcf57102dceecbaa" prot="public">
+          <name>Biały</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edeafd0dde6741230c3c7aaaf5fd3fac93e7" prot="public">
+          <name>Zielony</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edeab2b7e488ca21e0aada6b70fc45db0edb" prot="public">
+          <name>Niebieski</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edeaa56190daca98c4e046e955ecbb548305" prot="public">
+          <name>Czerwony</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edea64434c13026693690430e24536c2c8b3" prot="public">
+          <name>Żółty</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edeaf1744da6e322504178e8b119f90c2dd9" prot="public">
+          <name>BiałoZielony</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edeac319051f8444bbfdff0da86fe9581da1" prot="public">
+          <name>BiałoNiebieski</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269edea5ff65ba2a98c0a648937772a3ae93b6b" prot="public">
+          <name>BiałoCzerwony</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" line="80" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" bodystart="79" bodyend="89"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_color_type_1ac197c36d61d38dc74fdf6b3ae5cf2643" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; bool &gt;</type>
+        <definition>List&lt;bool&gt; ASS2.ColorType.Values</definition>
+        <argsstring></argsstring>
+        <name>Values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" bodystart="12" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_color_type_1a1b15563ace758253b38decfd6e60965e" compoundref="_color_type_8cs" startline="43" endline="54">ASS2.ColorType.ValuesString</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_color_type_1aa515d72139576290b208bcd590b3e479" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269ede" kindref="member">ColorsList</ref></type>
+        <definition>ColorsList ASS2.ColorType.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_1_1_color_type_1ab3433dc9f9ecd9268aaa6b3cbdc46721" compoundref="_color_type_8cs" startline="56" endline="76">ASS2.ColorType.CssString</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_color_type_1a4be7f6c467c65ee86ea54e30669c172c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ColorType.ColorType</definition>
+        <argsstring>()</argsstring>
+        <name>ColorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_color_type_1a5280f400ca2c6c89c65ae68af1203594" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ColorType.ColorType</definition>
+        <argsstring>(string name)</argsstring>
+        <name>ColorType</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" line="19" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" bodystart="19" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_color_type_1ad3957be7e25084b35dc7a380bf29729c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.ColorType.ColorType</definition>
+        <argsstring>(ColorsList name)</argsstring>
+        <name>ColorType</name>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269ede" kindref="member">ColorsList</ref></type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" line="38" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_color_type_1a1b15563ace758253b38decfd6e60965e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ASS2.ColorType.ValuesString</definition>
+        <argsstring>(int address)</argsstring>
+        <name>ValuesString</name>
+        <param>
+          <type>int</type>
+          <declname>address</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" line="43" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" bodystart="43" bodyend="54"/>
+        <references refid="class_a_s_s2_1_1_color_type_1ac197c36d61d38dc74fdf6b3ae5cf2643" compoundref="_color_type_8cs" startline="12">ASS2.ColorType.Values</references>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_color_type_1ab3433dc9f9ecd9268aaa6b3cbdc46721" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string ASS2.ColorType.CssString</definition>
+        <argsstring>()</argsstring>
+        <name>CssString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" line="56" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" bodystart="56" bodyend="76"/>
+        <references refid="class_a_s_s2_1_1_color_type_1aa515d72139576290b208bcd590b3e479" compoundref="_color_type_8cs" startline="13">ASS2.ColorType.Name</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Dict/Colors/ColorType.cs" bodystart="10" bodyend="91"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_color_type_1a7ad8a0900e6ea7fbbe674afefe269ede" prot="public" virt="non-virtual"><scope>ASS2::ColorType</scope><name>ColorsList</name></member>
+      <member refid="class_a_s_s2_1_1_color_type_1a4be7f6c467c65ee86ea54e30669c172c" prot="public" virt="non-virtual"><scope>ASS2::ColorType</scope><name>ColorType</name></member>
+      <member refid="class_a_s_s2_1_1_color_type_1a5280f400ca2c6c89c65ae68af1203594" prot="public" virt="non-virtual"><scope>ASS2::ColorType</scope><name>ColorType</name></member>
+      <member refid="class_a_s_s2_1_1_color_type_1ad3957be7e25084b35dc7a380bf29729c" prot="public" virt="non-virtual"><scope>ASS2::ColorType</scope><name>ColorType</name></member>
+      <member refid="class_a_s_s2_1_1_color_type_1ab3433dc9f9ecd9268aaa6b3cbdc46721" prot="public" virt="non-virtual"><scope>ASS2::ColorType</scope><name>CssString</name></member>
+      <member refid="class_a_s_s2_1_1_color_type_1aa515d72139576290b208bcd590b3e479" prot="public" virt="non-virtual"><scope>ASS2::ColorType</scope><name>Name</name></member>
+      <member refid="class_a_s_s2_1_1_color_type_1ac197c36d61d38dc74fdf6b3ae5cf2643" prot="public" virt="non-virtual"><scope>ASS2::ColorType</scope><name>Values</name></member>
+      <member refid="class_a_s_s2_1_1_color_type_1a1b15563ace758253b38decfd6e60965e" prot="public" virt="non-virtual"><scope>ASS2::ColorType</scope><name>ValuesString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

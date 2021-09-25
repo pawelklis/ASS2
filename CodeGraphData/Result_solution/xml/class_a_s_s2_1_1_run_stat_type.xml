@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_run_stat_type" kind="class" prot="public">
+    <compoundname>ASS2::RunStatType</compoundname>
+    <basecompoundref refid="class_a_s_s2_1_1_data_base_storage_helper" prot="public" virt="non-virtual">ASS2.DataBaseStorageHelper</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_stat_type_1af19ab6acd63142ff3e1a473abbcadf8c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RunStatType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" line="11" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_stat_type_1ab2a78128fe43b956f3eacd1c48b21c45" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RunStatType.RunId</definition>
+        <argsstring></argsstring>
+        <name>RunId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" line="12" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_stat_type_1aef4681a469bf7cee9d1d1b10ccd889f6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RunStatType.MachineId</definition>
+        <argsstring></argsstring>
+        <name>MachineId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_stat_type_1a8e33fcdee16d47921d0a0a7afb1c2a06" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.RunStatType.CircleNumber</definition>
+        <argsstring></argsstring>
+        <name>CircleNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_stat_type_1af343b85606b9d9453f9b9686604aeb68" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime ASS2.RunStatType.RunStart</definition>
+        <argsstring></argsstring>
+        <name>RunStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" line="15" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_stat_type_1a3f18afaff2e443417bfab9ef0738ee0e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime ASS2.RunStatType.RunStop</definition>
+        <argsstring></argsstring>
+        <name>RunStop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_run_stat_type_1a8edb24e279d50dbc5677fc3d45d0f5a0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="class_a_s_s2_1_1_run_stat_item_type" kindref="compound">RunStatItemType</ref> &gt;</type>
+        <definition>List&lt;RunStatItemType&gt; ASS2.RunStatType.Items</definition>
+        <argsstring></argsstring>
+        <name>Items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_run_stat_type_1a9383b67a7839fd6a25956af3adbe487b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.RunStatType.RunStatType</definition>
+        <argsstring>()</argsstring>
+        <name>RunStatType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" line="21" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_a_s_s2_1_1_run_stat_type_1af876daff208d53f7699e6dbb838796f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ASS2.RunStatType.RunStatType</definition>
+        <argsstring>(RunType run, List&lt; StandType &gt; stands, int machineId, int circleNumber)</argsstring>
+        <name>RunStatType</name>
+        <param>
+          <type><ref refid="class_a_s_s2_1_1_run_type" kindref="compound">RunType</ref></type>
+          <declname>run</declname>
+        </param>
+        <param>
+          <type>List&lt; <ref refid="class_a_s_s2_1_1_stand_type" kindref="compound">StandType</ref> &gt;</type>
+          <declname>stands</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>machineId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>circleNumber</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" line="25" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" bodystart="25" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="278">
+        <label>ASS2.RunStatType</label>
+        <link refid="class_a_s_s2_1_1_run_stat_type"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="279">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="280">
+        <label>ASS2.RunStatType</label>
+        <link refid="class_a_s_s2_1_1_run_stat_type"/>
+        <childnode refid="281" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="281">
+        <label>DataBaseStorageHelper</label>
+        <link refid="class_a_s_s2_1_1_data_base_storage_helper"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" line="10" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatType.cs" bodystart="9" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_run_stat_type_1a8e33fcdee16d47921d0a0a7afb1c2a06" prot="public" virt="non-virtual"><scope>ASS2::RunStatType</scope><name>CircleNumber</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a24cadf21177fee7a33e2060a1034d067" prot="public" virt="non-virtual"><scope>ASS2::RunStatType</scope><name>CreateTable</name></member>
+      <member refid="class_a_s_s2_1_1_run_stat_type_1af19ab6acd63142ff3e1a473abbcadf8c" prot="public" virt="non-virtual"><scope>ASS2::RunStatType</scope><name>Id</name></member>
+      <member refid="class_a_s_s2_1_1_run_stat_type_1a8edb24e279d50dbc5677fc3d45d0f5a0" prot="public" virt="non-virtual"><scope>ASS2::RunStatType</scope><name>Items</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a53c274faca217ed300cfa46c4f465b50" prot="public" virt="non-virtual"><scope>ASS2::RunStatType</scope><name>Load&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ae190bdcee51591d2a705490ccdffe940" prot="public" virt="non-virtual"><scope>ASS2::RunStatType</scope><name>LoadAll&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1ab0a3f846534fe15e795ff95fc0e73ade" prot="public" virt="non-virtual"><scope>ASS2::RunStatType</scope><name>LoadWhere&lt; T &gt;</name></member>
+      <member refid="class_a_s_s2_1_1_run_stat_type_1aef4681a469bf7cee9d1d1b10ccd889f6" prot="public" virt="non-virtual"><scope>ASS2::RunStatType</scope><name>MachineId</name></member>
+      <member refid="class_a_s_s2_1_1_run_stat_type_1ab2a78128fe43b956f3eacd1c48b21c45" prot="public" virt="non-virtual"><scope>ASS2::RunStatType</scope><name>RunId</name></member>
+      <member refid="class_a_s_s2_1_1_run_stat_type_1af343b85606b9d9453f9b9686604aeb68" prot="public" virt="non-virtual"><scope>ASS2::RunStatType</scope><name>RunStart</name></member>
+      <member refid="class_a_s_s2_1_1_run_stat_type_1a9383b67a7839fd6a25956af3adbe487b" prot="public" virt="non-virtual"><scope>ASS2::RunStatType</scope><name>RunStatType</name></member>
+      <member refid="class_a_s_s2_1_1_run_stat_type_1af876daff208d53f7699e6dbb838796f6" prot="public" virt="non-virtual"><scope>ASS2::RunStatType</scope><name>RunStatType</name></member>
+      <member refid="class_a_s_s2_1_1_run_stat_type_1a3f18afaff2e443417bfab9ef0738ee0e" prot="public" virt="non-virtual"><scope>ASS2::RunStatType</scope><name>RunStop</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a483e584dcfb0eaa9f6a6da3b4e8b3f1f" prot="public" virt="non-virtual"><scope>ASS2::RunStatType</scope><name>Save</name></member>
+      <member refid="class_a_s_s2_1_1_data_base_storage_helper_1a1751417872a03695c3547e418d9ae301" prot="public" virt="non-virtual"><scope>ASS2::RunStatType</scope><name>SaveAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

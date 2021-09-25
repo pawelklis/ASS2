@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_ba5e20dfbbb51efd6a528663ba6fa21d" kind="dir">
+    <compoundname>C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle</compoundname>
+    <innerfile refid="_round_stat_item_8cs">RoundStatItem.cs</innerfile>
+    <innerfile refid="_round_stat_type_8cs">RoundStatType.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/RoundCircle/"/>
+  </compounddef>
+</doxygen>

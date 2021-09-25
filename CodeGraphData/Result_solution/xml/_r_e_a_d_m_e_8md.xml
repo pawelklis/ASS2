@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_r_e_a_d_m_e_8md" kind="file">
+    <compoundname>README.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;!--<sp/>IGNORE<sp/>THE<sp/>HTML<sp/>BLOCK<sp/>BELOW,<sp/>THE<sp/>INTERESTING<sp/>PART<sp/>IS<sp/>AFTER<sp/>IT<sp/>--&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">&lt;h1<sp/>align=</highlight><highlight class="stringliteral">&quot;center&quot;</highlight><highlight class="normal">&gt;Popper.js&lt;/h1&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">&lt;p<sp/>align=</highlight><highlight class="stringliteral">&quot;center&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;strong&gt;A<sp/>library<sp/>used<sp/>to<sp/>position<sp/>poppers<sp/>in<sp/>web<sp/>applications.&lt;/strong&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">&lt;/p&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">&lt;p<sp/>align=</highlight><highlight class="stringliteral">&quot;center&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;img<sp/>src=</highlight><highlight class="stringliteral">&quot;http://badge-size.now.sh/https://unpkg.com/popper.js/dist/popper.min.js?compression=brotli&quot;</highlight><highlight class="normal"><sp/>alt=</highlight><highlight class="stringliteral">&quot;Stable<sp/>Release<sp/>Size&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/>&lt;img<sp/>src=</highlight><highlight class="stringliteral">&quot;http://badge-size.now.sh/https://unpkg.com/popper.js/dist/popper.min.js?compression=gzip&quot;</highlight><highlight class="normal"><sp/>alt=</highlight><highlight class="stringliteral">&quot;Stable<sp/>Release<sp/>Size&quot;</highlight><highlight class="normal">/&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;https://codeclimate.com/github/FezVrasta/popper.js/coverage&quot;</highlight><highlight class="normal">&gt;&lt;img<sp/>src=</highlight><highlight class="stringliteral">&quot;https://codeclimate.com/github/FezVrasta/popper.js/badges/coverage.svg&quot;</highlight><highlight class="normal"><sp/>alt=</highlight><highlight class="stringliteral">&quot;Istanbul<sp/>Code<sp/>Coverage&quot;</highlight><highlight class="normal">/&gt;&lt;/a&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;https://www.npmjs.com/browse/depended/popper.js&quot;</highlight><highlight class="normal">&gt;&lt;img<sp/>src=</highlight><highlight class="stringliteral">&quot;https://badgen.net/npm/dependents/popper.js&quot;</highlight><highlight class="normal"><sp/>alt=</highlight><highlight class="stringliteral">&quot;Dependents<sp/>packages&quot;</highlight><highlight class="normal"><sp/>/&gt;&lt;/a&gt;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;https://spectrum.chat/popper-js&quot;</highlight><highlight class="normal"><sp/>target=</highlight><highlight class="stringliteral">&quot;_blank&quot;</highlight><highlight class="normal">&gt;&lt;img<sp/>src=</highlight><highlight class="stringliteral">&quot;https://img.shields.io/badge/chat-on_spectrum-6833F9.svg?logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyBpZD0iTGl2ZWxsb18xIiBkYXRhLW5hbWU9IkxpdmVsbG8gMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTAgOCI%2BPGRlZnM%2BPHN0eWxlPi5jbHMtMXtmaWxsOiNmZmY7fTwvc3R5bGU%2BPC9kZWZzPjx0aXRsZT5zcGVjdHJ1bTwvdGl0bGU%2BPHBhdGggY2xhc3M9ImNscy0xIiBkPSJNNSwwQy40MiwwLDAsLjYzLDAsMy4zNGMwLDEuODQuMTksMi43MiwxLjc0LDMuMWgwVjcuNThhLjQ0LjQ0LDAsMCwwLC42OC4zNUw0LjM1LDYuNjlINWM0LjU4LDAsNS0uNjMsNS0zLjM1UzkuNTgsMCw1LDBaTTIuODMsNC4xOGEuNjMuNjMsMCwxLDEsLjY1LS42M0EuNjQuNjQsMCwwLDEsMi44Myw0LjE4Wk01LDQuMThhLjYzLjYzLDAsMSwxLC42NS0uNjNBLjY0LjY0LDAsMCwxLDUsNC4xOFptMi4xNywwYS42My42MywwLDEsMSwuNjUtLjYzQS42NC42NCwwLDAsMSw3LjE3LDQuMThaIi8%2BPC9zdmc%2B&quot;</highlight><highlight class="normal"><sp/>alt=</highlight><highlight class="stringliteral">&quot;Get<sp/>support<sp/>or<sp/>discuss&quot;</highlight><highlight class="normal">/&gt;&lt;/a&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;br<sp/>/&gt;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;https://travis-ci.org/FezVrasta/popper.js/branches&quot;</highlight><highlight class="normal"><sp/>target=</highlight><highlight class="stringliteral">&quot;_blank&quot;</highlight><highlight class="normal">&gt;&lt;img<sp/>src=</highlight><highlight class="stringliteral">&quot;https://travis-ci.org/FezVrasta/popper.js.svg?branch=master&quot;</highlight><highlight class="normal"><sp/>alt=</highlight><highlight class="stringliteral">&quot;Build<sp/>Status&quot;</highlight><highlight class="normal">/&gt;&lt;/a&gt;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;a<sp/>href=</highlight><highlight class="stringliteral">&quot;https://saucelabs.com/u/popperjs&quot;</highlight><highlight class="normal"><sp/>target=</highlight><highlight class="stringliteral">&quot;_blank&quot;</highlight><highlight class="normal">&gt;&lt;img<sp/>src=</highlight><highlight class="stringliteral">&quot;https://badges.herokuapp.com/browsers?labels=none&amp;googlechrome=latest&amp;firefox=latest&amp;microsoftedge=latest&amp;iexplore=11,10&amp;safari=latest&quot;</highlight><highlight class="normal"><sp/>alt=</highlight><highlight class="stringliteral">&quot;SauceLabs<sp/>Reports&quot;</highlight><highlight class="normal">/&gt;&lt;/a&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">&lt;/p&gt;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">&lt;img<sp/>src=</highlight><highlight class="stringliteral">&quot;https://raw.githubusercontent.com/FezVrasta/popper.js/master/popperjs.png&quot;</highlight><highlight class="normal"><sp/>align=</highlight><highlight class="stringliteral">&quot;right&quot;</highlight><highlight class="normal"><sp/>width=250<sp/>/&gt;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">&lt;!--<sp/>🚨<sp/>HEY!<sp/>HERE<sp/>BEGINS<sp/>THE<sp/>INTERESTING<sp/>STUFF<sp/>🚨<sp/>--&gt;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">##<sp/>Wut?<sp/>Poppers?</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal">A<sp/>popper<sp/>is<sp/>an<sp/>element<sp/>on<sp/>the<sp/>screen<sp/>which<sp/></highlight><highlight class="stringliteral">&quot;pops<sp/>out&quot;</highlight><highlight class="normal"><sp/>from<sp/>the<sp/>natural<sp/>flow<sp/>of<sp/>your<sp/>application.<sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">Common<sp/>examples<sp/>of<sp/>poppers<sp/>are<sp/>tooltips,<sp/>popovers<sp/>and<sp/>drop-downs.</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">##<sp/>So,<sp/>yet<sp/>another<sp/>tooltip<sp/>library?</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">Well,<sp/>basically,<sp/>**no**.<sp/><sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">Popper.js<sp/>is<sp/>a<sp/>**positioning<sp/>engine**,<sp/>its<sp/>purpose<sp/>is<sp/>to<sp/>calculate<sp/>the<sp/>position<sp/>of<sp/>an<sp/>element</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">to<sp/>make<sp/>it<sp/>possible<sp/>to<sp/>position<sp/>it<sp/>near<sp/>a<sp/>given<sp/>reference<sp/>element.<sp/><sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">The<sp/>engine<sp/>is<sp/>completely<sp/>modular<sp/>and<sp/>most<sp/>of<sp/>its<sp/>features<sp/>are<sp/>implemented<sp/>as<sp/>**modifiers**</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">(similar<sp/>to<sp/>middlewares<sp/>or<sp/>plugins).<sp/><sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">The<sp/>whole<sp/>code<sp/>base<sp/>is<sp/>written<sp/>in<sp/>ES2015<sp/>and<sp/>its<sp/>features<sp/>are<sp/>automatically<sp/>tested<sp/>on<sp/>real<sp/>browsers<sp/>thanks<sp/>to<sp/>[SauceLabs](https:</highlight><highlight class="comment">//saucelabs.com/)<sp/>and<sp/>[TravisCI](https://travis-ci.org/).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">Popper.js<sp/>has<sp/>zero<sp/>dependencies.<sp/>No<sp/>jQuery,<sp/>no<sp/>LoDash,<sp/>nothing.<sp/><sp/></highlight></codeline>
+<codeline lineno="41"><highlight class="normal">It</highlight><highlight class="stringliteral">&apos;s<sp/>used<sp/>by<sp/>big<sp/>companies<sp/>like<sp/>[Twitter<sp/>in<sp/>Bootstrap<sp/>v4](https://getbootstrap.com/),<sp/>[Microsoft<sp/>in<sp/>WebClipper](https://github.com/OneNoteDev/WebClipper)<sp/>and<sp/>[Atlassian<sp/>in<sp/>AtlasKit](https://aui-cdn.atlassian.com/atlaskit/registry/).</highlight></codeline>
+<codeline lineno="42"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="43"><highlight class="stringliteral">###<sp/>Popper.js</highlight></codeline>
+<codeline lineno="44"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="45"><highlight class="stringliteral">This<sp/>is<sp/>the<sp/>engine,<sp/>the<sp/>library<sp/>that<sp/>computes<sp/>and,<sp/>optionally,<sp/>applies<sp/>the<sp/>styles<sp/>to</highlight></codeline>
+<codeline lineno="46"><highlight class="stringliteral">the<sp/>poppers.</highlight></codeline>
+<codeline lineno="47"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="48"><highlight class="stringliteral">Some<sp/>of<sp/>the<sp/>key<sp/>points<sp/>are:</highlight></codeline>
+<codeline lineno="49"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="50"><highlight class="stringliteral">-<sp/>Position<sp/>elements<sp/>keeping<sp/>them<sp/>in<sp/>their<sp/>original<sp/>DOM<sp/>context<sp/>(doesn&apos;</highlight><highlight class="normal">t<sp/>mess<sp/>with<sp/>your<sp/>DOM!);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">-<sp/>Allows<sp/>to<sp/>export<sp/>the<sp/>computed<sp/>informations<sp/>to<sp/>integrate<sp/>with<sp/>React<sp/>and<sp/>other<sp/>view<sp/>libraries;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">-<sp/>Supports<sp/>Shadow<sp/>DOM<sp/>elements;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal">-<sp/>Completely<sp/>customizable<sp/>thanks<sp/>to<sp/>the<sp/>modifiers<sp/>based<sp/>structure;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal">Visit<sp/>our<sp/>[project<sp/>page](https:</highlight><highlight class="comment">//fezvrasta.github.io/popper.js)<sp/>to<sp/>see<sp/>a<sp/>lot<sp/>of<sp/>examples<sp/>of<sp/>what<sp/>you<sp/>can<sp/>do<sp/>with<sp/>Popper.js!</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal">Find<sp/>[the<sp/>documentation<sp/>here](/docs/_includes/popper-documentation.md).</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">###<sp/>Tooltip.js</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal">Since<sp/>lots<sp/>of<sp/>users<sp/>just<sp/>need<sp/>a<sp/>simple<sp/>way<sp/>to<sp/>integrate<sp/>powerful<sp/>tooltips<sp/>in<sp/>their<sp/>projects,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">we<sp/>created<sp/>**Tooltip.js**.<sp/><sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal">It</highlight><highlight class="stringliteral">&apos;s<sp/>a<sp/>small<sp/>library<sp/>that<sp/>makes<sp/>it<sp/>easy<sp/>to<sp/>automatically<sp/>create<sp/>tooltips<sp/>using<sp/>as<sp/>engine<sp/>Popper.js.<sp/><sp/></highlight></codeline>
+<codeline lineno="65"><highlight class="stringliteral">Its<sp/>API<sp/>is<sp/>almost<sp/>identical<sp/>to<sp/>the<sp/>famous<sp/>tooltip<sp/>system<sp/>of<sp/>Bootstrap,<sp/>in<sp/>this<sp/>way<sp/>it<sp/>will<sp/>be</highlight></codeline>
+<codeline lineno="66"><highlight class="stringliteral">easy<sp/>to<sp/>integrate<sp/>it<sp/>in<sp/>your<sp/>projects.<sp/><sp/></highlight></codeline>
+<codeline lineno="67"><highlight class="stringliteral">The<sp/>tooltips<sp/>generated<sp/>by<sp/>Tooltip.js<sp/>are<sp/>accessible<sp/>thanks<sp/>to<sp/>the<sp/>`aria`<sp/>tags.</highlight></codeline>
+<codeline lineno="68"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="69"><highlight class="stringliteral">Find<sp/>[the<sp/>documentation<sp/>here](/docs/_includes/tooltip-documentation.md).</highlight></codeline>
+<codeline lineno="70"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="71"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="72"><highlight class="stringliteral">##<sp/>Installation</highlight></codeline>
+<codeline lineno="73"><highlight class="stringliteral">Popper.js<sp/>is<sp/>available<sp/>on<sp/>the<sp/>following<sp/>package<sp/>managers<sp/>and<sp/>CDNs:</highlight></codeline>
+<codeline lineno="74"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="75"><highlight class="stringliteral">|<sp/>Source<sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="76"><highlight class="stringliteral">|:-------|:---------------------------------------------------------------------------------|</highlight></codeline>
+<codeline lineno="77"><highlight class="stringliteral">|<sp/>npm<sp/><sp/><sp/><sp/>|<sp/>`npm<sp/>install<sp/>popper.js<sp/>--save`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="78"><highlight class="stringliteral">|<sp/>yarn<sp/><sp/><sp/>|<sp/>`yarn<sp/>add<sp/>popper.js`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="79"><highlight class="stringliteral">|<sp/>NuGet<sp/><sp/>|<sp/>`PM&gt;<sp/>Install-Package<sp/>popper.js`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="80"><highlight class="stringliteral">|<sp/>Bower<sp/><sp/>|<sp/>`bower<sp/>install<sp/>popper.js<sp/>--save`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="81"><highlight class="stringliteral">|<sp/>unpkg<sp/><sp/>|<sp/>[`https://unpkg.com/popper.js`](https://unpkg.com/popper.js)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="82"><highlight class="stringliteral">|<sp/>cdnjs<sp/><sp/>|<sp/>[`https://cdnjs.com/libraries/popper.js`](https://cdnjs.com/libraries/popper.js)<sp/>|</highlight></codeline>
+<codeline lineno="83"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="84"><highlight class="stringliteral">Tooltip.js<sp/>as<sp/>well:</highlight></codeline>
+<codeline lineno="85"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="86"><highlight class="stringliteral">|<sp/>Source<sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="87"><highlight class="stringliteral">|:-------|:---------------------------------------------------------------------------------|</highlight></codeline>
+<codeline lineno="88"><highlight class="stringliteral">|<sp/>npm<sp/><sp/><sp/><sp/>|<sp/>`npm<sp/>install<sp/>tooltip.js<sp/>--save`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="89"><highlight class="stringliteral">|<sp/>yarn<sp/><sp/><sp/>|<sp/>`yarn<sp/>add<sp/>tooltip.js`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="90"><highlight class="stringliteral">|<sp/>Bower*<sp/>|<sp/>`bower<sp/>install<sp/>tooltip.js=https://unpkg.com/tooltip.js<sp/>--save`<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="91"><highlight class="stringliteral">|<sp/>unpkg<sp/><sp/>|<sp/>[`https://unpkg.com/tooltip.js`](https://unpkg.com/tooltip.js)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="92"><highlight class="stringliteral">|<sp/>cdnjs<sp/><sp/>|<sp/>[`https://cdnjs.com/libraries/popper.js`](https://cdnjs.com/libraries/popper.js)<sp/>|</highlight></codeline>
+<codeline lineno="93"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="94"><highlight class="stringliteral">\*:<sp/>Bower<sp/>isn&apos;</highlight><highlight class="normal">t<sp/>officially<sp/>supported,<sp/>it<sp/>can<sp/>be<sp/>used<sp/>to<sp/>install<sp/>Tooltip.js<sp/>only<sp/>trough<sp/>the<sp/>unpkg.com<sp/>CDN.<sp/>This<sp/>method<sp/>has<sp/>the<sp/>limitation<sp/>of<sp/>not<sp/>being<sp/>able<sp/>to<sp/>define<sp/>a<sp/>specific<sp/>version<sp/>of<sp/>the<sp/>library.<sp/>Bower<sp/>and<sp/>Popper.js<sp/>suggests<sp/>to<sp/>use<sp/>npm<sp/>or<sp/>Yarn<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>your<sp/>projects.<sp/><sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal">For<sp/>more<sp/>info,<sp/>[read<sp/>the<sp/>related<sp/>issue](https:</highlight><highlight class="comment">//github.com/FezVrasta/popper.js/issues/390).</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">###<sp/>Dist<sp/>targets</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">Popper.js<sp/>is<sp/>currently<sp/>shipped<sp/>with<sp/>3<sp/>targets<sp/>in<sp/>mind:<sp/>UMD,<sp/>ESM<sp/>and<sp/>ESNext.</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal">-<sp/>UMD<sp/>-<sp/>Universal<sp/>Module<sp/>Definition:<sp/>AMD,<sp/>RequireJS<sp/>and<sp/>globals;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">-<sp/>ESM<sp/>-<sp/>ES<sp/>Modules:<sp/>For<sp/>webpack/Rollup<sp/>or<sp/>browser<sp/>supporting<sp/>the<sp/>spec;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">-<sp/>ESNext:<sp/>Available<sp/>in<sp/>`dist/`,<sp/>can<sp/>be<sp/>used<sp/>with<sp/>webpack<sp/>and<sp/>`babel-preset-env`;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal">Make<sp/>sure<sp/>to<sp/>use<sp/>the<sp/>right<sp/>one<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>your<sp/>needs.<sp/>If<sp/>you<sp/>want<sp/>to<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>it<sp/>with<sp/>a<sp/>`&lt;script&gt;`<sp/>tag,<sp/>use<sp/>UMD.</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal">##<sp/>Usage</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal">Given<sp/>an<sp/>existing<sp/>popper<sp/>DOM<sp/>node,<sp/>ask<sp/>Popper.js<sp/>to<sp/>position<sp/>it<sp/>near<sp/>its<sp/>button</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal">```js</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">var<sp/>reference<sp/>=<sp/>document.querySelector(</highlight><highlight class="stringliteral">&apos;.my-button&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">var<sp/>popper<sp/>=<sp/>document.querySelector(</highlight><highlight class="stringliteral">&apos;.my-popper&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">var<sp/>anotherPopper<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Popper(</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>reference,</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>popper,</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>popper<sp/>options<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal">);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">```</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight><highlight class="preprocessor">###<sp/>Callbacks</highlight></codeline>
+<codeline lineno="124"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal">Popper.js<sp/>supports<sp/>two<sp/>kinds<sp/>of<sp/>callbacks,<sp/>the<sp/>`onCreate`<sp/>callback<sp/>is<sp/>called<sp/>after</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">the<sp/>popper<sp/>has<sp/>been<sp/>initialized.<sp/>The<sp/>`onUpdate`<sp/>one<sp/>is<sp/>called<sp/>on<sp/>any<sp/>subsequent<sp/>update.</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal">```js</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>reference<sp/>=<sp/>document.querySelector(</highlight><highlight class="stringliteral">&apos;.my-button&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>popper<sp/>=<sp/>document.querySelector(</highlight><highlight class="stringliteral">&apos;.my-popper&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Popper(reference,<sp/>popper,<sp/>{</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>onCreate:<sp/>(data)<sp/>=&gt;<sp/>{</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>data<sp/>is<sp/>an<sp/>object<sp/>containing<sp/>all<sp/>the<sp/>informations<sp/>computed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>by<sp/>Popper.js<sp/>and<sp/>used<sp/>to<sp/>style<sp/>the<sp/>popper<sp/>and<sp/>its<sp/>arrow</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>complete<sp/>description<sp/>is<sp/>available<sp/>in<sp/>Popper.js<sp/>documentation</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>onUpdate:<sp/>(data)<sp/>=&gt;<sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>same<sp/>as<sp/>`onCreate`<sp/>but<sp/>called<sp/>on<sp/>subsequent<sp/>updates</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">});</highlight></codeline>
+<codeline lineno="141"><highlight class="normal">```</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">###<sp/>Writing<sp/>your<sp/>own<sp/>modifiers</highlight></codeline>
+<codeline lineno="144"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal">Popper.js<sp/>is<sp/>based<sp/>on<sp/>a<sp/></highlight><highlight class="stringliteral">&quot;plugin-like&quot;</highlight><highlight class="normal"><sp/>architecture,<sp/>most<sp/>of<sp/>its<sp/>features<sp/>are<sp/>fully<sp/>encapsulated<sp/></highlight><highlight class="stringliteral">&quot;modifiers&quot;</highlight><highlight class="normal">.<sp/><sp/></highlight></codeline>
+<codeline lineno="146"><highlight class="normal">A<sp/>modifier<sp/>is<sp/>a<sp/></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>that<sp/>is<sp/>called<sp/>each<sp/>time<sp/>Popper.js<sp/>needs<sp/>to<sp/>compute<sp/>the<sp/>position<sp/>of<sp/>the<sp/>popper.<sp/>For<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>reason,<sp/>modifiers<sp/>should<sp/>be<sp/>very<sp/>performant<sp/>to<sp/>avoid<sp/>bottlenecks.<sp/><sp/></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal">To<sp/>learn<sp/>how<sp/>to<sp/>create<sp/>a<sp/>modifier,<sp/>[read<sp/>the<sp/>modifiers<sp/>documentation](docs/_includes/popper-documentation.md#modifiers--object)</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal">###<sp/>React,<sp/>Vue.js,<sp/>Angular,<sp/>AngularJS,<sp/>Ember.js<sp/>(etc...)<sp/>integration</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal">Integrating<sp/>3rd<sp/>party<sp/>libraries<sp/>in<sp/>React<sp/>or<sp/>other<sp/>libraries<sp/>can<sp/>be<sp/>a<sp/>pain<sp/>because</highlight></codeline>
+<codeline lineno="154"><highlight class="normal">they<sp/>usually<sp/>alter<sp/>the<sp/>DOM<sp/>and<sp/>drive<sp/>the<sp/>libraries<sp/>crazy.<sp/><sp/></highlight></codeline>
+<codeline lineno="155"><highlight class="normal">Popper.js<sp/>limits<sp/>all<sp/>its<sp/>DOM<sp/>modifications<sp/>inside<sp/>the<sp/>`applyStyle`<sp/>modifier,</highlight></codeline>
+<codeline lineno="156"><highlight class="normal">you<sp/>can<sp/>simply<sp/>disable<sp/>it<sp/>and<sp/>manually<sp/>apply<sp/>the<sp/>popper<sp/>coordinates<sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal">your<sp/>library<sp/>of<sp/>choice.<sp/><sp/></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159"><highlight class="normal">For<sp/>a<sp/>comprehensive<sp/>list<sp/>of<sp/>libraries<sp/>that<sp/>let<sp/>you<sp/>use<sp/>Popper.js<sp/>into<sp/>existing</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">frameworks,<sp/>visit<sp/>the<sp/>[MENTIONS](/MENTIONS.md)<sp/>page.</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal">Alternatively,<sp/>you<sp/>may<sp/>even<sp/></highlight><highlight class="keyword">override</highlight><highlight class="normal"><sp/>your<sp/>own<sp/>`applyStyles`<sp/>with<sp/>your<sp/>custom<sp/>one<sp/>and</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">integrate<sp/>Popper.js<sp/>by<sp/>yourself!</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal">```js</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight><highlight class="keyword">function</highlight><highlight class="normal"><sp/>applyReactStyle(data)<sp/>{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>export<sp/>data<sp/>in<sp/>your<sp/>framework<sp/>and<sp/>use<sp/>its<sp/>content<sp/>to<sp/>apply<sp/>the<sp/>style<sp/>to<sp/>your<sp/>popper</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>reference<sp/>=<sp/>document.querySelector(</highlight><highlight class="stringliteral">&apos;.my-button&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>popper<sp/>=<sp/>document.querySelector(</highlight><highlight class="stringliteral">&apos;.my-popper&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>Popper(reference,<sp/>popper,<sp/>{</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>modifiers:<sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>applyStyle:<sp/>{<sp/>enabled:<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>},</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>applyReactStyle:<sp/>{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>enabled:<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fn:<sp/>applyReactStyle,</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>order:<sp/>800,</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline lineno="181"><highlight class="normal">});</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal">```</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight><highlight class="preprocessor">###<sp/>Migration<sp/>from<sp/>Popper.js<sp/>v0</highlight></codeline>
+<codeline lineno="186"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal">Since<sp/>the<sp/>API<sp/>changed,<sp/>we<sp/>prepared<sp/>some<sp/>migration<sp/>instructions<sp/>to<sp/>make<sp/>it<sp/>easy<sp/>to<sp/>upgrade<sp/>to</highlight></codeline>
+<codeline lineno="188"><highlight class="normal">Popper.js<sp/>v1.<sp/><sp/></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal">https:</highlight><highlight class="comment">//github.com/FezVrasta/popper.js/issues/62</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal">Feel<sp/>free<sp/>to<sp/>comment<sp/>inside<sp/>the<sp/>issue<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>you<sp/>have<sp/>any<sp/>questions.</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal">###<sp/>Performances</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal">Popper.js<sp/>is<sp/>very<sp/>performant.<sp/>It<sp/>usually<sp/>takes<sp/>0.5ms<sp/>to<sp/>compute<sp/>a<sp/>popper</highlight><highlight class="stringliteral">&apos;s<sp/>position<sp/>(on<sp/>an<sp/>iMac<sp/>with<sp/>3.5G<sp/>GHz<sp/>Intel<sp/>Core<sp/>i5).<sp/><sp/></highlight></codeline>
+<codeline lineno="197"><highlight class="stringliteral">This<sp/>means<sp/>that<sp/>it<sp/>will<sp/>not<sp/>cause<sp/>any<sp/>[jank](https://www.chromium.org/developers/how-tos/trace-event-profiling-tool/anatomy-of-jank),<sp/>leading<sp/>to<sp/>a<sp/>smooth<sp/>user<sp/>experience.</highlight></codeline>
+<codeline lineno="198"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="199"><highlight class="stringliteral">##<sp/>Notes</highlight></codeline>
+<codeline lineno="200"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="201"><highlight class="stringliteral">###<sp/>Libraries<sp/>using<sp/>Popper.js</highlight></codeline>
+<codeline lineno="202"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="203"><highlight class="stringliteral">The<sp/>aim<sp/>of<sp/>Popper.js<sp/>is<sp/>to<sp/>provide<sp/>a<sp/>stable<sp/>and<sp/>powerful<sp/>positioning<sp/>engine<sp/>ready<sp/>to</highlight></codeline>
+<codeline lineno="204"><highlight class="stringliteral">be<sp/>used<sp/>in<sp/>3rd<sp/>party<sp/>libraries.<sp/><sp/></highlight></codeline>
+<codeline lineno="205"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="206"><highlight class="stringliteral">Visit<sp/>the<sp/>[MENTIONS](/MENTIONS.md)<sp/>page<sp/>for<sp/>an<sp/>updated<sp/>list<sp/>of<sp/>projects.</highlight></codeline>
+<codeline lineno="207"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="208"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="209"><highlight class="stringliteral">###<sp/>Credits</highlight></codeline>
+<codeline lineno="210"><highlight class="stringliteral">I<sp/>want<sp/>to<sp/>thank<sp/>some<sp/>friends<sp/>and<sp/>projects<sp/>for<sp/>the<sp/>work<sp/>they<sp/>did:</highlight></codeline>
+<codeline lineno="211"><highlight class="stringliteral"></highlight></codeline>
+<codeline lineno="212"><highlight class="stringliteral">-<sp/>[@AndreaScn](https://github.com/AndreaScn)<sp/>for<sp/>his<sp/>work<sp/>on<sp/>the<sp/>GitHub<sp/>Page<sp/>and<sp/>the<sp/>manual<sp/>testing<sp/>he<sp/>did<sp/>during<sp/>the<sp/>development;</highlight></codeline>
+<codeline lineno="213"><highlight class="stringliteral">-<sp/>[@vampolo](https://github.com/vampolo)<sp/>for<sp/>the<sp/>original<sp/>idea<sp/>and<sp/>for<sp/>the<sp/>name<sp/>of<sp/>the<sp/>library;</highlight></codeline>
+<codeline lineno="214"><highlight class="stringliteral">-<sp/>[Sysdig](https://github.com/Draios)<sp/>for<sp/>all<sp/>the<sp/>awesome<sp/>things<sp/>I<sp/>learned<sp/>during<sp/>these<sp/>years<sp/>that<sp/>made<sp/>it<sp/>possible<sp/>for<sp/>me<sp/>to<sp/>write<sp/>this<sp/>library;</highlight></codeline>
+<codeline lineno="215"><highlight class="stringliteral">-<sp/>[Tether.js](http://github.hubspot.com/tether/)<sp/>for<sp/>having<sp/>inspired<sp/>me<sp/>in<sp/>writing<sp/>a<sp/>positioning<sp/>library<sp/>ready<sp/>for<sp/>the<sp/>real<sp/>world;</highlight></codeline>
+<codeline lineno="216"><highlight class="stringliteral">-<sp/>[The<sp/>Contributors](https://github.com/FezVrasta/popper.js/graphs/contributors)<sp/>for<sp/>their<sp/>much<sp/>appreciated<sp/>Pull<sp/>Requests<sp/>and<sp/>bug<sp/>reports;</highlight></codeline>
+<codeline lineno="217"><highlight class="stringliteral">-<sp/>**you**<sp/>for<sp/>the<sp/>star<sp/>you&apos;</highlight><highlight class="normal">ll<sp/>give<sp/>to<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>project<sp/>and<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>being<sp/>so<sp/>awesome<sp/>to<sp/>give<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>project<sp/>a<sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>🙂</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="preprocessor">###<sp/>Copyright<sp/>and<sp/>license</highlight></codeline>
+<codeline lineno="220"><highlight class="preprocessor"></highlight><highlight class="normal">Code<sp/>and<sp/>documentation<sp/>copyright<sp/>2016<sp/>**Federico<sp/>Zivolo**.<sp/>Code<sp/>released<sp/>under<sp/>the<sp/>[MIT<sp/>license](LICENSE.md).<sp/>Docs<sp/>released<sp/>under<sp/>Creative<sp/>Commons.</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/Scripts/README.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_a_s_s2" kind="namespace">
+    <compoundname>ASS2</compoundname>
+    <innerclass refid="class_a_s_s2_1_1_run_stat_item_type" prot="public">ASS2::RunStatItemType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_run_stat_type" prot="public">ASS2::RunStatType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_direction_item_type" prot="public">ASS2::DirectionItemType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_direction_type" prot="public">ASS2::DirectionType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_p_n_a_range_type" prot="public">ASS2::PNARangeType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_w_s_r_type" prot="public">ASS2::WSRType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_round_stat_item" prot="public">ASS2::RoundStatItem</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_round_stat_type" prot="public">ASS2::RoundStatType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_data_base_storage_helper" prot="public">ASS2::DataBaseStorageHelper</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_run_type" prot="public">ASS2::RunType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_machine_type" prot="public">ASS2::MachineType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_r_s232_config_type" prot="public">ASS2::RS232ConfigType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_stand_item_type" prot="public">ASS2::StandItemType</innerclass>
+    <innerclass refid="interface_a_s_s2_1_1_i_naming_d_b" prot="public">ASS2::INamingDB</innerclass>
+    <innerclass refid="interface_a_s_s2_1_1_sensor_type" prot="public">ASS2::SensorType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_sort_program_item_type" prot="public">ASS2::SortProgramItemType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_sort_program_type" prot="public">ASS2::SortProgramType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_feeder_type" prot="public">ASS2::FeederType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_sensor_start_detection_type" prot="public">ASS2::SensorStartDetectionType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_sensor_start_parcel_type" prot="public">ASS2::SensorStartParcelType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_stop_sensor_type" prot="public">ASS2::StopSensorType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_error_log" prot="public">ASS2::ErrorLog</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_machine_status_log_type" prot="public">ASS2::MachineStatusLogType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_modbus_driver" prot="public">ASS2::ModbusDriver</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_parcel_type" prot="public">ASS2::ParcelType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_counter_type" prot="public">ASS2::CounterType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_tact_sensor_type" prot="public">ASS2::TactSensorType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_sledzenie_service_type" prot="public">ASS2::SledzenieServiceType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_stand_type" prot="public">ASS2::StandType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_program" prot="public">ASS2::Program</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_lamp_type" prot="public">ASS2::LampType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_dict_type" prot="public">ASS2::DictType</innerclass>
+    <innerclass refid="class_a_s_s2_1_1_color_type" prot="public">ASS2::ColorType</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Machine/Stats/Run/RunStatItemType.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

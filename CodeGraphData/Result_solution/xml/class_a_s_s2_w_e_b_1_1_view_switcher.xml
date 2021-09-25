@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_w_e_b_1_1_view_switcher" kind="class" prot="public">
+    <compoundname>ASS2WEB::ViewSwitcher</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_w_e_b_1_1_view_switcher_1a79fecd8e28081a839c4071ab526ffe7f" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2WEB.ViewSwitcher.CurrentView</definition>
+        <argsstring></argsstring>
+        <name>CurrentView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/ViewSwitcher.ascx.cs" line="14" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/ViewSwitcher.ascx.cs" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1_view_switcher_1a55a9602dbc62018d74c71822aa347801" compoundref="_view_switcher_8ascx_8cs" startline="20" endline="41">ASS2WEB.ViewSwitcher.Page_Load</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_w_e_b_1_1_view_switcher_1ae444dca3e49749b8a5feec610a720112" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2WEB.ViewSwitcher.AlternateView</definition>
+        <argsstring></argsstring>
+        <name>AlternateView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/ViewSwitcher.ascx.cs" line="16" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/ViewSwitcher.ascx.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1_view_switcher_1a55a9602dbc62018d74c71822aa347801" compoundref="_view_switcher_8ascx_8cs" startline="20" endline="41">ASS2WEB.ViewSwitcher.Page_Load</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_w_e_b_1_1_view_switcher_1a9ad316560c97f30b48e68143e39e9280" prot="protected" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2WEB.ViewSwitcher.SwitchUrl</definition>
+        <argsstring></argsstring>
+        <name>SwitchUrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/ViewSwitcher.ascx.cs" line="18" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/ViewSwitcher.ascx.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_a_s_s2_w_e_b_1_1_view_switcher_1a55a9602dbc62018d74c71822aa347801" compoundref="_view_switcher_8ascx_8cs" startline="20" endline="41">ASS2WEB.ViewSwitcher.Page_Load</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2_w_e_b_1_1_view_switcher_1a55a9602dbc62018d74c71822aa347801" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2WEB.ViewSwitcher.Page_Load</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Page_Load</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/ViewSwitcher.ascx.cs" line="20" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/ViewSwitcher.ascx.cs" bodystart="20" bodyend="41"/>
+        <references refid="class_a_s_s2_w_e_b_1_1_view_switcher_1ae444dca3e49749b8a5feec610a720112" compoundref="_view_switcher_8ascx_8cs" startline="16">ASS2WEB.ViewSwitcher.AlternateView</references>
+        <references refid="class_a_s_s2_w_e_b_1_1_view_switcher_1a79fecd8e28081a839c4071ab526ffe7f" compoundref="_view_switcher_8ascx_8cs" startline="14">ASS2WEB.ViewSwitcher.CurrentView</references>
+        <references refid="class_a_s_s2_w_e_b_1_1_view_switcher_1a9ad316560c97f30b48e68143e39e9280" compoundref="_view_switcher_8ascx_8cs" startline="18">ASS2WEB.ViewSwitcher.SwitchUrl</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="430">
+        <label>System::Web::UI::UserControl</label>
+      </node>
+      <node id="429">
+        <label>ASS2WEB.ViewSwitcher</label>
+        <link refid="class_a_s_s2_w_e_b_1_1_view_switcher"/>
+        <childnode refid="430" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="432">
+        <label>System::Web::UI::UserControl</label>
+      </node>
+      <node id="431">
+        <label>ASS2WEB.ViewSwitcher</label>
+        <link refid="class_a_s_s2_w_e_b_1_1_view_switcher"/>
+        <childnode refid="432" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/ViewSwitcher.ascx.cs" line="13" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2WEB/ViewSwitcher.ascx.cs" bodystart="12" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_w_e_b_1_1_view_switcher_1ae444dca3e49749b8a5feec610a720112" prot="protected" virt="non-virtual"><scope>ASS2WEB::ViewSwitcher</scope><name>AlternateView</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_view_switcher_1a79fecd8e28081a839c4071ab526ffe7f" prot="protected" virt="non-virtual"><scope>ASS2WEB::ViewSwitcher</scope><name>CurrentView</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_view_switcher_1a55a9602dbc62018d74c71822aa347801" prot="protected" virt="non-virtual"><scope>ASS2WEB::ViewSwitcher</scope><name>Page_Load</name></member>
+      <member refid="class_a_s_s2_w_e_b_1_1_view_switcher_1a9ad316560c97f30b48e68143e39e9280" prot="protected" virt="non-virtual"><scope>ASS2WEB::ViewSwitcher</scope><name>SwitchUrl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

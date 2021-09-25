@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_8915a3a16647b95daeefcea70816ac75" kind="dir">
+    <compoundname>C:/Users/klispawel/source/repos/ASS2</compoundname>
+    <innerdir refid="dir_2189f0151beee41920d2ba9fc500fc8f">C:/Users/klispawel/source/repos/ASS2/ASS2</innerdir>
+    <innerdir refid="dir_6f6903b33116a0b207e79ef6748416f4">C:/Users/klispawel/source/repos/ASS2/ASS2_WF</innerdir>
+    <innerdir refid="dir_0e024f248d334fdc7043053a05bb39c9">C:/Users/klispawel/source/repos/ASS2/ASS2WEB</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/"/>
+  </compounddef>
+</doxygen>

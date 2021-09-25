@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1_jednostka" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::Jednostka</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1ac99ed06bfa8087a4ef08354af97ca125" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki" kindref="compound">SzczDaneJednostki</ref></type>
+        <definition>SzczDaneJednostki ASS2.ServiceReference1.Jednostka.daneSzczegoloweField</definition>
+        <argsstring></argsstring>
+        <name>daneSzczegoloweField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="809" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="809" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1a39e1f881bb93ab9679b5a38795bc01d5" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Jednostka.nazwaField</definition>
+        <argsstring></argsstring>
+        <name>nazwaField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="811" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="811" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1a4dd86b62e9ddaa422f7bc2b7cc1fc4a3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki" kindref="compound">SzczDaneJednostki</ref></type>
+        <definition>SzczDaneJednostki ASS2.ServiceReference1.Jednostka.daneSzczegolowe</definition>
+        <argsstring></argsstring>
+        <name>daneSzczegolowe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="815" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="815" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1a230bfce33391b111a2c2d73644750317" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string ASS2.ServiceReference1.Jednostka.nazwa</definition>
+        <argsstring></argsstring>
+        <name>nazwa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="827" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="827" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1a9b3e863cc64050edc0d66b0e073e72d6" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>System.ComponentModel.PropertyChangedEventHandler</type>
+        <definition>System.ComponentModel.PropertyChangedEventHandler ASS2.ServiceReference1.Jednostka.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="837" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="837" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1adfa5f0a7c4ac19e1e5a519a84dbfa2fe" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ServiceReference1.Jednostka.RaisePropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>RaisePropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="839" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="839" bodyend="844"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="78">
+        <label>ASS2.ServiceReference1.Jednostka</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>object</label>
+      </node>
+      <node id="80">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="81">
+        <label>ASS2.ServiceReference1.Jednostka</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="84" relation="usage">
+          <edgelabel>daneSzczegoloweField</edgelabel>
+        </childnode>
+      </node>
+      <node id="84">
+        <label>ASS2.ServiceReference1.SzczDaneJednostki</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="85" relation="usage">
+          <edgelabel>godzinyPracyField</edgelabel>
+        </childnode>
+      </node>
+      <node id="85">
+        <label>ASS2.ServiceReference1.GodzinyPracy</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+        <childnode refid="86" relation="usage">
+          <edgelabel>sobotyField</edgelabel>
+          <edgelabel>dniRoboczeField</edgelabel>
+          <edgelabel>niedzISwField</edgelabel>
+        </childnode>
+      </node>
+      <node id="82">
+        <label>object</label>
+      </node>
+      <node id="86">
+        <label>ASS2.ServiceReference1.GodzinyZUwagami</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="807" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="807" bodyend="845"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1a4dd86b62e9ddaa422f7bc2b7cc1fc4a3" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Jednostka</scope><name>daneSzczegolowe</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1ac99ed06bfa8087a4ef08354af97ca125" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Jednostka</scope><name>daneSzczegoloweField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1a230bfce33391b111a2c2d73644750317" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Jednostka</scope><name>nazwa</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1a39e1f881bb93ab9679b5a38795bc01d5" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Jednostka</scope><name>nazwaField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1a9b3e863cc64050edc0d66b0e073e72d6" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Jednostka</scope><name>PropertyChanged</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka_1adfa5f0a7c4ac19e1e5a519a84dbfa2fe" prot="protected" virt="non-virtual"><scope>ASS2::ServiceReference1::Jednostka</scope><name>RaisePropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

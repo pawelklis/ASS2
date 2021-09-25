@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_6f6903b33116a0b207e79ef6748416f4" kind="dir">
+    <compoundname>C:/Users/klispawel/source/repos/ASS2/ASS2_WF</compoundname>
+    <innerfile refid="_combobox_item_8cs">ComboboxItem.cs</innerfile>
+    <innerfile refid="_form1_8cs">Form1.cs</innerfile>
+    <innerfile refid="_form1_8_designer_8cs">Form1.Designer.cs</innerfile>
+    <innerfile refid="_form2_8cs">Form2.cs</innerfile>
+    <innerfile refid="_form2_8_designer_8cs">Form2.Designer.cs</innerfile>
+    <innerfile refid="_a_s_s2___w_f_2_program_8cs">Program.cs</innerfile>
+    <innerfile refid="us_directions_8cs">usDirections.cs</innerfile>
+    <innerfile refid="us_directions_8_designer_8cs">usDirections.Designer.cs</innerfile>
+    <innerfile refid="us_l_settings_8cs">usLSettings.cs</innerfile>
+    <innerfile refid="us_l_settings_8_designer_8cs">usLSettings.Designer.cs</innerfile>
+    <innerfile refid="us_maintenance_8cs">usMaintenance.cs</innerfile>
+    <innerfile refid="us_maintenance_8_designer_8cs">usMaintenance.Designer.cs</innerfile>
+    <innerfile refid="us_settings_8cs">usSettings.cs</innerfile>
+    <innerfile refid="us_settings_8_designer_8cs">usSettings.Designer.cs</innerfile>
+    <innerfile refid="us_work_8cs">usWork.cs</innerfile>
+    <innerfile refid="us_work_8_designer_8cs">usWork.Designer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2_WF/"/>
+  </compounddef>
+</doxygen>

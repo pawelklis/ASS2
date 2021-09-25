@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_a_s_s2_1_1_service_reference1_1_1_komunikat" kind="class" prot="public">
+    <compoundname>ASS2::ServiceReference1::Komunikat</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1ac57f2aea07255a86052e2997f9a08ec4" prot="private" static="no" mutable="no">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka" kindref="compound">Przesylka</ref>[]</type>
+        <definition>Przesylka [] ASS2.ServiceReference1.Komunikat.przesylkiField</definition>
+        <argsstring></argsstring>
+        <name>przesylkiField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="134" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1afb8f725b27c616051a152e86ec26ac4a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ASS2.ServiceReference1.Komunikat.statusField</definition>
+        <argsstring></argsstring>
+        <name>statusField</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="136" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1a4ac5ff6bb25d6f97366be6d7c9303869" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.Komunikat.statusFieldSpecified</definition>
+        <argsstring></argsstring>
+        <name>statusFieldSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="138" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1aa13e1167b39ea8f9f42a5bf2c050399f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka" kindref="compound">Przesylka</ref>[]</type>
+        <definition>Przesylka [] ASS2.ServiceReference1.Komunikat.przesylki</definition>
+        <argsstring></argsstring>
+        <name>przesylki</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="143" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1a03f7f2e863f9021f0f289a40cd09b4b4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int ASS2.ServiceReference1.Komunikat.status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="155" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1ab44ac9f5ee837ad5e9cd6bb5b37dcd1b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool ASS2.ServiceReference1.Komunikat.statusSpecified</definition>
+        <argsstring></argsstring>
+        <name>statusSpecified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="167" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1a614d9ffee525b69207383a99a8a3218f" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>System.ComponentModel.PropertyChangedEventHandler</type>
+        <definition>System.ComponentModel.PropertyChangedEventHandler ASS2.ServiceReference1.Komunikat.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="177" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1aee96cdf340c6c3a70450582fe7dc1b94" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ASS2.ServiceReference1.Komunikat.RaisePropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>RaisePropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="179" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="179" bodyend="184"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="87">
+        <label>ASS2.ServiceReference1.Komunikat</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat"/>
+        <childnode refid="88" relation="public-inheritance">
+        </childnode>
+        <childnode refid="89" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>object</label>
+      </node>
+      <node id="89">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="95">
+        <label>ASS2.ServiceReference1.Jednostka</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_jednostka"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+        <childnode refid="96" relation="usage">
+          <edgelabel>daneSzczegoloweField</edgelabel>
+        </childnode>
+      </node>
+      <node id="93">
+        <label>ASS2.ServiceReference1.Przesylka</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+        <childnode refid="94" relation="usage">
+          <edgelabel>danePrzesylkiField</edgelabel>
+        </childnode>
+      </node>
+      <node id="102">
+        <label>ASS2.ServiceReference1.PrzesylkaPowiazana</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_przesylka_powiazana"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="100">
+        <label>ASS2.ServiceReference1.Przyczyna</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_przyczyna"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>ASS2.ServiceReference1.SzczDaneJednostki</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_szcz_dane_jednostki"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+        <childnode refid="97" relation="usage">
+          <edgelabel>godzinyPracyField</edgelabel>
+        </childnode>
+      </node>
+      <node id="97">
+        <label>ASS2.ServiceReference1.GodzinyPracy</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_pracy"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+        <childnode refid="98" relation="usage">
+          <edgelabel>sobotyField</edgelabel>
+          <edgelabel>dniRoboczeField</edgelabel>
+          <edgelabel>niedzISwField</edgelabel>
+        </childnode>
+      </node>
+      <node id="90">
+        <label>ASS2.ServiceReference1.Komunikat</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+        <childnode refid="93" relation="usage">
+          <edgelabel>przesylkiField</edgelabel>
+        </childnode>
+      </node>
+      <node id="94">
+        <label>ASS2.ServiceReference1.DanePrzesylki</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_dane_przesylki"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+        <childnode refid="95" relation="usage">
+          <edgelabel>urzadPrzeznField</edgelabel>
+          <edgelabel>urzadNadaniaField</edgelabel>
+        </childnode>
+        <childnode refid="99" relation="usage">
+          <edgelabel>zdarzeniaField</edgelabel>
+        </childnode>
+        <childnode refid="101" relation="usage">
+          <edgelabel>proceduraSerwisField</edgelabel>
+        </childnode>
+        <childnode refid="103" relation="usage">
+          <edgelabel>masaField</edgelabel>
+          <edgelabel>dataNadaniaField</edgelabel>
+        </childnode>
+      </node>
+      <node id="101">
+        <label>ASS2.ServiceReference1.Procedura</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_procedura"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+        <childnode refid="102" relation="usage">
+          <edgelabel>przesylkiPowiazaneField</edgelabel>
+        </childnode>
+      </node>
+      <node id="91">
+        <label>object</label>
+      </node>
+      <node id="103">
+        <label>System</label>
+      </node>
+      <node id="99">
+        <label>ASS2.ServiceReference1.Zdarzenie</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_zdarzenie"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+        <childnode refid="95" relation="usage">
+          <edgelabel>jednostkaField</edgelabel>
+        </childnode>
+        <childnode refid="100" relation="usage">
+          <edgelabel>przyczynaField</edgelabel>
+        </childnode>
+      </node>
+      <node id="98">
+        <label>ASS2.ServiceReference1.GodzinyZUwagami</label>
+        <link refid="class_a_s_s2_1_1_service_reference1_1_1_godziny_z_uwagami"/>
+        <childnode refid="91" relation="public-inheritance">
+        </childnode>
+        <childnode refid="92" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="92">
+        <label>System::ComponentModel::INotifyPropertyChanged</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" line="132" column="1" bodyfile="C:/Users/klispawel/source/repos/ASS2/ASS2/Connected Services/ServiceReference1/Reference.cs" bodystart="132" bodyend="185"/>
+    <listofallmembers>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1a614d9ffee525b69207383a99a8a3218f" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Komunikat</scope><name>PropertyChanged</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1aa13e1167b39ea8f9f42a5bf2c050399f" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Komunikat</scope><name>przesylki</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1ac57f2aea07255a86052e2997f9a08ec4" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Komunikat</scope><name>przesylkiField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1aee96cdf340c6c3a70450582fe7dc1b94" prot="protected" virt="non-virtual"><scope>ASS2::ServiceReference1::Komunikat</scope><name>RaisePropertyChanged</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1a03f7f2e863f9021f0f289a40cd09b4b4" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Komunikat</scope><name>status</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1afb8f725b27c616051a152e86ec26ac4a" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Komunikat</scope><name>statusField</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1a4ac5ff6bb25d6f97366be6d7c9303869" prot="private" virt="non-virtual"><scope>ASS2::ServiceReference1::Komunikat</scope><name>statusFieldSpecified</name></member>
+      <member refid="class_a_s_s2_1_1_service_reference1_1_1_komunikat_1ab44ac9f5ee837ad5e9cd6bb5b37dcd1b" prot="public" virt="non-virtual"><scope>ASS2::ServiceReference1::Komunikat</scope><name>statusSpecified</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
