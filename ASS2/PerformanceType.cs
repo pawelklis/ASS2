@@ -25,7 +25,7 @@ namespace ASS2
         public void StopMeasure()
         {
             this.st.Stop();
-            Console.WriteLine(this.cmdname + ": " + st.ElapsedMilliseconds + "[ms] " + st.Elapsed.TotalMilliseconds.ToString()); ;
+            Console.WriteLine(this.cmdname + ": " + st.Elapsed.Seconds + "[s] " + st.ElapsedMilliseconds + "[ms] " + " Ticks: " + st.Elapsed.Ticks + " [tick] " + st.Elapsed.TotalMilliseconds.ToString() + "[total ms]"); ;
         }
 
 
